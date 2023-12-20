@@ -1,0 +1,6698 @@
+{
+  "lastNumber": "781",
+  "locations": {
+    "location": [
+      {
+        "name": "home",
+        "place": "Freeport, IL, USA; 1657 N. Harlem Center Rd",
+        "latLong": "42.327546, -89.690243",
+        "location": {
+          "name": "hedge",
+          "place": "privet hedge along E edge of driveway by house"
+        }
+      },
+      {
+        "name": "carlDrive",
+        "place": "Chapel Hill, NC, USA; 716 Carl Drive"
+      },
+      {
+        "name": "FL",
+        "place": "Florida",
+        "location": [
+          {
+            "name": "turnpike",
+            "place": "Palm Beach Co., W. Palm Beach Service Station on Fla Turnpike"
+          },
+          {
+            "name": "longKey",
+            "place": "Long Key, in the Keys; Long Key State Park nature trail"
+          },
+          {
+            "name": "everglades",
+            "place": "Everglades National Park, Long Pine Key campground"
+          },
+          {
+            "name": "bigCypress",
+            "place": "on US 94, just off US 41 (going W), in Big Cypress Nature Preserve"
+          },
+          {
+            "name": "chokoloskee",
+            "place": "on Chokoloskee Island, Bay View campground"
+          },
+          {
+            "name": "koa",
+            "place": "KOA campground somewhere, see Mom's calendar/notes"
+          }
+        ]
+      },
+      {
+        "name": "TX",
+        "place": "Texas",
+        "location": [
+          {
+            "name": "Riviera",
+            "place": "1 mile N of Riviera on US Hwy 77"
+          },
+          {
+            "name": "Kingsville",
+            "place": "rest stop on US Hwy 77 between Kingsville and Harlingen, going N"
+          },
+          {
+            "name": "OakGrove",
+            "place": "at Oak Grove campground at junction of hwys 71 and 35"
+          }
+        ]
+      },
+      {
+        "name": "CA",
+        "place": "California",
+        "location": [
+          {
+            "name": "IndianRock",
+            "place": "Sanborn Skyline County Park; trail entrance off Skyline Drive, about 3 mi E of Hwy 9 intersection.  Indian Rock trail. Walk to Indian Rock, continue on small trail NW, go about 100 yds to a spot where the sun shines brightly on the trail after 3PM"
+          },
+          {
+            "name": "OldPageMill",
+            "place": "Old Page Mill Rd, off Page Mill Rd. between I-280 and Foothill Pkwy, Palo Alto"
+          },
+          {
+            "name": "NelsonWay",
+            "place": {
+              "latLong": "37.356788,-122.092631",
+              "#text": "1332 Nelson Way, Sunnyvale"
+            }
+          },
+          {
+            "name": "Archery",
+            "place": {
+              "latLong": "37.27668,-122.069243",
+              "#text": "Stevens Canyon County Park Archery Club Range, Mt. Eden Rd."
+            }
+          },
+          {
+            "name": "Wardell",
+            "place": {
+              "latLong": "37.2884265,-122.0356721",
+              "#text": "20541 Wardell Rd, Saratoga, CA"
+            }
+          }
+        ]
+      },
+      {
+        "name": "vz",
+        "place": "Venezuela",
+        "location": [
+          {
+            "name": "RanchoGrande",
+            "place": "Rancho Grande Biological Station, Henri Pittier National Park",
+            "latLong": "10.348977, -67.684192",
+            "location": {
+              "name": "guardOffice",
+              "place": "on the floor below windows inside guard office (first door by entrance)"
+            }
+          },
+          {
+            "name": "ElGuapo",
+            "place": "El Guapo, Anzoategui; truck stop, on hwy 9 toward Puerto la Cruz"
+          },
+          {
+            "name": "PuertoLaCruz",
+            "place": "Puerto La Cruz, edo. Anzoategui",
+            "location": {
+              "name": "LosAltos",
+              "place": "casa de Angel y Luz Matilda Sanchez, Los Altos, Sucre"
+            }
+          },
+          {
+            "name": "Consuelo",
+            "place": "Calle Las Flores, Urb. Bella Vista, San Felipe, Yaracuy; casa de Tia Consuelo"
+          },
+          {
+            "name": "Nelson",
+            "place": "Sect. Las Mercedes, Jobito, San Felipe, Yaracuy; casa de Nelson Braschi"
+          },
+          {
+            "name": "Agua Linda",
+            "latLong": "10.2272328,-68.2820754",
+            "place": "Agua Linda, Aguirre, near Valencia, Carabobo"
+          },
+          {
+            "name": "margarita",
+            "place": "Isla de Margarita",
+            "location": [
+              {
+                "name": "pampatar",
+                "place": "Urb. Jorge Coll, Pampatar, Isla de Margarita"
+              },
+              {
+                "name": "lasierra",
+                "place": "Cerro de Copey, La Sierra Nat. Pk."
+              }
+            ]
+          },
+          {
+            "name": "elparaiso",
+            "place": "Res. Primavera, Av. Paez, Calle Deyber, El Paraiso, Caracas"
+          },
+          {
+            "name": "lomaDelViento",
+            "place": "Loma del Viento trail, Monte Avila, Caracas"
+          },
+          {
+            "name": "trujillo",
+            "latLong": "9.346879, -70.456496",
+            "place": "Via Monumento Virgen de la Paz, 3150, Trujillo, Venezuela"
+          }
+        ]
+      }
+    ]
+  },
+  "collectingSession": [
+    {
+      "name": "combined-scientific-supply",
+      "time": "1978-07-31",
+      "notes": "purchased from Combined Scientific Supply; received 1978-07-31",
+      "specimen": [
+        {
+          "id": "A15",
+          "tag1": "A15",
+          "genus": "Vanessa (V.)",
+          "species": "indica indica",
+          "time": "1970-07",
+          "place": "Puli, Taiwan",
+          "notes": "envelope said 20B730"
+        },
+        {
+          "id": "A16",
+          "tag1": "A16",
+          "genus": "Vanessa",
+          "species": "annabella?"
+        },
+        {
+          "id": "A17",
+          "tag1": "A17",
+          "genus": "Nymphalis"
+        },
+        {
+          "id": "A18",
+          "tag1": "A18",
+          "genus": "Nymphalis"
+        },
+        {
+          "id": "A19",
+          "tag1": "A19",
+          "genus": "Nymphalis"
+        },
+        {
+          "id": "A20",
+          "tag1": "A20",
+          "genus": "Polygonia"
+        },
+        {
+          "id": "A21",
+          "tag1": "A21",
+          "genus": "Libytheana"
+        },
+        {
+          "id": "A22",
+          "tag1": "A22"
+        },
+        {
+          "id": "A23",
+          "tag1": "A23",
+          "genus": "Eumaeus"
+        },
+        {
+          "id": "A24",
+          "tag1": "A24",
+          "genus": "Urania"
+        }
+      ]
+    },
+    {
+      "name": "FL-mar-1979",
+      "time": "1979-03",
+      "location": { "ref": "FL" },
+      "collectingSession": [
+        {
+          "name": "25",
+          "time": "25 1157-1215",
+          "location": { "ref": "turnpike" },
+          "specimen": [
+            {
+              "id": "459",
+              "sex": "m",
+              "genus": "Phoebis (Phoebis)",
+              "species": "philea"
+            },
+            {
+              "id": "460",
+              "sex": "m",
+              "genus": "Phoebis (Phoebis)",
+              "species": "philea"
+            },
+            {
+              "id": "461",
+              "sex": "m",
+              "collector": "dad",
+              "genus": "Phoebis (Phoebis)",
+              "species": "philea"
+            }
+          ]
+        },
+        {
+          "name": "26",
+          "time": "26 0943-1128",
+          "location": { "ref": "longKey" },
+          "specimen": [
+            {
+              "id": "463",
+              "genus": "Hemiargus",
+              "species": "thomasi bethunebakeri"
+            },
+            {
+              "id": "464",
+              "genus": "Agraulis",
+              "species": "vanillae nigrior"
+            },
+            {
+              "id": "465",
+              "genus": "Hemiargus",
+              "species": "thomasi bethunebakeri"
+            },
+            {
+              "id": "466",
+              "genus": "Agraulis",
+              "species": "vanillae nigrior"
+            },
+            {
+              "id": "467",
+              "collector": "dad",
+              "genus": "Appias",
+              "species": "drusilla neumoegenii",
+              "notes": "spread 2003-10-19"
+            },
+            {
+              "id": "468",
+              "genus": "Vanessa (Cynthia)",
+              "species": "virginiensis"
+            },
+            {
+              "id": "469",
+              "genus": "Epargyreus",
+              "species": "clarus clarus",
+              "notes": "species originally noted as \"zestos\""
+            },
+            {
+              "id": "470",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "471",
+              "genus": "Lerema",
+              "species": "accius",
+              "collector": "dad",
+              "notes": "sm. skipper"
+            },
+            {
+              "id": "472",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "473",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "474",
+              "collector": "dad",
+              "sex": "m",
+              "genus": "Panoquina",
+              "species": "panoquinoides"
+            },
+            {
+              "id": "475",
+              "genus": "Precis",
+              "species": "evarete zonalis"
+            },
+            {
+              "id": "476",
+              "genus": "Phoebis (Phoebis)",
+              "species": "agarithe maxima"
+            }
+          ]
+        },
+        {
+          "name": "27",
+          "time": "27 0908-1038",
+          "location": { "ref": "longKey" },
+          "specimen": [
+            {
+              "id": "477",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "478",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "479",
+              "genus": "Precis",
+              "species": "evarete zonalis"
+            },
+            {
+              "id": "480",
+              "genus": "Eurema (Pyrisitia)",
+              "species": "l. lisa"
+            },
+            {
+              "id": "481",
+              "genus": "Polygonus",
+              "species": "leo leo",
+              "time" : "0934",
+              "notes": "med. skipper"
+            },
+            {
+              "id": "482",
+              "genus": "Papilio",
+              "species": "c. cresphontes"
+            },
+            {
+              "id": "483",
+              "genus": "Phocides",
+              "species": "pygmalion okeechobee"
+            },
+            {
+              "id": "484",
+              "genus": "Leptotes",
+              "species": "cassius theonus",
+              "notes": "blue"
+            },
+            {
+              "id": "485",
+              "genus": "Leptotes",
+              "species": "cassius theonus",
+              "notes": "blue"
+            },
+            {
+              "id": "486",
+              "genus": "Heliconius",
+              "species": "charitonius tuckeri"
+            },
+            {
+              "id": "487",
+              "genus": "Phocides",
+              "species": "pygmalion okeechobee"
+            },
+            {
+              "id": "488",
+              "genus": "Phocides",
+              "species": "pygmalion okeechobee"
+            },
+            {
+              "id": "489",
+              "genus": "Epargyreus",
+              "species": "zestos"
+            }
+          ]
+        },
+        {
+          "name": "28",
+          "time": "28 1300-1657",
+          "location": { "ref": "everglades" },
+          "specimen": [
+            {
+              "id": "490",
+              "sex": "m",
+              "genus": "Papilio",
+              "species": "palamedes",
+              "place": "at entrance to campground"
+            },
+            {
+              "id": "491",
+              "sex": "m",
+              "genus": "Phoebis (Phoebis)",
+              "species": "sennae eubule"
+            },
+            {
+              "id": "492",
+              "sex": "m",
+              "genus": "Anaea (Anaea)",
+              "species": "floridalis (floridalis)"
+            }
+          ]
+        },
+        {
+          "name": "29-am",
+          "time": "29 0928-1015",
+          "location": { "ref": "bigCypress" },
+          "specimen": [
+            {
+              "id": "493",
+              "genus": "Limenitis",
+              "species": "a. floridensis"
+            },
+            {
+              "id": "494",
+              "sex": "m",
+              "genus": "Danaus (Anosia)",
+              "species": "gilippus berenice"
+            },
+            {
+              "id": "495",
+              "genus": "Urbanus",
+              "species": "proteus",
+              "notes": "med. skipper",
+              "place": "1 mile W"
+            },
+            {
+              "id": "496",
+              "sex": "m",
+              "genus": "Danaus (Anosia)",
+              "species": "gilippus berenice",
+              "place": "11 mile W"
+            },
+            {
+              "id": "497",
+              "sex": "f",
+              "genus": "Danaus (Anosia)",
+              "species": "gilippus berenice",
+              "place": "11 mile W"
+            },
+            {
+              "id": "498",
+              "tag1": "498",
+              "genus": "Precis",
+              "species": "c. coenia",
+              "place": "11 mile W"
+            }
+          ]
+        },
+        {
+          "name": "29-pm",
+          "time": "29 1500-1605",
+          "location": { "ref": "koa" },
+          "specimen": [
+            {
+              "id": "500",
+              "genus": "Euptychia",
+              "species": "hermes sosybius"
+            },
+            {
+              "id": "501",
+              "genus": "Utetheisa",
+              "species": "ornatrix",
+              "-spread": "false",
+              "notes": "bella moth"
+            },
+            {
+              "id": "502",
+              "sex": "m",
+              "genus": "Thorybes",
+              "species": "pylades"
+            },
+            {
+              "id": "503",
+              "sex": "m",
+              "genus": "Urbanus",
+              "species": "d. dorantes"
+            },
+            {
+              "id": "504",
+              "sex": "m",
+              "genus": "Atalopedes",
+              "species": "campestris"
+            },
+            {
+              "id": "505",
+              "sex": "m",
+              "genus": "Papilio",
+              "species": "c. cresphontes"
+            }
+          ]
+        }
+      ],
+      "specimen": [
+        {
+          "id": "462",
+          "sex": "f",
+          "genus": "Asbolis",
+          "species": "capucinus",
+          "time": "25 1406",
+          "place": "Dade Co, 1st intersection on US 1 in Homestead; fruit stand"
+        },
+        {
+          "id": "499",
+          "genus": "Nathalis",
+          "species": "iole",
+          "time": "29 1135",
+          "location": { "ref": "chokoloskee" }
+        },
+        {
+          "id": "506",
+          "genus": "Phyciodes",
+          "time": "30 0800",
+          "place": "found in air cleaner (grill of camper/van?)"
+        },
+        {
+          "id": "507",
+          "-spread": "false",
+          "genus": "Pieris",
+          "time": "30 1000",
+          "place": "found in air cleaner (grill of camper/van?)"
+        },
+        {
+          "id": "507.5",
+          "tag1": "u35",
+          "genus": "Papilio",
+          "species": "palamedes",
+          "notes": "no exact data; probably found on roadside or in car grill"
+        }
+      ]
+    },
+    {
+      "name": "sawmill",
+      "time": "1980",
+      "place": "Fremont township, Clark county, WI; section 30; old farmstead on N edge of section; Emily Winstead land",
+      "notes": "SV 2002-12-08: I believe Dad and I camped here overnight while picking up the sawmill engine boiler",
+      "specimen": [
+        {
+          "id": "549",
+          "sex": "m",
+          "genus": "Calasymbolus",
+          "species": "cerisyi",
+          "time": "05-30 2205",
+          "place": "at light in sawmill shed (tin roof building)"
+        },
+        {
+          "id": "550",
+          "sex": "m",
+          "genus": "Papilio",
+          "species": "g. glaucus",
+          "time": "05-31 1135",
+          "place": "at mudpuddles in driveway"
+        },
+        {
+          "id": "551",
+          "sex": "f",
+          "genus": "Papilio",
+          "species": "polyxenes asterius",
+          "time": "05-31 1255",
+          "place": "laying eggs (?) just to E of sawmill shed"
+        },
+        {
+          "id": "552",
+          "genus": "Isia",
+          "species": "isabella",
+          "time": "06-01 0820",
+          "place": "attracted to light left on previous night"
+        },
+        {
+          "id": "553",
+          "genus": "Citheronia",
+          "time": "06-01 0825",
+          "place": "attracted to light left on previous night"
+        },
+        {
+          "id": "554",
+          "time": "06-01 0830",
+          "place": "attracted to light left on previous night",
+          "notes": "Geometrid"
+        }
+      ]
+    },
+    {
+      "name": "home-1980",
+      "time": "1980",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "555",
+          "genus": "Calasymbolus",
+          "species": "myops",
+          "time": "06-03 1800",
+          "place": "resting on UV light trap under sawmill shed"
+        },
+        {
+          "id": "556",
+          "genus": "Calasymbolus",
+          "species": "myops",
+          "time": "06-07 1140",
+          "place": "resting on UV light trap under sawmill shed",
+          "notes": "larger"
+        },
+        {
+          "id": "557",
+          "genus": "Calasymbolus",
+          "species": "myops",
+          "time": "06-07 1140",
+          "place": "resting on UV light trap under sawmill shed",
+          "notes": "smaller"
+        },
+        {
+          "id": "558",
+          "sex": "m",
+          "genus": "Ctenucha",
+          "time": "06-07 2200",
+          "place": "attracted to light on S window of shop"
+        },
+        {
+          "id": "559",
+          "sex": "m",
+          "genus": "Telea",
+          "species": "polyphemus",
+          "time": "06-10 2200",
+          "place": "at Mercury light on Mendel's machine shed"
+        },
+        {
+          "id": "560",
+          "sex": "m",
+          "genus": "Telea",
+          "species": "polyphemus",
+          "time": "06-15 1200",
+          "place": "hanging on UV light - attracted previous night"
+        },
+        {
+          "id": "568",
+          "sex": "m",
+          "genus": "Asterocampa",
+          "species": "clyton",
+          "time": "06-11 1700",
+          "place": "on trail from valley (by old sandbox) to S. meadow",
+          "notes": "(mature?) larva found at shoulder height on Celtis; pupated 06-13 1500; turned color from 06-24 1600 to 2200; imago emerged 06-25 0200; dry by 0530"
+        },
+        {
+          "id": "571",
+          "genus": "Hyloicus?",
+          "time": "07-18 2200",
+          "place": "at shop & black lights"
+        },
+        {
+          "id": "572",
+          "sex": "m",
+          "genus": "Actias",
+          "species": "luna",
+          "time": "08-06 2120",
+          "place": "at UV light by shop"
+        }
+      ],
+      "pupa": {
+        "-label": "P558",
+        "genus": "Polygonia",
+        "species": "comma",
+        "time": "06-11 1600",
+        "place": "in upper corner of shop garage door frame",
+        "notes": "dead and hollowed out; among spider web & egg cases"
+      },
+      "collectingSession": [
+        {
+          "name": "hedge-06-22",
+          "time": "06-18 1605",
+          "location": { "ref": "home.hedge" },
+          "notes": "first day of hedge blooming attraction",
+          "specimen": [
+            {
+              "id": "561",
+              "sex": "f",
+              "genus": "Lycaena (Tharsalea)",
+              "species": "hyllus",
+              "notes": "laid an egg - hemispherical, beige, pitted, approx. .70 mm in diameter"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Scepsis",
+              "species": "fulvicollis"
+            },
+            {
+              "genus": "Ctenucha",
+              "species": "virginica"
+            },
+            {
+              "genus": "Limenitis",
+              "species": "a. astyanax"
+            },
+            {
+              "genus": "Epargyreus",
+              "species": "c. clarus"
+            }
+          ]
+        },
+        {
+          "name": "hedge-06-22",
+          "time": "06-22 1418-1856",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "562",
+              "genus": "Lerodea",
+              "species": "eufala?",
+              "notes": "skipper"
+            },
+            {
+              "id": "563",
+              "genus": "Limenitis",
+              "species": "a. astyanax"
+            },
+            {
+              "id": "564",
+              "genus": "Poanes"
+            },
+            {
+              "id": "565",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Papilio",
+              "species": "g. glaucus"
+            },
+            {
+              "genus": "Amphion",
+              "species": "nessus?",
+              "notes": "or perhaps Haemorrhagia sp?"
+            },
+            { "genus": "Satyrium" },
+            {
+              "genus": "Limenitis",
+              "species": "archippus"
+            },
+            {
+              "genus": "Scepsis",
+              "species": "fulvicollis"
+            },
+            {
+              "genus": "Ctenucha",
+              "species": "virginica"
+            }
+          ]
+        },
+        {
+          "name": "hedge-06-22",
+          "time": "06-24 1633",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "566",
+              "sex": "f",
+              "genus": "Ancyloxypha",
+              "species": "numitor",
+              "notes": "laid 2 eggs: hemispherical, smooth?, yellow-orange (one mottled with red-orange), about 0.65 mm diameter"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Papilio",
+              "species": "g. glaucus"
+            },
+            {
+              "genus": "Ctenucha",
+              "species": "virginica"
+            },
+            {
+              "genus": "Limenitis",
+              "species": "a. astyanax"
+            },
+            {
+              "genus": "Chlosyne",
+              "species": "n. nycteis"
+            },
+            {
+              "genus": "Epargyreus",
+              "species": "c. clarus"
+            },
+            {
+              "genus": "Lycaena (Tharsalea)",
+              "species": "hyllus"
+            },
+            {
+              "genus": "Celastrina",
+              "species": "argiolus"
+            },
+            {
+              "genus": "Vanessa",
+              "species": "atalanta"
+            }
+          ]
+        },
+        {
+          "name": "hedge-06-22",
+          "time": "06-25 1820",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "567",
+              "genus": "Limenitis",
+              "species": "a. archippus"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Papilio",
+              "species": "g. glaucus"
+            },
+            {
+              "genus": "Asterocampa",
+              "species": "celtis"
+            }
+          ]
+        },
+        {
+          "name": "hedge-06-22",
+          "time": "06-29 1611-1631",
+          "place": "resting on loak oak leaves on N burr oak in front yard",
+          "specimen": [
+            {
+              "id": "569",
+              "genus": "Satyrium"
+            },
+            {
+              "id": "570",
+              "genus": "Satyrium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "TX-mar-1981",
+      "time": "1981-03",
+      "location": { "ref": "TX" },
+      "collectingSession": [
+        {
+          "name": "23",
+          "time": "23 1335-1346",
+          "location": { "ref": "Riviera" },
+          "specimen": [
+            {
+              "id": "573",
+              "genus": "Phyciodes"
+            },
+            {
+              "id": "574",
+              "genus": "Phyciodes"
+            },
+            {
+              "id": "575",
+              "notes": "little sulfur"
+            }
+          ]
+        },
+        {
+          "name": "25",
+          "time": "25 1613",
+          "location": { "ref": "Kingsville" },
+          "specimen": {
+            "id": "576",
+            "genus": "Precis",
+            "species": "c. coenia"
+          }
+        },
+        {
+          "name": "28",
+          "time": "28 0943-1007",
+          "location": { "ref": "OakGrove" },
+          "notes": "in woods, on bluebells",
+          "specimen": [
+            {
+              "id": "577",
+              "genus": "Phyciodes",
+              "species": "t. tharos (marcia)"
+            },
+            {
+              "id": "578",
+              "genus": "Strymon/Satyrium"
+            },
+            {
+              "id": "579",
+              "sex": "f",
+              "genus": "Phyciodes"
+            },
+            {
+              "id": "580",
+              "genus": "Euptychia"
+            },
+            {
+              "id": "581",
+              "genus": "Euptychia"
+            },
+            {
+              "id": "582",
+              "sex": "m"
+            },
+            {
+              "id": "583",
+              "genus": "Euptychia",
+              "species": "hermes sosybius",
+              "notes": "per B&K, this is \"Hermeuptychia sosybius\"."
+            },
+            {
+              "id": "584",
+              "genus": "Euptychia",
+              "species": "hermes sosybius"
+            },
+            {
+              "id": "585",
+              "sex": "m",
+              "genus": "Strymon/Satyrium"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "VZ-dec-2002",
+      "time": "2002-12",
+      "location": { "ref": "vz.RanchoGrande.guardOffice" },
+      "collectingSession": [
+        {
+          "name": "03",
+          "time": "03 1500",
+          "specimen": [
+            {
+              "id": "596",
+              "genus": "Diaethria",
+              "species": "panthalis",
+              "notes": "found dead; good condition, lifelike closed position",
+              "reference": {
+                "ref": "raymond",
+                "#text": "pl. 31, #13, p. 140-1"
+              }
+            },
+            {
+              "id": "597",
+              "genus": "Diaethria",
+              "species": "panthalis",
+              "notes": "found dead; excellent condition, inverted closed position",
+              "reference": {
+                "ref": "raymond",
+                "#text": "pl. 31, #13, p. 140-1"
+              }
+            },
+            {
+              "id": "598",
+              "genus": "Hermeuptychia",
+              "species": "sosybius",
+              "notes": "found dead; good condition, closed position, smaller than 601"
+            },
+            {
+              "id": "599",
+              "notes": "small moth, dappled olive green & brown; somewhat damaged in packaging"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Marpesia",
+              "species": "zerynthia",
+              "notes": "near mud puddles",
+              "reference": {
+                "ref": "raymond",
+                "#text": "pl. 23, #1, p. 108-9"
+              }
+            },
+            {
+              "genus": "Pteronymia?",
+              "notes": "Ithomiidae (glasswings); many flitting about, resting on leaves along Andrew Field trail; took photos",
+              "reference": {
+                "ref": "raymond",
+                "#text": "pl. 10, p. 66-7"
+              }
+            },
+            {
+              "genus": "Pyrgus?",
+              "notes": "several on Impatiens in \"parking lot\" in center of curve of hotel",
+              "reference": {
+                "ref": "howe",
+                "#text": "pl. 92, #20"
+              }
+            },
+            {
+              "genus": "Diaethria",
+              "species": "panthalis?",
+              "notes": "sighted along driveway, possibly visiting Impatiens",
+              "reference": {
+                "ref": "raymond",
+                "#text": "pl. 31, #13, p. 140-1"
+              }
+            }
+          ]
+        },
+        {
+          "name": "04-am",
+          "time": "04 0700",
+          "specimen": {
+            "id": "600",
+            "genus": "Eurybia",
+            "notes": "found dead; unknown nymphalid, same size as 601; like a fritillary mimicking a satyrid; chocolate brown with rust tinges around spots; reminiscent of Euptoieta claudia, but dark; also very sim. to Eurybia on pl. 33 of Raymond. Web search confirms genus, as does D'Abrera.",
+            "reference": [
+              {
+                "ref": "raymond",
+                "#text": "pl. 33, #7, p. 160-1"
+              },
+              {
+                "ref": "dabrera",
+                "#text": "E. donna, p. 245"
+              }
+            ]
+          }
+        },
+        {
+          "name": "04-pm",
+          "time": "04 1600",
+          "specimen": {
+            "id": "601",
+            "genus": "Euptychia?",
+            "notes": "found dead; good condition, open position, larger than 598"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ch-2003",
+      "time": "2003",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "602",
+          "sex": "m",
+          "genus": "Anthocharis (Falcapica)",
+          "species": "midea",
+          "time": "03-23 1330",
+          "place": "front of house, in flight",
+          "notes": "Orange-tips can be seen pretty commonly today, mostly along the power line right-of-way.  I have never seen one alight, always flying. First warm (70s) sunny day in a week or so."
+        },
+        {
+          "id": "603",
+          "genus": "Euptychia",
+          "species": "gemma",
+          "time": "07-19 1330",
+          "place": "front of house, in flight",
+          "notes": "Sighted (this) one here yesterday evening, patrolling the siding and greenery on the front of the house. Digital photo record indicates I saw one last year in August: 2002/08/18/"
+        },
+        {
+          "id": "604",
+          "genus": "Hemaris",
+          "species": "thysbe",
+          "time": "07-27 1230",
+          "place": "dead in bird netting around Vivian's flowers",
+          "notes": "hummingbird sphinx moth; \"Haemorrhagia\" in Holland; neighbor's flower garden bordering street, 717 Carl Dr; Saw at least 3 similar specimens live on Budleia (purple butterfly bush) there last week.  This specimen appears to have gotten caught in a fold in the netting."
+        },
+        {
+          "id": "605",
+          "genus": "Agriopodes",
+          "species": "fallax",
+          "time": "08-08 2230",
+          "notes": "\"Green Marvel\" moth; beautiful mint green with black and white spots;at porch light"
+        },
+        {
+          "id": "606",
+          "genus": "Amorpha/Cressonia",
+          "species": "juglandis",
+          "time": "08-12 2330",
+          "notes": "female brown Sphinx (laid 2 eggs while dying);at light, back sliding door;ident uncertain"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Celerio",
+          "species": "lineata",
+          "time": "07-26 0830",
+          "notes": "White-lined sphinx; killed in car grill, near Wilmington NC; abdomen nearly completely severed, but still alive and flapping"
+        },
+        {
+          "sex": "f",
+          "genus": "Basilona",
+          "species": "imperialis",
+          "time": "07-23 0800",
+          "notes": "female, very lethargic, resting on gas hose at Exxon station on corner of Hatch and 54.  Presumably attracted to lights overnight. "
+        },
+        {
+          "sex": "m",
+          "genus": "Basilona",
+          "species": "imperialis",
+          "time": "08-12 2359",
+          "notes": "male, rich dark pink spots, fairly large; at front porch light "
+        }
+      ],
+      "collectingSession": [
+        {
+          "name": "08-18 1900",
+          "time": "08-18 2100",
+          "place": "neighbor Vivian's garden",
+          "specimen": [
+            {
+              "id": "607",
+              "genus": "Speyeria",
+              "species": "cybele",
+              "notes": "wings found beneath Preying Mantis on Butterfly Bush"
+            },
+            {
+              "id": "608",
+              "sex": "f",
+              "genus": "Papilio",
+              "species": "glaucus",
+              "notes": "black female; wings found beneath Preying Mantis on Butterfly Bush"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Hemaris",
+              "species": "thysbe",
+              "notes": "nectaring on Butterfly Bush"
+            },
+            {
+              "sex": "m",
+              "genus": "Papilio",
+              "species": "troilus",
+              "notes": "nectaring on Butterfly Bush"
+            }
+          ]
+        },
+        {
+          "name": "11-23",
+          "time": "11-23",
+          "specimen": [
+            {
+              "id": "664",
+              "sex": "m",
+              "time": "1300",
+              "place": "gas station at Hatch rd. and Hwy 54",
+              "genus": "Eurema",
+              "species": "nicippe",
+              "notes": "at tall, peony-like flowers bordering fence; unusually warm weather"
+            },
+            {
+              "id": "665",
+              "sex": "f",
+              "time": "1500",
+              "place": "rose garden in front of planetarium, downtown",
+              "genus": "Eurema",
+              "species": "nicippe",
+              "notes": "caught in flight"
+            }
+          ]
+        },
+        {
+          "name": "12-11",
+          "time": "12-11",
+          "specimen": {
+            "id": "666",
+            "place": "Museum of Life and Science, Durham, NC; pupa shipped from Phillipines",
+            "genus": "Pachliopta",
+            "species": "Kotzebuea",
+            "notes": "Flori picked up dead specimen from the butterfly vivarium"
+          }
+        }
+      ]
+    },
+    {
+      "name": "vz-2003",
+      "location": { "ref": "vz" },
+      "collectingSession": [
+        {
+          "name": "el-guapo",
+          "time": "08-23 1245",
+          "location": { "ref": "ElGuapo" },
+          "specimen": [
+            {
+              "id": "609",
+              "genus": "Agraulis",
+              "species": "vanillae",
+              "notes": "gulf fritillary, nectaring on cluster flower I've seen before"
+            },
+            {
+              "id": "610",
+              "genus": "Anartia",
+              "notes": "red peacock, nectaring; like A. fatima but MUCH more red",
+              "reference": {
+                "ref": "kaufman",
+                "#text": "p. 208-9"
+              }
+            },
+            {
+              "id": "611",
+              "genus": "Biblis",
+              "notes": "black with red on tailwing margins"
+            },
+            {
+              "id": "612",
+              "genus": "Phoebis?",
+              "notes": "creamy sulfer, Flori found dead in gravel parking lot"
+            },
+            {
+              "id": "613",
+              "notes": "largish white, dead in parking lot"
+            }
+          ],
+          "sighting": {
+            "genus": "Junonia",
+            "notes": "several nectaring together"
+          }
+        },
+        {
+          "name": "los-altos",
+          "time": "08-25",
+          "location": { "ref": "PuertoLaCruz.LosAltos" },
+          "collectingSession": [
+            {
+              "name": "stop",
+              "time": "1130",
+              "place": "1/2 mile uphill toward Los Altos from main road; actually still in Anzoategui",
+              "sighting": {
+                "genus": "Dryas",
+                "species": "julia",
+                "notes": "resting, still, just out of reach in undergrowth"
+              },
+              "specimen": [
+                {
+                  "id": "615",
+                  "genus": "Mestra",
+                  "species": "hypermestra cana",
+                  "notes": "small, creamy; saw many of these later in the day",
+                  "reference": {
+                    "ref": "kaufman",
+                    "#text": "p. 214-5"
+                  }
+                },
+                {
+                  "id": "616",
+                  "genus": "Chlosyne",
+                  "species": "lacinia saundersi",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "p. 73"
+                  },
+                  "notes": "Patch; nectaring"
+                }
+              ]
+            },
+            {
+              "name": "house-am",
+              "time": "1150-1330",
+              "place": "property around house, esp. terraces below house & driveway",
+              "specimen": [
+                {
+                  "id": "617",
+                  "genus": "Adelpha",
+                  "species": "c. cytherea",
+                  "notes": "nectaring near 618",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "#114"
+                  }
+                },
+                {
+                  "id": "618",
+                  "notes": "small yellow & white",
+                  "reference": {
+                    "ref": "kaufman",
+                    "#text": "p. 214-5"
+                  }
+                },
+                {
+                  "id": "619",
+                  "genus": "Anartia",
+                  "notes": "sim. 610; reddest I could find"
+                },
+                {
+                  "id": "620",
+                  "genus": "Mechanitis",
+                  "species": "menapis carabensis",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "#575-9"
+                  },
+                  "notes": "small orange & yellow striped Ithomiid; very long wings"
+                },
+                {
+                  "id": "621",
+                  "genus": "Hypothyris",
+                  "species": "e. euclea",
+                  "notes": "small orange & yellow striped Ithomiid; shorter wings than 620",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "#693-7"
+                  }
+                },
+                {
+                  "id": "622",
+                  "genus": "Heliconius",
+                  "species": "melpomene bellula f. flagrans",
+                  "notes": "could be \"erato\", per D'Abrera; caught simultaneous w. 623",
+                  "reference": {
+                    "ref": "dabrera",
+                    "#text": "p. 100-1"
+                  }
+                },
+                {
+                  "id": "623",
+                  "genus": "Heliconius",
+                  "species": "melpomene bellula f. flagrans",
+                  "notes": "could be \"erato\", per D'Abrera; caught simultaneous w. 622",
+                  "reference": {
+                    "ref": "dabrera",
+                    "#text": "p. 100-1"
+                  }
+                },
+                {
+                  "id": "624",
+                  "genus": "Hamadryas",
+                  "species": "februa ferentina",
+                  "notes": "gray Cracker; saw many of these; on rotting guavas and mangos, and tree trunks",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "p. 84"
+                  }
+                },
+                {
+                  "id": "625",
+                  "genus": "Urbanus",
+                  "notes": "longtail Skipper, like U. teleus but forewing band almost missing",
+                  "reference": {
+                    "ref": "kaufman",
+                    "#text": "p. 268-9"
+                  }
+                },
+                {
+                  "id": "626",
+                  "genus": "Dynamine",
+                  "species": "postverta",
+                  "sex": "f",
+                  "notes": "saw one or two others",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "p. 79"
+                  }
+                },
+                {
+                  "id": "627",
+                  "genus": "Thecla",
+                  "notes": "Hairstreak; deep iridescent turquoise dorsal, very dark olive ventral; most like 'mavors'",
+                  "reference": {
+                    "ref": "dabrera",
+                    "#text": "p. 232"
+                  }
+                },
+                {
+                  "id": "628",
+                  "notes": "small blue"
+                }
+              ],
+              "sighting": [
+                {
+                  "genus": "Hamadryas",
+                  "notes": "blue w. white forewing band; probably a. amphinome; seen on mango tree trunk well out of reach",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "p. 86"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "lunch",
+              "time": "1400",
+              "place": "at 'restaurant' house during lunch",
+              "specimen": [
+                {
+                  "id": "629",
+                  "genus": "Anthanassa",
+                  "species": "drusilla",
+                  "notes": "crescent; puddling on sand",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "p. 76-7"
+                  }
+                },
+                {
+                  "id": "630",
+                  "genus": "Janatella",
+                  "species": "leucodesma",
+                  "notes": "Dynamine or Phyciodes?; small Nymphalid, mostly white; hindwing pattern suggests crescent; patrolling flowering bush with rare stops; flight and rest with wings mostly horizontal",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "p. 90"
+                  }
+                }
+              ]
+            },
+            {
+              "name": "house-pm",
+              "time": "1500-1630",
+              "place": "property behind house, esp. trails; led by tenant w/machete",
+              "specimen": [
+                {
+                  "id": "631",
+                  "genus": "Callicore",
+                  "species": "c. cyllene",
+                  "notes": "at Mango tree; on bark & rotting fruit",
+                  "reference": {
+                    "ref": "dabrera",
+                    "#text": "p. 189-92"
+                  }
+                },
+                {
+                  "id": "632",
+                  "genus": "Ectima",
+                  "species": "thecla peruviana",
+                  "notes": "sm. brown Satyrid/Nymphalid, prominent white bar apical forewing; at Mango tree; resting wings open, head up; saw several; sim. to P. phaedra without hindwing bar",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "#689"
+                  }
+                },
+                {
+                  "id": "633",
+                  "genus": "Hypoleria",
+                  "species": "o. ocalea",
+                  "notes": "small, semi-transparent, orange & yellow Ithomiid; sim. 621, but fewer stripes",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "#1105-7"
+                  }
+                },
+                {
+                  "id": "634",
+                  "genus": "Adelpha",
+                  "species": "c. cytherea",
+                  "notes": "same as 617",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "#114"
+                  }
+                },
+                {
+                  "id": "635",
+                  "genus": "Euptychia",
+                  "species": "binocula?",
+                  "reference": {
+                    "ref": "dabrera",
+                    "#text": "p. 115"
+                  }
+                },
+                {
+                  "id": "636",
+                  "genus": "Anthanassa",
+                  "species": "drusilla",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "p. 76-7"
+                  }
+                },
+                {
+                  "id": "637",
+                  "genus": "Ithomia",
+                  "species": "agnosia pellucida",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "#816-818"
+                  },
+                  "notes": "clearwing"
+                },
+                {
+                  "id": "638",
+                  "genus": "Ithomia",
+                  "species": "agnosia pellucida",
+                  "reference": {
+                    "ref": "neild2",
+                    "#text": "#816-818"
+                  },
+                  "notes": "clearwing"
+                },
+                {
+                  "id": "639",
+                  "genus": "Hermeuptychia",
+                  "species": "sosybius",
+                  "notes": "dark, small... very common here"
+                },
+                {
+                  "id": "640",
+                  "genus": "Ectima",
+                  "species": "thecla peruviana",
+                  "notes": "sim. 632; at rotting Guava, tree trunk",
+                  "reference": {
+                    "ref": "neild",
+                    "#text": "#689"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "rg-1",
+          "time": "08-27 1830",
+          "location": { "ref": "RanchoGrande" },
+          "place": "dead in window of \"investigadores\" room",
+          "specimen": [
+            {
+              "id": "643",
+              "notes": "lovely moth with cinnamon hindwing edges & creamy tails"
+            },
+            {
+              "id": "644",
+              "notes": "\"black witch\" moth"
+            }
+          ]
+        },
+        {
+          "name": "ocumare",
+          "time": "08-28 1200",
+          "location": { "ref": "RanchoGrande" },
+          "place": "halfway down to Ocumare from RG",
+          "specimen": [
+            {
+              "id": "645",
+              "genus": "Marpesia",
+              "species": "coresia",
+              "notes": "puddling on roadside gravel",
+              "reference": {
+                "ref": "kaufman",
+                "#text": "p. 218-9"
+              }
+            },
+            {
+              "id": "646",
+              "sex": "m",
+              "time": "1400",
+              "genus": "Papilio",
+              "species": "arcas antheus",
+              "notes": "caught on the wing coming uphill toward road"
+            }
+          ]
+        },
+        {
+          "name": "dead-dog",
+          "time": "08-30 1500",
+          "place": "3/4 way down from pass to Choroni; falls before Los Cerritos village",
+          "specimen": [
+            {
+              "id": "648",
+              "genus": "Heliconius",
+              "species": "wallacei f. halli",
+              "notes": "saw several, flying among bushes & resting on leaves",
+              "reference": {
+                "ref": "dabrera",
+                "#text": "p. 97"
+              }
+            },
+            {
+              "id": "649",
+              "genus": "Marpesia",
+              "species": "chiron",
+              "notes": "several seen flying around a single (fig?) tree & resting on it; others seen along road from RG to Ocumare",
+              "reference": {
+                "ref": "kaufman",
+                "#text": "p. 218-9"
+              }
+            },
+            {
+              "id": "650",
+              "genus": "Thecla",
+              "species": "galliena",
+              "notes": "resting on leaf",
+              "reference": {
+                "ref": "dabrera",
+                "#text": "p. 226"
+              }
+            }
+          ]
+        },
+        {
+          "name": "garcia",
+          "time": "08-30-31",
+          "place": "Posada las Garcia, Choroni",
+          "specimen": [
+            {
+              "id": "651",
+              "genus": "Tithorea",
+              "species": "harmonia furia",
+              "time": "30 1600",
+              "notes": "saw several, flying among bushes & resting on leaves; identification very questionable",
+              "reference": [
+                {
+                  "ref": "neild2",
+                  "#text": "#483-6"
+                }
+              ]
+            },
+            {
+              "id": "652",
+              "time": "30 2100",
+              "genus": "Hamadryas",
+              "species": "amphichloe ferox",
+              "notes": "came to porch light in the evening like a moth",
+              "reference": {
+                "ref": "neild",
+                "#text": "p. 85"
+              }
+            },
+            {
+              "id": "653",
+              "time": "31 0830",
+              "genus": "Phoebis",
+              "species": "sennae",
+              "notes": "at red hummingbird flowers in patio; seen everywhere"
+            },
+            {
+              "id": "654",
+              "time": "31 0830",
+              "genus": "Thecla",
+              "notes": "hairstreak; at red hummingbird flowers in patio"
+            },
+            {
+              "id": "655",
+              "time": "31 0830",
+              "genus": "Aricoris",
+              "species": "erostratus",
+              "notes": "crescent-like metalmark; at red hummingbird flowers in patio; saw several others here, many others on trail to playa El Diario",
+              "reference": { "-href": "http://butterfliesofamerica.com/t/Aricoris_erostratus_a.htm" }
+            },
+            {
+              "id": "656",
+              "time": "31 1245",
+              "genus": "Battus",
+              "species": "polydamas",
+              "notes": "hilltopping on trail to playa El Diario; caught on the wing",
+              "reference": {
+                "ref": "kaufmann",
+                "#text": "p. 36-7"
+              }
+            }
+          ]
+        },
+        {
+          "name": "consuelo-1",
+          "time": "09-02 1230",
+          "location": { "ref": "Consuelo" },
+          "place": "garden in front of house",
+          "specimen": [
+            {
+              "id": "657",
+              "genus": "Phoebis",
+              "notes": "mango-colored",
+              "reference": { "ref": "kaufmann" }
+            },
+            {
+              "id": "658",
+              "genus": "Dione",
+              "species": "juno",
+              "notes": "mexican fritillary? sim to gulf; nectaring",
+              "reference": { "ref": "kaufmann" }
+            }
+          ]
+        },
+        {
+          "name": "consuelo-2",
+          "time": "09-03 1000",
+          "location": { "ref": "Consuelo" },
+          "place": "garden in front of house",
+          "specimen": [
+            {
+              "id": "659",
+              "genus": "Euptoieta",
+              "notes": "nectaring"
+            },
+            {
+              "id": "660",
+              "genus": "Dione",
+              "species": "juno",
+              "notes": "mexican fritillary? sim to gulf; nectaring",
+              "reference": { "ref": "kaufmann" }
+            }
+          ]
+        },
+        {
+          "name": "momentos",
+          "time": "09-03 1330",
+          "place": "Posada Granja de Momentos; San Felipe, Yaracuy",
+          "specimen": [
+            {
+              "id": "661",
+              "genus": "Dryas",
+              "species": "julia",
+              "notes": "nectaring; saw many, dogfighting as often as nectaring"
+            },
+            {
+              "id": "662",
+              "genus": "Papilio",
+              "notes": "missing a wing; saw 2 others, all nectaring with Heliconius erato",
+              "reference": { "ref": "kaufmann" }
+            },
+            {
+              "id": "663",
+              "genus": "Anteos",
+              "species": "clorinde",
+              "notes": "large veined white; nectaring",
+              "reference": {
+                "ref": "howe",
+                "#text": "pl. 71, #1"
+              }
+            }
+          ]
+        }
+      ],
+      "specimen": [
+        {
+          "id": "614",
+          "genus": "Anartia",
+          "time": "08-24 1615",
+          "place": "Anzoategui, Puerto la Cruz, Centro Marino Nororiente, casa de Luis Sanchez",
+          "notes": "white peacock; on lemon-scented herb"
+        },
+        {
+          "id": "641",
+          "time": "08-26 1129",
+          "place": "edo. Anzoategui, Piritu",
+          "genus": "Anaea",
+          "notes": "leafwing; killed in car grill"
+        },
+        {
+          "id": "642",
+          "time": "08-26 1415",
+          "place": "edo. Miranda, Caucagua",
+          "genus": "Anartia",
+          "notes": "sim. 619; killed in car grill; found at tangerine stand at start of multi-lane autopista"
+        },
+        {
+          "id": "646A",
+          "time": "08-29 1400",
+          "location": { "ref": "RanchoGrande" },
+          "place": "3rd floor gate",
+          "genus": "Adhemacius",
+          "species": "tigrina",
+          "notes": "just a wing found where light was on overnight; I saw a flycatcher killing a moth there an hour earlier",
+          "reference": {
+            "ref": "osuna",
+            "#text": "foto 54, p. 176"
+          }
+        },
+        {
+          "id": "647",
+          "time": "08-29 1500",
+          "place": "UCV Maracay, at MIZA",
+          "genus": "Junonia",
+          "species": "evarete",
+          "notes": "sim. 619; killed in car grill; found at tangerine stand at start of multi-lane autopista",
+          "reference": {
+            "ref": "kaufman",
+            "#text": "p. 206-7"
+          }
+        }
+      ]
+    },
+    {
+      "name": "ch-2004",
+      "location": { "ref": "carlDrive" },
+      "collectingSession": [
+        {
+          "name": "02-20",
+          "time": "02-20",
+          "specimen": [
+            {
+              "id": "667",
+              "place": "Museum of Life and Science, Durham, NC; pupa shipped from Phillipines",
+              "notes": "\"tiger longwing\";Flori picked up dead specimen from the butterfly vivarium"
+            },
+            {
+              "id": "668",
+              "place": "Museum of Life and Science, Durham, NC; pupa shipped from Phillipines",
+              "genus": "Caligo",
+              "notes": "Flori picked up dead specimen from the butterfly vivarium"
+            }
+          ]
+        },
+        {
+          "name": "04-18",
+          "time": "04-18 13:20",
+          "specimen": {
+            "id": "669",
+            "sex": "f",
+            "place": "driveway, in flight",
+            "genus": "Anthocaris",
+            "species": "midea",
+            "notes": "female orange-tip; other sightings: many E. gemma; a couple of Sleepy Orange; many Tigers; one male Spicebush; bumblebee moth; many E. Tailed Blue "
+          }
+        },
+        {
+          "name": "04-24",
+          "time": "04-24 14:30",
+          "place": "driveway & front yard, in flight",
+          "specimen": [
+            {
+              "id": "670",
+              "genus": "Hermeuptychia",
+              "species": "sosybius",
+              "notes": " Many sighted.  E. gemma seem to be gone now, or less evident. sosybius flight is more localized, lower, less erratic than gemma "
+            },
+            {
+              "id": "671",
+              "genus": "Hermeuptychia",
+              "species": "sosybius"
+            }
+          ]
+        },
+        {
+          "name": "05-24",
+          "time": "05-24 21:00",
+          "place": "outside office back door",
+          "specimen": {
+            "id": "672",
+            "sex": "f",
+            "genus": "Callosamia",
+            "species": "angulifera",
+            "notes": " Tulip-tree silkmoth. Attracted to indoor lights. "
+          }
+        },
+        {
+          "name": "05-29",
+          "time": "05-29",
+          "specimen": [
+            {
+              "id": "673",
+              "time": "09:30",
+              "place": "in grass in easement",
+              "genus": "Protoparce",
+              "species": "sexta",
+              "notes": " Tomato sphinx; flying low and heavily in the sun "
+            },
+            {
+              "id": "674",
+              "sex": "f",
+              "time": "11:00",
+              "place": "neigbor's garden",
+              "genus": "Poanes",
+              "species": "zabulon",
+              "notes": " nectaring on tall yellow flowers, like small snapdragons "
+            },
+            {
+              "id": "675",
+              "sex": "m",
+              "time": "11:00",
+              "place": "neigbor's garden",
+              "genus": "Poanes",
+              "species": "zabulon",
+              "notes": " nectaring on tall yellow flowers, like small snapdragons "
+            }
+          ]
+        },
+        {
+          "name": "06-15",
+          "time": "06-15 23:59",
+          "specimen": {
+            "id": "677",
+            "place": "front porch of house",
+            "genus": "Catocala",
+            "species": "epione",
+            "notes": " attracted to porch light "
+          }
+        },
+        {
+          "name": "07-10",
+          "time": "07-10 11:59",
+          "specimen": {
+            "id": "684",
+            "place": "neighbor's garden",
+            "genus": "Callophrys",
+            "species": "gryneus",
+            "notes": "Olive hairstreak nectaring on Vivian's flowers"
+          }
+        },
+        {
+          "name": "07-31",
+          "time": "07-31 13:30",
+          "specimen": {
+            "id": "685",
+            "sex": "f",
+            "place": "neighbor's garden",
+            "genus": "Papilio",
+            "species": "troilus",
+            "notes": "several other Spicebush, m and f, seen"
+          }
+        },
+        {
+          "name": "09-12",
+          "time": "09-12 23:30",
+          "specimen": {
+            "id": "688",
+            "place": "office window",
+            "genus": "Apantesis or Grammia",
+            "species": "virgo",
+            "notes": "attracted to lights in office; another seen at front porch light"
+          }
+        }
+      ]
+    },
+    {
+      "name": "nc-2004-06-13",
+      "time": "2004-06-13 17:00",
+      "place": "nr. Greensboro, NC; exit 141 on I-40",
+      "specimen": {
+        "id": "676",
+        "genus": "Graphium",
+        "species": "marcellus",
+        "notes": " Zebra; dying in parking lot near truck grill; presumably struck on highway "
+      }
+    },
+    {
+      "name": "nc-2004-06-27",
+      "time": "2004-06-27 09:30",
+      "place": "I-40 exit 47, W of Asheville, Citgo at exit",
+      "specimen": [
+        {
+          "id": "678",
+          "genus": "Automeris",
+          "species": "io",
+          "sex": "m"
+        },
+        {
+          "id": "679",
+          "genus": "Automeris",
+          "species": "io",
+          "sex": "m"
+        },
+        {
+          "id": "680",
+          "genus": "Syssphinx",
+          "species": "bicolor",
+          "notes": "small rust Saturniid; identification unsure, since species is quite variable"
+        },
+        {
+          "id": "681",
+          "genus": "Manduca",
+          "species": "jasminearum",
+          "notes": "large ugly Sphinx, no color; Ash Sphinx"
+        },
+        {
+          "id": "682",
+          "genus": "Darapsa",
+          "species": "versicolor",
+          "notes": "Hydrangea Sphinx; had been struck on the road, and had fallen from a grill, it appears"
+        },
+        {
+          "id": "683",
+          "genus": "Citheronia",
+          "species": "regalis",
+          "notes": "Regal moth"
+        }
+      ],
+      "notes": "all captured on ground or fuel pumps; apparently attracted overnight to powerful flourescents; many other moths seen on ground; probably no other lights nearby; surrounded by mountains"
+    },
+    {
+      "name": "ca-2004",
+      "location": { "ref": "CA.IndianRock" },
+      "collectingSession": [{
+        "name": "08-21",
+        "time": "15:40",
+        "specimen": [
+          {
+            "id": "686",
+            "place": "bright spot on trail",
+            "notes": "Golden Hairstreak"
+          },
+          {
+            "id": "687",
+            "place": "bright spot on trail",
+            "notes": "Golden Hairstreak"
+          }
+        ]
+      }]
+    },
+    {
+      "name": "ch-2005",
+      "location": { "ref": "carlDrive" },
+      "collectingSession": [{
+        "name": "04-08",
+        "time": "04-08",
+        "specimen": {
+          "id": "689",
+          "sex": "m",
+          "place": "Museum of Life and Science, Durham, NC; pupa shipped from C. America",
+          "genus": "Nessaea",
+          "species": "a. aglaura",
+          "notes": "Flori picked up dead specimen from the butterfly vivarium"
+        }
+      }]
+    },
+    {
+      "name": "home-2005",
+      "time": "2005",
+      "location": { "ref": "home" },
+      "collectingSession": [
+        {
+          "name": "06-14",
+          "time": "06-14 22:20",
+          "specimen": {
+            "id": "690",
+            "place": "at light inside garage, Mom and Dad's house",
+            "genus": "Ceratomia",
+            "species": "amyntor",
+            "notes": "Elm sphinx, looks to be same as 571, or similar",
+            "reference": { "-url": "http://www.npwrc.usgs.gov/resource/distr/lepid/moths/usa/1027.htm" }
+          }
+        },
+        {
+          "name": "06-18",
+          "time": "06-18 10:15",
+          "specimen": {
+            "id": "691",
+            "place": "sitting on the road, opposite S end of valley",
+            "genus": "Boloria",
+            "species": "bellona",
+            "notes": "seemed stunned and injured, probably from a car",
+            "reference": { "-url": "http://www.wisconsinbutterflies.org/species/166" }
+          }
+        }
+      ]
+    },
+    {
+      "name": "vz-2005",
+      "location": { "ref": "vz" },
+      "collectingSession": [
+        {
+          "name": "pampatar-1",
+          "time": "2005-12-20 11:30",
+          "location": { "ref": "margarita.pampatar" },
+          "specimen": [
+            {
+              "id": "692",
+              "tag1": "vz0501",
+              "genus": "Eurema"
+            },
+            {
+              "id": "693",
+              "tag1": "vz0502",
+              "genus": "Strymon",
+              "species": "bubastus?",
+              "notes": "Disjunct Scrub-hairstreak"
+            },
+            {
+              "id": "694",
+              "tag1": "vz0503",
+              "genus": "Strymon",
+              "species": "bubastus?",
+              "notes": "Disjunct Scrub-hairstreak"
+            }
+          ]
+        },
+        {
+          "name": "la sierra 1",
+          "time": "2005-12-22 08:00",
+          "location": { "ref": "margarita.lasierra" },
+          "specimen": {
+            "id": "695",
+            "tag1": "vz0504",
+            "genus": "Heliconius",
+            "notes": "red and black"
+          }
+        },
+        {
+          "name": "la sierra 2",
+          "time": "2005-12-23 09:00",
+          "location": { "ref": "margarita.lasierra" },
+          "specimen": [
+            {
+              "id": "696",
+              "tag1": "vz0505",
+              "genus": "Euptychia?",
+              "notes": "ochre"
+            },
+            {
+              "id": "697",
+              "tag1": "vz0506",
+              "genus": "Euptychia",
+              "species": "binoculata",
+              "notes": "white striped"
+            }
+          ]
+        },
+        {
+          "name": "elparaiso-1",
+          "time": "2005-12-25 16:00",
+          "location": { "ref": "elparaiso" },
+          "specimen": [
+            {
+              "id": "698",
+              "tag1": "vz0507",
+              "notes": "Ctenuchid moth in grass"
+            },
+            {
+              "id": "699",
+              "tag1": "vz0508",
+              "genus": "Eurema?"
+            },
+            {
+              "id": "700",
+              "tag1": "vz0509",
+              "genus": "Heliopetes",
+              "species": "arsalte",
+              "notes": "Veined White Skipper"
+            }
+          ]
+        },
+        {
+          "name": "agualinda",
+          "location": { "ref": "Agua Linda" },
+          "specimen": [
+            {
+              "time": "2005-12-28 13:00",
+              "id": "701",
+              "tag1": "vz0510",
+              "genus": "Marpesia"
+            },
+            {
+              "time": "2005-12-28 15:00",
+              "id": "702",
+              "tag1": "vz0511",
+              "genus": "Eresia",
+              "species": "estebana",
+              "notes": "small black & white Nymphalid",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 88"
+              }
+            }
+          ]
+        },
+        {
+          "name": "consuelo-3",
+          "time": "2005-12-29 16:00",
+          "location": { "ref": "Consuelo" },
+          "specimen": [
+            {
+              "id": "704",
+              "tag1": "vz0513",
+              "genus": "Chlosyne",
+              "species": "lacinia saundersi",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 73"
+              }
+            }
+          ]
+        },
+        {
+          "name": "nelson",
+          "time": "2005-12-29 16:00",
+          "location": { "ref": "Nelson" },
+          "specimen": [
+            {
+              "id": "703",
+              "tag1": "vz0512",
+              "notes": "Chlosyne?"
+            },
+            {
+              "id": "705",
+              "tag1": "vz0514",
+              "notes": "Junonia (azul)"
+            },
+            {
+              "id": "706",
+              "tag1": "vz0515",
+              "notes": "small Pierid"
+            },
+            {
+              "id": "707",
+              "tag1": "vz0516",
+              "notes": "Junonia (azul)"
+            },
+            {
+              "id": "708",
+              "tag1": "vz0517",
+              "notes": "blue"
+            },
+            {
+              "id": "709",
+              "tag1": "vz0518",
+              "genus": "Manataria",
+              "species": "maculata",
+              "notes": "large olive-brown Satyr"
+            },
+            {
+              "id": "710",
+              "tag1": "vz0519",
+              "notes": "hairstreak"
+            },
+            {
+              "id": "711",
+              "genus": "Mechanitis",
+              "species": "menapis carabensis",
+              "reference": {
+                "ref": "neild2",
+                "#text": "#575-9"
+              },
+              "tag1": "vz0520",
+              "notes": "Ithomiid / Heliconid"
+            },
+            {
+              "id": "712",
+              "tag1": "vz0521",
+              "notes": "metalmark"
+            },
+            {
+              "id": "713",
+              "tag1": "vz0522",
+              "notes": "Papilio"
+            },
+            {
+              "id": "714",
+              "tag1": "vz0523",
+              "genus": "Mechanitis",
+              "species": "menapis carabensis",
+              "reference": {
+                "ref": "neild2",
+                "#text": "#575-9"
+              },
+              "notes": "Ithomiid / Heliconid"
+            },
+            {
+              "id": "715",
+              "tag1": "vz0524",
+              "notes": "orange moth"
+            }
+          ]
+        },
+        {
+          "name": "elparaiso-2",
+          "time": "2005-12-30 11:00-15:00",
+          "location": { "ref": "elparaiso" },
+          "specimen": [
+            {
+              "id": "716",
+              "tag1": "vz0525",
+              "genus": "Heliconius"
+            }
+          ]
+        },
+        {
+          "name": "avila",
+          "time": "2006-01-01 11:00-15:00",
+          "location": { "ref": "lomaDelViento" },
+          "specimen": [
+            {
+              "id": "717",
+              "tag1": "vz0526",
+              "notes": "orange crescent or small day-moth"
+            },
+            {
+              "id": "718",
+              "tag1": "vz0527",
+              "notes": "white-V satyrid / nymphalid"
+            },
+            {
+              "id": "719",
+              "tag1": "vz0528",
+              "notes": "whitish blue"
+            },
+            {
+              "id": "720",
+              "tag1": "vz0529",
+              "genus": "Dryas",
+              "species": "julia"
+            },
+            {
+              "id": "721",
+              "tag1": "vz0530",
+              "notes": "orange mini-julia crescent",
+              "genus": "Tegosa",
+              "species": "anieta",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 73"
+              }
+            },
+            {
+              "id": "722",
+              "genus": "Ithomia",
+              "species": "a. agnosia",
+              "reference": {
+                "ref": "neild2",
+                "#text": "#814-815"
+              },
+              "tag1": "vz0531",
+              "notes": "small clearwing"
+            },
+            {
+              "id": "723",
+              "tag1": "vz0532",
+              "genus": "Dismorphia",
+              "species": "arcadia",
+              "notes": "sm. yellow and black faux zebra",
+              "reference": {
+                "ref": "raymond",
+                "#text": "p. 170-1, plate 38"
+              }
+            },
+            {
+              "id": "724",
+              "tag1": "vz0533",
+              "notes": "yellow & red Heliconius"
+            },
+            {
+              "id": "725",
+              "tag1": "vz0534",
+              "genus": "Hyalyris",
+              "species": "c. coeno",
+              "notes": "lg. spotted clearwing",
+              "reference": {
+                "ref": "neild2",
+                "#text": "#604-8"
+              }
+            },
+            {
+              "id": "726",
+              "tag1": "vz0535",
+              "genus": "Vettius",
+              "species": "coryna catargyra",
+              "reference": {
+                "url": "http://butterfliesofamerica.com/L/t/Vettius_coryna_catargyra_a.htm"
+              },
+              "notes": "small skipper, silvery ventral hindwings"
+            },
+            {
+              "id": "727",
+              "tag1": "vz0536",
+              "genus": "Xenophanes",
+              "species": "tryxus",
+              "notes": "Glassy-winged Skipper"
+            },
+            {
+              "id": "728",
+              "tag1": "vz0537",
+              "notes": "Pronophila satyrid"
+            },
+            {
+              "id": "729",
+              "tag1": "vz0538",
+              "genus": "Marpesia",
+              "species": "corinna"
+            },
+            {
+              "id": "730",
+              "tag1": "vz0539",
+              "notes": "Pronophila satyrid"
+            }
+          ],
+          "sighting": {
+            "time": "1700",
+            "genus": "Melanis"
+          }
+        },
+        {
+          "name": "elparaiso-3",
+          "time": "2006-01",
+          "location": { "ref": "elparaiso" },
+          "specimen": [
+            {
+              "time": "2006-01-03 15:00",
+              "id": "731",
+              "tag1": "vz40",
+              "notes": "whitish blue"
+            },
+            {
+              "time": "2006-01-05 22:30",
+              "id": "732",
+              "tag1": "vz41",
+              "notes": "orange crescent; at flood light, piso 13",
+              "genus": "Tegosa",
+              "species": "anieta",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 73"
+              }
+            },
+            {
+              "time": "2006-01-08 14:30",
+              "id": "733",
+              "tag1": "vz42",
+              "genus": "Anthanassa",
+              "species": "drusilla",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 76-7"
+              }
+            },
+            {
+              "time": "2006-01-10 13:00",
+              "id": "734",
+              "tag1": "vz43",
+              "notes": "orange & black moth"
+            },
+            {
+              "time": "2006-01-14 13:00",
+              "id": "735",
+              "tag1": "vz44",
+              "genus": "Urbanus",
+              "species": "teleus",
+              "notes": "tailed skipper"
+            },
+            {
+              "time": "2006-01-14 13:00",
+              "id": "736",
+              "tag1": "vz45",
+              "genus": "Anthanassa",
+              "species": "drusilla",
+              "reference": {
+                "ref": "neild2",
+                "#text": "p. 76-7"
+              }
+            }
+          ]
+        },
+        {
+          "name": "trujillo",
+          "time": "2006-01-17",
+          "location": { "ref": "trujillo" },
+          "specimen": [
+            {
+              "id": "737",
+              "tag1": "vz46",
+              "notes": "red-bodied wasp moth"
+            },
+            {
+              "id": "738",
+              "tag1": "vz47",
+              "notes": "green moth"
+            },
+            {
+              "id": "739",
+              "tag1": "vz48",
+              "notes": "rust moth"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "ca-2006",
+      "time": "2006-06",
+      "location": { "ref": "CA.OldPageMill" },
+      "collectingSession": [{
+        "name": "Saturday",
+        "time": "03",
+        "specimen": [
+          {
+            "id": "740",
+            "tag1": "692",
+            "time": "14:00",
+            "notes": "ringlet, probably hilltopping along road"
+          },
+          {
+            "id": "741",
+            "tag1": "693",
+            "sex": "f",
+            "time": "14:00",
+            "notes": "Chalcedon checkerspot, hilltopping along road"
+          },
+          {
+            "id": "742",
+            "tag1": "694",
+            "sex": "m",
+            "time": "14:30",
+            "notes": "Chalcedon checkerspot, mated with 695, resting on flowering shrubs by cut in road"
+          },
+          {
+            "id": "743",
+            "tag1": "695",
+            "sex": "f",
+            "time": "14:30",
+            "notes": "Chalcedon checkerspot, mated with 694, resting on flowering shrubs by cut in road"
+          },
+          {
+            "id": "744",
+            "tag1": "696",
+            "sex": "m",
+            "time": "15:50",
+            "notes": "Chalcedon checkerspot, dying on road near bridge"
+          }
+        ],
+        "collectingSession": [{
+          "name": "Sunday",
+          "time": "04",
+          "specimen": [
+            {
+              "id": "745",
+              "tag1": "697",
+              "time": "13:00",
+              "place": "visiting flowering bushes in sunlight, between road and creek",
+              "genus": "Limenitis",
+              "species": "l. lorquini",
+              "notes": "also saw California sister"
+            },
+            {
+              "id": "746",
+              "tag1": "698",
+              "time": "16:00",
+              "place": "barely off Page Mill proper, W. of 280, 3rd or 4th left",
+              "genus": "Satyrium",
+              "species": "sylvinus dryope",
+              "notes": "blue-gray hairstreak; many in the area on large bushes (willows)?",
+              "reference": {
+                "ref": "howe",
+                "#text": "pl. 53, #1"
+              }
+            }
+          ]
+        }]
+      }]
+    },
+    {
+      "name": "home-2006",
+      "time": "2006",
+      "location": { "ref": "home" },
+      "collectingSession": [{
+        "name": "09-18",
+        "time": "09-18 09:30",
+        "specimen": {
+          "id": "747",
+          "tag1": "699",
+          "sex": "f",
+          "place": "on windshield of Tracker, in driveway, 1317 La Cresta",
+          "genus": "Polygonia",
+          "species": "interrogationis",
+          "notes": "fall form; seemed in hibernation for a few days, but stiffened after 4"
+        }
+      }]
+    },
+    {
+      "name": "cancun-2006",
+      "time": "2006",
+      "location": { "ref": "cancun" },
+      "collectingSession": [
+        {
+          "name": "12-28",
+          "time": "12-28 11:30",
+          "specimen": {
+            "id": "748",
+            "tag1": "700",
+            "place": "side of road, mile 230 on way to Chichen Itza",
+            "genus": "Doxocopa",
+            "species": "laure",
+            "notes": "dead on side of road, stopped in a \"retorno\" lane"
+          }
+        },
+        {
+          "name": "12-29",
+          "time": "12-29 10:00",
+          "specimen": {
+            "id": "749",
+            "place": "room 198, Oasis Playa Hotel",
+            "genus": "Calodesma",
+            "notes": "small dk. blue day moth with white forewing bands; dead on floor"
+          }
+        }
+      ]
+    },
+    {
+      "name": "home-2007",
+      "time": "2007",
+      "location": { "ref": "home" },
+      "collectingSession": [{
+        "name": "06-30",
+        "time": "06-30 17:30",
+        "specimen": {
+          "id": "750",
+          "sex": "f",
+          "place": "along wooded S border of last cornfield on 14 acres (furthest E)",
+          "genus": "Lethe",
+          "species": "portlandia anthedon",
+          "notes": "saw the same thing the day before, in the valley; saw this one while picking black raspberries with Lia and Derek "
+        }
+      }]
+    },
+    {
+      "name": "lick-2007",
+      "time": "2007-10-08 12:40",
+      "location": { "ref": "CA.LickObservatory" },
+      "specimen": {
+        "id": "751",
+        "place": "very near the summit of Mt. Hamilton",
+        "genus": "Nymphalis",
+        "species": "californica",
+        "notes": [
+          "dead on the road; driving up with Mom & Dad",
+          "spread 2009-03-28"
+        ]
+      }
+    },
+    {
+      "name": "sunnyvale-2009",
+      "time": "2009",
+      "location": { "ref": "CA" },
+      "collectingSession": [
+        {
+          "name": "paintedLadies",
+          "location": { "ref": "CA.NelsonWay" },
+          "time": "03-28? 17:00",
+          "specimen": {
+            "id": "752",
+            "place": "concrete pad in front of back fence",
+            "genus": "Vanessa",
+            "species": "annabella",
+            "notes": "alternatively basking and patrolling the back border of the lot; Today Derek and I stood in the front yard and caught several Vanessa cardui as they flew by.  They have been extremely numerous for the past few warm days, and during the heat of the day they fly to the northwest very fast.  As the afternoon wanes, they begin to defend patches of sunlit pines along the back boundary of the lots on Nelson Way.  It is possible that both V. cardui and V. annabella (and even V. virginiensis) are exhibiting the same behaviors, but I only know that I caught one or two V. cardui. "
+          }
+        },
+        {
+          "name": "withLia",
+          "location": { "ref": "CA.Archery" },
+          "time": "04-27 15:00",
+          "specimen": {
+            "id": "753",
+            "place": "grassy hillside nr electrical tower",
+            "genus": "Coenonympha",
+            "species": "california eryngii",
+            "notes": "saw many of these flying through the grass, and alighting on it "
+          }
+        },
+        {
+          "name": "silverspot",
+          "location": { "ref": "CA.NelsonWay" },
+          "time": "Sat, 6 Jun 2009 14:29:21 -0700",
+          "sighting": {
+            "genus": "Papilio",
+            "species": "rutulus or multicaudata"
+          },
+          "specimen": {
+            "id": "754",
+            "place": "backyard shrubs",
+            "genus": "Speyeria",
+            "species": "zerene",
+            "notes": "caught on the wing, while waiting for the Tiger "
+          }
+        },
+        {
+          "name": "silverspot2",
+          "location": { "latLong": "37.356788,-122.092631" },
+          "place": " Foothill just S of Manor Way, Los Altos ",
+          "time": "Tue, 9 Jun 2009 13:23:43 -0700",
+          "specimen": {
+            "id": "755",
+            "genus": "Speyeria",
+            "species": "zerene",
+            "notes": "dead in the bike lane, still soft"
+          }
+        },
+        {
+          "name": "josephGrant-Lia",
+          "location": { "latLong": "37.335636,-121.718391" },
+          "place": " Joseph D Grant County Park, San Jose, CA 95135 ",
+          "time": "Sat, 01 Aug 2009 14:38:30 -0700",
+          "specimen": {
+            "id": "756",
+            "genus": "Coenonympha",
+            "species": "c. california",
+            "notes": "saw a 2nd one immediately after capturing this one. flights of 5-10 seconds, resting on dried grasses in between "
+          }
+        },
+        {
+          "name": "Taylor-home",
+          "location": { "ref": "home" },
+          "time": "Thu, 12 Aug 2010 15:00 -0700",
+          "specimen": {
+            "id": "757",
+            "place": "dead on the road",
+            "genus": "Vanessa",
+            "species": "c. cardui",
+            "notes": "Taylor picked up the butterfly on the way back from her run "
+          }
+        },
+        {
+          "name": "skippers",
+          "location": { "ref": "CA.NelsonWay" },
+          "time": "Sat, 28 Aug 2010 15:00 -0700",
+          "specimen": {
+            "id": "758",
+            "place": "front yard, fence between our's and Brian's driveways",
+            "genus": "Hylephila",
+            "species": "phyleus",
+            "notes": "on the Lantana (?) border, visiting blossoms, occasionally resting in our grass "
+          }
+        },
+        {
+          "name": "Picchetti-April",
+          "location": { "latLong": "37.291956,-122.086776" },
+          "place": " Picchetti Ranch Open Space Preserve, Cupertino, CA 95014 ",
+          "time": "Sun, 17 Apr 2011 14:29:09 -0700",
+          "specimen": {
+            "id": "759",
+            "genus": "Anthocharis",
+            "species": "s. sara",
+            "notes": "had seen one 2 years earlier in the same trail "
+          }
+        }
+      ],
+      "sighting": {
+        "place": [
+          "Whole Foods, Stevens Creek & Stelling, Cupertino",
+          "another intersection, Cupertino"
+        ],
+        "genus": "Speyeria",
+        "species": "zerene",
+        "notes": "presumed ID, two specimens seen on the wing while driving"
+      }
+    },
+    {
+      "name": "saratoga-2012",
+      "place": "Wardell house, hedge by basketball",
+      "time": "Wed 09 may 2012",
+      "specimen": {
+        "id": "760",
+        "sex": "f",
+        "genus": "Celastrina",
+        "species": "ladon echo",
+        "notes": "seen blues on and off since early March "
+      }
+    },
+    {
+      "name": "home-2012",
+      "time": "Wed Jul 4 12:00 CDT 2012",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "761",
+          "genus": "Nathalis",
+          "species": "iole",
+          "notes": "at least a dozen seen flying around the garden in the 14 acres, apparently near some host plant.  The little yellow daisies are likely; several were nectaring there."
+        },
+        {
+          "id": "762",
+          "genus": "Nathalis",
+          "species": "iole"
+        },
+        {
+          "id": "763",
+          "genus": "Nathalis",
+          "species": "iole"
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2012-09",
+      "time": "Wed 09 may 2012",
+      "location": { "latLong": "37.280626,-122.032249" },
+      "specimen": {
+        "id": "764",
+        "genus": "Adelpha",
+        "species": "californica",
+        "notes": "flew across street in front of the Honda Pilot, killed in the grill;  extracted minutes later at home, still alive but dying"
+      }
+    },
+    {
+      "name": "yellowstone-2015",
+      "time": "2015-07-06",
+      "place": "Yellowstone National Park, Blacktail Plateau Drive",
+      "specimen": [
+        {
+          "id": "765",
+          "time": "2015:07:06 14:50:00",
+          "location": { "-longLat": "-110.5309555,44.9535108" },
+          "genus": "Agriades",
+          "species": "glandon rustica",
+          "sex": "m",
+          "notes": "Blue, visiting wildflowers in meadow "
+        },
+        {
+          "id": "766",
+          "time": "2015-07-06-150142",
+          "location": { "-longLat": "-110.5266666,44.9512462" },
+          "genus": "Parnassius",
+          "notes": "visiting sage-like low shrubs in meadow; saw many "
+        },
+        {
+          "id": "767",
+          "time": "2015-07-06-151644",
+          "location": { "-longLat": "-110.5225468,44.9489683" },
+          "genus": "Speyeria",
+          "notes": "mudpuddling, saw two others "
+        },
+        {
+          "id": "768",
+          "time": "2015-07-06-151644",
+          "location": { "-longLat": "-110.5225468,44.9489683" },
+          "genus": "Coenonympha",
+          "species": "haydeni",
+          "notes": "Wood nymph, mudpuddling with blues, speyeria, sulfurs, skippers ",
+          "reference": {
+            "ref": "howe",
+            "#text": "pl. 2, #27"
+          }
+        },
+        {
+          "id": "769",
+          "time": "2015-07-06-154008",
+          "location": { "-longLat": "-110.4820132,44.9410177" },
+          "genus": "Chlosyne (Charidryas)",
+          "species": "palla calydon",
+          "notes": "Checkerspot, mudpuddling on roadside; saw it land, stopped next to it, one swoop of the net, and back in the car "
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2016-05",
+      "time": "2016-05",
+      "specimen": [
+        {
+          "id": "770",
+          "time": "2016-05-06-1000",
+          "location": { "-longLat": "-122.074517,37.299606" },
+          "place": " Coyote Ridge Trail, near Stevens Creek Reservoir ",
+          "genus": "Nymphalis",
+          "species": "californica",
+          "notes": "lying injured on the trail "
+        },
+        {
+          "id": "771",
+          "time": "2016-05-08-1908",
+          "location": { "latLong": "37.295331,-122.069062" },
+          "place": " Coyote Ridge Trail, near Stevens Creek Reservoir ",
+          "genus": "Chlosyne",
+          "species": "palla",
+          "notes": "lying dead on the trail, already being swarmed by ants.  Took a photo to record data: Could also be Euphydryas chalcedon.  Saw 6-8 of those, all resting on the dry grass heads along the uphill (west-facing) side of the trail.  Also saw several Ringlets, an Orange-tip, and a Pale Swallowtail.  One checkerspot was dead and crushed on the trail, looking as if it had not finished drying its wings.  All the checkerspots were torpid, either with the coolness of late afternoon, or perhaps due to just emerging today.  Have photos of several. "
+        }
+      ]
+    },
+    {
+      "name": "home-2016",
+      "time": "Fri Jul 16 19:30 CDT 2016",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "772",
+          "genus": "Eacles",
+          "species": "imperialis",
+          "notes": "Dad saw it on the yews in front, under attack by a small bird.  He sprayed it with ether."
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2017-06",
+      "time": "2017-06",
+      "specimen": [
+        {
+          "id": "773",
+          "mistagged": "772",
+          "time": "2017-06-19-2100",
+          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "genus": "Catocala",
+          "species": "aholibah",
+          "notes": "In the house, drawn to lights through open windows. Derek and I playing computer games, Flori and Lia in Hawaii. I caught it up the book ladder."
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2020-04",
+      "time": "2020-04",
+      "specimen": [
+        {
+          "id": "774",
+          "time": "2020-04-01-1130",
+          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "genus": "Celastrina",
+          "species": "ladon echo",
+          "notes": "Saw three at once in the front yard, around the new tree opposite the orange tree."
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2020-05",
+      "time": "2020-05",
+      "specimen": [
+        {
+          "id": "775",
+          "time": "2020-05-09-1130",
+          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "genus": "Poanes",
+          "species": "melane",
+          "notes": "Sunning on greater Periwinkle near birch trees."
+        },
+        {
+          "id": "776",
+          "time": "2020-05-10-1430",
+          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "genus": "Papilio",
+          "species": "rutulus",
+          "notes": "Lighting (possibly laying eggs) on hedges; nectaring on Periwinkle; slow, relaxed flying."
+        }
+      ]
+    },
+    {
+      "name": "lassen-2020-08",
+      "time": "2020-08",
+      "specimen": [
+        {
+          "id": "777",
+          "time": "2020-08-09-1510",
+          "location": { "latLong": "39.0799,-122.0788" },
+          "genus": "Colias",
+          "species": "eurytheme",
+          "sex": "male",
+          "notes": "Alfalfa. Millions on alfalfa fields next to Lone Star Rd"
+        },
+        {
+          "id": "778",
+          "time": "2020-08-09-1514",
+          "location": { "latLong": "39.0799,-122.0788" },
+          "genus": "Colias",
+          "species": "eurytheme",
+          "sex": "female",
+          "notes": "Sulfur?  Millions, as above."
+        },
+        {
+          "id": "779",
+          "time": "2020-08-10-1649",
+          "location": { "latLong": "40.203190, -121.136216" },
+          "place": "Dyer day-use area, Lake Almanor",
+          "genus": "Neophasia",
+          "species": "menapia",
+          "notes": "Pine White"
+        }
+      ]
+    },
+    {
+      "name": "saratoga-2021-06",
+      "time": "2021-06",
+      "specimen": [
+        {
+          "id": "780",
+          "time": "2021-06-06-0836", 
+          "location": { "latLong": "37.275725,-122.071861" },
+          "genus": "Lycaena",
+          "species": "arota",
+          "sex": "male",
+          "notes": "Many dozens of males sunning (wings 3/4 open) on leaves, and chasing each other frequently, along 200m of trail.  I got a nice video of one, sawing his back wings."
+        },
+        {
+          "id": "781",
+          "time": "2021-06-06-0906",
+          "location": { "latLong": "37.275830,-122.071900" },
+          "genus": "Lycaena",
+          "species": "arota",
+          "sex": "female",
+          "notes": "Females are far less common; I saw only one today, and only one yesterday, when I got a few photos.  This female was resting with closed wings."
+        }
+      ]
+    },
+    {
+      "name": "el-corte-de-madera-2022-02",
+      "time": "2022-02-27",
+      "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
+      "location": { "latLong": "37.401230, -122.307187" },
+      "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
+      "sighting": [
+        {
+          "genus": "Nymphalis",
+          "species": "californica",
+          "time": "2022-02-27-1115",
+          "notes": "photo IMG_3945 (and more) from Canon SX70"
+        },
+        {
+          "genus": "Pieris",
+          "species": "marginalis",
+          "time": "2022-02-27-1126",
+          "notes": "photo IMG_3944 from Canon SX70"
+        }
+      ]
+    }
+  ],
+  "sighting": [
+    {
+      "genus": "Adelpha",
+      "species": "alala completa",
+      "time": "1998-12-2x",
+      "place": "Venezuela, Merida, Los Chorros del Milla Zoo",
+      "notes": "Honeymoon trip after wedding and Christmas.  Photographed sitting on my head (photo scanned 2021-09-01).  Personal email from Andrew Neild: That's a great shot of you! Yes, the correct name according to my book is Adelpha alala titia (described form the Cordillera de Merida), but Willmott in his Adelpha revision treated Venezuelan A. alala titia as a junior synonym of Colombian A. alala completa, saying he saw no obvious differences. Either name is correct (I really don't mind either way!), but if you want to follow the recommendation of the revision, you should use the name A. alala completa."
+    },
+    {
+      "sex": "f",
+      "genus": "Basilona",
+      "species": "imperialis",
+      "time": "2004-07-31",
+      "place": "home",
+      "notes": "Mom found it (where?); lethargic"
+    }
+  ],
+  "specimen": [
+    {
+      "id": "001",
+      "tag1": "001",
+      "sex": "m",
+      "genus": "Danaus",
+      "species": "plexippus"
+    },
+    {
+      "id": "002",
+      "tag1": "002",
+      "sex": "f",
+      "genus": "Danaus",
+      "species": "plexippus",
+      "time": "73",
+      "place": "home"
+    },
+    {
+      "id": "003",
+      "tag1": "003",
+      "sex": "m",
+      "genus": "Danaus",
+      "species": "plexippus",
+      "time": "73",
+      "place": "home"
+    },
+    {
+      "id": "004",
+      "tag1": "004",
+      "sex": "m",
+      "genus": "Danaus",
+      "species": "plexippus",
+      "time": "74",
+      "place": "home"
+    },
+    {
+      "id": "005",
+      "tag1": "005",
+      "sex": "f",
+      "genus": "Danaus",
+      "species": "plexippus",
+      "time": "74",
+      "place": "home"
+    },
+    {
+      "id": "006",
+      "tag1": "006",
+      "genus": "Euptychia",
+      "species": "c. cymela",
+      "time": "7/4/74",
+      "place": "MO, Miller. Lake of the Ozarks S.P. at loop at S. end of MO 134",
+      "notes": "in shady campsites"
+    },
+    {
+      "id": "007",
+      "tag1": "007",
+      "genus": "Euptychia",
+      "species": "c. cymela",
+      "time": "'' 006",
+      "place": "'' 006"
+    },
+    {
+      "id": "008",
+      "tag1": "u39",
+      "genus": "Euptychia",
+      "species": "c. cymela",
+      "time": "75",
+      "place": "home; in gully by elms NE of house",
+      "notes": "unmounted"
+    },
+    {
+      "id": "009",
+      "tag1": "009",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "celtis"
+    },
+    {
+      "id": "010",
+      "tag1": "010",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "celtis"
+    },
+    {
+      "id": "011",
+      "tag1": "011",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "celtis"
+    },
+    {
+      "id": "012",
+      "tag1": "012",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "013",
+      "tag1": "013",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "014",
+      "tag1": "014",
+      "genus": "Limenitis",
+      "species": "a. astyanax"
+    },
+    {
+      "id": "015",
+      "tag1": "015",
+      "genus": "Limenitis",
+      "species": "a. astyanax"
+    },
+    {
+      "id": "016",
+      "tag1": "016",
+      "genus": "Limenitis",
+      "species": "a. astyanax"
+    },
+    {
+      "id": "017",
+      "tag1": "017",
+      "sex": "f",
+      "genus": "Limenitis",
+      "species": "a. archippus"
+    },
+    {
+      "id": "018",
+      "tag1": "018",
+      "sex": "f",
+      "genus": "Limenitis",
+      "species": "a. archippus"
+    },
+    {
+      "id": "019",
+      "tag1": "019",
+      "sex": "m",
+      "genus": "Limenitis",
+      "species": "a. archippus (watsoni)"
+    },
+    {
+      "id": "020",
+      "tag1": "020",
+      "genus": "Precis",
+      "species": "c. coenia"
+    },
+    {
+      "id": "021",
+      "tag1": "021",
+      "sex": "m",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "022",
+      "tag1": "022",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "023",
+      "tag1": "023",
+      "sex": "m",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "024",
+      "tag1": "024",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "025",
+      "tag1": "025",
+      "sex": "m",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "026",
+      "tag1": "026",
+      "sex": "m",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "027",
+      "tag1": "027",
+      "sex": "f",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "028",
+      "tag1": "028",
+      "-num4": "f3",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "029"
+    },
+    {
+      "id": "029",
+      "tag1": "029",
+      "-num4": "f4",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "030"
+    },
+    {
+      "id": "030",
+      "tag1": "030",
+      "-num4": "f5",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "031"
+    },
+    {
+      "id": "031",
+      "tag1": "031",
+      "-num4": "S3",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "032"
+    },
+    {
+      "id": "032",
+      "tag1": "032",
+      "-num4": "S4",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "033"
+    },
+    {
+      "id": "033",
+      "tag1": "033",
+      "-num4": "f1",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "034"
+    },
+    {
+      "id": "034",
+      "tag1": "034",
+      "-num4": "f2",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis (fabricii)",
+      "notes": "??"
+    },
+    {
+      "id": "035",
+      "tag1": "035",
+      "-num4": "u1",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (umbrosa)",
+      "notes": "035"
+    },
+    {
+      "id": "036",
+      "tag1": "036",
+      "-num4": "u2",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis (umbrosa)",
+      "notes": "036"
+    },
+    {
+      "id": "037",
+      "tag1": "037",
+      "-num4": "u8",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis",
+      "notes": "glued wings"
+    },
+    {
+      "id": "038",
+      "tag1": "038",
+      "-num4": "u3",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "039",
+      "tag1": "039",
+      "-num4": "u5",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "040",
+      "tag1": "u30",
+      "-num4": "u6",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis",
+      "notes": "wings, unmounted"
+    },
+    {
+      "id": "041",
+      "tag1": "041",
+      "-num4": "u7",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "042",
+      "tag1": "042",
+      "-num4": "u4",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "Interrogationis",
+      "notes": "summer"
+    },
+    {
+      "id": "043",
+      "tag1": "043",
+      "-num4": "u9",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "044",
+      "tag1": "044",
+      "genus": "Polygonia",
+      "species": "comma"
+    },
+    {
+      "id": "045",
+      "tag1": "045",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "046",
+      "tag1": "046",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "047",
+      "tag1": "047",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "048",
+      "tag1": "048",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "spring?"
+    },
+    {
+      "id": "049",
+      "tag1": "049",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "summer?"
+    },
+    {
+      "id": "050",
+      "tag1": "050",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "summer?"
+    },
+    {
+      "id": "051",
+      "tag1": "051",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "summer?"
+    },
+    {
+      "id": "052",
+      "tag1": "052",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "053",
+      "tag1": "053",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "054",
+      "tag1": "054",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "055",
+      "tag1": "055",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "056",
+      "tag1": "056",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "057",
+      "tag1": "057",
+      "sex": "f",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "058",
+      "tag1": "058",
+      "sex": "f",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "059",
+      "tag1": "059",
+      "genus": "Vanessa (Cynthia)",
+      "species": "virginiensis"
+    },
+    {
+      "id": "060",
+      "tag1": "060",
+      "genus": "Vanessa (Cynthia)",
+      "species": "virginiensis"
+    },
+    {
+      "id": "061",
+      "tag1": "061",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "062",
+      "tag1": "062",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "063",
+      "tag1": "063",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "064",
+      "tag1": "064",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "065",
+      "tag1": "065",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "066",
+      "tag1": "066",
+      "sex": "m",
+      "genus": "Euptoieta",
+      "species": "claudia"
+    },
+    {
+      "id": "067",
+      "tag1": "067",
+      "sex": "f",
+      "genus": "Euptoieta",
+      "species": "claudia"
+    },
+    {
+      "id": "068",
+      "tag1": "068",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "c. cybele"
+    },
+    {
+      "id": "069",
+      "tag1": "069",
+      "sex": "m",
+      "genus": "Boloria",
+      "species": "selene myrina"
+    },
+    {
+      "id": "070",
+      "tag1": "u15",
+      "genus": "Satyrium",
+      "species": "calanus falacer",
+      "notes": "~512, unmounted also"
+    },
+    {
+      "id": "071",
+      "tag1": "u16",
+      "genus": "Satyrium",
+      "species": "calanus falacer",
+      "notes": "~512, unmounted also"
+    },
+    {
+      "id": "072",
+      "tag1": "072",
+      "genus": "Satyrium",
+      "species": "caryaevoris"
+    },
+    {
+      "id": "073",
+      "tag1": "073",
+      "sex": "m",
+      "genus": "Lycaena",
+      "species": "hyllus"
+    },
+    {
+      "id": "074",
+      "tag1": "074",
+      "sex": "f",
+      "genus": "Lycaena",
+      "species": "hyllus"
+    },
+    {
+      "id": "075",
+      "tag1": "075",
+      "sex": "m",
+      "genus": "Lycaena",
+      "species": "hyllus"
+    },
+    {
+      "id": "076",
+      "tag1": "076",
+      "sex": "f",
+      "genus": "Lycaena",
+      "species": "hyllus"
+    },
+    {
+      "id": "077",
+      "tag1": "077",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "078",
+      "tag1": "078",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "079",
+      "tag1": "079",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "080",
+      "tag1": "080",
+      "sex": "m",
+      "genus": "Everes",
+      "species": "c. comyntas"
+    },
+    {
+      "id": "081",
+      "tag1": "081",
+      "sex": "f",
+      "genus": "Everes",
+      "species": "c. comyntas"
+    },
+    {
+      "id": "082",
+      "tag1": "u26",
+      "genus": "Colias",
+      "species": "philodice",
+      "notes": "-- unmounted, m"
+    },
+    {
+      "id": "083",
+      "tag1": "u27",
+      "genus": "Colias",
+      "species": "philodice",
+      "notes": "-- unmounted, m"
+    },
+    {
+      "id": "084",
+      "tag1": "u53",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- sulfur \"N\""
+    },
+    {
+      "id": "085",
+      "tag1": "u48",
+      "-num4": "-*",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme"
+    },
+    {
+      "id": "086",
+      "tag1": "u52",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white \"m\""
+    },
+    {
+      "id": "087",
+      "tag1": "087",
+      "-num4": "P",
+      "sex": "x e. (ariadne) m",
+      "genus": "Colias",
+      "species": "philodice (anthyale)"
+    },
+    {
+      "id": "088",
+      "tag1": "u54",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa \"Q\""
+    },
+    {
+      "id": "089",
+      "tag1": "089",
+      "-num4": "X",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)"
+    },
+    {
+      "id": "090",
+      "tag1": "090",
+      "-num4": "T",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)"
+    },
+    {
+      "id": "091",
+      "tag1": "u31",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "092",
+      "tag1": "u56",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa \"Z\""
+    },
+    {
+      "id": "093",
+      "tag1": "u51",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa \"G\""
+    },
+    {
+      "id": "094",
+      "tag1": "u49",
+      "-num4": "A*",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme"
+    },
+    {
+      "id": "095",
+      "tag1": "u55",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white \"Y\""
+    },
+    {
+      "id": "096",
+      "tag1": "u50",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white \"<solid delta>\""
+    },
+    {
+      "id": "097",
+      "tag1": "097",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (metra)"
+    },
+    {
+      "id": "098",
+      "tag1": "098",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "099",
+      "tag1": "099",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "rapae (metra)"
+    },
+    {
+      "id": "100",
+      "tag1": "u11",
+      "genus": "Battus",
+      "species": "p. philenor"
+    },
+    {
+      "id": "101",
+      "tag1": "u06?",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "102",
+      "tag1": "u01?",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "103",
+      "tag1": "u03?",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "104",
+      "tag1": "u02?",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "105",
+      "tag1": "u04?",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "106",
+      "tag1": "u10?",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "107",
+      "tag1": "105",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "g. glaucus",
+      "notes": "105"
+    },
+    {
+      "id": "108",
+      "tag1": "106",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "g. glaucus",
+      "notes": "106"
+    },
+    {
+      "id": "109",
+      "tag1": "107",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "g. glaucus (g.)",
+      "notes": "black"
+    },
+    {
+      "id": "110",
+      "tag1": "u24",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "troilus",
+      "place": "home; roadside woods by Schmidt's"
+    },
+    {
+      "id": "111",
+      "tag1": "u05",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "troilus"
+    },
+    {
+      "id": "112",
+      "tag1": "112",
+      "sex": "m",
+      "genus": "Polites",
+      "species": "coras",
+      "time": "75",
+      "place": "St. Ansgar",
+      "notes": "111"
+    },
+    {
+      "id": "113",
+      "tag1": "113",
+      "genus": "Ancyloxypha",
+      "species": "numitor"
+    },
+    {
+      "id": "114",
+      "tag1": "114",
+      "sex": "m",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "115",
+      "tag1": "115",
+      "sex": "m",
+      "genus": "Pyrgus",
+      "species": "c. communis"
+    },
+    {
+      "id": "116",
+      "tag1": "116",
+      "sex": "m",
+      "genus": "Epargyreus",
+      "species": "c. clarus"
+    },
+    {
+      "id": "117",
+      "tag1": "117",
+      "sex": "m",
+      "genus": "Samia",
+      "species": "cecropia",
+      "notes": "116"
+    },
+    {
+      "id": "118",
+      "tag1": "u19",
+      "genus": "Ctenucha",
+      "species": "virginica",
+      "place": "home: S. meadow",
+      "notes": "117"
+    },
+    {
+      "id": "119",
+      "tag1": "u20",
+      "genus": "Ctenucha",
+      "species": "virginica",
+      "place": "home: S. meadow",
+      "notes": "118"
+    },
+    {
+      "id": "120",
+      "tag1": "u13",
+      "genus": "Phragmatobia",
+      "species": "fuliginosa",
+      "place": "home: dining room window",
+      "notes": "119"
+    },
+    {
+      "id": "121",
+      "tag1": "u22",
+      "genus": "Phragmatobia",
+      "species": "fuliginosa",
+      "place": "home: dining room window",
+      "notes": "120"
+    },
+    {
+      "id": "122",
+      "tag1": "u18",
+      "genus": "Alypia",
+      "species": "octomaculata",
+      "notes": "121"
+    },
+    {
+      "id": "123",
+      "tag1": "u21",
+      "genus": "Euthisanotia",
+      "species": "unio",
+      "notes": "122; pearl, yellow & brown moth ~ A13"
+    },
+    {
+      "id": "124",
+      "tag1": "124",
+      "genus": "Catocala",
+      "species": "cara",
+      "notes": "123"
+    },
+    {
+      "id": "125",
+      "tag1": "125",
+      "genus": "Catocala",
+      "species": "cara",
+      "notes": "124"
+    },
+    {
+      "id": "126",
+      "tag1": "126",
+      "genus": "Catocala",
+      "species": "cara",
+      "notes": "125"
+    },
+    {
+      "id": "127",
+      "tag1": "127",
+      "genus": "Catocala",
+      "species": "amica",
+      "notes": "126"
+    },
+    {
+      "id": "128",
+      "tag1": "128",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "muliercula",
+      "notes": "127"
+    },
+    {
+      "id": "129",
+      "tag1": "129",
+      "sex": "m",
+      "genus": "Eurema",
+      "species": "l. lisa",
+      "time": "7/6/74",
+      "place": "Ozarks"
+    },
+    {
+      "id": "130",
+      "tag1": "130",
+      "sex": "f",
+      "genus": "Telea",
+      "species": "polyphemus",
+      "time": "7/9/74",
+      "place": "returning from Ozarks, on motel wall in morning"
+    },
+    {
+      "id": "131",
+      "tag1": "131",
+      "sex": "m",
+      "genus": "Graphium",
+      "species": "marcellus (lecontei)",
+      "time": "7/13/74",
+      "place": "returning from Ozarks?"
+    },
+    {
+      "id": "132",
+      "sex": "m",
+      "genus": "Graphium",
+      "species": "marcellus (lecontei)",
+      "time": "7/13/74",
+      "place": "returning from Ozarks?"
+    },
+    {
+      "id": "133",
+      "tag1": "132",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "c. cybele",
+      "time": "6/11/75",
+      "place": "NC, Spruce Pine Emerald Mine",
+      "notes": "128"
+    },
+    {
+      "id": "134",
+      "tag1": "133",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "c. cybele",
+      "time": "6/11/75",
+      "place": "NC, Spruce Pine Emerald Mine",
+      "notes": "129"
+    },
+    {
+      "id": "135",
+      "tag1": "135",
+      "genus": "Lycaena",
+      "species": "phlaeas",
+      "time": "6/11/75",
+      "place": "NC, Spruce Pine Emerald Mine"
+    },
+    {
+      "id": "136",
+      "tag1": "136",
+      "genus": "Lycaena",
+      "species": "phlaeas",
+      "time": "6/11/75",
+      "place": "NC, Spruce Pine Emerald Mine"
+    },
+    {
+      "id": "137",
+      "tag1": "137",
+      "tag2": "<136",
+      "sex": "f",
+      "genus": "Poanes",
+      "species": "hobomok (h.)",
+      "time": "6/11/75",
+      "place": "NC, Spruce Pine Emerald Mine",
+      "notes": "was tagged 136, tag amended"
+    },
+    {
+      "id": "138",
+      "tag1": "138",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "comma (harrisii)"
+    },
+    {
+      "id": "139",
+      "tag1": "139",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "comma (harrisii)"
+    },
+    {
+      "id": "140",
+      "tag1": "140",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "141",
+      "tag1": "141",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "142",
+      "tag1": "u17",
+      "-num4": "98",
+      "genus": "Alypia",
+      "species": "octomaculata"
+    },
+    {
+      "id": "143",
+      "tag1": "143",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "144",
+      "tag1": "144",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "145",
+      "tag1": "145",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "p. philodice (p.)"
+    },
+    {
+      "id": "146",
+      "tag1": "u60",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white tagged \"106 brd\""
+    },
+    {
+      "id": "147",
+      "tag1": "u62",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- sulfur tagged \"107\""
+    },
+    {
+      "id": "148",
+      "tag1": "u59",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- sulfur tagged \"108\""
+    },
+    {
+      "id": "149",
+      "tag1": "149",
+      "sex": "m",
+      "genus": "Boloria",
+      "species": "selene myrina"
+    },
+    {
+      "id": "150",
+      "tag1": "150",
+      "genus": "Pholisora",
+      "species": "catullus",
+      "notes": "-- also tagged \"103\" ?"
+    },
+    {
+      "id": "151",
+      "tag1": "u58",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- sulfur tagged \"104\""
+    },
+    {
+      "id": "152",
+      "tag1": "152",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "153",
+      "tag1": "153",
+      "sex": "m",
+      "genus": "Hyloicus",
+      "species": "eremitus"
+    },
+    {
+      "id": "154",
+      "tag1": "154",
+      "sex": "m",
+      "genus": "Samia",
+      "species": "cecropia"
+    },
+    {
+      "id": "155",
+      "tag1": "u61",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white tagged \"110 V\""
+    },
+    {
+      "id": "156",
+      "tag1": "156",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "157",
+      "tag1": "157",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "158",
+      "tag1": "158",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "159",
+      "tag1": "159",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "coronis dakotaensis",
+      "notes": "-- edwardsii?"
+    },
+    {
+      "id": "160",
+      "tag1": "160",
+      "genus": "Pyrgus",
+      "species": "c. communis"
+    },
+    {
+      "id": "161",
+      "tag1": "161",
+      "sex": "m",
+      "genus": "Cercyonis",
+      "species": "pegala ino (lolo)"
+    },
+    {
+      "id": "162",
+      "tag1": "162",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "163",
+      "tag1": "163",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "164",
+      "tag1": "164",
+      "sex": "f",
+      "genus": "Cercyonis",
+      "species": "pegala ino (lolo)"
+    },
+    {
+      "id": "165",
+      "tag1": "165",
+      "sex": "m",
+      "genus": "Neophasia",
+      "species": "menapia"
+    },
+    {
+      "id": "166",
+      "tag1": "166",
+      "sex": "m",
+      "genus": "Cercyonis",
+      "species": "pegala ino (lolo)"
+    },
+    {
+      "id": "167",
+      "tag1": "167",
+      "sex": "m",
+      "genus": "Cercyonis",
+      "species": "pegala ino (lolo)"
+    },
+    {
+      "id": "168",
+      "tag1": "168",
+      "genus": "Hesperia",
+      "species": "comma harpalus"
+    },
+    {
+      "id": "169",
+      "tag1": "169",
+      "sex": "f",
+      "genus": "Coenonympha",
+      "species": "a. ampelus (sweadneri)"
+    },
+    {
+      "id": "170",
+      "tag1": "170",
+      "genus": "Lycaena",
+      "species": "helloides"
+    },
+    {
+      "id": "171",
+      "tag1": "171",
+      "sex": "m",
+      "genus": "Hesperia/Poanes",
+      "notes": "-- also tagged \"23\" ?"
+    },
+    {
+      "id": "172",
+      "tag1": "172",
+      "sex": "m",
+      "genus": "Chlosyne",
+      "species": "gorgone carlota"
+    },
+    {
+      "id": "173",
+      "tag1": "173",
+      "sex": "m",
+      "genus": "Pseudohazis",
+      "species": "h. hera"
+    },
+    {
+      "id": "174",
+      "tag1": "174",
+      "sex": "m",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "175",
+      "tag1": "175",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "-- summer?"
+    },
+    {
+      "id": "176",
+      "tag1": "176",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "177",
+      "tag1": "177",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "Interrogationis",
+      "notes": "-- summer"
+    },
+    {
+      "id": "178",
+      "tag1": "178",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "179",
+      "tag1": "179",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "180",
+      "tag1": "180",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "181",
+      "tag1": "181",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "182",
+      "tag1": "182",
+      "notes": "-- sm. black geometrid w/white band"
+    },
+    {
+      "id": "183",
+      "tag1": "183",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "184",
+      "tag1": "184",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "185",
+      "tag1": "185",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "c. cybele"
+    },
+    {
+      "id": "186",
+      "tag1": "186",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "comma (dryas)",
+      "notes": "-- old tag says \"187\""
+    },
+    {
+      "id": "187",
+      "tag1": "187",
+      "sex": "m",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "188",
+      "tag1": "188",
+      "sex": "f",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "189",
+      "tag1": "189",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "190",
+      "tag1": "190",
+      "sex": "m",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "191",
+      "tag1": "191",
+      "sex": "f",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "192",
+      "tag1": "192",
+      "sex": "m",
+      "genus": "Boloria",
+      "species": "b. bellona"
+    },
+    {
+      "id": "193",
+      "tag1": "193",
+      "sex": "m",
+      "genus": "Boloria",
+      "species": "b. bellona"
+    },
+    {
+      "id": "194",
+      "tag1": "194",
+      "sex": "m",
+      "genus": "Lycaena",
+      "species": "hyllus"
+    },
+    {
+      "id": "195",
+      "tag1": "195",
+      "genus": "Lycaena",
+      "species": "xanthoides dione"
+    },
+    {
+      "id": "196",
+      "tag1": "196",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "g. glaucus",
+      "notes": "-- black"
+    },
+    {
+      "id": "197",
+      "tag1": "197",
+      "sex": "f",
+      "genus": "Vanessa (Cynthia)",
+      "species": "virginiensis"
+    },
+    {
+      "id": "198",
+      "tag1": "198",
+      "sex": "m",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "199",
+      "tag1": "199",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "200",
+      "tag1": "200",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "m. milberti (milberti)"
+    },
+    {
+      "id": "201",
+      "tag1": "201",
+      "-num2": "196",
+      "genus": "Satyrium",
+      "species": "caryaevoris",
+      "notes": "228"
+    },
+    {
+      "id": "202",
+      "tag1": "202",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "203",
+      "tag1": "203",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "204",
+      "tag1": "204",
+      "sex": "m",
+      "genus": "Boloria",
+      "species": "b. bellona"
+    },
+    {
+      "id": "205",
+      "tag1": "205",
+      "sex": "f",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "206",
+      "tag1": "206",
+      "sex": "m",
+      "genus": "Chlosyne",
+      "species": "n. nycteis"
+    },
+    {
+      "id": "207",
+      "tag1": "207",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "vau-album j-album"
+    },
+    {
+      "id": "208",
+      "tag1": "208",
+      "sex": "f",
+      "genus": "Speyeria",
+      "species": "c. cybele"
+    },
+    {
+      "id": "209",
+      "tag1": "209",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "210",
+      "tag1": "210",
+      "sex": "m",
+      "genus": "Euphydryas",
+      "species": "p. phaeton"
+    },
+    {
+      "id": "211",
+      "tag1": "211",
+      "sex": "m",
+      "genus": "Speyeria",
+      "species": "aphrodite alcestis"
+    },
+    {
+      "id": "212",
+      "tag1": "212",
+      "genus": "Polygonia",
+      "species": "canus",
+      "notes": "-- summer?"
+    },
+    {
+      "id": "213",
+      "tag1": "213",
+      "sex": "m",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "214",
+      "tag1": "214",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "215",
+      "tag1": "215",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- white"
+    },
+    {
+      "id": "216",
+      "tag1": "216",
+      "genus": "Boloria",
+      "species": "b. bellona"
+    },
+    {
+      "id": "217",
+      "tag1": "217",
+      "genus": "Euptoieta",
+      "species": "claudia"
+    },
+    {
+      "id": "218",
+      "tag1": "218",
+      "sex": "m",
+      "genus": "Pachysphinx",
+      "species": "m. modesta"
+    },
+    {
+      "id": "219",
+      "tag1": "219",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa"
+    },
+    {
+      "id": "220",
+      "tag1": "220",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "221",
+      "tag1": "221",
+      "sex": "x e. (amphidusa) m",
+      "genus": "Colias",
+      "species": "p. philodice",
+      "notes": "-- cross"
+    },
+    {
+      "id": "222",
+      "tag1": "222",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "223",
+      "tag1": "223",
+      "genus": "Satyrium",
+      "species": "calanus falacer"
+    },
+    {
+      "id": "224",
+      "tag1": "224",
+      "sex": "f",
+      "genus": "Calasymbolus",
+      "species": "excaecatus"
+    },
+    {
+      "id": "225",
+      "tag1": "225",
+      "sex": "m",
+      "genus": "Calasymbolus",
+      "species": "excaecatus"
+    },
+    {
+      "id": "226",
+      "tag1": "226",
+      "sex": "f",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "227",
+      "tag1": "227",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "228",
+      "tag1": "228",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "229",
+      "tag1": "229",
+      "genus": "Satyrium",
+      "species": "caryaevoris"
+    },
+    {
+      "id": "230",
+      "-num2": "257",
+      "time": "7/5/77  22:25",
+      "place": "home; at light trap (sheet & flood) in unfinished shop",
+      "notes": "sm. beige moth"
+    },
+    {
+      "id": "231",
+      "tag1": "u40?",
+      "notes": "-- sm. yellowish geometrid, unmounted"
+    },
+    {
+      "id": "232",
+      "tag1": "232",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "mira"
+    },
+    {
+      "id": "233",
+      "tag1": "233?",
+      "tag2": "260?",
+      "genus": "Atteva",
+      "species": "borealis",
+      "notes": "-- orange & black harlequin moth"
+    },
+    {
+      "id": "234",
+      "tag1": "u33",
+      "genus": "Hypoprepia",
+      "species": "fucosa",
+      "notes": "sm. gray, yellow & red moth; unmounted"
+    },
+    {
+      "id": "235",
+      "tag1": "u34",
+      "genus": "Hypoprepia",
+      "species": "fucosa"
+    },
+    {
+      "id": "236",
+      "tag1": "u41?",
+      "notes": "-- sm. yellowish geometrid, unmounted"
+    },
+    {
+      "id": "237",
+      "tag1": "u66",
+      "-num2": "264",
+      "genus": "Peridroma",
+      "species": "saucia",
+      "notes": "-- generic noctuid, unlabeled, unmounted"
+    },
+    {
+      "id": "238",
+      "tag1": "u42?",
+      "notes": "-- sm. yellowish geometrid, unmounted"
+    },
+    {
+      "id": "239",
+      "tag1": "u57?",
+      "genus": "Autographa",
+      "notes": "sm. brown moth w/pearly squiggle, unmounted; 77 data says 'Anagrapha falcifera' (not in Holland)"
+    },
+    {
+      "id": "240",
+      "tag1": "267?",
+      "tag2": "240?",
+      "-num2": "267",
+      "sex": "f",
+      "genus": "Phragmatobia",
+      "species": "fuliginosa",
+      "notes": "-- sm. red & brown translucent moth"
+    },
+    {
+      "id": "241",
+      "tag1": "241",
+      "sex": "m",
+      "genus": "Calasymbolus",
+      "species": "myops"
+    },
+    {
+      "id": "242",
+      "tag1": "242?",
+      "tag2": "269?",
+      "-num2": "269",
+      "genus": "Scepsis",
+      "species": "fulvicollis",
+      "notes": "-- sm. Ctenuchid moth"
+    },
+    {
+      "id": "243",
+      "tag1": "243",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "mira"
+    },
+    {
+      "id": "244",
+      "tag1": "244",
+      "sex": "m",
+      "genus": "Haematopsis",
+      "species": "grataria"
+    },
+    {
+      "id": "245",
+      "tag1": "245",
+      "sex": "f",
+      "genus": "Haematopsis",
+      "species": "grataria"
+    },
+    {
+      "id": "246",
+      "tag1": "246",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "247",
+      "tag1": "247",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "mira"
+    },
+    {
+      "id": "248",
+      "tag1": "248",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)",
+      "notes": "-- alfalfa"
+    },
+    {
+      "id": "249",
+      "tag1": "249",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "250",
+      "tag1": "250",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "251",
+      "tag1": "251",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "palaeogama"
+    },
+    {
+      "id": "252",
+      "tag1": "252",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "253",
+      "tag1": "253",
+      "notes": "-- mottled brown noctuid ~332"
+    },
+    {
+      "id": "254",
+      "tag1": "254",
+      "genus": "Pyrgus",
+      "species": "c. communis"
+    },
+    {
+      "id": "255",
+      "tag1": "255",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "256",
+      "tag1": "256",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa"
+    },
+    {
+      "id": "257",
+      "tag1": "257",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- alfalfa"
+    },
+    {
+      "id": "258",
+      "tag1": "258",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme",
+      "notes": "-- sulfur"
+    },
+    {
+      "id": "259",
+      "tag1": "259",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)",
+      "notes": "-- alfalfa"
+    },
+    {
+      "id": "260",
+      "tag1": "260",
+      "sex": "f",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "261",
+      "tag1": "261",
+      "sex": "m",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "262",
+      "tag1": "u14",
+      "-num2": "289",
+      "-num3": "n09",
+      "sex": "m",
+      "genus": "Satyrium",
+      "species": "acadica montanensis",
+      "time": "7/20/77  17:09",
+      "place": "ND; on Roger's lane on sunflower",
+      "notes": "-- ~375, unmounted"
+    },
+    {
+      "id": "263",
+      "tag1": "263",
+      "sex": "m",
+      "genus": "Plebejus",
+      "place": "ND"
+    },
+    {
+      "id": "264",
+      "tag1": "264",
+      "sex": "f",
+      "genus": "Plebejus",
+      "place": "ND"
+    },
+    {
+      "id": "265",
+      "tag1": "265",
+      "sex": "m",
+      "genus": "Plebejus",
+      "place": "ND"
+    },
+    {
+      "id": "266",
+      "tag1": "266",
+      "sex": "m",
+      "genus": "Plebejus",
+      "place": "ND"
+    },
+    {
+      "id": "267",
+      "tag1": "267",
+      "sex": "f",
+      "genus": "Plebejus",
+      "place": "ND"
+    },
+    {
+      "id": "268",
+      "tag1": "268",
+      "genus": "Hyloicus",
+      "species": "c. chersis"
+    },
+    {
+      "id": "269",
+      "tag1": "269",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "luciana"
+    },
+    {
+      "id": "270",
+      "tag1": "270",
+      "notes": "-- variegated fritillary"
+    },
+    {
+      "id": "271",
+      "tag1": "271",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "272",
+      "tag1": "272",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "273",
+      "tag1": "273",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "274",
+      "tag1": "274",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "275",
+      "tag1": "275",
+      "sex": "m",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "276",
+      "tag1": "276",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "277",
+      "tag1": "277",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "ultronia lucinda"
+    },
+    {
+      "id": "278",
+      "tag1": "278",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "unijuga"
+    },
+    {
+      "id": "279",
+      "tag1": "279",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "innubens (i.)"
+    },
+    {
+      "id": "280",
+      "tag1": "280",
+      "sex": "m",
+      "genus": "Danaus",
+      "species": "plexippus"
+    },
+    {
+      "id": "281",
+      "tag1": "281",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "cara"
+    },
+    {
+      "id": "282",
+      "tag1": "282",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "celtis"
+    },
+    {
+      "id": "283",
+      "tag1": "283",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "innubens (i.)"
+    },
+    {
+      "id": "284",
+      "tag1": "284",
+      "notes": "-- noctuid w/ copper hindwings"
+    },
+    {
+      "id": "285",
+      "tag1": "285",
+      "notes": "-- noctuid w/ copper hindwings"
+    },
+    {
+      "id": "286",
+      "tag1": "286",
+      "notes": "-- tiny beige, red & black moth"
+    },
+    {
+      "id": "287",
+      "tag1": "287",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "innubens (scintillans)"
+    },
+    {
+      "id": "288",
+      "tag1": "288",
+      "genus": "Catocala",
+      "notes": "--pink"
+    },
+    {
+      "id": "289",
+      "tag1": "289",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "cara"
+    },
+    {
+      "id": "290",
+      "tag1": "290",
+      "sex": "m",
+      "genus": "Limenitis",
+      "species": "a. astyanax"
+    },
+    {
+      "id": "291",
+      "tag1": "291",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "innubens (scintillans)"
+    },
+    {
+      "id": "292",
+      "tag1": "292",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "innubens (ninda)"
+    },
+    {
+      "id": "293",
+      "tag1": "293",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "294",
+      "tag1": "294",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "m. milberti"
+    },
+    {
+      "id": "295",
+      "tag1": "295",
+      "notes": "-- sm. beige, striped geometrid"
+    },
+    {
+      "id": "296",
+      "tag1": "296",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "Interrogationis"
+    },
+    {
+      "id": "297",
+      "tag1": "297",
+      "sex": "f",
+      "genus": "Speyeria",
+      "species": "aphrodite alcestis"
+    },
+    {
+      "id": "298",
+      "tag1": "298",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "299",
+      "tag1": "299",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "rapae (rapae)"
+    },
+    {
+      "id": "300",
+      "tag1": "300"
+    },
+    {
+      "id": "301",
+      "tag1": "301",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "parta"
+    },
+    {
+      "id": "302",
+      "tag1": "302"
+    },
+    {
+      "id": "303",
+      "tag1": "303"
+    },
+    {
+      "id": "304",
+      "tag1": "304"
+    },
+    {
+      "id": "305",
+      "tag1": "305",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "innubens (ninda)"
+    },
+    {
+      "id": "306",
+      "tag1": "306",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "Interrogationis"
+    },
+    {
+      "id": "307",
+      "tag1": "307",
+      "sex": "f",
+      "genus": "Everes",
+      "species": "comyntas"
+    },
+    {
+      "id": "308",
+      "tag1": "308",
+      "sex": "m",
+      "genus": "Everes",
+      "species": "comyntas"
+    },
+    {
+      "id": "309",
+      "tag1": "309",
+      "sex": "x e. (ariadne) m",
+      "genus": "Colias",
+      "species": "philodice (anthyale)"
+    },
+    {
+      "id": "310",
+      "tag1": "310",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)"
+    },
+    {
+      "id": "311",
+      "tag1": "311",
+      "sex": "x e. (ariadne) m",
+      "genus": "Colias",
+      "species": "philodice (anthyale)"
+    },
+    {
+      "id": "312",
+      "tag1": "312",
+      "sex": "x e. (ariadne) m",
+      "genus": "Colias",
+      "species": "philodice (anthyale)"
+    },
+    {
+      "id": "313",
+      "tag1": "313",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "p. philodice (p.)"
+    },
+    {
+      "id": "314",
+      "tag1": "314",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme (amphidusa)"
+    },
+    {
+      "id": "315",
+      "tag1": "315",
+      "sex": "x e. (ariadne) m",
+      "genus": "Colias",
+      "species": "philodice (anthyale)"
+    },
+    {
+      "id": "316",
+      "tag1": "316",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "317",
+      "tag1": "317",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "318",
+      "tag1": "318",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "319",
+      "tag1": "319",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme"
+    },
+    {
+      "id": "320",
+      "tag1": "320",
+      "genus": "Chlosyne",
+      "species": "gorgone carlota"
+    },
+    {
+      "id": "321",
+      "tag1": "321",
+      "genus": "Polygonia",
+      "species": "comma (harrisii)"
+    },
+    {
+      "id": "322",
+      "tag1": "322",
+      "genus": "Polygonia",
+      "species": "interrogationis"
+    },
+    {
+      "id": "323",
+      "tag1": "323",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "324",
+      "tag1": "324",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "parta"
+    },
+    {
+      "id": "325",
+      "tag1": "325",
+      "genus": "Polygonia",
+      "species": "comma (harrisii)"
+    },
+    {
+      "id": "326",
+      "tag1": "326",
+      "sex": "m",
+      "genus": "Nymphalis",
+      "species": "m. milberti (nigri)"
+    },
+    {
+      "id": "327",
+      "tag1": "327",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "m. milberti (nigri)"
+    },
+    {
+      "id": "328",
+      "tag1": "328",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "329",
+      "tag1": "329"
+    },
+    {
+      "id": "330",
+      "tag1": "330",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "comma (harrisii)"
+    },
+    {
+      "id": "331",
+      "tag1": "331",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "332",
+      "tag1": "332"
+    },
+    {
+      "id": "333",
+      "tag1": "333",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (metra)"
+    },
+    {
+      "id": "334",
+      "tag1": "334",
+      "sex": "m",
+      "genus": "Nymphalis",
+      "species": "m. milberti (nigri)"
+    },
+    {
+      "id": "335",
+      "tag1": "335",
+      "sex": "m",
+      "genus": "Callophrys",
+      "species": "g. gryneus"
+    },
+    {
+      "id": "336",
+      "tag1": "336",
+      "sex": "f",
+      "genus": "Callophrys",
+      "species": "g. gryneus"
+    },
+    {
+      "id": "337",
+      "tag1": "337",
+      "sex": "m",
+      "genus": "Erynnis",
+      "species": "brizo brizo"
+    },
+    {
+      "id": "338",
+      "tag1": "338",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "339",
+      "tag1": "339",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "p. philodice (anthyale)"
+    },
+    {
+      "id": "340",
+      "tag1": "340",
+      "sex": "m",
+      "genus": "Erynnis",
+      "species": "juvenalis juvenalis"
+    },
+    {
+      "id": "341",
+      "tag1": "341",
+      "sex": "m",
+      "genus": "Pieris",
+      "species": "rapae (metra)"
+    },
+    {
+      "id": "342",
+      "tag1": "342",
+      "sex": "m",
+      "genus": "Erynnis",
+      "species": "juvenalis juvenalis"
+    },
+    {
+      "id": "343",
+      "tag1": "343",
+      "sex": "f",
+      "genus": "Erynnis",
+      "species": "juvenalis juvenalis"
+    },
+    {
+      "id": "344",
+      "tag1": "344",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (marcia)"
+    },
+    {
+      "id": "345",
+      "tag1": "345",
+      "sex": "f",
+      "genus": "Telea",
+      "species": "polyphemus"
+    },
+    {
+      "id": "346",
+      "tag1": "346",
+      "sex": "f",
+      "genus": "Epargyreus",
+      "species": "clarus clarus"
+    },
+    {
+      "id": "347",
+      "tag1": "347",
+      "sex": "m",
+      "genus": "Euptychia",
+      "species": "c. cymela"
+    },
+    {
+      "id": "348",
+      "tag1": "348",
+      "sex": "m",
+      "genus": "Celastrina",
+      "species": "argiolus pseudargiolus (p.)"
+    },
+    {
+      "id": "349",
+      "tag1": "349",
+      "sex": "m?",
+      "genus": "Poanes"
+    },
+    {
+      "id": "350",
+      "tag1": "350",
+      "sex": "m",
+      "genus": "Telea",
+      "species": "polyphemus"
+    },
+    {
+      "id": "351",
+      "tag1": "351",
+      "sex": "m",
+      "genus": "Halisidota",
+      "species": "caryae"
+    },
+    {
+      "id": "352",
+      "tag1": "352",
+      "sex": "m",
+      "genus": "Everes",
+      "species": "comyntas"
+    },
+    {
+      "id": "353",
+      "tag1": "353",
+      "sex": "f",
+      "genus": "Everes",
+      "species": "comyntas"
+    },
+    {
+      "id": "354",
+      "tag1": "354",
+      "sex": "f",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "355",
+      "tag1": "355",
+      "sex": "m",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "356",
+      "tag1": "356",
+      "sex": "m",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "357",
+      "tag1": "357",
+      "sex": "m",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "358",
+      "tag1": "358",
+      "sex": "m",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "359",
+      "tag1": "359",
+      "sex": "m",
+      "genus": "Pieris"
+    },
+    {
+      "id": "360",
+      "tag1": "360",
+      "sex": "m",
+      "genus": "Plebejus"
+    },
+    {
+      "id": "361",
+      "tag1": "361",
+      "sex": "m",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "362",
+      "tag1": "362",
+      "sex": "m",
+      "genus": "Plebejus"
+    },
+    {
+      "id": "363",
+      "tag1": "363",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "364",
+      "tag1": "364",
+      "sex": "f",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "365",
+      "tag1": "365",
+      "genus": "Lycaena"
+    },
+    {
+      "id": "366",
+      "tag1": "366",
+      "genus": "Lycaena",
+      "species": "xanthoides dione"
+    },
+    {
+      "id": "367",
+      "tag1": "367"
+    },
+    {
+      "id": "368",
+      "tag1": "368",
+      "genus": "Pyrgus",
+      "species": "c. communis"
+    },
+    {
+      "id": "369",
+      "tag1": "369",
+      "genus": "Pyrgus",
+      "species": "c. communis"
+    },
+    {
+      "id": "370",
+      "tag1": "370",
+      "genus": "Pholisora",
+      "species": "catullus"
+    },
+    {
+      "id": "371",
+      "tag1": "371",
+      "sex": "m",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "372",
+      "tag1": "372",
+      "genus": "Lycaena"
+    },
+    {
+      "id": "373",
+      "tag1": "373",
+      "sex": "f",
+      "genus": "Plebejus"
+    },
+    {
+      "id": "374",
+      "tag1": "374",
+      "genus": "Strymon/Satyrium"
+    },
+    {
+      "id": "375",
+      "tag1": "375",
+      "genus": "Strymon/Satyrium"
+    },
+    {
+      "id": "376",
+      "tag1": "376"
+    },
+    {
+      "id": "377",
+      "tag1": "377",
+      "genus": "Lycaena"
+    },
+    {
+      "id": "378",
+      "tag1": "378",
+      "sex": "m",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "379",
+      "tag1": "379",
+      "sex": "m",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "380",
+      "tag1": "380",
+      "genus": "Lycaena",
+      "species": "xanthoides dione"
+    },
+    {
+      "id": "381",
+      "tag1": "381"
+    },
+    {
+      "id": "382",
+      "tag1": "382",
+      "sex": "f",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "383",
+      "tag1": "383",
+      "sex": "f",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "384",
+      "tag1": "384"
+    },
+    {
+      "id": "385",
+      "tag1": "385",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "386",
+      "tag1": "386",
+      "genus": "Speyeria",
+      "species": "edwardsii"
+    },
+    {
+      "id": "387",
+      "tag1": "387",
+      "sex": "f",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "388",
+      "tag1": "388",
+      "genus": "Speyeria",
+      "species": "edwardsi"
+    },
+    {
+      "id": "389",
+      "tag1": "389",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "390",
+      "tag1": "390",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "391",
+      "tag1": "391",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "392",
+      "tag1": "392",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "393",
+      "tag1": "393"
+    },
+    {
+      "id": "394",
+      "tag1": "394",
+      "sex": "m",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "395",
+      "tag1": "395",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "396",
+      "tag1": "396",
+      "sex": "m",
+      "genus": "Colias",
+      "species": "eurytheme"
+    },
+    {
+      "id": "397",
+      "tag1": "397",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "398",
+      "tag1": "398",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "399",
+      "tag1": "399",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "philodice-eurytheme"
+    },
+    {
+      "id": "400",
+      "tag1": "400",
+      "sex": "f",
+      "genus": "Everes",
+      "species": "comyntas"
+    },
+    {
+      "id": "401",
+      "tag1": "401"
+    },
+    {
+      "id": "402",
+      "tag1": "402",
+      "sex": "m",
+      "genus": "Phyciodes",
+      "species": "t. tharos (morpheus)"
+    },
+    {
+      "id": "403",
+      "tag1": "403",
+      "genus": "Parnassius"
+    },
+    {
+      "id": "404",
+      "tag1": "404",
+      "genus": "Coenonympha"
+    },
+    {
+      "id": "405",
+      "tag1": "405",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "406",
+      "tag1": "406",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "407",
+      "tag1": "407",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "408",
+      "tag1": "408",
+      "genus": "Limenitis"
+    },
+    {
+      "id": "409",
+      "tag1": "409"
+    },
+    {
+      "id": "410",
+      "tag1": "410",
+      "genus": "Speyeria",
+      "species": "edwardsi"
+    },
+    {
+      "id": "411",
+      "tag1": "411",
+      "genus": "Speyeria",
+      "species": "edwardsi"
+    },
+    {
+      "id": "412",
+      "tag1": "412",
+      "-spread": "false",
+      "notes": "sm. Noctuid moth like underwing"
+    },
+    {
+      "id": "413",
+      "tag1": "413",
+      "genus": "Speyeria",
+      "species": "edwardsi"
+    },
+    {
+      "id": "414",
+      "tag1": "414",
+      "genus": "Erynnis"
+    },
+    {
+      "id": "415",
+      "tag1": "415",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "416",
+      "tag1": "416",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "417",
+      "tag1": "417"
+    },
+    {
+      "id": "418",
+      "tag1": "418",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "419",
+      "tag1": "419",
+      "sex": "m?",
+      "genus": "Plebejus?"
+    },
+    {
+      "id": "420",
+      "tag1": "420",
+      "sex": "f?",
+      "genus": "Plebejus?"
+    },
+    {
+      "id": "421",
+      "tag1": "421"
+    },
+    {
+      "id": "422",
+      "tag1": "422",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "423",
+      "tag1": "423",
+      "genus": "Chlosyne",
+      "species": "gorgone carlota"
+    },
+    {
+      "id": "424",
+      "tag1": "424",
+      "genus": "Chlosyne",
+      "species": "gorgone carlota"
+    },
+    {
+      "id": "425",
+      "tag1": "425",
+      "sex": "m",
+      "genus": "Strymon",
+      "species": "melinus franki"
+    },
+    {
+      "id": "426",
+      "tag1": "426",
+      "sex": "f",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "427",
+      "tag1": "427",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "parta"
+    },
+    {
+      "id": "428",
+      "tag1": "428",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "ultronia lucinda"
+    },
+    {
+      "id": "429",
+      "tag1": "429",
+      "sex": "m",
+      "genus": "Satyrium"
+    },
+    {
+      "id": "430",
+      "tag1": "430",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "431",
+      "tag1": "431",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "432",
+      "tag1": "432",
+      "sex": "f",
+      "genus": "Catocala",
+      "species": "ultronia lucinda"
+    },
+    {
+      "id": "433",
+      "tag1": "433",
+      "sex": "m",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "434",
+      "tag1": "434",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "435",
+      "tag1": "435",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "clyton"
+    },
+    {
+      "id": "436",
+      "tag1": "436",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "437",
+      "tag1": "437",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "438",
+      "tag1": "438",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "439",
+      "tag1": "439",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "440",
+      "tag1": "440",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "441",
+      "tag1": "441",
+      "genus": "Limenitis",
+      "species": "a. archippus"
+    },
+    {
+      "id": "442",
+      "tag1": "442",
+      "genus": "Catocala"
+    },
+    {
+      "id": "443",
+      "tag1": "443"
+    },
+    {
+      "id": "444",
+      "tag1": "444",
+      "genus": "Libytheana",
+      "species": "b. bachmanii"
+    },
+    {
+      "id": "445",
+      "tag1": "445"
+    },
+    {
+      "id": "446",
+      "tag1": "446",
+      "sex": "f",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "447",
+      "tag1": "447"
+    },
+    {
+      "id": "448",
+      "tag1": "448",
+      "genus": "Catocala"
+    },
+    {
+      "id": "449",
+      "tag1": "449",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "g. glaucus"
+    },
+    {
+      "id": "450",
+      "tag1": "450",
+      "sex": "f",
+      "genus": "Isia",
+      "species": "isabellae"
+    },
+    {
+      "id": "451",
+      "tag1": "451"
+    },
+    {
+      "id": "452",
+      "tag1": "452",
+      "sex": "f",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "453",
+      "tag1": "453",
+      "genus": "Polygonia",
+      "species": "canus"
+    },
+    {
+      "id": "454",
+      "tag1": "454",
+      "sex": "m",
+      "genus": "Catocala",
+      "species": "amatrix (amatrix)"
+    },
+    {
+      "id": "455",
+      "tag1": "455",
+      "sex": "f",
+      "genus": "Asterocampa",
+      "species": "celtis"
+    },
+    {
+      "id": "456",
+      "tag1": "456",
+      "sex": "f",
+      "genus": "Precis",
+      "species": "c. coenia"
+    },
+    {
+      "id": "457",
+      "tag1": "457",
+      "sex": "f",
+      "genus": "Polygonia",
+      "species": "Interrogationis"
+    },
+    {
+      "id": "458",
+      "tag1": "458",
+      "genus": "Papilio",
+      "species": "polyxenes asterius"
+    },
+    {
+      "id": "508",
+      "tag1": "508",
+      "sex": "m",
+      "genus": "Erynnis",
+      "species": "juvenalis juvenalis"
+    },
+    {
+      "id": "509",
+      "tag1": "509",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "g. glaucus"
+    },
+    {
+      "id": "510",
+      "tag1": "510",
+      "sex": "f",
+      "genus": "Erynnis",
+      "species": "juvenalis juvenalis"
+    },
+    {
+      "id": "511",
+      "tag1": "511",
+      "sex": "m",
+      "genus": "Telea",
+      "species": "polyphemus"
+    },
+    {
+      "id": "512",
+      "tag1": "512",
+      "sex": "m",
+      "genus": "Satyrium",
+      "species": "calanus falacer"
+    },
+    {
+      "id": "513",
+      "tag1": "513",
+      "sex": "f",
+      "genus": "Ancyloxypha",
+      "species": "numitor"
+    },
+    {
+      "id": "514",
+      "tag1": "514",
+      "sex": "m",
+      "genus": "Calasymbolus",
+      "species": "myops"
+    },
+    {
+      "id": "515",
+      "tag1": "515",
+      "sex": "m",
+      "genus": "Ancyloxypha",
+      "species": "numitor"
+    },
+    {
+      "id": "516",
+      "tag1": "516",
+      "sex": "m",
+      "genus": "Hemiargus",
+      "species": "isola alce"
+    },
+    {
+      "id": "517",
+      "tag1": "517",
+      "sex": "m",
+      "genus": "Polygonia",
+      "species": "comma (dryas)"
+    },
+    {
+      "id": "518",
+      "tag1": "518",
+      "sex": "m",
+      "genus": "Vanessa (V.)",
+      "species": "atalanta rubria"
+    },
+    {
+      "id": "519",
+      "tag1": "519",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "520",
+      "tag1": "520",
+      "sex": "f",
+      "genus": "Nymphalis",
+      "species": "antiopa paracreta"
+    },
+    {
+      "id": "521",
+      "tag1": "521",
+      "sex": "m",
+      "genus": "Syssphinx",
+      "species": "bicolor"
+    },
+    {
+      "id": "522",
+      "tag1": "522",
+      "-spread": "false",
+      "notes": "generic moth"
+    },
+    {
+      "id": "523",
+      "tag1": "523",
+      "sex": "m",
+      "genus": "Actias",
+      "species": "luna"
+    },
+    {
+      "id": "524",
+      "tag1": "524",
+      "genus": "Speyeria/Euptoieta",
+      "-spread": "false",
+      "notes": "possibly large female Asterocampa clyton"
+    },
+    {
+      "id": "525",
+      "tag1": "525",
+      "genus": "Cercyonis",
+      "-spread": "false"
+    },
+    {
+      "id": "526",
+      "tag1": "526",
+      "genus": "Cercyonis",
+      "-spread": "false"
+    },
+    {
+      "id": "527",
+      "tag1": "527",
+      "sex": "f",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "528",
+      "tag1": "528",
+      "sex": "m",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "529",
+      "tag1": "529",
+      "genus": "Limenitis"
+    },
+    {
+      "id": "530",
+      "tag1": "530",
+      "genus": "Speyeria"
+    },
+    {
+      "id": "531",
+      "tag1": "531",
+      "genus": "Cercyonis",
+      "-spread": "false"
+    },
+    {
+      "id": "532",
+      "tag1": "532",
+      "genus": "Cercyonis",
+      "-spread": "false"
+    },
+    {
+      "id": "533",
+      "tag1": "533",
+      "genus": "Pieris",
+      "-spread": "false"
+    },
+    {
+      "id": "534",
+      "tag1": "534",
+      "-spread": "false",
+      "notes": "small dark blue, prob. Everes c. comyntas"
+    },
+    {
+      "id": "535",
+      "tag1": "535",
+      "sex": "f",
+      "genus": "Pieris",
+      "species": "p. protodice"
+    },
+    {
+      "id": "536",
+      "tag1": "536",
+      "-spread": "false",
+      "notes": "small blue w. orange submarginals, from Steele"
+    },
+    {
+      "id": "537",
+      "tag1": "537",
+      "sex": "m",
+      "genus": "Hesperia/Poanes"
+    },
+    {
+      "id": "538",
+      "tag1": "538",
+      "sex": "m",
+      "genus": "Plebejus?"
+    },
+    {
+      "id": "539",
+      "tag1": "539",
+      "genus": "Phyciodes",
+      "species": "pulchella",
+      "location": { "latLong": "39.068138, -106.409844" },
+      "place" : "CO, Lake - T11S - R81W - S26 - at Parry Peak campground in center of loop, on grass",
+      "time" : "1979-08-22-1024"
+    },
+    {
+      "id": "540",
+      "tag1": "540",
+      "genus": "Cercyonis"
+    },
+    {
+      "id": "541",
+      "tag1": "541"
+    },
+    {
+      "id": "542",
+      "tag1": "542",
+      "genus": "Lycaena"
+    },
+    {
+      "id": "543",
+      "tag1": "543",
+      "genus": "Vanessa (Cynthia)",
+      "species": "cardui"
+    },
+    {
+      "id": "544",
+      "tag1": "544",
+      "-spread": "false",
+      "notes": "sm. Noctuid moth w. pearly spots, prob. Plusiina subtribe, Autographa or Syngrapha"
+    },
+    {
+      "id": "545",
+      "tag1": "545",
+      "genus": "Catocala"
+    },
+    {
+      "id": "546",
+      "tag1": "546"
+    },
+    {
+      "id": "547",
+      "genus": "Boloria",
+      "species": "selene myrina",
+      "time": "1980-05-25 1145",
+      "location": {
+        "ref": "home",
+        "place": "flew over hedge and into valley"
+      }
+    },
+    {
+      "id": "548",
+      "genus": "Boloria",
+      "species": "selene myrina",
+      "time": "1980-05-26 1344",
+      "location": {
+        "ref": "home",
+        "place": "in front of front door of house"
+      }
+    },
+    {
+      "id": "586",
+      "time": "1981-06-17 2130",
+      "place": "home, at light in garage by house door",
+      "notes": "white lined sphinx"
+    },
+    {
+      "id": "587",
+      "time": "1981-06-17 2135",
+      "place": "home, at light in garage by house door",
+      "notes": "white lined sphinx"
+    },
+    {
+      "id": "588",
+      "tag1": "588",
+      "species": "promethea",
+      "time": "7/13/82",
+      "place": "home"
+    },
+    {
+      "id": "589",
+      "tag1": "589",
+      "sex": "m",
+      "genus": "Basilona",
+      "species": "imperialis",
+      "time": "7/19/82",
+      "place": "Mendel's"
+    },
+    {
+      "id": "590",
+      "tag1": "595?",
+      "genus": "Catocala",
+      "time": "5/22/82  23:30",
+      "place": "home: at driveway flood"
+    },
+    {
+      "id": "591",
+      "tag1": "591",
+      "genus": "Amphion",
+      "species": "nessus",
+      "time": "6/21/83  19:00",
+      "place": "home: at privet hedge (3rd day blooming)"
+    },
+    {
+      "id": "592",
+      "tag1": "592",
+      "genus": "Calasymbolus",
+      "species": "myops",
+      "time": "7/27/83  19:30",
+      "place": "home: under fuse box (garage light)"
+    },
+    {
+      "id": "593",
+      "collector": "dad",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "g. glaucus",
+      "time": "1986-08-17",
+      "place": "home; garden in front of house"
+    },
+    {
+      "id": "594",
+      "tag1": "594"
+    },
+    {
+      "id": "595",
+      "tag1": "595",
+      "genus": "Catocala",
+      "time": "no data",
+      "place": "no data"
+    },
+    {
+      "id": "A01",
+      "tag1": "AF13",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "pylades"
+    },
+    {
+      "id": "A02",
+      "tag1": "A02",
+      "genus": "Salamis",
+      "species": "cacta"
+    },
+    {
+      "id": "A04",
+      "tag1": "A04",
+      "sex": "m",
+      "genus": "Precis",
+      "species": "clelia"
+    },
+    {
+      "id": "A05",
+      "tag1": "A05",
+      "sex": "m",
+      "genus": "Atrophaneura",
+      "species": "horishana"
+    },
+    {
+      "id": "A07",
+      "tag1": "AF24",
+      "sex": "m",
+      "genus": "Cymothoe",
+      "species": "aramis",
+      "time": "13 AOUT 1976"
+    },
+    {
+      "id": "A08",
+      "tag1": "A08",
+      "genus": "Cymothoe",
+      "species": "sangaris?"
+    },
+    {
+      "id": "A09",
+      "tag1": "A09",
+      "genus": "Precis"
+    },
+    {
+      "id": "A10",
+      "tag1": "A10"
+    },
+    {
+      "id": "A11",
+      "tag1": "A11",
+      "genus": "Vanessa"
+    },
+    {
+      "id": "A12",
+      "tag1": "A12",
+      "genus": "Vanessa"
+    },
+    {
+      "id": "A13",
+      "tag1": "A13"
+    },
+    {
+      "id": "A14",
+      "tag1": "A14"
+    },
+    {
+      "id": "A99",
+      "tag1": "A99"
+    },
+    {
+      "id": "AF56",
+      "tag1": "AF56",
+      "sex": "m",
+      "genus": "Danaus",
+      "species": "petiverania"
+    },
+    {
+      "id": "AF57",
+      "tag1": "AF57",
+      "sex": "m",
+      "genus": "Papilio",
+      "species": "antheus"
+    },
+    {
+      "id": "u12",
+      "tag1": "u12",
+      "sex": "f",
+      "genus": "Actias",
+      "species": "luna",
+      "time": "90?",
+      "place": "home: at shop"
+    },
+    {
+      "id": "u23",
+      "tag1": "u23",
+      "genus": "Nymphalis",
+      "species": "vau-album ssp."
+    },
+    {
+      "id": "u25",
+      "tag1": "u25",
+      "sex": "f",
+      "genus": "Colias",
+      "species": "eurytheme/philodice"
+    },
+    {
+      "id": "u28",
+      "tag1": "u28",
+      "genus": "Colias",
+      "species": "philodice"
+    },
+    {
+      "id": "u29",
+      "tag1": "u29",
+      "genus": "Colias",
+      "species": "philodice"
+    },
+    {
+      "id": "u32",
+      "tag1": "u32",
+      "genus": "Calasymbolus",
+      "species": "excaecatus"
+    },
+    {
+      "id": "u36",
+      "tag1": "u36",
+      "sex": "f",
+      "genus": "Papilio",
+      "species": "polyxenes"
+    },
+    {
+      "id": "u37",
+      "tag1": "u37",
+      "sex": "m",
+      "genus": "Telea",
+      "species": "polyphemus"
+    },
+    {
+      "id": "u38",
+      "tag1": "u38",
+      "genus": "Euptychia",
+      "notes": "-- unmounted wings"
+    },
+    {
+      "id": "u43",
+      "tag1": "u43",
+      "genus": "Pieris",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "u44",
+      "tag1": "u44",
+      "notes": "-- sm. brown blue, pieces, unmounted"
+    },
+    {
+      "id": "u45",
+      "tag1": "u45",
+      "genus": "Euptoieta",
+      "species": "claudia",
+      "notes": "-- wings, unmounted"
+    },
+    {
+      "id": "u46",
+      "tag1": "u46",
+      "genus": "Pieris",
+      "species": "rapae",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "u47",
+      "tag1": "u47",
+      "genus": "Pieris",
+      "species": "rapae",
+      "notes": "-- unmounted"
+    },
+    {
+      "id": "xx1",
+      "genus": "Papilio",
+      "species": "g. glaucus",
+      "time": "1999-08-08",
+      "place": "found dead in S sawmill window; unmounted in bottom drawer"
+    },
+    {
+      "id": "xx2",
+      "genus": "Actias",
+      "species": "luna",
+      "time": "1996-08-17",
+      "place": "found by shop; already dead; unmounted in bottom drawer"
+    },
+    {
+      "tag": "xx3",
+      "genus": "Hyloicus",
+      "species": "vancouverensis albescens",
+      "notes": "Vancouver Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; possible captured at Wardell, or at Calabazas, or by Mom&Dad in Seattle",
+      "reference": {
+        "ref": "holland",
+        "#text": "p. 50"
+      }
+    }
+  ],
+  "pupa": {
+    "-label": "pnm1",
+    "time": "1986-08-24",
+    "place": "Freeport; on barrel by driveway at Pinewood",
+    "notes": "probably N. milberti - dead of heat or cracking"
+  },
+  "placeholder": [
+    "data for 001-458 still on paper",
+    "data for 508-548 still on paper",
+    "data for 586-595 still on paper"
+  ]
+}

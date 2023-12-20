@@ -1,0 +1,15 @@
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.specimen {
+  background-color: rgb(88, 112, 132);
+}
+
+.sessionList {
+  background-color: rgb(48, 63, 75);
+  border: 1px solid white;
+}
