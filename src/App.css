@@ -11,5 +11,7 @@
 
 .sessionList {
   background-color: rgb(48, 63, 75);
-  border: 1px solid white;
+  border: 1px solid rgb(225, 210, 134);
+  list-style-type: none;
+  padding-inline-start: 2rem;
 }

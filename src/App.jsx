@@ -15,10 +15,19 @@ const Specimen = props =>
 
 const CollectingSession = props =>
 {
+  const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( true );
+  const [ sessionsCollapsed, setSessionsCollapsed ] = createSignal( false );
+
+  const toggleCollapsed = e =>
+  {
+    e .stopPropagation();
+    setSpecimensCollapsed( val => !val );
+  }
+
   return (
-    <ul class='sessionList'>
+    <ul class='sessionList' onClick={ toggleCollapsed }>
       {props.session.name || 'COLLECTION'}
-      <Show when={ !props.collapsed }>
+      <Show when={ !specimensCollapsed() }>
         <Show when={ Array.isArray( props.session.specimen ) } fallback={
           <Specimen {...props.session.specimen}/>
         }>
@@ -26,9 +35,11 @@ const CollectingSession = props =>
             <Specimen {...singleSpecimen}/>
           }</For>
         </Show>
+      </Show>
+      <Show when={ !sessionsCollapsed() }>
         <For each={props.session.collectingSession}>{ session =>
           <li class='session'>
-            <CollectingSession session={ session } collapsed={true} />
+            <CollectingSession session={ session } />
           </li>
         }</For>
       </Show>
