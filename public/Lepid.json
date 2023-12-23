@@ -4,15 +4,17 @@
     "location": [
       {
         "name": "home",
+        "latLong": "42.32743, -89.69033",
         "place": "Freeport, IL, USA; 1657 N. Harlem Center Rd",
-        "latLong": "42.327546, -89.690243",
         "location": {
           "name": "hedge",
+          "latLong": "42.32729, -89.69014",
           "place": "privet hedge along E edge of driveway by house"
         }
       },
       {
         "name": "carlDrive",
+        "latLong": "35.91177, -79.11957",
         "place": "Chapel Hill, NC, USA; 716 Carl Drive"
       },
       {
@@ -21,27 +23,45 @@
         "location": [
           {
             "name": "turnpike",
+            "latLong": "26.63662, -80.17479",
             "place": "Palm Beach Co., W. Palm Beach Service Station on Fla Turnpike"
           },
           {
             "name": "longKey",
+            "latLong": "24.81497, -80.81618",
             "place": "Long Key, in the Keys; Long Key State Park nature trail"
           },
           {
             "name": "everglades",
+            "latLong": "25.39909, -80.65634",
             "place": "Everglades National Park, Long Pine Key campground"
           },
           {
             "name": "bigCypress",
-            "place": "on US 94, just off US 41 (going W), in Big Cypress Nature Preserve"
+            "latLong": "25.7619, -80.4908",
+            "place": "on US 94, just off US 41 (going W), in Big Cypress Nature Preserve",
+            "note": "SV 2023-12: latLong is a guess, since place doesn't make sense"
           },
           {
             "name": "chokoloskee",
-            "place": "on Chokoloskee Island, Bay View campground"
+            "latLong": "25.8158, -81.3582",
+            "place": "on Chokoloskee Island, Bay View campground",
+            "note": "SV 2023-12: latLong is a guess, since campground is gone"
           },
           {
             "name": "koa",
             "place": "KOA campground somewhere, see Mom's calendar/notes"
+          }
+        ]
+      },
+      {
+        "name": "ND",
+        "place": "North Dakota",
+        "location": [
+          {
+            "name": "Roger",
+            "place": "Baker township section 14",
+            "latLong": "46.6828, -99.9826"
           }
         ]
       },
@@ -226,6 +246,192 @@
           "id": "A24",
           "tag1": "A24",
           "genus": "Urania"
+        }
+      ]
+    },
+    {
+      "name": "north-dakota-1978",
+      "time": "1978",
+      "location": { "ref": "ND.Roger" },
+      "notes": "I stayed 2-1/2 weeks with Roger & Eldie.  Almost all data is still in the steno notebook, not here.",
+      "specimen": [
+        {
+          "id": "354",
+          "tag1": "354",
+          "sex": "f",
+          "genus": "Coenonympha",
+          "species": "inornata benjamini",
+          "time": "1978-06-18 17:28",
+          "location": "46.68305, -99.98308",
+          "place": "N of quonset, S of evergreens"
+        },
+        {
+          "id": "355",
+          "tag1": "355",
+          "sex": "m",
+          "genus": "Coenonympha"
+        },
+        {
+          "id": "356",
+          "tag1": "356",
+          "sex": "m",
+          "genus": "Coenonympha"
+        },
+        {
+          "id": "357",
+          "tag1": "357",
+          "sex": "m",
+          "genus": "Pholisora",
+          "species": "catullus"
+        },
+        {
+          "id": "358",
+          "tag1": "358",
+          "sex": "m",
+          "genus": "Coenonympha"
+        },
+        {
+          "id": "359",
+          "tag1": "359",
+          "sex": "m",
+          "genus": "Pieris"
+        },
+        {
+          "id": "360",
+          "tag1": "360",
+          "sex": "m",
+          "genus": "Plebejus"
+        },
+        {
+          "id": "361",
+          "tag1": "361",
+          "sex": "m",
+          "genus": "Hesperia/Poanes"
+        },
+        {
+          "id": "362",
+          "tag1": "362",
+          "sex": "m",
+          "genus": "Plebejus"
+        },
+        {
+          "id": "363",
+          "tag1": "363",
+          "genus": "Pholisora",
+          "species": "catullus"
+        },
+        {
+          "id": "364",
+          "tag1": "364",
+          "sex": "f",
+          "genus": "Coenonympha"
+        },
+        {
+          "id": "365",
+          "tag1": "365",
+          "genus": "Lycaena"
+        },
+        {
+          "id": "366",
+          "tag1": "366",
+          "genus": "Lycaena",
+          "species": "xanthoides dione"
+        },
+        {
+          "id": "367",
+          "tag1": "367"
+        },
+        {
+          "id": "368",
+          "tag1": "368",
+          "genus": "Pyrgus",
+          "species": "c. communis"
+        },
+        {
+          "id": "369",
+          "tag1": "369",
+          "genus": "Pyrgus",
+          "species": "c. communis"
+        },
+        {
+          "id": "370",
+          "tag1": "370",
+          "genus": "Pholisora",
+          "species": "catullus"
+        },
+        {
+          "id": "371",
+          "tag1": "371",
+          "sex": "m",
+          "genus": "Cercyonis"
+        },
+        {
+          "id": "372",
+          "tag1": "372",
+          "genus": "Lycaena"
+        },
+        {
+          "id": "373",
+          "tag1": "373",
+          "sex": "f",
+          "genus": "Plebejus"
+        },
+        {
+          "id": "374",
+          "tag1": "374",
+          "genus": "Strymon/Satyrium"
+        },
+        {
+          "id": "375",
+          "tag1": "375",
+          "genus": "Strymon/Satyrium"
+        },
+        {
+          "id": "376",
+          "tag1": "376"
+        },
+        {
+          "id": "377",
+          "tag1": "377",
+          "genus": "Lycaena"
+        },
+        {
+          "id": "378",
+          "tag1": "378",
+          "sex": "m",
+          "genus": "Hesperia/Poanes"
+        },
+        {
+          "id": "379",
+          "tag1": "379",
+          "sex": "m",
+          "genus": "Cercyonis"
+        },
+        {
+          "id": "380",
+          "tag1": "380",
+          "genus": "Lycaena",
+          "species": "xanthoides dione"
+        },
+        {
+          "id": "381",
+          "tag1": "381"
+        },
+        {
+          "id": "382",
+          "tag1": "382",
+          "sex": "f",
+          "genus": "Cercyonis"
+        },
+        {
+          "id": "383",
+          "tag1": "383",
+          "sex": "f",
+          "genus": "Cercyonis"
+        },
+        {
+          "id": "384",
+          "tag1": "384"
         }
       ]
     },
@@ -570,7 +776,7 @@
           "tag1": "u35",
           "genus": "Papilio",
           "species": "palamedes",
-          "notes": "no exact data; probably found on roadside or in car grill"
+          "notes": "no exact data, SV noted 2003-10-13; probably found on roadside or in car grill by dad on a trip to FL"
         }
       ]
     },
@@ -5543,180 +5749,6 @@
       "species": "comyntas"
     },
     {
-      "id": "354",
-      "tag1": "354",
-      "sex": "f",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "355",
-      "tag1": "355",
-      "sex": "m",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "356",
-      "tag1": "356",
-      "sex": "m",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "357",
-      "tag1": "357",
-      "sex": "m",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "358",
-      "tag1": "358",
-      "sex": "m",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "359",
-      "tag1": "359",
-      "sex": "m",
-      "genus": "Pieris"
-    },
-    {
-      "id": "360",
-      "tag1": "360",
-      "sex": "m",
-      "genus": "Plebejus"
-    },
-    {
-      "id": "361",
-      "tag1": "361",
-      "sex": "m",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "362",
-      "tag1": "362",
-      "sex": "m",
-      "genus": "Plebejus"
-    },
-    {
-      "id": "363",
-      "tag1": "363",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "364",
-      "tag1": "364",
-      "sex": "f",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "365",
-      "tag1": "365",
-      "genus": "Lycaena"
-    },
-    {
-      "id": "366",
-      "tag1": "366",
-      "genus": "Lycaena",
-      "species": "xanthoides dione"
-    },
-    {
-      "id": "367",
-      "tag1": "367"
-    },
-    {
-      "id": "368",
-      "tag1": "368",
-      "genus": "Pyrgus",
-      "species": "c. communis"
-    },
-    {
-      "id": "369",
-      "tag1": "369",
-      "genus": "Pyrgus",
-      "species": "c. communis"
-    },
-    {
-      "id": "370",
-      "tag1": "370",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "371",
-      "tag1": "371",
-      "sex": "m",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "372",
-      "tag1": "372",
-      "genus": "Lycaena"
-    },
-    {
-      "id": "373",
-      "tag1": "373",
-      "sex": "f",
-      "genus": "Plebejus"
-    },
-    {
-      "id": "374",
-      "tag1": "374",
-      "genus": "Strymon/Satyrium"
-    },
-    {
-      "id": "375",
-      "tag1": "375",
-      "genus": "Strymon/Satyrium"
-    },
-    {
-      "id": "376",
-      "tag1": "376"
-    },
-    {
-      "id": "377",
-      "tag1": "377",
-      "genus": "Lycaena"
-    },
-    {
-      "id": "378",
-      "tag1": "378",
-      "sex": "m",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "379",
-      "tag1": "379",
-      "sex": "m",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "380",
-      "tag1": "380",
-      "genus": "Lycaena",
-      "species": "xanthoides dione"
-    },
-    {
-      "id": "381",
-      "tag1": "381"
-    },
-    {
-      "id": "382",
-      "tag1": "382",
-      "sex": "f",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "383",
-      "tag1": "383",
-      "sex": "f",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "384",
-      "tag1": "384"
-    },
-    {
       "id": "385",
       "tag1": "385",
       "genus": "Vanessa (Cynthia)",
@@ -6426,7 +6458,7 @@
       "id": "588",
       "tag1": "588",
       "species": "promethea",
-      "time": "7/13/82",
+      "time": "1982-07-13",
       "place": "home"
     },
     {
@@ -6435,14 +6467,14 @@
       "sex": "m",
       "genus": "Basilona",
       "species": "imperialis",
-      "time": "7/19/82",
+      "time": "1982-07-19",
       "place": "Mendel's"
     },
     {
       "id": "590",
       "tag1": "595?",
       "genus": "Catocala",
-      "time": "5/22/82  23:30",
+      "time": "1982-05-22 23:30",
       "place": "home: at driveway flood"
     },
     {
@@ -6450,7 +6482,7 @@
       "tag1": "591",
       "genus": "Amphion",
       "species": "nessus",
-      "time": "6/21/83  19:00",
+      "time": "1983-06-21 19:00",
       "place": "home: at privet hedge (3rd day blooming)"
     },
     {
@@ -6458,7 +6490,7 @@
       "tag1": "592",
       "genus": "Calasymbolus",
       "species": "myops",
-      "time": "7/27/83  19:30",
+      "time": "1983-07-27 19:30",
       "place": "home: under fuse box (garage light)"
     },
     {
@@ -6674,7 +6706,7 @@
       "place": "found by shop; already dead; unmounted in bottom drawer"
     },
     {
-      "tag": "xx3",
+      "id": "xx3",
       "genus": "Hyloicus",
       "species": "vancouverensis albescens",
       "notes": "Vancouver Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; possible captured at Wardell, or at Calabazas, or by Mom&Dad in Seattle",
@@ -6692,7 +6724,6 @@
   },
   "placeholder": [
     "data for 001-458 still on paper",
-    "data for 508-548 still on paper",
-    "data for 586-595 still on paper"
+    "data for 508-548 still on paper"
   ]
 }
