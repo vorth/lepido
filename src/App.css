@@ -1,12 +1,46 @@
 
+html,
+body {
+  height: 100%;
+  position: absolute;
+  inset: 0;
+}
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
+  padding: 3rem;
+  height: 90%;
+}
+
+#collection {
+  display: grid;
+  grid-template-columns: minmax(0,1fr) minmax(0,2fr);
+  height: 100%;
+}
+
+#selectedSpecimen {
+  background-color: rgb(183, 208, 229);
+  color: black;
   padding: 2rem;
+}
+
+#picker {
+  width: 25rem;
+  overflow: auto;
+  height: 100%;
+}
+
+#detail {
+  background-color: rgb(88, 112, 132);
 }
 
 .specimen {
   background-color: rgb(88, 112, 132);
+}
+
+.selected {
+  background-color: rgb(183, 208, 229);
+  color: black;
 }
 
 .sessionList {
@@ -14,4 +48,5 @@
   border: 1px solid rgb(225, 210, 134);
   list-style-type: none;
   padding-inline-start: 2rem;
+  margin: 0;
 }
