@@ -250,6 +250,357 @@
       ]
     },
     {
+      "name": "ozarks-1974",
+      "time": "1974",
+      "collectingSession" : [
+        {
+          "name": "campground",
+          "latLong": "38.07070, -92.57638",
+          "place": "MO, Miller. Lake of the Ozarks S.P. at loop at S. end of MO 134",
+          "notes": "in shady campsites",
+          "specimen": [
+            {
+              "id": "006",
+              "tag1": "006",
+              "genus": "Euptychia",
+              "species": "c. cymela",
+              "time": "1974-07-04"
+            },
+            {
+              "id": "007",
+              "tag1": "007",
+              "genus": "Euptychia",
+              "species": "c. cymela",
+              "time": "1974-07-04"
+            },
+            {
+              "id": "129",
+              "sex": "m",
+              "genus": "Eurema",
+              "species": "l. lisa",
+              "time": "1974-07-06"
+            }
+          ]
+        }
+      ],
+      "specimen": [
+        {
+          "id": "130",
+          "sex": "f",
+          "genus": "Telea",
+          "species": "polyphemus",
+          "time": "1974-07-09",
+          "place": "motel in St. Louis; returning from Ozarks; on motel wall in morning"
+        },
+        {
+          "id": "131",
+          "sex": "m",
+          "genus": "Graphium",
+          "species": "marcellus (lecontei)",
+          "time": "1974-07-13",
+          "latLong": "39.20927, -90.54911",
+          "place": "Koster Site, S IL; returning from Ozarks?"
+        },
+        {
+          "id": "132",
+          "sex": "m",
+          "genus": "Graphium",
+          "species": "marcellus (lecontei)",
+          "time": "1974-07-13",
+          "latLong": "39.20927, -90.54911",
+          "place": "Koster Site, S IL; returning from Ozarks?"
+        }    
+      ]
+    },
+    {
+      "name": "emerald-mine-1975",
+      "place": "NC, Spruce Pine Emerald Mine",
+      "latLong": "35.85730, -82.10498",
+      "time": "1975-06-11",
+      "specimen": [
+        {
+          "id": "133",
+          "tag1": "132",
+          "sex": "m",
+          "genus": "Speyeria",
+          "species": "c. cybele",
+          "notes": "128"
+        },
+        {
+          "id": "134",
+          "tag1": "133",
+          "sex": "m",
+          "genus": "Speyeria",
+          "species": "c. cybele",
+          "notes": "129"
+        },
+        {
+          "id": "135",
+          "genus": "Lycaena",
+          "species": "phlaeas"
+        },
+        {
+          "id": "136",
+          "genus": "Lycaena",
+          "species": "phlaeas"
+        },
+        {
+          "id": "137",
+          "tag2": "<136",
+          "sex": "f",
+          "genus": "Poanes",
+          "species": "hobomok (h.)",
+          "notes": "was tagged 136, tag amended"
+        }    
+      ]
+    },
+    {
+      "name": "home-1976-a",
+      "time": "1976",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "138",
+          "time": "1976-02",
+          "sex": "m",
+          "genus": "Polygonia",
+          "species": "comma (harrisii)"
+        },
+        {
+          "id": "139",
+          "time": "1976-04",
+          "sex": "f",
+          "genus": "Polygonia",
+          "species": "comma (harrisii)"
+        },
+        {
+          "id": "140",
+          "id-1976": "96",
+          "id-green": "135",
+          "sex": "m",
+          "time": "1976-06-12 1400",
+          "genus": "Celastrina",
+          "species": "argiolus pseudargiolus (p.)",
+          "latLong": "42.32818, -89.69031",
+          "notes": "Oak woods by little sawmill; hot & sunny"
+        },
+        {
+          "id": "141",
+          "id-1976": "97",
+          "id-green": "135",
+          "sex": "f",
+          "time": "1976-06-12 1400",
+          "genus": "Celastrina",
+          "species": "argiolus pseudargiolus (p.)",
+          "latLong": "42.32818, -89.69031",
+          "notes": "Oak woods by little sawmill; hot & sunny"
+        },
+        {
+          "id": "142",
+          "tag1": "u17",
+          "id-1976": "98",
+          "id-green": "136",
+          "time": "1976-06-13",
+          "genus": "Alypia",
+          "species": "octomaculata",
+          "latLong": "42.32777, -89.69033",
+          "notes": "juniper outside shop window; hot& sunny; 8-spotted Forester moth"
+        }
+      ]
+    },
+    {
+      "name": "MN-1976",
+      "time": "1976-06-25 1300",
+      "latLong": "45.83739, -95.34490",
+      "place": "1st rest area SE of Alexandria MN; low flowering underbrush",
+      "specimen": [
+        {
+          "id": "143",
+          "-num4": "99",
+          "genus": "Phyciodes",
+          "species": "t. tharos (morpheus)"
+        }
+      ]
+    },
+    {
+      "name": "home-1976-b",
+      "time": "1976",
+      "location": { "ref": "home" },
+      "specimen": [
+        {
+          "id": "144",
+          "id-1976": "100",
+          "id-green": "138",
+          "sex": "m",
+          "genus": "Asterocampa",
+          "species": "clyton",
+          "time": "1976-07-11 1400",
+          "latLong": "42.32607, -89.69077",
+          "notes": "hackberry tree on road; hot&sunny"
+        },
+        {
+          "id": "145",
+          "id-1976": "101",
+          "id-green": "139",
+          "sex": "m",
+          "genus": "Colias",
+          "species": "p. philodice (p.)",
+          "time": "1976-07-12 1330",
+          "latLong": "42.34210, -89.68789",
+          "notes": "meadow S of Jensen's new house, just S of old bridge"
+        },
+        {
+          "id": "146",
+          "tag1": "u60",
+          "id-1976": "106",
+          "id-green": "140",
+          "sex": "f",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "time": "1976-07-12 1330",
+          "latLong": "42.34210, -89.68789",
+          "notes": "meadow S of Jensen's new house, just S of old bridge; white tagged \"106 brd\""
+        },
+        {
+          "id": "147",
+          "tag1": "u62",
+          "id-1976": "107",
+          "id-green": "141",
+          "sex": "f",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "time": "1976-07-12 1330",
+          "latLong": "42.34210, -89.68789",
+          "notes": "meadow S of Jensen's new house, just S of old bridge; sulfur tagged \"107\""
+        },
+        {
+          "id": "148",
+          "tag1": "u59",
+          "id-1976": "108",
+          "id-green": "142",
+          "sex": "f",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "time": "1976-07-12 1330",
+          "latLong": "42.34210, -89.68789",
+          "notes": "meadow S of Jensen's new house, just S of old bridge; sulfur tagged \"108\""
+        },
+        {
+          "id": "149",
+          "id-1976": "102",
+          "id-green": "143",
+          "sex": "m",
+          "genus": "Boloria",
+          "species": "selene myrina",
+          "time": "1976-07-12 1300",
+          "latLong": "42.34333, -89.68510",
+          "notes": "roadside just beyond new bridge (Winnesheik)"
+        },
+        {
+          "id": "150",
+          "id-1976": "103",
+          "id-green": "144",
+          "genus": "Pholisora",
+          "species": "catullus",
+          "time": "1976-07-12 1340",
+          "latLong": "42.33688, -89.68854",
+          "notes": "about 500 ft down Weber's trail off N Harlem Center Rd"
+        },
+        {
+          "id": "151",
+          "tag1": "u58",
+          "id-1976": "104",
+          "id-green": "145",
+          "sex": "f",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "time": "1976-07-16 1545",
+          "latLong": "42.32728, -89.69023",
+          "notes": "driveway garden; sulfur tagged \"104\""
+        },
+        {
+          "id": "152",
+          "id-1976": "105",
+          "id-green": "146",
+          "sex": "f",
+          "genus": "Polygonia",
+          "species": "comma (dryas)",
+          "time": "1976-07-16 1545",
+          "latLong": "42.32720, -89.69009",
+          "notes": "burdock across from pussywillow, E of driveway"
+        },
+        {
+          "id": "153",
+          "id-1976": "109",
+          "id-green": "147",
+          "sex": "m",
+          "genus": "Hyloicus",
+          "species": "eremitus",
+          "time": "1976-07-16 2100",
+          "latLong": "42.32784, -89.68980",
+          "notes": "flourescent light in barn"
+        },
+        {
+          "id": "154",
+          "id-1976": "111",
+          "id-green": "148",
+          "sex": "m",
+          "genus": "Samia",
+          "species": "cecropia",
+          "time": "1976-07-29 1400",
+          "latLong": "42.2989, -89.6229",
+          "notes": "dreary, humid; F.S. downtown gas station"
+        },
+        {
+          "id": "155",
+          "tag1": "u61",
+          "id-1976": "110",
+          "id-green": "149",
+          "sex": "f",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "time": "1976-07-30 1600",
+          "latLong": "42.32242, -89.68725",
+          "notes": "dreary, humid; Hurders' driveway; white tagged \"110 V\""
+        },
+        {
+          "id": "156",
+          "id-1976": "112",
+          "id-green": "150",
+          "sex": "m",
+          "genus": "Celastrina",
+          "species": "argiolus pseudargiolus (p.)",
+          "time": "1976-08-01 1600",
+          "latLong": "42.32782, -89.69039",
+          "notes": "on Queen Anne's Lace; by firewood pile (covered)"
+        },
+        {
+          "id": "157",
+          "id-1976": "113",
+          "id-green": "151",
+          "tag1": "PF-GD",
+          "sex": "m",
+          "genus": "Asterocampa",
+          "species": "clyton",
+          "time": "1976-08-02 1330",
+          "latLong": "42.32587, -89.69053",
+          "notes": "meadow; by white post"
+        },
+        {
+          "id": "158",
+          "id-1976": "114",
+          "id-green": "152",
+          "sex": "m",
+          "genus": "Celastrina",
+          "species": "argiolus",
+          "mounted": "false",
+          "time": "1976-08-02 1330",
+          "latLong": "42.32587, -89.69053",
+          "notes": "meadow; by white post"
+        }    
+      ]
+    },
+    {
       "name": "north-dakota-1978",
       "time": "1978",
       "location": { "ref": "ND.Roger" },
@@ -716,7 +1067,7 @@
               "id": "501",
               "genus": "Utetheisa",
               "species": "ornatrix",
-              "-spread": "false",
+              "mounted": "false",
               "notes": "bella moth"
             },
             {
@@ -770,7 +1121,7 @@
         },
         {
           "id": "507",
-          "-spread": "false",
+          "mounted": "false",
           "genus": "Pieris",
           "time": "30 1000",
           "place": "found in air cleaner (grill of camper/van?)"
@@ -3252,72 +3603,58 @@
   "specimen": [
     {
       "id": "001",
-      "tag1": "001",
       "sex": "m",
       "genus": "Danaus",
-      "species": "plexippus"
+      "species": "plexippus",
+      "time": "1973",
+      "notes": "roadkill",
+      "location": { "ref": "home" }
     },
     {
       "id": "002",
-      "tag1": "002",
       "sex": "f",
       "genus": "Danaus",
       "species": "plexippus",
-      "time": "73",
-      "place": "home"
+      "time": "1973",
+      "notes": "roadkill",
+      "location": { "ref": "home" }
     },
     {
       "id": "003",
-      "tag1": "003",
       "sex": "m",
       "genus": "Danaus",
       "species": "plexippus",
-      "time": "73",
-      "place": "home"
+      "time": "1973",
+      "notes": "roadkill",
+      "location": { "ref": "home" }
     },
     {
       "id": "004",
-      "tag1": "004",
       "sex": "m",
       "genus": "Danaus",
       "species": "plexippus",
-      "time": "74",
-      "place": "home"
+      "time": "1973",
+      "notes": "roadkill",
+      "location": { "ref": "home" }
     },
     {
       "id": "005",
-      "tag1": "005",
       "sex": "f",
       "genus": "Danaus",
       "species": "plexippus",
-      "time": "74",
-      "place": "home"
-    },
-    {
-      "id": "006",
-      "tag1": "006",
-      "genus": "Euptychia",
-      "species": "c. cymela",
-      "time": "7/4/74",
-      "place": "MO, Miller. Lake of the Ozarks S.P. at loop at S. end of MO 134",
-      "notes": "in shady campsites"
-    },
-    {
-      "id": "007",
-      "tag1": "007",
-      "genus": "Euptychia",
-      "species": "c. cymela",
-      "time": "'' 006",
-      "place": "'' 006"
+      "time": "1973",
+      "notes": "roadkill",
+      "location": { "ref": "home" }
     },
     {
       "id": "008",
       "tag1": "u39",
       "genus": "Euptychia",
       "species": "c. cymela",
-      "time": "75",
+      "time": "1975",
       "place": "home; in gully by elms NE of house",
-      "notes": "unmounted"
+      "mounted": "false",
+      "location": { "ref": "home" }
     },
     {
       "id": "009",
@@ -4194,240 +4531,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "129",
-      "tag1": "129",
-      "sex": "m",
-      "genus": "Eurema",
-      "species": "l. lisa",
-      "time": "7/6/74",
-      "place": "Ozarks"
-    },
-    {
-      "id": "130",
-      "tag1": "130",
-      "sex": "f",
-      "genus": "Telea",
-      "species": "polyphemus",
-      "time": "7/9/74",
-      "place": "returning from Ozarks, on motel wall in morning"
-    },
-    {
-      "id": "131",
-      "tag1": "131",
-      "sex": "m",
-      "genus": "Graphium",
-      "species": "marcellus (lecontei)",
-      "time": "7/13/74",
-      "place": "returning from Ozarks?"
-    },
-    {
-      "id": "132",
-      "sex": "m",
-      "genus": "Graphium",
-      "species": "marcellus (lecontei)",
-      "time": "7/13/74",
-      "place": "returning from Ozarks?"
-    },
-    {
-      "id": "133",
-      "tag1": "132",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "c. cybele",
-      "time": "6/11/75",
-      "place": "NC, Spruce Pine Emerald Mine",
-      "notes": "128"
-    },
-    {
-      "id": "134",
-      "tag1": "133",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "c. cybele",
-      "time": "6/11/75",
-      "place": "NC, Spruce Pine Emerald Mine",
-      "notes": "129"
-    },
-    {
-      "id": "135",
-      "tag1": "135",
-      "genus": "Lycaena",
-      "species": "phlaeas",
-      "time": "6/11/75",
-      "place": "NC, Spruce Pine Emerald Mine"
-    },
-    {
-      "id": "136",
-      "tag1": "136",
-      "genus": "Lycaena",
-      "species": "phlaeas",
-      "time": "6/11/75",
-      "place": "NC, Spruce Pine Emerald Mine"
-    },
-    {
-      "id": "137",
-      "tag1": "137",
-      "tag2": "<136",
-      "sex": "f",
-      "genus": "Poanes",
-      "species": "hobomok (h.)",
-      "time": "6/11/75",
-      "place": "NC, Spruce Pine Emerald Mine",
-      "notes": "was tagged 136, tag amended"
-    },
-    {
-      "id": "138",
-      "tag1": "138",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "comma (harrisii)"
-    },
-    {
-      "id": "139",
-      "tag1": "139",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "comma (harrisii)"
-    },
-    {
-      "id": "140",
-      "tag1": "140",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "141",
-      "tag1": "141",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "142",
-      "tag1": "u17",
-      "-num4": "98",
-      "genus": "Alypia",
-      "species": "octomaculata"
-    },
-    {
-      "id": "143",
-      "tag1": "143",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "144",
-      "tag1": "144",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "145",
-      "tag1": "145",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "p. philodice (p.)"
-    },
-    {
-      "id": "146",
-      "tag1": "u60",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white tagged \"106 brd\""
-    },
-    {
-      "id": "147",
-      "tag1": "u62",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- sulfur tagged \"107\""
-    },
-    {
-      "id": "148",
-      "tag1": "u59",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- sulfur tagged \"108\""
-    },
-    {
-      "id": "149",
-      "tag1": "149",
-      "sex": "m",
-      "genus": "Boloria",
-      "species": "selene myrina"
-    },
-    {
-      "id": "150",
-      "tag1": "150",
-      "genus": "Pholisora",
-      "species": "catullus",
-      "notes": "-- also tagged \"103\" ?"
-    },
-    {
-      "id": "151",
-      "tag1": "u58",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- sulfur tagged \"104\""
-    },
-    {
-      "id": "152",
-      "tag1": "152",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "153",
-      "tag1": "153",
-      "sex": "m",
-      "genus": "Hyloicus",
-      "species": "eremitus"
-    },
-    {
-      "id": "154",
-      "tag1": "154",
-      "sex": "m",
-      "genus": "Samia",
-      "species": "cecropia"
-    },
-    {
-      "id": "155",
-      "tag1": "u61",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white tagged \"110 V\""
-    },
-    {
-      "id": "156",
-      "tag1": "156",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "157",
-      "tag1": "157",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "158",
-      "tag1": "158",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
     },
     {
       "id": "159",
@@ -5907,7 +6010,7 @@
     {
       "id": "412",
       "tag1": "412",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "sm. Noctuid moth like underwing"
     },
     {
@@ -6283,7 +6386,7 @@
     {
       "id": "522",
       "tag1": "522",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "generic moth"
     },
     {
@@ -6297,20 +6400,20 @@
       "id": "524",
       "tag1": "524",
       "genus": "Speyeria/Euptoieta",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "possibly large female Asterocampa clyton"
     },
     {
       "id": "525",
       "tag1": "525",
       "genus": "Cercyonis",
-      "-spread": "false"
+      "mounted": "false"
     },
     {
       "id": "526",
       "tag1": "526",
       "genus": "Cercyonis",
-      "-spread": "false"
+      "mounted": "false"
     },
     {
       "id": "527",
@@ -6336,56 +6439,47 @@
     },
     {
       "id": "531",
-      "tag1": "531",
       "genus": "Cercyonis",
-      "-spread": "false"
+      "mounted": "false"
     },
     {
       "id": "532",
-      "tag1": "532",
       "genus": "Cercyonis",
-      "-spread": "false"
+      "mounted": "false"
     },
     {
       "id": "533",
-      "tag1": "533",
       "genus": "Pieris",
-      "-spread": "false"
+      "mounted": "false"
     },
     {
       "id": "534",
-      "tag1": "534",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "small dark blue, prob. Everes c. comyntas"
     },
     {
       "id": "535",
-      "tag1": "535",
       "sex": "f",
       "genus": "Pieris",
       "species": "p. protodice"
     },
     {
       "id": "536",
-      "tag1": "536",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "small blue w. orange submarginals, from Steele"
     },
     {
       "id": "537",
-      "tag1": "537",
       "sex": "m",
       "genus": "Hesperia/Poanes"
     },
     {
       "id": "538",
-      "tag1": "538",
       "sex": "m",
       "genus": "Plebejus?"
     },
     {
       "id": "539",
-      "tag1": "539",
       "genus": "Phyciodes",
       "species": "pulchella",
       "location": { "latLong": "39.068138, -106.409844" },
@@ -6394,28 +6488,24 @@
     },
     {
       "id": "540",
-      "tag1": "540",
       "genus": "Cercyonis"
     },
     {
-      "id": "541",
-      "tag1": "541"
+      "id": "541"
     },
     {
       "id": "542",
-      "tag1": "542",
       "genus": "Lycaena"
     },
     {
       "id": "543",
-      "tag1": "543",
       "genus": "Vanessa (Cynthia)",
       "species": "cardui"
     },
     {
       "id": "544",
       "tag1": "544",
-      "-spread": "false",
+      "mounted": "false",
       "notes": "sm. Noctuid moth w. pearly spots, prob. Plusiina subtribe, Autographa or Syngrapha"
     },
     {
@@ -6508,8 +6598,7 @@
       "place": "home; garden in front of house"
     },
     {
-      "id": "594",
-      "tag1": "594"
+      "id": "594"
     },
     {
       "id": "595",
