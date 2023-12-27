@@ -339,7 +339,8 @@
         },
         {
           "id": "367",
-          "tag1": "367"
+          "tag1": "367",
+          "notes": "Apantesis moth"
         },
         {
           "id": "368",
@@ -388,7 +389,8 @@
         },
         {
           "id": "376",
-          "tag1": "376"
+          "tag1": "376",
+          "notes": "golden skipper"
         },
         {
           "id": "377",
@@ -415,7 +417,8 @@
         },
         {
           "id": "381",
-          "tag1": "381"
+          "tag1": "381",
+          "notes": "golden skipper"
         },
         {
           "id": "382",
@@ -431,7 +434,8 @@
         },
         {
           "id": "384",
-          "tag1": "384"
+          "tag1": "384",
+          "notes": "golden skipper"
         }
       ]
     },
@@ -1939,6 +1943,7 @@
           "name": "momentos",
           "time": "09-03 1330",
           "place": "Posada Granja de Momentos; San Felipe, Yaracuy",
+          "latLong": "10.34504, -68.76245",
           "specimen": [
             {
               "id": "661",
