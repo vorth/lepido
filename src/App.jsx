@@ -34,7 +34,7 @@ const SpecimenDetails = props =>
   return (
     <Show when={ !! props.specimen }>
       <div id="selectedSpecimen" >
-        <Field key="name" value={props.specimen.name} />
+        <Field key="id" value={props.specimen.id} />
         <Field key="genus" value={props.specimen.genus} />
         <Field key="species" value={props.specimen.species} />
         <Field key="time" value={props.specimen.time} />

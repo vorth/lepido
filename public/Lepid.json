@@ -6,6 +6,7 @@
         "name": "home",
         "latLong": "42.32743, -89.69033",
         "place": "Freeport, IL, USA; 1657 N. Harlem Center Rd",
+        "path": "US:IL:Stephenson Co",
         "location": {
           "name": "hedge",
           "latLong": "42.32729, -89.69014",
@@ -3056,46 +3057,48 @@
       "name": "ca-2006",
       "time": "2006-06",
       "location": { "ref": "CA.OldPageMill" },
-      "collectingSession": [{
-        "name": "Saturday",
-        "time": "03",
-        "specimen": [
-          {
-            "id": "740",
-            "tag1": "692",
-            "time": "14:00",
-            "notes": "ringlet, probably hilltopping along road"
-          },
-          {
-            "id": "741",
-            "tag1": "693",
-            "sex": "f",
-            "time": "14:00",
-            "notes": "Chalcedon checkerspot, hilltopping along road"
-          },
-          {
-            "id": "742",
-            "tag1": "694",
-            "sex": "m",
-            "time": "14:30",
-            "notes": "Chalcedon checkerspot, mated with 695, resting on flowering shrubs by cut in road"
-          },
-          {
-            "id": "743",
-            "tag1": "695",
-            "sex": "f",
-            "time": "14:30",
-            "notes": "Chalcedon checkerspot, mated with 694, resting on flowering shrubs by cut in road"
-          },
-          {
-            "id": "744",
-            "tag1": "696",
-            "sex": "m",
-            "time": "15:50",
-            "notes": "Chalcedon checkerspot, dying on road near bridge"
-          }
-        ],
-        "collectingSession": [{
+      "collectingSession": [
+        {
+          "name": "Saturday",
+          "time": "03",
+          "specimen": [
+            {
+              "id": "740",
+              "tag1": "692",
+              "time": "14:00",
+              "notes": "ringlet, probably hilltopping along road"
+            },
+            {
+              "id": "741",
+              "tag1": "693",
+              "sex": "f",
+              "time": "14:00",
+              "notes": "Chalcedon checkerspot, hilltopping along road"
+            },
+            {
+              "id": "742",
+              "tag1": "694",
+              "sex": "m",
+              "time": "14:30",
+              "notes": "Chalcedon checkerspot, mated with 695, resting on flowering shrubs by cut in road"
+            },
+            {
+              "id": "743",
+              "tag1": "695",
+              "sex": "f",
+              "time": "14:30",
+              "notes": "Chalcedon checkerspot, mated with 694, resting on flowering shrubs by cut in road"
+            },
+            {
+              "id": "744",
+              "tag1": "696",
+              "sex": "m",
+              "time": "15:50",
+              "notes": "Chalcedon checkerspot, dying on road near bridge"
+            }
+          ]
+        },
+        {
           "name": "Sunday",
           "time": "04",
           "specimen": [
@@ -3122,8 +3125,8 @@
               }
             }
           ]
-        }]
-      }]
+        }
+      ]
     },
     {
       "name": "home-2006",
