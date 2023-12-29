@@ -602,6 +602,190 @@
       ]
     },
     {
+      "name": "west-1976",
+      "time": "1976-08",
+      "notes": "Trip started with our visit to the Black Hills, probably after Steele ND, and ending up in Woodland, WA",
+      "collectingSession": [
+        {
+          "name": "devils-tower",
+          "time": "1976-08-08 1230",
+          "latLong": "44.58578, -104.70784",
+          "place": "prairie dog town at Devil's Tower; grassy meadow",
+          "specimen": [
+            {
+              "id": "159",
+              "id-1976W": "10",
+              "id-green": "153",
+              "sex": "m",
+              "genus": "Speyeria",
+              "species": "coronis dakotaensis",
+              "notes": "edwardsii?"
+            },
+            {
+              "id": "160",
+              "id-1976W": "11",
+              "id-green": "154",
+              "genus": "Pyrgus",
+              "species": "c. communis"
+            },
+            {
+              "id": "161",
+              "id-1976W": "12",
+              "id-green": "155",
+              "sex": "m",
+              "genus": "Cercyonis",
+              "species": "pegala ino (lolo)"
+            },
+            {
+              "id": "162",
+              "id-1976W": "13",
+              "id-green": "156",
+              "sex": "f",
+              "genus": "Phyciodes",
+              "species": "t. tharos (morpheus)",
+              "time": "1976-08-08 1300",
+              "latLong": "44.58853, -104.69848",
+              "place": "rock shop outside of Devil's Tower; roadside"
+            }
+          ]
+        },
+        {
+          "name": "lolo",
+          "time": "1976-08-10 0930",
+          "latLong": "47.37468, -115.26319",
+          "place": "Cabin City Campground, Lolo Nat. Forest",
+          "specimen": [
+            {
+              "id": "165",
+              "id-1976W": "16",
+              "id-green": "159",
+              "sex": "m",
+              "genus": "Neophasia",
+              "species": "menapia",
+              "notes": "on pines"
+            },
+            {
+              "id": "166",
+              "id-1976W": "17",
+              "id-green": "160",
+              "sex": "m",
+              "genus": "Cercyonis",
+              "species": "pegala ino (lolo)",
+              "notes": "on small snapdragons; cool & sunny"
+            },
+            {
+              "id": "167",
+              "id-1976W": "18",
+              "id-green": "161",
+              "sex": "m",
+              "genus": "Cercyonis",
+              "species": "pegala ino (lolo)",
+              "notes": "on small snapdragons; cool & sunny"
+            }
+          ]
+        }
+      ],
+      "specimen": [
+        {
+          "id": "163",
+          "id-1976W": "14",
+          "id-green": "157",
+          "sex": "f",
+          "genus": "Phyciodes",
+          "species": "t. tharos (morpheus)",
+          "time": "1976-08-08 1500",
+          "latLong": "44.27800, -105.49352",
+          "place": "Standard gas station, Gillette, WY"
+        },
+        {
+          "id": "164",
+          "id-1976W": "15",
+          "id-green": "158",
+          "sex": "f",
+          "genus": "Cercyonis",
+          "species": "pegala ino (lolo)",
+          "time": "1976-08-08 1550",
+          "latLong": "44.25140, -106.43411",
+          "place": "Crazy Woman Creek where it crosses I-90; on grass"
+        },
+        {
+          "id": "168",
+          "id-1976W": "19",
+          "id-green": "162",
+          "genus": "Hesperia",
+          "species": "comma harpalus",
+          "time": "1976-08-10 0940",
+          "latLong": "47.46255, -115.71072",
+          "place": "I-90, approx. Idaho-Montana border",
+          "notes": "Blue () caught here also, but later expunged from green sheet -- destroyed?"
+        },
+        {
+          "id": "169",
+          "id-1976W": "21",
+          "id-green": "163",
+          "sex": "f",
+          "genus": "Coenonympha",
+          "species": "a. ampelus (sweadneri)",
+          "time": "1976-08-10 1110",
+          "latLong": "47.69626, -117.05119",
+          "place": "Spokane River Rest Area on I-90; latLong is a guess",
+          "notes": "on grass; windy & sunny"
+        },
+        {
+          "id": "170",
+          "id-1976W": "22",
+          "id-green": "164",
+          "genus": "Lycaena",
+          "species": "helloides",
+          "time": "1976-08-10 1300",
+          "latLong": "47.08698, -118.84465",
+          "place": "Shragg Rest Area on I-90"
+        },
+        {
+          "id": "171",
+          "id-1976W": "23",
+          "id-green": "165",
+          "sex": "m",
+          "genus": "Ochlodes",
+          "species": "sylvanoides",
+          "time": "1976-08-10 1800",
+          "place": "Claire & Monty's -- Seattle area?",
+          "notes": "cool & shady; on maple; skipper"
+        },
+        {
+          "id": "172",
+          "id-1976W": "24",
+          "id-green": "166",
+          "sex": "m",
+          "genus": "Chlosyne",
+          "species": "gorgone carlota",
+          "time": "1976-08-17",
+          "notes": "no place recorded; maybe Olympic Nat Pk?"
+        },
+        {
+          "id": "173",
+          "id-1976W": "25",
+          "id-green": "167",
+          "sex": "m",
+          "genus": "Pseudohazis",
+          "species": "h. hera",
+          "time": "1976-08-17 1730",
+          "notes": "no place recorded; maybe Olympic Nat Pk?"
+        },
+        {
+          "id": "174",
+          "id-1976W": "26",
+          "id-green": "168",
+          "sex": "m",
+          "genus": "Ochlodes",
+          "species": "sylvanoides",
+          "time": "1976-08-10 9999",
+          "latLong": "48.10, -123.40",
+          "place": "rock shop outside of Port Angeles WA; latLong is a guess"
+        }
+      ]
+    },
+    {
       "name": "north-dakota-1978",
       "time": "1978",
       "location": { "ref": "ND.Roger" },
@@ -4534,115 +4718,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "159",
-      "tag1": "159",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "coronis dakotaensis",
-      "notes": "-- edwardsii?"
-    },
-    {
-      "id": "160",
-      "tag1": "160",
-      "genus": "Pyrgus",
-      "species": "c. communis"
-    },
-    {
-      "id": "161",
-      "tag1": "161",
-      "sex": "m",
-      "genus": "Cercyonis",
-      "species": "pegala ino (lolo)"
-    },
-    {
-      "id": "162",
-      "tag1": "162",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "163",
-      "tag1": "163",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "164",
-      "tag1": "164",
-      "sex": "f",
-      "genus": "Cercyonis",
-      "species": "pegala ino (lolo)"
-    },
-    {
-      "id": "165",
-      "tag1": "165",
-      "sex": "m",
-      "genus": "Neophasia",
-      "species": "menapia"
-    },
-    {
-      "id": "166",
-      "tag1": "166",
-      "sex": "m",
-      "genus": "Cercyonis",
-      "species": "pegala ino (lolo)"
-    },
-    {
-      "id": "167",
-      "tag1": "167",
-      "sex": "m",
-      "genus": "Cercyonis",
-      "species": "pegala ino (lolo)"
-    },
-    {
-      "id": "168",
-      "tag1": "168",
-      "genus": "Hesperia",
-      "species": "comma harpalus"
-    },
-    {
-      "id": "169",
-      "tag1": "169",
-      "sex": "f",
-      "genus": "Coenonympha",
-      "species": "a. ampelus (sweadneri)"
-    },
-    {
-      "id": "170",
-      "tag1": "170",
-      "genus": "Lycaena",
-      "species": "helloides"
-    },
-    {
-      "id": "171",
-      "tag1": "171",
-      "sex": "m",
-      "genus": "Hesperia/Poanes",
-      "notes": "-- also tagged \"23\" ?"
-    },
-    {
-      "id": "172",
-      "tag1": "172",
-      "sex": "m",
-      "genus": "Chlosyne",
-      "species": "gorgone carlota"
-    },
-    {
-      "id": "173",
-      "tag1": "173",
-      "sex": "m",
-      "genus": "Pseudohazis",
-      "species": "h. hera"
-    },
-    {
-      "id": "174",
-      "tag1": "174",
-      "sex": "m",
-      "genus": "Hesperia/Poanes"
     },
     {
       "id": "175",
