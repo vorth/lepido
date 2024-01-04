@@ -43,9 +43,12 @@ body {
   color: black;
 }
 
-.sessionList {
-  background-color: rgb(48, 63, 75);
+.session {
   border: 1px solid rgb(225, 210, 134);
+  background-color: rgb(48, 63, 75);
+}
+
+.sessionList {
   list-style-type: none;
   padding-inline-start: 2rem;
   margin: 0;

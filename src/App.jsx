@@ -47,6 +47,18 @@ const SpecimenDetails = props =>
   );
 }
 
+const AddSession = props =>
+{
+  const handleClick = () =>
+  {
+
+  }
+  
+  return (
+    <button onClick={handleClick}>+sibling</button>
+  );
+}
+
 const CollectingSession = props =>
 {
   const { clearSelection } = useContext( SelectionContext );
@@ -61,25 +73,27 @@ const CollectingSession = props =>
   }
 
   return (
-    <ul class='sessionList' onClick={ toggleCollapsed }>
+    <div class="session" onClick={ toggleCollapsed }>
       {props.session.name || 'COLLECTION'}
-      <Show when={ !specimensCollapsed() }>
-        <Show when={ Array.isArray( props.session.specimen ) } fallback={
-          <Specimen specimen={props.session.specimen}/>
-        }>
-          <For each={props.session.specimen}>{ specimen =>
-            <Specimen specimen={specimen}/>
+      <ul class='sessionList'>
+        <Show when={ !specimensCollapsed() }>
+          <Show when={ Array.isArray( props.session.specimen ) } fallback={
+            <Specimen specimen={props.session.specimen}/>
+          }>
+            <For each={props.session.specimen}>{ specimen =>
+              <Specimen specimen={specimen}/>
+            }</For>
+          </Show>
+        </Show>
+        <Show when={ !sessionsCollapsed() }>
+          <For each={props.session.collectingSession}>{ session =>
+            <li>
+              <CollectingSession session={ session } parent={ props.session } />
+            </li>
           }</For>
         </Show>
-      </Show>
-      <Show when={ !sessionsCollapsed() }>
-        <For each={props.session.collectingSession}>{ session =>
-          <li class='session'>
-            <CollectingSession session={ session } />
-          </li>
-        }</For>
-      </Show>
-    </ul>
+      </ul>
+    </div>
   );
 }
 

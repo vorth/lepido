@@ -786,6 +786,72 @@
       ]
     },
     {
+      "name": "home-1977-a",
+      "time": "1977",
+      "location": { "ref": "home" },
+      "collectingSession": [
+        {
+          "name": "may-16",
+          "time": "1977-05-16",
+          "specimen": [
+            {
+              "id": "175",
+              "id-1977": "201",
+              "id-green": "169",
+              "genus": "Polygonia",
+              "species": "progne (progne)",
+              "sex": "f",
+              "time": "1977-05-16 1700",
+              "latLong": "42.32771, -89.68987",
+              "notes": "by water bin for horse; hot, humid"
+            },
+            {
+              "id": "176",
+              "id-1977": "202",
+              "id-green": "170",
+              "genus": "Polygonia",
+              "species": "interrogationis (umbrosa)",
+              "time": "1977-05-16 1920",
+              "latLong": "42.32739, -89.68995",
+              "notes": "back yard; silver maple, 10-15 feet up"
+            }
+          ]
+        },
+        {
+          "name": "may-17",
+          "time": "1977-05-17",
+          "specimen": [
+            {
+              "id": "177",
+              "id-1977": "203",
+              "id-green": "171",
+              "sex": "f",
+              "genus": "Polygonia",
+              "species": "interrogationis (umbrosa)",
+              "latLong": "42.32780, -89.69059",
+              "notes": "chinese elm trunk nearest road; 80-deg, slight wind, dry"
+            }
+          ]
+        },
+        {
+          "name": "may-30",
+          "time": "1977-05-30",
+          "specimen": [
+            {
+              "id": "178",
+              "id-1977": "204",
+              "id-green": "172",
+              "sex": "f",
+              "genus": "Phyciodes",
+              "species": "t. tharos (morpheus)",
+              "latLong": "42.32743, -89.69009",
+              "notes": "on peony in back garden; hot, windy"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "name": "north-dakota-1978",
       "time": "1978",
       "location": { "ref": "ND.Roger" },
@@ -4718,34 +4784,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "175",
-      "tag1": "175",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "-- summer?"
-    },
-    {
-      "id": "176",
-      "tag1": "176",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "177",
-      "tag1": "177",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "Interrogationis",
-      "notes": "-- summer"
-    },
-    {
-      "id": "178",
-      "tag1": "178",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
     },
     {
       "id": "179",
