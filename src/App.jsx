@@ -14,7 +14,7 @@ const Specimen = props =>
   }
 
   return (
-    <li class='specimen' onClick={clickHandler} classList={ { selected: selectedSpecimen()?.id === props.specimen.id } } >
+    <li id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler} classList={ { selected: selectedSpecimen()?.id === props.specimen.id } } >
       {`${id} ${genus} ${species}`}
     </li>
   );

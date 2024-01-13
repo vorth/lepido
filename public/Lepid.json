@@ -848,8 +848,147 @@
               "notes": "on peony in back garden; hot, windy"
             }
           ]
+        },
+        {
+          "name": "june-1",
+          "time": "1977-06-01 1700",
+          "notes": "hedge started blooming",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "179",
+              "id-1977": "206",
+              "id-green": "174",
+              "sex": "f",
+              "genus": "Celastrina",
+              "species": "argiolus",
+              "mounted": "false"
+            },
+            {
+              "id": "180",
+              "id-1977": "207",
+              "id-green": "175",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            },
+            {
+              "id": "181",
+              "id-1977": "208",
+              "id-green": "176",
+              "sex": "f",
+              "genus": "Celastrina",
+              "species": "argiolus",
+              "mounted": "false"
+            },
+            {
+              "id": "182",
+              "id-1977": "209",
+              "id-green": "177",
+              "genus": "Rheumaptera",
+              "species": "hastata (nigerrima)",
+              "notes": "-- sm. black geometrid w/white band"
+            },
+            {
+              "id": "183",
+              "id-1977": "210",
+              "id-green": "178",
+              "genus": "Nymphalis",
+              "species": "m. milberti",
+              "notes": "much yellow"
+            }
+          ]
+        },
+        {
+          "name": "june-2",
+          "time": "1977-06-02 1630",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "184",
+              "id-1977": "211",
+              "id-green": "179",
+              "sex": "f",
+              "genus": "Nymphalis",
+              "species": "antiopa paracreta",
+              "notes": "out of pupa P211"
+            },
+            {
+              "id": "185",
+              "id-1977": "212",
+              "id-green": "180",
+              "sex": "m",
+              "genus": "Speyeria",
+              "species": "c. cybele",
+              "notes": "saw 8 or 9, all male"
+            },
+            {
+              "id": "186",
+              "id-1977": "213",
+              "id-green": "181",
+              "sex": "m",
+              "genus": "Polygonia",
+              "species": "comma (dryas)",
+              "notes": "-- old tag says \"187\"",
+              "collector": "Layne Vorthmann"
+            }
+          ]
+        },
+        {
+          "name": "june-3-hedge",
+          "time": "1977-06-03",
+          "location": { "ref": "home.hedge" },
+          "specimen": [
+            {
+              "id": "187",
+              "id-1977": "214",
+              "id-green": "182",
+              "time": "1977-06-03 1400",
+              "sex": "m",
+              "genus": "Chlosyne",
+              "species": "n. nycteis"
+            },
+            {
+              "id": "188",
+              "id-1977": "215",
+              "id-green": "183",
+              "time": "1977-06-03 1415",
+              "sex": "f",
+              "genus": "Chlosyne",
+              "species": "n. nycteis",
+              "notes": "larger than 187"
+            },
+            {
+              "id": "189",
+              "id-1977": "216",
+              "id-green": "184",
+              "time": "1977-06-03 1430",
+              "sex": "f",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            },
+            {
+              "id": "190",
+              "id-1977": "217",
+              "id-green": "185",
+              "time": "1977-06-03 1530",
+              "sex": "m",
+              "genus": "Libytheana",
+              "species": "b. bachmanii"
+            },
+            {
+              "id": "191",
+              "id-1977": "218",
+              "id-green": "186",
+              "time": "1977-06-03 1600",
+              "sex": "f",
+              "genus": "Polites",
+              "species": "coras"
+            }
+          ]
         }
-      ]
+      ],
+      "specimen": []
     },
     {
       "name": "north-dakota-1978",
@@ -4784,96 +4923,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "179",
-      "tag1": "179",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "180",
-      "tag1": "180",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "181",
-      "tag1": "181",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "182",
-      "tag1": "182",
-      "notes": "-- sm. black geometrid w/white band"
-    },
-    {
-      "id": "183",
-      "tag1": "183",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
-    },
-    {
-      "id": "184",
-      "tag1": "184",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "185",
-      "tag1": "185",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "c. cybele"
-    },
-    {
-      "id": "186",
-      "tag1": "186",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "comma (dryas)",
-      "notes": "-- old tag says \"187\""
-    },
-    {
-      "id": "187",
-      "tag1": "187",
-      "sex": "m",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "188",
-      "tag1": "188",
-      "sex": "f",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "189",
-      "tag1": "189",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "190",
-      "tag1": "190",
-      "sex": "m",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "191",
-      "tag1": "191",
-      "sex": "f",
-      "genus": "Hesperia/Poanes"
     },
     {
       "id": "192",
