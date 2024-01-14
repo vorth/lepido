@@ -253,7 +253,7 @@
     {
       "name": "ozarks-1974",
       "time": "1974",
-      "collectingSession" : [
+      "collectingSession": [
         {
           "name": "campground",
           "latLong": "38.07070, -92.57638",
@@ -310,7 +310,7 @@
           "time": "1974-07-13",
           "latLong": "39.20927, -90.54911",
           "place": "Koster Site, S IL; returning from Ozarks?"
-        }    
+        }
       ]
     },
     {
@@ -352,13 +352,15 @@
           "genus": "Poanes",
           "species": "hobomok (h.)",
           "notes": "was tagged 136, tag amended"
-        }    
+        }
       ]
     },
     {
       "name": "home-1976-a",
       "time": "1976",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "138",
@@ -426,7 +428,9 @@
     {
       "name": "home-1976-b",
       "time": "1976",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "144",
@@ -598,7 +602,7 @@
           "time": "1976-08-02 1330",
           "latLong": "42.32587, -89.69053",
           "notes": "meadow; by white post"
-        }    
+        }
       ]
     },
     {
@@ -788,7 +792,9 @@
     {
       "name": "home-1977-a",
       "time": "1977",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "collectingSession": [
         {
           "name": "may-16",
@@ -853,7 +859,9 @@
           "name": "june-1",
           "time": "1977-06-01 1700",
           "notes": "hedge started blooming",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "179",
@@ -902,7 +910,9 @@
         {
           "name": "june-2",
           "time": "1977-06-02 1630",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "184",
@@ -937,7 +947,9 @@
         {
           "name": "june-3-hedge",
           "time": "1977-06-03",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "187",
@@ -986,6 +998,54 @@
               "species": "coras"
             }
           ]
+        },
+        {
+          "name": "june-3-river",
+          "time": "1977-07-03",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-4",
+          "time": "1977-07-04",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-8",
+          "time": "1977-07-08",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-9",
+          "time": "1977-07-09",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-10",
+          "time": "1977-07-10",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-12",
+          "time": "1977-07-12",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-14",
+          "time": "1977-07-14",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-15",
+          "time": "1977-07-15",
+          "collectingSession": [],
+          "specimen": []
         }
       ],
       "specimen": []
@@ -993,7 +1053,9 @@
     {
       "name": "north-dakota-1978",
       "time": "1978",
-      "location": { "ref": "ND.Roger" },
+      "location": {
+        "ref": "ND.Roger"
+      },
       "notes": "I stayed 2-1/2 weeks with Roger & Eldie.  Almost all data is still in the steno notebook, not here.",
       "specimen": [
         {
@@ -1183,12 +1245,16 @@
     {
       "name": "FL-mar-1979",
       "time": "1979-03",
-      "location": { "ref": "FL" },
+      "location": {
+        "ref": "FL"
+      },
       "collectingSession": [
         {
           "name": "25",
           "time": "25 1157-1215",
-          "location": { "ref": "turnpike" },
+          "location": {
+            "ref": "turnpike"
+          },
           "specimen": [
             {
               "id": "459",
@@ -1214,7 +1280,9 @@
         {
           "name": "26",
           "time": "26 0943-1128",
-          "location": { "ref": "longKey" },
+          "location": {
+            "ref": "longKey"
+          },
           "specimen": [
             {
               "id": "463",
@@ -1298,7 +1366,9 @@
         {
           "name": "27",
           "time": "27 0908-1038",
-          "location": { "ref": "longKey" },
+          "location": {
+            "ref": "longKey"
+          },
           "specimen": [
             {
               "id": "477",
@@ -1324,7 +1394,7 @@
               "id": "481",
               "genus": "Polygonus",
               "species": "leo leo",
-              "time" : "0934",
+              "time": "0934",
               "notes": "med. skipper"
             },
             {
@@ -1374,7 +1444,9 @@
         {
           "name": "28",
           "time": "28 1300-1657",
-          "location": { "ref": "everglades" },
+          "location": {
+            "ref": "everglades"
+          },
           "specimen": [
             {
               "id": "490",
@@ -1400,7 +1472,9 @@
         {
           "name": "29-am",
           "time": "29 0928-1015",
-          "location": { "ref": "bigCypress" },
+          "location": {
+            "ref": "bigCypress"
+          },
           "specimen": [
             {
               "id": "493",
@@ -1446,7 +1520,9 @@
         {
           "name": "29-pm",
           "time": "29 1500-1605",
-          "location": { "ref": "koa" },
+          "location": {
+            "ref": "koa"
+          },
           "specimen": [
             {
               "id": "500",
@@ -1501,7 +1577,9 @@
           "genus": "Nathalis",
           "species": "iole",
           "time": "29 1135",
-          "location": { "ref": "chokoloskee" }
+          "location": {
+            "ref": "chokoloskee"
+          }
         },
         {
           "id": "506",
@@ -1579,7 +1657,9 @@
     {
       "name": "home-1980",
       "time": "1980",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "555",
@@ -1663,7 +1743,9 @@
         {
           "name": "hedge-06-22",
           "time": "06-18 1605",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "notes": "first day of hedge blooming attraction",
           "specimen": [
             {
@@ -1696,7 +1778,9 @@
         {
           "name": "hedge-06-22",
           "time": "06-22 1418-1856",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "562",
@@ -1730,7 +1814,9 @@
               "species": "nessus?",
               "notes": "or perhaps Haemorrhagia sp?"
             },
-            { "genus": "Satyrium" },
+            {
+              "genus": "Satyrium"
+            },
             {
               "genus": "Limenitis",
               "species": "archippus"
@@ -1748,7 +1834,9 @@
         {
           "name": "hedge-06-22",
           "time": "06-24 1633",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "566",
@@ -1796,7 +1884,9 @@
         {
           "name": "hedge-06-22",
           "time": "06-25 1820",
-          "location": { "ref": "home.hedge" },
+          "location": {
+            "ref": "home.hedge"
+          },
           "specimen": [
             {
               "id": "567",
@@ -1835,12 +1925,16 @@
     {
       "name": "TX-mar-1981",
       "time": "1981-03",
-      "location": { "ref": "TX" },
+      "location": {
+        "ref": "TX"
+      },
       "collectingSession": [
         {
           "name": "23",
           "time": "23 1335-1346",
-          "location": { "ref": "Riviera" },
+          "location": {
+            "ref": "Riviera"
+          },
           "specimen": [
             {
               "id": "573",
@@ -1859,7 +1953,9 @@
         {
           "name": "25",
           "time": "25 1613",
-          "location": { "ref": "Kingsville" },
+          "location": {
+            "ref": "Kingsville"
+          },
           "specimen": {
             "id": "576",
             "genus": "Precis",
@@ -1869,7 +1965,9 @@
         {
           "name": "28",
           "time": "28 0943-1007",
-          "location": { "ref": "OakGrove" },
+          "location": {
+            "ref": "OakGrove"
+          },
           "notes": "in woods, on bluebells",
           "specimen": [
             {
@@ -1921,7 +2019,9 @@
     {
       "name": "VZ-dec-2002",
       "time": "2002-12",
-      "location": { "ref": "vz.RanchoGrande.guardOffice" },
+      "location": {
+        "ref": "vz.RanchoGrande.guardOffice"
+      },
       "collectingSession": [
         {
           "name": "03",
@@ -2028,7 +2128,9 @@
     {
       "name": "ch-2003",
       "time": "2003",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "602",
@@ -2165,12 +2267,16 @@
     },
     {
       "name": "vz-2003",
-      "location": { "ref": "vz" },
+      "location": {
+        "ref": "vz"
+      },
       "collectingSession": [
         {
           "name": "el-guapo",
           "time": "08-23 1245",
-          "location": { "ref": "ElGuapo" },
+          "location": {
+            "ref": "ElGuapo"
+          },
           "specimen": [
             {
               "id": "609",
@@ -2210,7 +2316,9 @@
         {
           "name": "los-altos",
           "time": "08-25",
-          "location": { "ref": "PuertoLaCruz.LosAltos" },
+          "location": {
+            "ref": "PuertoLaCruz.LosAltos"
+          },
           "collectingSession": [
             {
               "name": "stop",
@@ -2500,7 +2608,9 @@
         {
           "name": "rg-1",
           "time": "08-27 1830",
-          "location": { "ref": "RanchoGrande" },
+          "location": {
+            "ref": "RanchoGrande"
+          },
           "place": "dead in window of \"investigadores\" room",
           "specimen": [
             {
@@ -2516,7 +2626,9 @@
         {
           "name": "ocumare",
           "time": "08-28 1200",
-          "location": { "ref": "RanchoGrande" },
+          "location": {
+            "ref": "RanchoGrande"
+          },
           "place": "halfway down to Ocumare from RG",
           "specimen": [
             {
@@ -2624,7 +2736,9 @@
               "genus": "Aricoris",
               "species": "erostratus",
               "notes": "crescent-like metalmark; at red hummingbird flowers in patio; saw several others here, many others on trail to playa El Diario",
-              "reference": { "-href": "http://butterfliesofamerica.com/t/Aricoris_erostratus_a.htm" }
+              "reference": {
+                "-href": "http://butterfliesofamerica.com/t/Aricoris_erostratus_a.htm"
+              }
             },
             {
               "id": "656",
@@ -2642,28 +2756,36 @@
         {
           "name": "consuelo-1",
           "time": "09-02 1230",
-          "location": { "ref": "Consuelo" },
+          "location": {
+            "ref": "Consuelo"
+          },
           "place": "garden in front of house",
           "specimen": [
             {
               "id": "657",
               "genus": "Phoebis",
               "notes": "mango-colored",
-              "reference": { "ref": "kaufmann" }
+              "reference": {
+                "ref": "kaufmann"
+              }
             },
             {
               "id": "658",
               "genus": "Dione",
               "species": "juno",
               "notes": "mexican fritillary? sim to gulf; nectaring",
-              "reference": { "ref": "kaufmann" }
+              "reference": {
+                "ref": "kaufmann"
+              }
             }
           ]
         },
         {
           "name": "consuelo-2",
           "time": "09-03 1000",
-          "location": { "ref": "Consuelo" },
+          "location": {
+            "ref": "Consuelo"
+          },
           "place": "garden in front of house",
           "specimen": [
             {
@@ -2676,7 +2798,9 @@
               "genus": "Dione",
               "species": "juno",
               "notes": "mexican fritillary? sim to gulf; nectaring",
-              "reference": { "ref": "kaufmann" }
+              "reference": {
+                "ref": "kaufmann"
+              }
             }
           ]
         },
@@ -2696,7 +2820,9 @@
               "id": "662",
               "genus": "Papilio",
               "notes": "missing a wing; saw 2 others, all nectaring with Heliconius erato",
-              "reference": { "ref": "kaufmann" }
+              "reference": {
+                "ref": "kaufmann"
+              }
             },
             {
               "id": "663",
@@ -2736,7 +2862,9 @@
         {
           "id": "646A",
           "time": "08-29 1400",
-          "location": { "ref": "RanchoGrande" },
+          "location": {
+            "ref": "RanchoGrande"
+          },
           "place": "3rd floor gate",
           "genus": "Adhemacius",
           "species": "tigrina",
@@ -2762,7 +2890,9 @@
     },
     {
       "name": "ch-2004",
-      "location": { "ref": "carlDrive" },
+      "location": {
+        "ref": "carlDrive"
+      },
       "collectingSession": [
         {
           "name": "02-20",
@@ -2959,44 +3089,54 @@
     },
     {
       "name": "ca-2004",
-      "location": { "ref": "CA.IndianRock" },
-      "collectingSession": [{
-        "name": "08-21",
-        "time": "15:40",
-        "specimen": [
-          {
-            "id": "686",
-            "place": "bright spot on trail",
-            "notes": "Golden Hairstreak"
-          },
-          {
-            "id": "687",
-            "place": "bright spot on trail",
-            "notes": "Golden Hairstreak"
-          }
-        ]
-      }]
+      "location": {
+        "ref": "CA.IndianRock"
+      },
+      "collectingSession": [
+        {
+          "name": "08-21",
+          "time": "15:40",
+          "specimen": [
+            {
+              "id": "686",
+              "place": "bright spot on trail",
+              "notes": "Golden Hairstreak"
+            },
+            {
+              "id": "687",
+              "place": "bright spot on trail",
+              "notes": "Golden Hairstreak"
+            }
+          ]
+        }
+      ]
     },
     {
       "name": "ch-2005",
-      "location": { "ref": "carlDrive" },
-      "collectingSession": [{
-        "name": "04-08",
-        "time": "04-08",
-        "specimen": {
-          "id": "689",
-          "sex": "m",
-          "place": "Museum of Life and Science, Durham, NC; pupa shipped from C. America",
-          "genus": "Nessaea",
-          "species": "a. aglaura",
-          "notes": "Flori picked up dead specimen from the butterfly vivarium"
+      "location": {
+        "ref": "carlDrive"
+      },
+      "collectingSession": [
+        {
+          "name": "04-08",
+          "time": "04-08",
+          "specimen": {
+            "id": "689",
+            "sex": "m",
+            "place": "Museum of Life and Science, Durham, NC; pupa shipped from C. America",
+            "genus": "Nessaea",
+            "species": "a. aglaura",
+            "notes": "Flori picked up dead specimen from the butterfly vivarium"
+          }
         }
-      }]
+      ]
     },
     {
       "name": "home-2005",
       "time": "2005",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "collectingSession": [
         {
           "name": "06-14",
@@ -3007,7 +3147,9 @@
             "genus": "Ceratomia",
             "species": "amyntor",
             "notes": "Elm sphinx, looks to be same as 571, or similar",
-            "reference": { "-url": "http://www.npwrc.usgs.gov/resource/distr/lepid/moths/usa/1027.htm" }
+            "reference": {
+              "-url": "http://www.npwrc.usgs.gov/resource/distr/lepid/moths/usa/1027.htm"
+            }
           }
         },
         {
@@ -3019,19 +3161,25 @@
             "genus": "Boloria",
             "species": "bellona",
             "notes": "seemed stunned and injured, probably from a car",
-            "reference": { "-url": "http://www.wisconsinbutterflies.org/species/166" }
+            "reference": {
+              "-url": "http://www.wisconsinbutterflies.org/species/166"
+            }
           }
         }
       ]
     },
     {
       "name": "vz-2005",
-      "location": { "ref": "vz" },
+      "location": {
+        "ref": "vz"
+      },
       "collectingSession": [
         {
           "name": "pampatar-1",
           "time": "2005-12-20 11:30",
-          "location": { "ref": "margarita.pampatar" },
+          "location": {
+            "ref": "margarita.pampatar"
+          },
           "specimen": [
             {
               "id": "692",
@@ -3057,7 +3205,9 @@
         {
           "name": "la sierra 1",
           "time": "2005-12-22 08:00",
-          "location": { "ref": "margarita.lasierra" },
+          "location": {
+            "ref": "margarita.lasierra"
+          },
           "specimen": {
             "id": "695",
             "tag1": "vz0504",
@@ -3068,7 +3218,9 @@
         {
           "name": "la sierra 2",
           "time": "2005-12-23 09:00",
-          "location": { "ref": "margarita.lasierra" },
+          "location": {
+            "ref": "margarita.lasierra"
+          },
           "specimen": [
             {
               "id": "696",
@@ -3088,7 +3240,9 @@
         {
           "name": "elparaiso-1",
           "time": "2005-12-25 16:00",
-          "location": { "ref": "elparaiso" },
+          "location": {
+            "ref": "elparaiso"
+          },
           "specimen": [
             {
               "id": "698",
@@ -3111,7 +3265,9 @@
         },
         {
           "name": "agualinda",
-          "location": { "ref": "Agua Linda" },
+          "location": {
+            "ref": "Agua Linda"
+          },
           "specimen": [
             {
               "time": "2005-12-28 13:00",
@@ -3136,7 +3292,9 @@
         {
           "name": "consuelo-3",
           "time": "2005-12-29 16:00",
-          "location": { "ref": "Consuelo" },
+          "location": {
+            "ref": "Consuelo"
+          },
           "specimen": [
             {
               "id": "704",
@@ -3153,7 +3311,9 @@
         {
           "name": "nelson",
           "time": "2005-12-29 16:00",
-          "location": { "ref": "Nelson" },
+          "location": {
+            "ref": "Nelson"
+          },
           "specimen": [
             {
               "id": "703",
@@ -3234,7 +3394,9 @@
         {
           "name": "elparaiso-2",
           "time": "2005-12-30 11:00-15:00",
-          "location": { "ref": "elparaiso" },
+          "location": {
+            "ref": "elparaiso"
+          },
           "specimen": [
             {
               "id": "716",
@@ -3246,7 +3408,9 @@
         {
           "name": "avila",
           "time": "2006-01-01 11:00-15:00",
-          "location": { "ref": "lomaDelViento" },
+          "location": {
+            "ref": "lomaDelViento"
+          },
           "specimen": [
             {
               "id": "717",
@@ -3360,7 +3524,9 @@
         {
           "name": "elparaiso-3",
           "time": "2006-01",
-          "location": { "ref": "elparaiso" },
+          "location": {
+            "ref": "elparaiso"
+          },
           "specimen": [
             {
               "time": "2006-01-03 15:00",
@@ -3421,7 +3587,9 @@
         {
           "name": "trujillo",
           "time": "2006-01-17",
-          "location": { "ref": "trujillo" },
+          "location": {
+            "ref": "trujillo"
+          },
           "specimen": [
             {
               "id": "737",
@@ -3445,7 +3613,9 @@
     {
       "name": "ca-2006",
       "time": "2006-06",
-      "location": { "ref": "CA.OldPageMill" },
+      "location": {
+        "ref": "CA.OldPageMill"
+      },
       "collectingSession": [
         {
           "name": "Saturday",
@@ -3520,25 +3690,31 @@
     {
       "name": "home-2006",
       "time": "2006",
-      "location": { "ref": "home" },
-      "collectingSession": [{
-        "name": "09-18",
-        "time": "09-18 09:30",
-        "specimen": {
-          "id": "747",
-          "tag1": "699",
-          "sex": "f",
-          "place": "on windshield of Tracker, in driveway, 1317 La Cresta",
-          "genus": "Polygonia",
-          "species": "interrogationis",
-          "notes": "fall form; seemed in hibernation for a few days, but stiffened after 4"
+      "location": {
+        "ref": "home"
+      },
+      "collectingSession": [
+        {
+          "name": "09-18",
+          "time": "09-18 09:30",
+          "specimen": {
+            "id": "747",
+            "tag1": "699",
+            "sex": "f",
+            "place": "on windshield of Tracker, in driveway, 1317 La Cresta",
+            "genus": "Polygonia",
+            "species": "interrogationis",
+            "notes": "fall form; seemed in hibernation for a few days, but stiffened after 4"
+          }
         }
-      }]
+      ]
     },
     {
       "name": "cancun-2006",
       "time": "2006",
-      "location": { "ref": "cancun" },
+      "location": {
+        "ref": "cancun"
+      },
       "collectingSession": [
         {
           "name": "12-28",
@@ -3567,24 +3743,30 @@
     {
       "name": "home-2007",
       "time": "2007",
-      "location": { "ref": "home" },
-      "collectingSession": [{
-        "name": "06-30",
-        "time": "06-30 17:30",
-        "specimen": {
-          "id": "750",
-          "sex": "f",
-          "place": "along wooded S border of last cornfield on 14 acres (furthest E)",
-          "genus": "Lethe",
-          "species": "portlandia anthedon",
-          "notes": "saw the same thing the day before, in the valley; saw this one while picking black raspberries with Lia and Derek "
+      "location": {
+        "ref": "home"
+      },
+      "collectingSession": [
+        {
+          "name": "06-30",
+          "time": "06-30 17:30",
+          "specimen": {
+            "id": "750",
+            "sex": "f",
+            "place": "along wooded S border of last cornfield on 14 acres (furthest E)",
+            "genus": "Lethe",
+            "species": "portlandia anthedon",
+            "notes": "saw the same thing the day before, in the valley; saw this one while picking black raspberries with Lia and Derek "
+          }
         }
-      }]
+      ]
     },
     {
       "name": "lick-2007",
       "time": "2007-10-08 12:40",
-      "location": { "ref": "CA.LickObservatory" },
+      "location": {
+        "ref": "CA.LickObservatory"
+      },
       "specimen": {
         "id": "751",
         "place": "very near the summit of Mt. Hamilton",
@@ -3599,11 +3781,15 @@
     {
       "name": "sunnyvale-2009",
       "time": "2009",
-      "location": { "ref": "CA" },
+      "location": {
+        "ref": "CA"
+      },
       "collectingSession": [
         {
           "name": "paintedLadies",
-          "location": { "ref": "CA.NelsonWay" },
+          "location": {
+            "ref": "CA.NelsonWay"
+          },
           "time": "03-28? 17:00",
           "specimen": {
             "id": "752",
@@ -3615,7 +3801,9 @@
         },
         {
           "name": "withLia",
-          "location": { "ref": "CA.Archery" },
+          "location": {
+            "ref": "CA.Archery"
+          },
           "time": "04-27 15:00",
           "specimen": {
             "id": "753",
@@ -3627,7 +3815,9 @@
         },
         {
           "name": "silverspot",
-          "location": { "ref": "CA.NelsonWay" },
+          "location": {
+            "ref": "CA.NelsonWay"
+          },
           "time": "Sat, 6 Jun 2009 14:29:21 -0700",
           "sighting": {
             "genus": "Papilio",
@@ -3643,7 +3833,9 @@
         },
         {
           "name": "silverspot2",
-          "location": { "latLong": "37.356788,-122.092631" },
+          "location": {
+            "latLong": "37.356788,-122.092631"
+          },
           "place": " Foothill just S of Manor Way, Los Altos ",
           "time": "Tue, 9 Jun 2009 13:23:43 -0700",
           "specimen": {
@@ -3655,7 +3847,9 @@
         },
         {
           "name": "josephGrant-Lia",
-          "location": { "latLong": "37.335636,-121.718391" },
+          "location": {
+            "latLong": "37.335636,-121.718391"
+          },
           "place": " Joseph D Grant County Park, San Jose, CA 95135 ",
           "time": "Sat, 01 Aug 2009 14:38:30 -0700",
           "specimen": {
@@ -3667,7 +3861,9 @@
         },
         {
           "name": "Taylor-home",
-          "location": { "ref": "home" },
+          "location": {
+            "ref": "home"
+          },
           "time": "Thu, 12 Aug 2010 15:00 -0700",
           "specimen": {
             "id": "757",
@@ -3679,7 +3875,9 @@
         },
         {
           "name": "skippers",
-          "location": { "ref": "CA.NelsonWay" },
+          "location": {
+            "ref": "CA.NelsonWay"
+          },
           "time": "Sat, 28 Aug 2010 15:00 -0700",
           "specimen": {
             "id": "758",
@@ -3691,7 +3889,9 @@
         },
         {
           "name": "Picchetti-April",
-          "location": { "latLong": "37.291956,-122.086776" },
+          "location": {
+            "latLong": "37.291956,-122.086776"
+          },
           "place": " Picchetti Ranch Open Space Preserve, Cupertino, CA 95014 ",
           "time": "Sun, 17 Apr 2011 14:29:09 -0700",
           "specimen": {
@@ -3727,7 +3927,9 @@
     {
       "name": "home-2012",
       "time": "Wed Jul 4 12:00 CDT 2012",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "761",
@@ -3750,7 +3952,9 @@
     {
       "name": "saratoga-2012-09",
       "time": "Wed 09 may 2012",
-      "location": { "latLong": "37.280626,-122.032249" },
+      "location": {
+        "latLong": "37.280626,-122.032249"
+      },
       "specimen": {
         "id": "764",
         "genus": "Adelpha",
@@ -3766,7 +3970,9 @@
         {
           "id": "765",
           "time": "2015:07:06 14:50:00",
-          "location": { "-longLat": "-110.5309555,44.9535108" },
+          "location": {
+            "-longLat": "-110.5309555,44.9535108"
+          },
           "genus": "Agriades",
           "species": "glandon rustica",
           "sex": "m",
@@ -3775,21 +3981,27 @@
         {
           "id": "766",
           "time": "2015-07-06-150142",
-          "location": { "-longLat": "-110.5266666,44.9512462" },
+          "location": {
+            "-longLat": "-110.5266666,44.9512462"
+          },
           "genus": "Parnassius",
           "notes": "visiting sage-like low shrubs in meadow; saw many "
         },
         {
           "id": "767",
           "time": "2015-07-06-151644",
-          "location": { "-longLat": "-110.5225468,44.9489683" },
+          "location": {
+            "-longLat": "-110.5225468,44.9489683"
+          },
           "genus": "Speyeria",
           "notes": "mudpuddling, saw two others "
         },
         {
           "id": "768",
           "time": "2015-07-06-151644",
-          "location": { "-longLat": "-110.5225468,44.9489683" },
+          "location": {
+            "-longLat": "-110.5225468,44.9489683"
+          },
           "genus": "Coenonympha",
           "species": "haydeni",
           "notes": "Wood nymph, mudpuddling with blues, speyeria, sulfurs, skippers ",
@@ -3801,7 +4013,9 @@
         {
           "id": "769",
           "time": "2015-07-06-154008",
-          "location": { "-longLat": "-110.4820132,44.9410177" },
+          "location": {
+            "-longLat": "-110.4820132,44.9410177"
+          },
           "genus": "Chlosyne (Charidryas)",
           "species": "palla calydon",
           "notes": "Checkerspot, mudpuddling on roadside; saw it land, stopped next to it, one swoop of the net, and back in the car "
@@ -3815,7 +4029,9 @@
         {
           "id": "770",
           "time": "2016-05-06-1000",
-          "location": { "-longLat": "-122.074517,37.299606" },
+          "location": {
+            "-longLat": "-122.074517,37.299606"
+          },
           "place": " Coyote Ridge Trail, near Stevens Creek Reservoir ",
           "genus": "Nymphalis",
           "species": "californica",
@@ -3824,7 +4040,9 @@
         {
           "id": "771",
           "time": "2016-05-08-1908",
-          "location": { "latLong": "37.295331,-122.069062" },
+          "location": {
+            "latLong": "37.295331,-122.069062"
+          },
           "place": " Coyote Ridge Trail, near Stevens Creek Reservoir ",
           "genus": "Chlosyne",
           "species": "palla",
@@ -3835,7 +4053,9 @@
     {
       "name": "home-2016",
       "time": "Fri Jul 16 19:30 CDT 2016",
-      "location": { "ref": "home" },
+      "location": {
+        "ref": "home"
+      },
       "specimen": [
         {
           "id": "772",
@@ -3853,7 +4073,10 @@
           "id": "773",
           "mistagged": "772",
           "time": "2017-06-19-2100",
-          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "location": {
+            "latLong": "37.2884265,-122.0356721",
+            "ref": "CA.Wardell"
+          },
           "genus": "Catocala",
           "species": "aholibah",
           "notes": "In the house, drawn to lights through open windows. Derek and I playing computer games, Flori and Lia in Hawaii. I caught it up the book ladder."
@@ -3867,7 +4090,10 @@
         {
           "id": "774",
           "time": "2020-04-01-1130",
-          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "location": {
+            "latLong": "37.2884265,-122.0356721",
+            "ref": "CA.Wardell"
+          },
           "genus": "Celastrina",
           "species": "ladon echo",
           "notes": "Saw three at once in the front yard, around the new tree opposite the orange tree."
@@ -3881,7 +4107,10 @@
         {
           "id": "775",
           "time": "2020-05-09-1130",
-          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "location": {
+            "latLong": "37.2884265,-122.0356721",
+            "ref": "CA.Wardell"
+          },
           "genus": "Poanes",
           "species": "melane",
           "notes": "Sunning on greater Periwinkle near birch trees."
@@ -3889,7 +4118,10 @@
         {
           "id": "776",
           "time": "2020-05-10-1430",
-          "location": { "latLong": "37.2884265,-122.0356721", "ref": "CA.Wardell" },
+          "location": {
+            "latLong": "37.2884265,-122.0356721",
+            "ref": "CA.Wardell"
+          },
           "genus": "Papilio",
           "species": "rutulus",
           "notes": "Lighting (possibly laying eggs) on hedges; nectaring on Periwinkle; slow, relaxed flying."
@@ -3903,7 +4135,9 @@
         {
           "id": "777",
           "time": "2020-08-09-1510",
-          "location": { "latLong": "39.0799,-122.0788" },
+          "location": {
+            "latLong": "39.0799,-122.0788"
+          },
           "genus": "Colias",
           "species": "eurytheme",
           "sex": "male",
@@ -3912,7 +4146,9 @@
         {
           "id": "778",
           "time": "2020-08-09-1514",
-          "location": { "latLong": "39.0799,-122.0788" },
+          "location": {
+            "latLong": "39.0799,-122.0788"
+          },
           "genus": "Colias",
           "species": "eurytheme",
           "sex": "female",
@@ -3921,7 +4157,9 @@
         {
           "id": "779",
           "time": "2020-08-10-1649",
-          "location": { "latLong": "40.203190, -121.136216" },
+          "location": {
+            "latLong": "40.203190, -121.136216"
+          },
           "place": "Dyer day-use area, Lake Almanor",
           "genus": "Neophasia",
           "species": "menapia",
@@ -3935,8 +4173,10 @@
       "specimen": [
         {
           "id": "780",
-          "time": "2021-06-06-0836", 
-          "location": { "latLong": "37.275725,-122.071861" },
+          "time": "2021-06-06-0836",
+          "location": {
+            "latLong": "37.275725,-122.071861"
+          },
           "genus": "Lycaena",
           "species": "arota",
           "sex": "male",
@@ -3945,7 +4185,9 @@
         {
           "id": "781",
           "time": "2021-06-06-0906",
-          "location": { "latLong": "37.275830,-122.071900" },
+          "location": {
+            "latLong": "37.275830,-122.071900"
+          },
           "genus": "Lycaena",
           "species": "arota",
           "sex": "female",
@@ -3957,7 +4199,9 @@
       "name": "el-corte-de-madera-2022-02",
       "time": "2022-02-27",
       "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
-      "location": { "latLong": "37.401230, -122.307187" },
+      "location": {
+        "latLong": "37.401230, -122.307187"
+      },
       "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
       "sighting": [
         {
@@ -4000,7 +4244,9 @@
       "species": "plexippus",
       "time": "1973",
       "notes": "roadkill",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "002",
@@ -4009,7 +4255,9 @@
       "species": "plexippus",
       "time": "1973",
       "notes": "roadkill",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "003",
@@ -4018,7 +4266,9 @@
       "species": "plexippus",
       "time": "1973",
       "notes": "roadkill",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "004",
@@ -4027,7 +4277,9 @@
       "species": "plexippus",
       "time": "1973",
       "notes": "roadkill",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "005",
@@ -4036,7 +4288,9 @@
       "species": "plexippus",
       "time": "1973",
       "notes": "roadkill",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "008",
@@ -4046,7 +4300,9 @@
       "time": "1975",
       "place": "home; in gully by elms NE of house",
       "mounted": "false",
-      "location": { "ref": "home" }
+      "location": {
+        "ref": "home"
+      }
     },
     {
       "id": "009",
@@ -6647,9 +6903,11 @@
       "id": "539",
       "genus": "Phyciodes",
       "species": "pulchella",
-      "location": { "latLong": "39.068138, -106.409844" },
-      "place" : "CO, Lake - T11S - R81W - S26 - at Parry Peak campground in center of loop, on grass",
-      "time" : "1979-08-22-1024"
+      "location": {
+        "latLong": "39.068138, -106.409844"
+      },
+      "place": "CO, Lake - T11S - R81W - S26 - at Parry Peak campground in center of loop, on grass",
+      "time": "1979-08-22-1024"
     },
     {
       "id": "540",

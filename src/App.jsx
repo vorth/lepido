@@ -1,7 +1,9 @@
 
-import { createContext, createEffect, createSignal, mergeProps, useContext } from 'solid-js'
+import { createContext, createSignal, useContext } from 'solid-js'
 
 import './App.css'
+import { saveTextFile, saveTextFileAs } from './files.js';
+import { NewSession } from './dialogs.jsx';
 
 const Specimen = props =>
 {
@@ -49,13 +51,15 @@ const SpecimenDetails = props =>
 
 const AddSession = props =>
 {
-  const handleClick = () =>
+  const { createChildSession } = useContext( SelectionContext );
+  const handleClick = e =>
   {
-
+    e .stopPropagation();
+    createChildSession( props.sessions );
   }
-  
+
   return (
-    <button onClick={handleClick}>+sibling</button>
+    <button class='add-session' onClick={handleClick}>+</button>
   );
 }
 
@@ -93,11 +97,14 @@ const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
+      <AddSession sessions={props.session.collectingSession}/>
     </div>
   );
 }
 
 const SelectionContext = createContext( null );
+
+let fileHandle = null;
 
 const App = () =>
 {
@@ -116,9 +123,35 @@ const App = () =>
       setSelectedSpecimen( selection );
   }
 
+  const [ newSessionParent, setNewSessionParent ] = createSignal( null );
+  const createChildSession = parent =>
+  {
+    setNewSessionParent( parent );
+  }
+  const saveNewSession = newSession =>
+  {
+    const parent = newSessionParent();
+    setNewSessionParent( null );
+    if ( !!newSession ) {
+      parent .push( newSession );
+      const text = JSON.stringify( data(), null, 2 );
+      if ( !!fileHandle )
+        saveTextFile( fileHandle, text, 'application/json' );
+      else {
+        let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
+        if ( result.success ) {
+          fileHandle = result.fileHandle;
+        }
+      }
+      fetch( './Lepid.json' )
+        .then( response => response.text() )
+        .then( text => setData( JSON.parse( text ) ) );
+      }
+  }
+
   return (
     <>
-      <SelectionContext.Provider value={ { selectedSpecimen, clearSelection, setSelection } }>
+      <SelectionContext.Provider value={ { selectedSpecimen, clearSelection, setSelection, createChildSession } }>
         <div id="collection">
           <div id="picker">
             <CollectingSession session={ data() } />
@@ -127,6 +160,7 @@ const App = () =>
             <SpecimenDetails specimen={ selectedSpecimen() } />
           </div>
         </div>
+        <NewSession show={!!newSessionParent()} close={saveNewSession} />
       </SelectionContext.Provider>
     </>
   )
