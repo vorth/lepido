@@ -173,6 +173,7 @@
           },
           {
             "name": "elparaiso",
+            "latLong": "10.47631, -66.94411",
             "place": "Res. Primavera, Av. Paez, Calle Deyber, El Paraiso, Caracas"
           },
           {
@@ -1003,13 +1004,90 @@
           "name": "june-3-river",
           "time": "1977-07-03",
           "collectingSession": [],
-          "specimen": []
+          "latLong": "42.34442, -89.67909",
+          "specimen": [
+            {
+              "id": "192",
+              "id-1977": "219",
+              "id-green": "187",
+              "time": "1977-06-03 1645",
+              "sex": "m",
+              "genus": "Boloria",
+              "species": "b. bellona"
+            },
+            {
+              "id": "193",
+              "id-1977": "220",
+              "id-green": "188",
+              "time": "1977-06-03 1645",
+              "sex": "f",
+              "genus": "Boloria",
+              "species": "b. bellona"
+            },
+            {
+              "id": "194",
+              "id-1977": "221",
+              "id-green": "189",
+              "time": "1977-06-03 1720",
+              "sex": "m",
+              "genus": "Lycaena",
+              "species": "hyllus"
+            },
+            {
+              "id": "195",
+              "id-1977": "222",
+              "id-green": "190",
+              "time": "1977-06-03 1730",
+              "genus": "Lycaena",
+              "species": "xanthoides dione"
+            }        
+          ]
         },
         {
           "name": "june-4",
           "time": "1977-07-04",
+          "location": {
+            "ref": "home.hedge"
+          },
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "196",
+              "id-1977": "223",
+              "id-green": "191",
+              "time": "1977-06-04 1245",
+              "sex": "f",
+              "genus": "Papilio",
+              "species": "g. glaucus",
+              "notes": "-- black"
+            },
+            {
+              "id": "197",
+              "id-1977": "224",
+              "id-green": "192",
+              "time": "1977-06-04 1300",
+              "sex": "f",
+              "genus": "Vanessa (Cynthia)",
+              "species": "virginiensis"
+            },
+            {
+              "id": "198",
+              "id-1977": "225",
+              "id-green": "193",
+              "time": "1977-06-04 1345",
+              "sex": "m",
+              "genus": "Polites",
+              "species": "themistocles"
+            },
+            {
+              "id": "199",
+              "id-1977": "226",
+              "id-green": "194",
+              "time": "1977-06-04 1415",
+              "genus": "Nymphalis",
+              "species": "m. milberti"
+            }        
+          ]
         },
         {
           "name": "june-8",
@@ -1044,6 +1122,12 @@
         {
           "name": "june-15",
           "time": "1977-07-15",
+          "collectingSession": [],
+          "specimen": []
+        },
+        {
+          "name": "june-18",
+          "time": "1977-07-18",
           "collectingSession": [],
           "specimen": []
         }
@@ -1977,7 +2061,9 @@
             },
             {
               "id": "578",
-              "genus": "Strymon/Satyrium"
+              "genus": "Calycopis",
+              "species": "isobeon",
+              "notes": "sim. 783?"
             },
             {
               "id": "579",
@@ -1994,7 +2080,10 @@
             },
             {
               "id": "582",
-              "sex": "m"
+              "sex": "m",
+              "genus": "Calycopis",
+              "species": "isobeon",
+              "notes": "sim. 783?"
             },
             {
               "id": "583",
@@ -2010,7 +2099,9 @@
             {
               "id": "585",
               "sex": "m",
-              "genus": "Strymon/Satyrium"
+              "genus": "Calycopis",
+              "species": "isobeon",
+              "notes": "sim. 783?"
             }
           ]
         }
@@ -3350,6 +3441,8 @@
             {
               "id": "710",
               "tag1": "vz0519",
+              "genus": "Calycopis",
+              "species": "isobeon",
               "notes": "hairstreak"
             },
             {
@@ -4215,6 +4308,56 @@
           "species": "marginalis",
           "time": "2022-02-27-1126",
           "notes": "photo IMG_3944 from Canon SX70"
+        }
+      ]
+    },
+    {
+      "name": "vz-2023",
+      "time": "2023",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": "782",
+          "time": "2023-12-26 1640",
+          "place": "the apartment in Caracas",
+          "collector": "Florelia Braschi",
+          "location": {
+            "ref": "elparaiso"
+          },
+          "notes": "upstairs apartment; trapped between window panes"
+        },
+        {
+          "id": "783",
+          "time": "2024-01-03",
+          "genus": "Calycopis",
+          "species": "isobeon",
+          "collector": "Florelia Braschi",
+          "location": {
+            "ref": "elparaiso"
+          },
+          "place": "dead on the floor while mopping",
+          "notes": "hairstreak"
+        },
+        {
+          "id": "784",
+          "time": "2024-01-10 0720",
+          "collector": "Florelia Braschi",
+          "location": {
+            "ref": "elparaiso"
+          },
+          "genus": "Eulepidotis",
+          "species": "electa",
+          "notes": "upstairs apartment on the floor"
+        },
+        {
+          "id": "785",
+          "time": "2024-01-10 1900",
+          "genus": "Danaus",
+          "species": "gilippus xanthippus",
+          "collector": "Suyin Felibert",
+          "place": "Indira's friend found it on her 2nd floor balcony",
+          "latLong": "10.48613, -66.94079",
+          "notes": "queen"
         }
       ]
     }
@@ -5179,60 +5322,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "192",
-      "tag1": "192",
-      "sex": "m",
-      "genus": "Boloria",
-      "species": "b. bellona"
-    },
-    {
-      "id": "193",
-      "tag1": "193",
-      "sex": "m",
-      "genus": "Boloria",
-      "species": "b. bellona"
-    },
-    {
-      "id": "194",
-      "tag1": "194",
-      "sex": "m",
-      "genus": "Lycaena",
-      "species": "hyllus"
-    },
-    {
-      "id": "195",
-      "tag1": "195",
-      "genus": "Lycaena",
-      "species": "xanthoides dione"
-    },
-    {
-      "id": "196",
-      "tag1": "196",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "g. glaucus",
-      "notes": "-- black"
-    },
-    {
-      "id": "197",
-      "tag1": "197",
-      "sex": "f",
-      "genus": "Vanessa (Cynthia)",
-      "species": "virginiensis"
-    },
-    {
-      "id": "198",
-      "tag1": "198",
-      "sex": "m",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "199",
-      "tag1": "199",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
     },
     {
       "id": "200",
