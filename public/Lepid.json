@@ -1,5 +1,5 @@
 {
-  "lastNumber": "781",
+  "lastNumber": "788",
   "locations": {
     "location": [
       {
@@ -2706,7 +2706,8 @@
           "specimen": [
             {
               "id": "643",
-              "notes": "lovely moth with cinnamon hindwing edges & creamy tails"
+              "genus": "Homidiana",
+              "notes": "lovely moth with cinnamon hindwing edges & creamy tails; genus also called Coronidia"
             },
             {
               "id": "644",
@@ -4216,7 +4217,7 @@
             "ref": "CA.Wardell"
           },
           "genus": "Papilio",
-          "species": "rutulus",
+          "species": "eurymedon",
           "notes": "Lighting (possibly laying eggs) on hedges; nectaring on Periwinkle; slow, relaxed flying."
         }
       ]
@@ -4305,7 +4306,7 @@
         },
         {
           "genus": "Pieris",
-          "species": "marginalis",
+          "species": "napi venosa",
           "time": "2022-02-27-1126",
           "notes": "photo IMG_3944 from Canon SX70"
         }
@@ -4358,6 +4359,79 @@
           "place": "Indira's friend found it on her 2nd floor balcony",
           "latLong": "10.48613, -66.94079",
           "notes": "queen"
+        }
+      ]
+    },
+    {
+      "name": "el-corte-de-madera-2024-04",
+      "time": "2024-04-02",
+      "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
+      "location": {
+        "latLong": "37.401230, -122.307187"
+      },
+      "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
+      "specimen": [
+        {
+          "id": "786",
+          "genus": "Pieris",
+          "species": "napi venosa",
+          "time": "2024-04-02-0949",
+          "notes": "on small blue flowers, Forget-Me-Not; photo IMG_6305 from Canon SX70, IMG_1306 from iPhone; saw 4-5 others"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Polygonia",
+          "species": "satyrus",
+          "time": "2024-04-02-1003",
+          "notes": "photo IMG_6291 from Canon SX70"
+        }
+      ]
+    },
+    {
+      "name": "barcelona-2024-05",
+      "time": "2024-05-30",
+      "place": "Barcelona, Spain",
+      "notes": "Flori caught it with her jacket, put the jacket in her bag, and released it in her hotel shower bay later!",
+      "specimen": [
+        {
+          "id": "787",
+          "genus": "Pararge",
+          "species": "argeria",
+          "collector": "Florelia Braschi",
+          "time": "2024-05-30-1338",
+          "location": {
+            "latLong": "41.41569, 2.15406"
+          },
+          "notes": "Speckled Wood"
+        }
+      ]
+    },
+    {
+      "name": "baylands-2024-06",
+      "time": "2024-06-04",
+      "place": "Adobe Creek Loop trail, Baylands Nature Preserve, Palo Alto, CA",
+      "notes": "Having seen all the fennel in April when we bought the Honda Prologue, and seeing Western Tigers flying around the house, I decided it would be a good day to catch an Anise here.  Flori and I went while Derek was in Calculus.",
+      "specimen": [
+        {
+          "id": "788",
+          "genus": "Strymon",
+          "species": "melinus",
+          "time": "2024-06-04-1407",
+          "location": {
+            "latLong": "37.45383, -122.10347"
+          },
+          "notes": "hairstreak; saw several others"
+        },
+        {
+          "id": "789",
+          "genus": "Papilio",
+          "species": "zelicaon",
+          "time": "2024-06-04-1407",
+          "location": {
+            "latLong": "37.45331, -122.10319"
+          },
+          "notes": "Anise swallowtail; saw many, nectaring on Phlox-like wildflowers, near fennel"
         }
       ]
     }
