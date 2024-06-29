@@ -1,5 +1,5 @@
 {
-  "lastNumber": "788",
+  "lastNumber": "792",
   "locations": {
     "location": [
       {
@@ -1437,7 +1437,7 @@
             },
             {
               "id": "475",
-              "genus": "Precis",
+              "genus": "Junonia",
               "species": "evarete zonalis"
             },
             {
@@ -1466,7 +1466,7 @@
             },
             {
               "id": "479",
-              "genus": "Precis",
+              "genus": "Junonia",
               "species": "evarete zonalis"
             },
             {
@@ -1595,7 +1595,7 @@
             {
               "id": "498",
               "tag1": "498",
-              "genus": "Precis",
+              "genus": "Junonia",
               "species": "c. coenia",
               "place": "11 mile W"
             }
@@ -2042,7 +2042,7 @@
           },
           "specimen": {
             "id": "576",
-            "genus": "Precis",
+            "genus": "Junonia",
             "species": "c. coenia"
           }
         },
@@ -4434,6 +4434,74 @@
           "notes": "Anise swallowtail; saw many, nectaring on Phlox-like wildflowers, near fennel"
         }
       ]
+    },
+    {
+      "name": "mt-madonna-2024-06",
+      "time": "2024-06-12",
+      "place": "Blackhawk trail, Sprig Day Use Area, Mt. Madonna County Park, Watsonville, CA",
+      "location": {
+        "latLong": "37.00775, -121.68290"
+      },
+      "notes": "very windy day; surprised to see anything.  Also saw Buckeyes (many), Cal. Sister, several Lorquinn's Admirals.",
+      "specimen": [
+        {
+          "id": "790",
+          "genus": "Phyciodes",
+          "species": "mylitta",
+          "time": "2024-06-12-1242"
+        },
+        {
+          "id": "791",
+          "genus": "Chlosyne",
+          "species": "p. palla",
+          "time": "2024-06-12-1242"
+         }
+      ]
+    },
+    {
+      "name": "mt-eden-2024-06",
+      "time": "2021-06",
+      "place": "Mt. Eden Trail, Saratoga, CA",
+      "specimen": [
+        {
+          "id": "792",
+          "time": "2021-06-23-1519",
+          "location": {
+            "latLong": "37.27623, -122.07260"
+          },
+          "genus": "Junonia",
+          "species": "grisea",
+          "notes": "Saw many male Lycaena arota, several Lorquin's and sisters, and a golden hairstreak."
+        }
+      ]
+    },
+    {
+      "name": "baylands-2024-06-27",
+      "time": "2024-06-27",
+      "place": "Adobe Creek Loop trail, Baylands Nature Preserve, Palo Alto, CA",
+      "notes": "Also saw Anise Swallowtail, Gray Buckeyes, Hairstreaks, Cabbages, Painted Lady.",
+      "specimen": [
+        {
+          "id": "793",
+          "genus": "Burnsius",
+          "species": "communis",
+          "time": "2024-06-27-1135",
+          "location": {
+            "latLong": "37.45333, -122.10322"
+          },
+          "notes": "checkered skipper; saw many others"
+        },
+        {
+          "id": "794",
+          "genus": "Lycaena",
+          "species": "x. xanthoides",
+          "time": "2024-06-27-1203",
+          "location": {
+            "latLong": "37.45010, -122.10290"
+          },
+          "notes": "Nectaring among hairstreaks and skippers"
+        }
+      ]
     }
   ],
   "sighting": [
@@ -4598,7 +4666,7 @@
     {
       "id": "020",
       "tag1": "020",
-      "genus": "Precis",
+      "genus": "Junonia",
       "species": "c. coenia"
     },
     {
@@ -6853,7 +6921,7 @@
       "id": "456",
       "tag1": "456",
       "sex": "f",
-      "genus": "Precis",
+      "genus": "Junonia",
       "species": "c. coenia"
     },
     {
