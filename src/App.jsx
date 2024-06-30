@@ -1,5 +1,5 @@
 
-import { createContext, createSignal, useContext } from 'solid-js'
+import { createContext, createSignal, onMount, useContext } from 'solid-js'
 
 import './App.css'
 import { saveTextFile, saveTextFileAs } from './files.js';
@@ -55,7 +55,7 @@ const AddSession = props =>
   const handleClick = e =>
   {
     e .stopPropagation();
-    createChildSession( props.sessions );
+    createChildSession( props.parent );
   }
 
   return (
@@ -97,7 +97,7 @@ const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
-      <AddSession sessions={props.session.collectingSession}/>
+      <AddSession parent={props.session}/>
     </div>
   );
 }
@@ -109,9 +109,13 @@ let fileHandle = null;
 const App = () =>
 {
   const [ data, setData ] = createSignal( {} );
-  fetch( './Lepid.json' )
-    .then( response => response.text() )
-    .then( text => setData( JSON.parse( text ) ) );
+  const refetch = () =>
+  {
+    fetch( './Lepid.json' )
+      .then( response => response.text() )
+      .then( text => setData( JSON.parse( text ) ) );
+  }
+  onMount( refetch );
 
   const [ selectedSpecimen, setSelectedSpecimen ] = createSignal( null );
   const clearSelection = () => setSelectedSpecimen( null );
@@ -133,7 +137,10 @@ const App = () =>
     const parent = newSessionParent();
     setNewSessionParent( null );
     if ( !!newSession ) {
-      parent .push( newSession );
+      if ( ! parent.collectingSession ) {
+        parent.collectingSession = [];
+      }
+      parent.collectingSession .push( newSession );
       const text = JSON.stringify( data(), null, 2 );
       if ( !!fileHandle )
         saveTextFile( fileHandle, text, 'application/json' );
@@ -143,10 +150,8 @@ const App = () =>
           fileHandle = result.fileHandle;
         }
       }
-      fetch( './Lepid.json' )
-        .then( response => response.text() )
-        .then( text => setData( JSON.parse( text ) ) );
-      }
+      refetch();
+    }
   }
 
   return (
