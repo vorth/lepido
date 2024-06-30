@@ -1,9 +1,9 @@
 
-import { createContext, createSignal, onMount, useContext } from 'solid-js'
+import { createContext, createSignal, mergeProps, onMount, useContext } from 'solid-js'
 
 import './App.css'
 import { saveTextFile, saveTextFileAs } from './files.js';
-import { NewSession } from './dialogs.jsx';
+import { NewSession, NewSpecimen } from './dialogs.jsx';
 
 const Specimen = props =>
 {
@@ -36,14 +36,9 @@ const SpecimenDetails = props =>
   return (
     <Show when={ !! props.specimen }>
       <div id="selectedSpecimen" >
-        <Field key="id" value={props.specimen.id} />
-        <Field key="genus" value={props.specimen.genus} />
-        <Field key="species" value={props.specimen.species} />
-        <Field key="time" value={props.specimen.time} />
-        <Field key="place" value={props.specimen.place} />
-        <Field key="location" value={props.specimen.location} />
-        <Field key="latLong" value={props.specimen.latLong} />
-        <Field key="notes" value={props.specimen.notes} />
+        <For each={ Object.entries( props.specimen ) } >{ ( [key, value] ) =>
+          <Field key={key} value={value} />
+        }</For>
       </div>
     </Show>
   );
@@ -59,10 +54,25 @@ const AddSession = props =>
   }
 
   return (
-    <button class='add-session' onClick={handleClick}>+</button>
+    <button class='add-session add-button' onClick={handleClick}>+</button>
   );
 }
 
+
+const AddSpecimen = props =>
+  {
+    const { createSpecimen } = useContext( SelectionContext );
+    const handleClick = e =>
+    {
+      e .stopPropagation();
+      createSpecimen( props.parent );
+    }
+  
+    return (
+      <button class='add-specimen add-button' onClick={handleClick}>+</button>
+    );
+  }
+  
 const CollectingSession = props =>
 {
   const { clearSelection } = useContext( SelectionContext );
@@ -82,7 +92,7 @@ const CollectingSession = props =>
       <ul class='sessionList'>
         <Show when={ !specimensCollapsed() }>
           <Show when={ Array.isArray( props.session.specimen ) } fallback={
-            <Specimen specimen={props.session.specimen}/>
+            props.session.specimen && <Specimen specimen={props.session.specimen}/>
           }>
             <For each={props.session.specimen}>{ specimen =>
               <Specimen specimen={specimen}/>
@@ -97,7 +107,11 @@ const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
-      <AddSession parent={props.session}/>
+      <Show when={ !specimensCollapsed() } fallback={
+        <AddSession parent={props.session}/>
+      }>
+        <AddSpecimen parent={props.session}/>
+      </Show>
     </div>
   );
 }
@@ -127,6 +141,28 @@ const App = () =>
       setSelectedSpecimen( selection );
   }
 
+  const updateData = () =>
+  {
+    const text = JSON.stringify( data(), null, 2 );
+    setData( JSON.parse( text ) );
+  }
+
+  const saveDataLocally = () =>
+  {
+    const text = JSON.stringify( data(), null, 2 );
+    if ( !!fileHandle )
+      saveTextFile( fileHandle, text, 'application/json' );
+    else {
+      let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
+      if ( result.success ) {
+        fileHandle = result.fileHandle;
+      }
+    }
+    // This assumes we are running the app from source, on my computer,
+    //   and we just saved over the Lepid.json source.
+    refetch();
+  }
+
   const [ newSessionParent, setNewSessionParent ] = createSignal( null );
   const createChildSession = parent =>
   {
@@ -141,22 +177,33 @@ const App = () =>
         parent.collectingSession = [];
       }
       parent.collectingSession .push( newSession );
-      const text = JSON.stringify( data(), null, 2 );
-      if ( !!fileHandle )
-        saveTextFile( fileHandle, text, 'application/json' );
-      else {
-        let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
-        if ( result.success ) {
-          fileHandle = result.fileHandle;
-        }
+    }
+    updateData();
+  }
+
+  const [ newSpecimenParent, setNewSpecimenParent ] = createSignal( null );
+  const createSpecimen = parent =>
+  {
+    setNewSpecimenParent( parent );
+  }
+  const saveNewSpecimen = newSpecimen =>
+  {
+    const parent = newSpecimenParent();
+    setNewSpecimenParent( null );
+    if ( !!newSpecimen ) {
+      if ( ! parent.specimen ) {
+        parent.specimen = [];
       }
-      refetch();
+      parent.specimen .push( newSpecimen );
     }
   }
+  const contextAPI = {
+    selectedSpecimen, clearSelection, setSelection, createChildSession, createSpecimen
+  };
 
   return (
     <>
-      <SelectionContext.Provider value={ { selectedSpecimen, clearSelection, setSelection, createChildSession } }>
+      <SelectionContext.Provider value={ contextAPI }>
         <div id="collection">
           <div id="picker">
             <CollectingSession session={ data() } />
@@ -166,6 +213,7 @@ const App = () =>
           </div>
         </div>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
+        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimen} />
       </SelectionContext.Provider>
     </>
   )

@@ -59,12 +59,17 @@ body {
   margin: 0;
 }
 
-.add-session {
+.add-button {
   position: absolute;
   top: 0;
   right: 0;
   padding-block: 0;
   padding-inline: 8px;
-  background-color: var(--detail-color);
   color: var(--session-color);
+}
+.add-session {
+  background-color: var(--border-color);
+}
+.add-specimen {
+  background-color: var(--detail-color);
 }
