@@ -1040,7 +1040,7 @@
               "time": "1977-06-03 1730",
               "genus": "Lycaena",
               "species": "xanthoides dione"
-            }        
+            }
           ]
         },
         {
@@ -1086,26 +1086,108 @@
               "time": "1977-06-04 1415",
               "genus": "Nymphalis",
               "species": "m. milberti"
-            }        
+            }
           ]
         },
         {
           "name": "june-8",
           "time": "1977-07-08",
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "200",
+              "tag1": "200",
+              "sex": "f",
+              "genus": "Nymphalis",
+              "species": "m. milberti (milberti)"
+            },
+            {
+              "id": "201",
+              "tag1": "201",
+              "-num2": "196",
+              "genus": "Satyrium",
+              "species": "caryaevoris",
+              "notes": "228"
+            }
+          ]
         },
         {
           "name": "june-9",
           "time": "1977-07-09",
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "202",
+              "tag1": "202",
+              "sex": "f",
+              "genus": "Polygonia",
+              "species": "comma (dryas)"
+            },
+            {
+              "id": "203",
+              "tag1": "203",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            },
+            {
+              "id": "204",
+              "tag1": "204",
+              "sex": "m",
+              "genus": "Boloria",
+              "species": "b. bellona"
+            },
+            {
+              "id": "205",
+              "tag1": "205",
+              "sex": "f",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            },
+            {
+              "id": "206",
+              "tag1": "206",
+              "sex": "m",
+              "genus": "Chlosyne",
+              "species": "n. nycteis"
+            },
+            {
+              "id": "207",
+              "tag1": "207",
+              "sex": "f",
+              "genus": "Nymphalis",
+              "species": "vau-album j-album"
+            },
+            {
+              "id": "208",
+              "tag1": "208",
+              "sex": "f",
+              "genus": "Speyeria",
+              "species": "c. cybele"
+            },
+            {
+              "id": "209",
+              "tag1": "209",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus",
+              "notes": "-- unmounted"
+            }
+          ]
         },
         {
           "name": "june-10",
           "time": "1977-07-10",
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "210",
+              "tag1": "210",
+              "sex": "m",
+              "genus": "Euphydryas",
+              "species": "p. phaeton"
+            }
+          ]
         },
         {
           "name": "june-12",
@@ -4455,7 +4537,7 @@
           "genus": "Chlosyne",
           "species": "p. palla",
           "time": "2024-06-12-1242"
-         }
+        }
       ]
     },
     {
@@ -5464,85 +5546,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "200",
-      "tag1": "200",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "m. milberti (milberti)"
-    },
-    {
-      "id": "201",
-      "tag1": "201",
-      "-num2": "196",
-      "genus": "Satyrium",
-      "species": "caryaevoris",
-      "notes": "228"
-    },
-    {
-      "id": "202",
-      "tag1": "202",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "203",
-      "tag1": "203",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "204",
-      "tag1": "204",
-      "sex": "m",
-      "genus": "Boloria",
-      "species": "b. bellona"
-    },
-    {
-      "id": "205",
-      "tag1": "205",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "206",
-      "tag1": "206",
-      "sex": "m",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "207",
-      "tag1": "207",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "vau-album j-album"
-    },
-    {
-      "id": "208",
-      "tag1": "208",
-      "sex": "f",
-      "genus": "Speyeria",
-      "species": "c. cybele"
-    },
-    {
-      "id": "209",
-      "tag1": "209",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "210",
-      "tag1": "210",
-      "sex": "m",
-      "genus": "Euphydryas",
-      "species": "p. phaeton"
     },
     {
       "id": "211",

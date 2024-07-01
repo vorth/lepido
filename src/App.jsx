@@ -1,5 +1,5 @@
 
-import { createContext, createSignal, mergeProps, onMount, useContext } from 'solid-js'
+import { createContext, createSignal, onMount, useContext } from 'solid-js'
 
 import './App.css'
 import { saveTextFile, saveTextFileAs } from './files.js';
@@ -12,11 +12,11 @@ const Specimen = props =>
   const clickHandler = e =>
   {
     e .stopPropagation();
-    setSelection( props.specimen );
+    setSelection( props.specimen, props.container );
   }
 
   return (
-    <li id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler} classList={ { selected: selectedSpecimen()?.id === props.specimen.id } } >
+    <li id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler} classList={ { selected: selectedSpecimen() ?.specimen ?.id === props.specimen.id } } >
       {`${id} ${genus} ${species}`}
     </li>
   );
@@ -33,13 +33,17 @@ const Field = props =>
 
 const SpecimenDetails = props =>
 {
+  const { lastOpenedSession, moveSpecimen } = useContext( SelectionContext );
+  const handleMove = () => moveSpecimen( props.selection );
+
   return (
-    <Show when={ !! props.specimen }>
+    <Show when={ !! props.selection?.specimen }>
       <div id="selectedSpecimen" >
-        <For each={ Object.entries( props.specimen ) } >{ ( [key, value] ) =>
+        <For each={ Object.entries( props.selection.specimen ) } >{ ( [key, value] ) =>
           <Field key={key} value={value} />
         }</For>
       </div>
+      {( !! lastOpenedSession() ) &&  <button class='move-button' onClick={handleMove}>Move to {lastOpenedSession().join('/')}</button>}
     </Show>
   );
 }
@@ -72,37 +76,44 @@ const AddSpecimen = props =>
       <button class='add-specimen add-button' onClick={handleClick}>+</button>
     );
   }
-  
+
 const CollectingSession = props =>
 {
-  const { clearSelection } = useContext( SelectionContext );
+  const { clearSelection, setLastOpenedSession } = useContext( SelectionContext );
   const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( true );
   const [ sessionsCollapsed, setSessionsCollapsed ] = createSignal( false );
+  const name = () => props.session.name || 'COLLECTION';
+  const path = () => [ ...props.path, name() ];
 
   const toggleCollapsed = e =>
   {
     e .stopPropagation();
+    if ( specimensCollapsed() ) {
+      // opening specimens of this session
+      console.log( `destination is ${JSON.stringify(path())}`);
+      setLastOpenedSession( path() );
+    }
     setSpecimensCollapsed( val => !val );
     clearSelection();
   }
 
   return (
     <div class="session" onClick={ toggleCollapsed }>
-      {props.session.name || 'COLLECTION'}
+      {name()}
       <ul class='sessionList'>
         <Show when={ !specimensCollapsed() }>
           <Show when={ Array.isArray( props.session.specimen ) } fallback={
-            props.session.specimen && <Specimen specimen={props.session.specimen}/>
+            props.session.specimen && <Specimen specimen={props.session.specimen} container={props.session} />
           }>
             <For each={props.session.specimen}>{ specimen =>
-              <Specimen specimen={specimen}/>
+              <Specimen specimen={specimen} container={props.session.specimen}/>
             }</For>
           </Show>
         </Show>
         <Show when={ !sessionsCollapsed() }>
           <For each={props.session.collectingSession}>{ session =>
             <li>
-              <CollectingSession session={ session } parent={ props.session } />
+              <CollectingSession session={ session } path={path()} />
             </li>
           }</For>
         </Show>
@@ -131,14 +142,14 @@ const App = () =>
   }
   onMount( refetch );
 
-  const [ selectedSpecimen, setSelectedSpecimen ] = createSignal( null );
+  const [ selectedSpecimen, setSelectedSpecimen ] = createSignal( {} );
   const clearSelection = () => setSelectedSpecimen( null );
-  const setSelection = selection =>
+  const setSelection = ( selection, container ) =>
   {
-    if ( selection ?.id === selectedSpecimen() ?.id )
-      setSelectedSpecimen( null );
+    if ( selection ?.id === selectedSpecimen() ?.specimen ?.id )
+      setSelectedSpecimen( {} );
     else
-      setSelectedSpecimen( selection );
+      setSelectedSpecimen( {specimen:selection,container} );
   }
 
   const updateData = () =>
@@ -197,19 +208,48 @@ const App = () =>
       parent.specimen .push( newSpecimen );
     }
   }
+
+  const getCollectingSession = ( path ) =>
+  {
+    let session = data();
+    for (const name of path.slice(1) ) {
+      session = session.collectingSession.find( s => s.name === name );
+    }
+    return session;
+  }
+
+  const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
+  const moveSpecimen = ( { container, specimen } ) =>
+    {
+      console.log( `moving specimen ${specimen.id} to session "${lastOpenedSession().join('/')}"` );
+      if ( Array.isArray( container ) ) {
+        const index = container .findIndex( e => e.id === specimen.id );
+        if ( index > -1 ) { // only splice array when item is found
+          container.splice( index, 1 ); // 2nd parameter means remove one item only
+        }
+        const dest = getCollectingSession( lastOpenedSession() ) .specimen;
+        dest .push( specimen );
+        updateData();
+      } else {      
+        console.log( 'NOT AN ARRAY' );
+      }
+    }
+    
   const contextAPI = {
-    selectedSpecimen, clearSelection, setSelection, createChildSession, createSpecimen
+    selectedSpecimen, clearSelection, setSelection, createChildSession, createSpecimen,
+    lastOpenedSession, setLastOpenedSession, moveSpecimen,
   };
 
   return (
     <>
       <SelectionContext.Provider value={ contextAPI }>
+        <button onClick={saveDataLocally}>Save</button>
         <div id="collection">
           <div id="picker">
-            <CollectingSession session={ data() } />
+            <CollectingSession session={ data() } path={[]} />
           </div>
           <div id="detail">
-            <SpecimenDetails specimen={ selectedSpecimen() } />
+            <SpecimenDetails selection={ selectedSpecimen() } />
           </div>
         </div>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
