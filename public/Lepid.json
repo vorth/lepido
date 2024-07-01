@@ -1193,28 +1193,87 @@
           "name": "june-12",
           "time": "1977-07-12",
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "211",
+              "tag1": "211",
+              "sex": "m",
+              "genus": "Speyeria",
+              "species": "aphrodite alcestis"
+            }
+          ]
         },
         {
           "name": "june-14",
           "time": "1977-07-14",
           "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "212",
+              "tag1": "212",
+              "genus": "Polygonia",
+              "species": "canus",
+              "notes": "-- summer?"
+            },
+            {
+              "id": "213",
+              "tag1": "213",
+              "sex": "m",
+              "genus": "Libytheana",
+              "species": "b. bachmanii"
+            },
+            {
+              "id": "214",
+              "tag1": "214",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)"
+            }
+          ]
         },
         {
           "name": "june-15",
           "time": "1977-07-15",
           "collectingSession": [],
-          "specimen": []
-        },
-        {
-          "name": "june-18",
-          "time": "1977-07-18",
-          "collectingSession": [],
-          "specimen": []
+          "specimen": [
+            {
+              "id": "215",
+              "tag1": "215",
+              "sex": "f",
+              "genus": "Colias",
+              "species": "philodice-eurytheme",
+              "notes": "-- white"
+            },
+            {
+              "id": "216",
+              "tag1": "216",
+              "genus": "Boloria",
+              "species": "b. bellona"
+            },
+            {
+              "id": "217",
+              "tag1": "217",
+              "genus": "Euptoieta",
+              "species": "claudia"
+            }
+          ]
         }
       ],
       "specimen": []
+    },
+    {
+      "name": "minden-1977",
+      "time": "1977-07-18",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": "218",
+          "tag1": "218",
+          "sex": "m",
+          "genus": "Pachysphinx",
+          "species": "m. modesta"
+        }
+      ]
     },
     {
       "name": "north-dakota-1978",
@@ -5546,61 +5605,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "211",
-      "tag1": "211",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "aphrodite alcestis"
-    },
-    {
-      "id": "212",
-      "tag1": "212",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "-- summer?"
-    },
-    {
-      "id": "213",
-      "tag1": "213",
-      "sex": "m",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "214",
-      "tag1": "214",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "215",
-      "tag1": "215",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white"
-    },
-    {
-      "id": "216",
-      "tag1": "216",
-      "genus": "Boloria",
-      "species": "b. bellona"
-    },
-    {
-      "id": "217",
-      "tag1": "217",
-      "genus": "Euptoieta",
-      "species": "claudia"
-    },
-    {
-      "id": "218",
-      "tag1": "218",
-      "sex": "m",
-      "genus": "Pachysphinx",
-      "species": "m. modesta"
     },
     {
       "id": "219",
