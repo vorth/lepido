@@ -1002,7 +1002,7 @@
         },
         {
           "name": "june-3-river",
-          "time": "1977-07-03",
+          "time": "1977-06-03",
           "collectingSession": [],
           "latLong": "42.34442, -89.67909",
           "specimen": [
@@ -1045,7 +1045,7 @@
         },
         {
           "name": "june-4",
-          "time": "1977-07-04",
+          "time": "1977-06-04",
           "location": {
             "ref": "home.hedge"
           },
@@ -1091,121 +1091,170 @@
         },
         {
           "name": "june-8",
-          "time": "1977-07-08",
+          "time": "1977-06-08",
+          "location": {
+            "ref": "home.hedge"
+          },
           "collectingSession": [],
           "specimen": [
             {
               "id": "200",
-              "tag1": "200",
+              "id-1977": "227",
+              "id-green": "195",
               "sex": "f",
               "genus": "Nymphalis",
               "species": "m. milberti (milberti)"
             },
             {
               "id": "201",
-              "tag1": "201",
-              "-num2": "196",
+              "id-1977": "228",
+              "id-green": "196",
               "genus": "Satyrium",
-              "species": "caryaevoris",
-              "notes": "228"
+              "species": "caryaevoris"
             }
           ]
         },
         {
           "name": "june-9",
-          "time": "1977-07-09",
+          "time": "1977-06-09",
           "collectingSession": [],
+          "location": {
+            "ref": "home"
+          },
           "specimen": [
             {
               "id": "202",
-              "tag1": "202",
+              "id-1977": "229",
+              "id-green": "197",
               "sex": "f",
+              "location": {
+                "ref": "home.hedge"
+              },
               "genus": "Polygonia",
               "species": "comma (dryas)"
             },
             {
               "id": "203",
-              "tag1": "203",
+              "id-1977": "230",
+              "id-green": "198",
               "sex": "m",
+              "location": {
+                "ref": "home.hedge"
+              },
               "genus": "Celastrina",
               "species": "argiolus pseudargiolus (p.)"
             },
             {
               "id": "204",
-              "tag1": "204",
+              "id-1977": "231",
+              "id-green": "199",
               "sex": "m",
+              "place": "by martin house on burdock",
               "genus": "Boloria",
               "species": "b. bellona"
             },
             {
               "id": "205",
-              "tag1": "205",
+              "id-1977": "232",
+              "id-green": "200",
               "sex": "f",
+              "place": "N of S meadow on cut trail",
               "genus": "Celastrina",
               "species": "argiolus pseudargiolus (p.)"
             },
             {
               "id": "206",
-              "tag1": "206",
+              "id-1977": "233",
+              "id-green": "201",
               "sex": "m",
+              "place": "on burdock E of driveway",
               "genus": "Chlosyne",
               "species": "n. nycteis"
             },
             {
               "id": "207",
-              "tag1": "207",
+              "id-1977": "234",
+              "id-green": "202",
               "sex": "f",
+              "place": "privet hedge by garage",
               "genus": "Nymphalis",
-              "species": "vau-album j-album"
+              "species": "vau-album j-album",
+              "collector": "Layne Vorthmann"
             },
             {
               "id": "208",
-              "tag1": "208",
+              "id-1977": "235",
+              "id-green": "203",
               "sex": "f",
+              "place": "privet hedge by garage",
               "genus": "Speyeria",
               "species": "c. cybele"
             },
             {
               "id": "209",
-              "tag1": "209",
+              "id-1977": "236",
+              "id-green": "204",
               "sex": "m",
+              "place": "privet hedge by garage",
               "genus": "Celastrina",
               "species": "argiolus",
               "notes": "-- unmounted"
             }
           ]
-        },
+        }
+      ],
+      "specimen": []
+    },
+    {
+      "name": "yellowstone-sp",
+      "time": "1977-06",
+      "place": "Yellowstone Lake SP, WI",
+      "collectingSession": [
         {
           "name": "june-10",
-          "time": "1977-07-10",
+          "time": "1977-06-10",
           "collectingSession": [],
+          "latLong": "42.76938, -89.97174",
+          "place": "foot of hill rd to campground, Yellowstone Lake SP, WI",
           "specimen": [
             {
               "id": "210",
-              "tag1": "210",
+              "id-1977": "237",
+              "id-green": "205",
               "sex": "m",
               "genus": "Euphydryas",
-              "species": "p. phaeton"
+              "species": "p. phaeton",
+              "notes": "stunned on the road"
             }
           ]
         },
         {
           "name": "june-12",
-          "time": "1977-07-12",
+          "time": "1977-06-12",
           "collectingSession": [],
           "specimen": [
             {
               "id": "211",
-              "tag1": "211",
+              "id-1977": "238",
+              "id-green": "206",
               "sex": "m",
               "genus": "Speyeria",
+              "latLong": "42.77125, -89.96997",
+              "place": "bushes near tentsite 10",
               "species": "aphrodite alcestis"
             }
           ]
-        },
+        }
+      ],
+      "specimen": []
+    },
+    {
+      "name": "home-1977-b",
+      "time": "1977-06",
+      "collectingSession": [
         {
           "name": "june-14",
-          "time": "1977-07-14",
+          "time": "1977-06-14",
           "collectingSession": [],
           "specimen": [
             {
@@ -1233,7 +1282,7 @@
         },
         {
           "name": "june-15",
-          "time": "1977-07-15",
+          "time": "1977-06-15",
           "collectingSession": [],
           "specimen": [
             {
@@ -1263,7 +1312,7 @@
     },
     {
       "name": "minden-1977",
-      "time": "1977-07-18",
+      "time": "1977-06-18",
       "collectingSession": [],
       "specimen": [
         {
