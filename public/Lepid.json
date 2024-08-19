@@ -1,5 +1,5 @@
 {
-  "lastNumber": "792",
+  "lastNumber": "795",
   "locations": {
     "location": [
       {
@@ -2382,8 +2382,13 @@
           "specimen": {
             "id": "600",
             "genus": "Eurybia",
+            "species": "r. rubeolata",
             "notes": "found dead; unknown nymphalid, same size as 601; like a fritillary mimicking a satyrid; chocolate brown with rust tinges around spots; reminiscent of Euptoieta claudia, but dark; also very sim. to Eurybia on pl. 33 of Raymond. Web search confirms genus, as does D'Abrera.",
             "reference": [
+              {
+                "ref": "boa",
+                "url": "https://www.butterfliesofamerica.com/L/t/Eurybia_rubeolata_a.htm"
+              },
               {
                 "ref": "raymond",
                 "#text": "pl. 33, #7, p. 160-1"
@@ -2391,6 +2396,10 @@
               {
                 "ref": "dabrera",
                 "#text": "E. donna, p. 245"
+              },
+              {
+                "ref": "salazar",
+                "url": "https://www.researchgate.net/publication/373482547_Revision_de_las_especies_del_genero_Eurybia_Illiger_1807_de_Colombia_y_descripcion_de_nuevos_taxa_Lepidoptera_Riodinidae"
               }
             ]
           }
@@ -4690,6 +4699,24 @@
             "latLong": "37.45010, -122.10290"
           },
           "notes": "Nectaring among hairstreaks and skippers"
+        }
+      ]
+    },
+    {
+      "name": "wardell-2024-08",
+      "time": "2024-08-19",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": "795",
+          "genus": "Erynnis",
+          "species": "funeralis",
+          "location": {
+            "latLong": "37.28429, -122.03301",
+            "ref": "CA.Wardell"
+          },
+          "time": "17:20",
+          "notes": "nectaring on pink milkweed-like flowers on N edge of driveway, under the apple tree"
         }
       ]
     }
