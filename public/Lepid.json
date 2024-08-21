@@ -1091,7 +1091,7 @@
         },
         {
           "name": "june-8",
-          "time": "1977-06-08",
+          "time": "1977-06-08 1500",
           "location": {
             "ref": "home.hedge"
           },
@@ -1127,6 +1127,7 @@
               "id-1977": "229",
               "id-green": "197",
               "sex": "f",
+              "time": "1977-06-09 1400",
               "location": {
                 "ref": "home.hedge"
               },
@@ -1138,6 +1139,7 @@
               "id-1977": "230",
               "id-green": "198",
               "sex": "m",
+              "time": "1977-06-09 1405",
               "location": {
                 "ref": "home.hedge"
               },
@@ -1149,6 +1151,7 @@
               "id-1977": "231",
               "id-green": "199",
               "sex": "m",
+              "time": "1977-06-09 1420",
               "place": "by martin house on burdock",
               "genus": "Boloria",
               "species": "b. bellona"
@@ -1158,6 +1161,7 @@
               "id-1977": "232",
               "id-green": "200",
               "sex": "f",
+              "time": "1977-06-09 1430",
               "place": "N of S meadow on cut trail",
               "genus": "Celastrina",
               "species": "argiolus pseudargiolus (p.)"
@@ -1167,6 +1171,7 @@
               "id-1977": "233",
               "id-green": "201",
               "sex": "m",
+              "time": "1977-06-09 1445",
               "place": "on burdock E of driveway",
               "genus": "Chlosyne",
               "species": "n. nycteis"
@@ -1176,6 +1181,7 @@
               "id-1977": "234",
               "id-green": "202",
               "sex": "f",
+              "time": "1977-06-09 1500",
               "place": "privet hedge by garage",
               "genus": "Nymphalis",
               "species": "vau-album j-album",
@@ -1186,6 +1192,7 @@
               "id-1977": "235",
               "id-green": "203",
               "sex": "f",
+              "time": "1977-06-09 1540",
               "place": "privet hedge by garage",
               "genus": "Speyeria",
               "species": "c. cybele"
@@ -1195,6 +1202,7 @@
               "id-1977": "236",
               "id-green": "204",
               "sex": "m",
+              "time": "1977-06-09 1630",
               "place": "privet hedge by garage",
               "genus": "Celastrina",
               "species": "argiolus",
@@ -1212,7 +1220,7 @@
       "collectingSession": [
         {
           "name": "june-10",
-          "time": "1977-06-10",
+          "time": "1977-06-10 1920",
           "collectingSession": [],
           "latLong": "42.76938, -89.97174",
           "place": "foot of hill rd to campground, Yellowstone Lake SP, WI",
@@ -1230,7 +1238,7 @@
         },
         {
           "name": "june-12",
-          "time": "1977-06-12",
+          "time": "1977-06-12 1145",
           "collectingSession": [],
           "specimen": [
             {
@@ -1255,29 +1263,56 @@
         {
           "name": "june-14",
           "time": "1977-06-14",
+          "notes": "Wild Parsnip (Pastinaca sativa) blooming",
           "collectingSession": [],
           "specimen": [
             {
               "id": "212",
-              "tag1": "212",
+              "id-1977": "239",
+              "id-green": "207",
               "genus": "Polygonia",
-              "species": "canus",
-              "notes": "-- summer?"
+              "species": "progne (progne)",
+              "time": "1977-06-14 1535",
+              "latLong": "42.32679, -89.69016",
+              "place": "old sandbox meadow on burdock",
+              "notes": "-- summer?  form l-argenteum also present"
             },
             {
               "id": "213",
-              "tag1": "213",
+              "id-1977": "240",
+              "id-green": "208",
+              "time": "1977-06-14 1540",
+              "location": {
+                "ref": "home.hedge"
+              },
               "sex": "m",
               "genus": "Libytheana",
               "species": "b. bachmanii"
             },
             {
               "id": "214",
-              "tag1": "214",
+              "id-1977": "241",
+              "id-green": "209",
+              "time": "1977-06-14 1545",
+              "location": {
+                "ref": "home.hedge"
+              },
               "sex": "m",
               "genus": "Celastrina",
               "species": "argiolus pseudargiolus (p.)"
             }
+          ],
+          "sighting": [
+            {
+              "genus": "Boloria",
+              "species": "bellona",
+              "place": "s. meadow"
+            },
+            {
+              "genus": "Speyeria",
+              "place": "hedge"
+            }
+
           ]
         },
         {
@@ -1545,7 +1580,7 @@
             {
               "id": "461",
               "sex": "m",
-              "collector": "dad",
+              "collector": "Everett Vorthmann",
               "genus": "Phoebis (Phoebis)",
               "species": "philea"
             }
@@ -1580,7 +1615,7 @@
             },
             {
               "id": "467",
-              "collector": "dad",
+              "collector": "Everett Vorthmann",
               "genus": "Appias",
               "species": "drusilla neumoegenii",
               "notes": "spread 2003-10-19"
@@ -1605,7 +1640,7 @@
               "id": "471",
               "genus": "Lerema",
               "species": "accius",
-              "collector": "dad",
+              "collector": "Everett Vorthmann",
               "notes": "sm. skipper"
             },
             {
@@ -1620,7 +1655,7 @@
             },
             {
               "id": "474",
-              "collector": "dad",
+              "collector": "Everett Vorthmann",
               "sex": "m",
               "genus": "Panoquina",
               "species": "panoquinoides"
@@ -2723,6 +2758,7 @@
                 {
                   "id": "625",
                   "genus": "Urbanus",
+                  "species": "procne",
                   "notes": "longtail Skipper, like U. teleus but forewing band almost missing",
                   "reference": {
                     "ref": "kaufman",
@@ -7327,7 +7363,7 @@
     },
     {
       "id": "593",
-      "collector": "dad",
+      "collector": "Everett Vorthmann",
       "sex": "f",
       "genus": "Papilio",
       "species": "g. glaucus",
