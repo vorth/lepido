@@ -1842,7 +1842,6 @@
               "id": "501",
               "genus": "Utetheisa",
               "species": "ornatrix",
-              "mounted": "false",
               "notes": "bella moth"
             },
             {
@@ -2027,7 +2026,8 @@
         },
         {
           "id": "571",
-          "genus": "Hyloicus?",
+          "genus": "Ceratomia",
+          "species": "undulosa",
           "time": "07-18 2200",
           "place": "at shop & black lights"
         },
@@ -2778,8 +2778,9 @@
                 },
                 {
                   "id": "627",
-                  "genus": "Thecla",
-                  "notes": "Hairstreak; deep iridescent turquoise dorsal, very dark olive ventral; most like 'mavors'",
+                  "genus": "Theritas",
+                  "species": "mavors?",
+                  "notes": "Hairstreak; deep iridescent turquoise dorsal, very dark olive ventral",
                   "reference": {
                     "ref": "dabrera",
                     "#text": "p. 232"
@@ -5488,7 +5489,9 @@
       "tag1": "097",
       "sex": "m",
       "genus": "Pieris",
-      "species": "rapae (metra)"
+      "species": "rapae (metra)",
+      "discarded": true,
+      "notes": "ruined & discarded 2024-09-03"
     },
     {
       "id": "098",
@@ -6780,8 +6783,8 @@
     },
     {
       "id": "412",
-      "tag1": "412",
-      "mounted": "false",
+      "genus": "Drasteria",
+      "species": "hudsonica",
       "notes": "sm. Noctuid moth like underwing"
     },
     {
@@ -7054,7 +7057,8 @@
       "id": "458",
       "tag1": "458",
       "genus": "Papilio",
-      "species": "polyxenes asterius"
+      "species": "polyxenes asterius",
+      "notes": "card made but can't find the specimen... lost?  may have been u36, discarded"
     },
     {
       "id": "508",
@@ -7220,8 +7224,7 @@
     },
     {
       "id": "533",
-      "genus": "Pieris",
-      "mounted": "false"
+      "genus": "Pieris"
     },
     {
       "id": "534",
@@ -7277,8 +7280,8 @@
     },
     {
       "id": "544",
-      "tag1": "544",
-      "mounted": "false",
+      "genus": "Sympistis",
+      "species": "dayi?",
       "notes": "sm. Noctuid moth w. pearly spots, prob. Plusiina subtribe, Autographa or Syngrapha"
     },
     {
@@ -7371,14 +7374,16 @@
       "place": "home; garden in front of house"
     },
     {
-      "id": "594"
+      "id": "594",
+      "notes": "card made but can't find the specimen... lost?"
     },
     {
       "id": "595",
       "tag1": "595",
       "genus": "Catocala",
       "time": "no data",
-      "place": "no data"
+      "place": "no data",
+      "notes": "card made but can't find the specimen... lost?"
     },
     {
       "id": "A01",
@@ -7486,7 +7491,9 @@
       "tag1": "u25",
       "sex": "f",
       "genus": "Colias",
-      "species": "eurytheme/philodice"
+      "species": "eurytheme/philodice",
+      "discarded": true,
+      "notes": "discarded, was completely destroyed in the trash drawer"
     },
     {
       "id": "u28",
@@ -7511,7 +7518,9 @@
       "tag1": "u36",
       "sex": "f",
       "genus": "Papilio",
-      "species": "polyxenes"
+      "species": "polyxenes",
+      "discarded": true,
+      "notes": "discarded, was completely destroyed in the trash drawer"
     },
     {
       "id": "u37",
@@ -7574,13 +7583,9 @@
     },
     {
       "id": "xx3",
-      "genus": "Hyloicus",
-      "species": "vancouverensis albescens",
-      "notes": "Vancouver Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; possible captured at Wardell, or at Calabazas, or by Mom&Dad in Seattle",
-      "reference": {
-        "ref": "holland",
-        "#text": "p. 50"
-      }
+      "genus": "Sphinx",
+      "species": "vashti",
+      "notes": "Vashti Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; likely captured at Wardell"
     }
   ],
   "pupa": {
