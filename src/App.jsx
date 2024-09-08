@@ -134,13 +134,26 @@ let fileHandle = null;
 const App = () =>
 {
   const [ data, setData ] = createSignal( {} );
-  const refetch = () =>
+
+  const loadFromResource = () =>
   {
     fetch( './Lepid.json' )
       .then( response => response.text() )
       .then( text => setData( JSON.parse( text ) ) );
   }
-  onMount( refetch );
+
+  const loadFromStorage = () =>
+  {
+    const stored = localStorage .getItem( 'lepido' );
+    if ( !! stored ) {
+      setData( JSON.parse( stored ) );
+      return true;
+    }
+    else
+      return false;
+  }
+
+  onMount( () => loadFromStorage() || loadFromResource() );
 
   const [ selectedSpecimen, setSelectedSpecimen ] = createSignal( {} );
   const clearSelection = () => setSelectedSpecimen( null );
@@ -156,22 +169,24 @@ const App = () =>
   {
     const text = JSON.stringify( data(), null, 2 );
     setData( JSON.parse( text ) );
+    localStorage .setItem( 'lepido', text );
   }
 
   const saveDataLocally = () =>
   {
     const text = JSON.stringify( data(), null, 2 );
+    localStorage .setItem( 'lepido', text );
     if ( !!fileHandle )
       saveTextFile( fileHandle, text, 'application/json' );
     else {
-      let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
+      let result = saveTextFileAs( 'Lepid-new.json', text, 'application/json' );
       if ( result.success ) {
         fileHandle = result.fileHandle;
       }
     }
     // This assumes we are running the app from source, on my computer,
-    //   and we just saved over the Lepid.json source.
-    refetch();
+    //   and we just saved over the Lepid.json source... and why is it even necessary?
+    // refetch();
   }
 
   const [ newSessionParent, setNewSessionParent ] = createSignal( null );
@@ -245,6 +260,8 @@ const App = () =>
       <SelectionContext.Provider value={ contextAPI }>
         <div class="buttons">
           <button class="other-button" onClick={saveDataLocally}>Save</button>
+          <button class="other-button" onClick={loadFromStorage}>Load From Storage</button>
+          <button class="other-button" onClick={loadFromResource}>Load From Source</button>
         </div>
         <div id="container">
           <div id="collection">
