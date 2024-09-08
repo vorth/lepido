@@ -1,5 +1,5 @@
 {
-  "lastNumber": "795",
+  "lastNumber": "796",
   "locations": {
     "location": [
       {
@@ -4756,6 +4756,30 @@
           "notes": "nectaring on pink milkweed-like flowers on N edge of driveway, under the apple tree"
         }
       ]
+    },
+    {
+      "name": "wardell-2024-09",
+      "time": "2024-09-07",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": "796",
+          "genus": "Hylephila",
+          "species": "phyleus",
+          "location": {
+            "latLong": "37.28429, -122.03301",
+            "ref": "CA.Wardell"
+          },
+          "time": "14:20",
+          "notes": "skipper with short antennae; nectaring on pink milkweed-like flowers on N edge of driveway, under the apple tree"
+        }
+      ]
+    },
+    {
+      "name": "florida-2024",
+      "time": "2024-09",
+      "collectingSession": [],
+      "specimen": []
     }
   ],
   "sighting": [
