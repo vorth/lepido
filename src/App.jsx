@@ -243,13 +243,17 @@ const App = () =>
   return (
     <>
       <SelectionContext.Provider value={ contextAPI }>
-        <button onClick={saveDataLocally}>Save</button>
-        <div id="collection">
-          <div id="picker">
-            <CollectingSession session={ data() } path={[]} />
-          </div>
-          <div id="detail">
-            <SpecimenDetails selection={ selectedSpecimen() } />
+        <div class="buttons">
+          <button class="other-button" onClick={saveDataLocally}>Save</button>
+        </div>
+        <div id="container">
+          <div id="collection">
+            <div id="picker">
+              <CollectingSession session={ data() } path={[]} />
+            </div>
+            <div id="detail">
+              <SpecimenDetails selection={ selectedSpecimen() } />
+            </div>
           </div>
         </div>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
