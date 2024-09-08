@@ -1,5 +1,5 @@
 
-import { createSignal } from 'solid-js';
+import { createSignal, createEffect } from 'solid-js';
 
 import Dialog from '@suid/material/Dialog';
 import DialogActions from '@suid/material/DialogActions';
@@ -11,10 +11,20 @@ import TextField from '@suid/material/TextField';
 let lastDate = new Date() .toISOString();
 let lastTime = new Date() .toISOString();
 
+const geoLocate = ( success, error ) =>
+{
+  if (!navigator.geolocation) {
+    alert( "Geolocation is not supported by your browser" );
+  } else {
+    navigator.geolocation .getCurrentPosition( success, error );
+  }
+}
+
 export const NewSession = ( props ) =>
 {
   const [ name, setName ] = createSignal( '' );
   const [ date, setDate ] = createSignal( lastDate );
+  const [ latLong, setLatLong ] = createSignal( '' );
   const changeName = (e,value) =>
   {
     setName( value );
@@ -25,13 +35,24 @@ export const NewSession = ( props ) =>
     lastDate = value;
   }
 
+  createEffect( () => {
+    if ( props.show ) {
+      geoLocate(
+        position => {
+          setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
+        },
+        error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
+      )
+    }
+  });
+
   const handleCancel = () =>
   {
     props.close();
   }
   const handleSave = () =>
   {
-    props.close( { name: name(), time: date(), collectingSession: [], specimen: [] } );
+    props.close( { name: name(), time: date(), latLong: latLong(), collectingSession: [], specimen: [] } );
   }
 
   return (
@@ -40,8 +61,7 @@ export const NewSession = ( props ) =>
       <DialogContent>
         <TextField id="session-name" label="name" value={ name() } onChange={ changeName } />
         <TextField id="session-date" label="date" value={ date() } onChange={ changeDate } />
-        {/* <p id="status"></p>
-        <a id="map-link" target="_blank"></a> */}
+        <TextField id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
