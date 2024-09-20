@@ -3,7 +3,7 @@ import { createContext, createSignal, onMount, useContext } from 'solid-js'
 
 import './App.css'
 import { saveTextFile, saveTextFileAs } from './files.js';
-import { NewSession, NewSpecimen } from './dialogs.jsx';
+import { createSession, NewSession, NewSpecimen } from './dialogs.jsx';
 
 const Specimen = props =>
 {
@@ -50,11 +50,11 @@ const SpecimenDetails = props =>
 
 const AddSession = props =>
 {
-  const { createChildSession } = useContext( SelectionContext );
+  const { openSessionDialog } = useContext( SelectionContext );
   const handleClick = e =>
   {
     e .stopPropagation();
-    createChildSession( props.parent );
+    openSessionDialog( props.parent );
   }
 
   return (
@@ -65,11 +65,11 @@ const AddSession = props =>
 
 const AddSpecimen = props =>
   {
-    const { createSpecimen } = useContext( SelectionContext );
+    const { openSpecimenDialog } = useContext( SelectionContext );
     const handleClick = e =>
     {
       e .stopPropagation();
-      createSpecimen( props.parent );
+      openSpecimenDialog( props.parent );
     }
   
     return (
@@ -121,25 +121,29 @@ const CollectingSession = props =>
       <Show when={ !specimensCollapsed() } fallback={
         <AddSession parent={props.session}/>
       }>
-        <AddSpecimen parent={props.session}/>
+        <AddSpecimen parent={props.session} />
       </Show>
     </div>
   );
 }
 
-const SelectionContext = createContext( null );
+const SelectionContext = createContext( {} );
 
 let fileHandle = null;
 
 const App = () =>
 {
   const [ data, setData ] = createSignal( {} );
+  const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
 
   const loadFromResource = () =>
   {
     fetch( './Lepid.json' )
       .then( response => response.text() )
-      .then( text => setData( JSON.parse( text ) ) );
+      .then( text => {
+        setData( JSON.parse( text ) );
+        setLastOpenedSession( [ 'COLLECTION' ] );
+      } );
   }
 
   const loadFromStorage = () =>
@@ -147,13 +151,12 @@ const App = () =>
     const stored = localStorage .getItem( 'lepido' );
     if ( !! stored ) {
       setData( JSON.parse( stored ) );
+      setLastOpenedSession( [ 'COLLECTION' ] );
       return true;
     }
     else
       return false;
   }
-
-  onMount( () => loadFromStorage() || loadFromResource() );
 
   const [ selectedSpecimen, setSelectedSpecimen ] = createSignal( {} );
   const clearSelection = () => setSelectedSpecimen( null );
@@ -179,18 +182,15 @@ const App = () =>
     if ( !!fileHandle )
       saveTextFile( fileHandle, text, 'application/json' );
     else {
-      let result = saveTextFileAs( 'Lepid-new.json', text, 'application/json' );
+      let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
       if ( result.success ) {
         fileHandle = result.fileHandle;
       }
     }
-    // This assumes we are running the app from source, on my computer,
-    //   and we just saved over the Lepid.json source... and why is it even necessary?
-    // refetch();
   }
 
   const [ newSessionParent, setNewSessionParent ] = createSignal( null );
-  const createChildSession = parent =>
+  const openSessionDialog = parent =>
   {
     setNewSessionParent( parent );
   }
@@ -205,10 +205,11 @@ const App = () =>
       parent.collectingSession .push( newSession );
     }
     updateData();
+    saveDataLocally();
   }
 
   const [ newSpecimenParent, setNewSpecimenParent ] = createSignal( null );
-  const createSpecimen = parent =>
+  const openSpecimenDialog = parent =>
   {
     setNewSpecimenParent( parent );
   }
@@ -221,6 +222,9 @@ const App = () =>
         parent.specimen = [];
       }
       parent.specimen .push( newSpecimen );
+      data() .lastNumber = newSpecimen.id;
+      updateData();
+      saveDataLocally();
     }
   }
 
@@ -233,7 +237,6 @@ const App = () =>
     return session;
   }
 
-  const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
   const moveSpecimen = ( { container, specimen } ) =>
     {
       console.log( `moving specimen ${specimen.id} to session "${lastOpenedSession().join('/')}"` );
@@ -249,19 +252,47 @@ const App = () =>
         console.log( 'NOT AN ARRAY' );
       }
     }
-    
+  
+  onMount( () => {
+    loadFromStorage() || loadFromResource();
+    // openSessionDialog( data() ); // this triggers an exception trying to open the dialog, somehow
+    createSession( newSession => {
+      data() .collectingSession .push( newSession );
+      setLastOpenedSession( [ 'COLLECTION', newSession.name ] );
+      updateData();
+    }, alert );
+  } );
+
+  const reloadFromSource = () =>
+  {
+    saveDataLocally();
+    loadFromResource();
+  }
+
+  const getNextId = () =>
+  {
+    const lastId = Number( data() .lastNumber );
+    return lastId + 1;
+  }
+
   const contextAPI = {
-    selectedSpecimen, clearSelection, setSelection, createChildSession, createSpecimen,
+    selectedSpecimen, clearSelection, setSelection, openSessionDialog, openSpecimenDialog,
     lastOpenedSession, setLastOpenedSession, moveSpecimen,
   };
+
+  const sessionName = () => lastOpenedSession()?.join('/') || '';
 
   return (
     <>
       <SelectionContext.Provider value={ contextAPI }>
         <div class="buttons">
           <button class="other-button" onClick={saveDataLocally}>Save</button>
-          <button class="other-button" onClick={loadFromStorage}>Load From Storage</button>
-          <button class="other-button" onClick={loadFromResource}>Load From Source</button>
+          <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button>
+          <button class="other-button" onClick={reloadFromSource}>Load From Source</button>
+        </div>
+        <div class="status">
+          <div>Session: {sessionName()}</div>
+          <div>Last ID: {data().lastNumber}</div>
         </div>
         <div id="container">
           <div id="collection">
@@ -274,7 +305,7 @@ const App = () =>
           </div>
         </div>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
-        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimen} />
+        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimen} nextId={getNextId} />
       </SelectionContext.Provider>
     </>
   )

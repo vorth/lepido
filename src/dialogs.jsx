@@ -20,10 +20,23 @@ const geoLocate = ( success, error ) =>
   }
 }
 
+export const createSession = ( success, failure ) =>
+{
+  const time = new Date() .toISOString();
+  const name = time;
+  geoLocate(
+    position => {
+      const latLong = `${position.coords.latitude}, ${position.coords.longitude}`;
+      success( { name, time, latLong, collectingSession: [], specimen: [] } );
+    },
+    error => failure( 'Geolocation failed: ' + JSON.stringify( error ) )
+  )
+}
+
 export const NewSession = ( props ) =>
 {
   const [ name, setName ] = createSignal( '' );
-  const [ date, setDate ] = createSignal( lastDate );
+  const [ date, setDate ] = createSignal( new Date() .toISOString() );
   const [ latLong, setLatLong ] = createSignal( '' );
   const changeName = (e,value) =>
   {
@@ -59,9 +72,9 @@ export const NewSession = ( props ) =>
     <Dialog open={props.show} onClose={handleCancel} aria-labelledby="session-dialog-title" >
       <DialogTitle id="session-dialog-title">New Session</DialogTitle>
       <DialogContent>
-        <TextField id="session-name" label="name" value={ name() } onChange={ changeName } />
-        <TextField id="session-date" label="date" value={ date() } onChange={ changeDate } />
-        <TextField id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" id="session-name" label="name" value={ name() } onChange={ changeName } />
+        <TextField class="dialog-input" id="session-date" label="date" value={ date() } onChange={ changeDate } />
+        <TextField class="dialog-input" id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
@@ -77,9 +90,11 @@ export const NewSession = ( props ) =>
 
 export const NewSpecimen = ( props ) =>
   {
+    const [ id, setId ] = createSignal( '' );
     const [ genus, setGenus ] = createSignal( '' );
     const [ species, setSpecies ] = createSignal( '' );
-    const [ time, setTime ] = createSignal( lastTime );
+    const [ time, setTime ] = createSignal( new Date() .toISOString() );
+    const [ latLong, setLatLong ] = createSignal( '' );
     const changeGenus = (e,value) => setGenus( value );
     const changeSpecies = (e,value) => setSpecies( value );
     const changeTime = (e,value) =>
@@ -88,24 +103,36 @@ export const NewSpecimen = ( props ) =>
       lastTime = value;
     }
   
+    createEffect( () => {
+      if ( props.show ) {
+        setId( props.nextId() );
+        geoLocate(
+          position => {
+            setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
+          },
+          error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
+        )
+      }
+    });
+  
     const handleCancel = () =>
     {
       props.close();
     }
     const handleSave = () =>
     {
-      props.close( { id: props.id, genus: genus(), species: species(), time: time() } );
+      props.close( { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() } );
     }
   
     return (
       <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
         <DialogTitle id="specimen-dialog-title">New Specimen</DialogTitle>
         <DialogContent>
-          <TextField id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
-          <TextField id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
-          <TextField id="session-time" label="time" value={ time() } onChange={ changeTime } />
-            {/* <p id="status"></p>
-            <a id="map-link" target="_blank"></a> */}
+          <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
+          <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
+          <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
+          <TextField class="dialog-input" id="specimen-time" label="time" value={ time() } onChange={ changeTime } />
+          <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
         </DialogContent>
         <DialogActions>
           <Button onClick={handleSave} color="secondary">

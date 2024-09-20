@@ -20,6 +20,7 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
+  color: rgba(255, 255, 255, 0.87);
   background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
@@ -53,7 +54,7 @@ a:hover {
 
 #root {
   display: grid;
-  grid-template-rows: min-content 1fr;
+  grid-template-rows: min-content min-content 1fr;
   margin: 0 auto;
   --detail-color: rgb(88, 112, 132);
   --selection-color: rgb(183, 208, 229);
@@ -130,6 +131,10 @@ a:hover {
 }
 .add-specimen {
   background-color: var(--detail-color);
+}
+
+.dialog-input {
+  margin-block: 8px;
 }
 
 .move-button {
