@@ -1,5 +1,5 @@
 {
-  "lastNumber": 809,
+  "lastNumber": 811,
   "locations": {
     "location": [
       {
@@ -4876,7 +4876,7 @@
       ]
     },
     {
-      "name": "2024-09-27T22:02:31.979Z",
+      "name": "mariesther-1",
       "time": "2024-09-27T22:02:31.979Z",
       "latLong": "28.440821292498658, -81.64697497327133",
       "collectingSession": [],
@@ -4892,10 +4892,11 @@
       ]
     },
     {
-      "name": "2024-09-28T14:43:01.510Z",
+      "name": "powerline",
       "time": "2024-09-28T14:43:01.510Z",
       "latLong": "28.502863672603965, -81.30982589854786",
       "collectingSession": [],
+      "notes": "times are mostly wrong here, stuck on one value; see photo times",
       "specimen": [
         {
           "id": 804,
@@ -4944,6 +4945,37 @@
           "time": "2024-09-28T14:43:01.508Z",
           "latLong": "28.502204441333376, -81.30813159050214",
           "notes": "little yellow, larger...female?"
+        }
+      ]
+    },
+    {
+      "name": "mariesther-2",
+      "time": "2024-09-28T18:58:48.956Z",
+      "latLong": "28.441569, -81.646081",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": 810,
+          "genus": "",
+          "species": "",
+          "time": "2024-09-28T18:58:48.955Z",
+          "latLong": "28.441569, -81.646081",
+          "notes": "hummingbird sphinx, just over the fence past the greenway behind Mariesther's house"
+        }
+      ]
+    },
+    {
+      "name": "schofield-rd",
+      "time": "2024-09-28T19:55:30.008Z",
+      "latLong": "28.45264234197782, -80.88923790416983",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": 811,
+          "genus": "Junonia",
+          "species": "",
+          "time": "2024-09-28T19:55:30.008Z",
+          "latLong": "28.45071387050706, -81.6575534893335"
         }
       ]
     }
