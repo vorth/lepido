@@ -4593,7 +4593,7 @@
           "collector": "Suyin Felibert",
           "place": "Indira's friend found it on her 2nd floor balcony",
           "latLong": "10.48613, -66.94079",
-          "notes": "queen"
+          "notes": "queen; actually probably eresimus (Soldier)"
         }
       ]
     },
@@ -4777,393 +4777,356 @@
     {
       "name": "florida-2024",
       "time": "2024-09",
-      "collectingSession": [],
-      "specimen": []
-    },
-    {
-      "name": "2024-09-20T06:11:31.482Z",
-      "time": "2024-09-20T06:11:31.482Z",
-      "latLong": "37.28409282658008, -122.03288704009049",
-      "collectingSession": [],
-      "specimen": []
-    },
-    {
-      "name": "2024-09-27T15:24:28.415Z",
-      "time": "2024-09-27T15:24:28.415Z",
-      "latLong": "28.56469483450041, -81.18713125457224",
-      "collectingSession": [],
-      "specimen": [
+      "collectingSession": [
         {
-          "id": 797,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-27T15:24:28.410Z",
-          "latLong": "28.564685638592596, -81.18713279049169",
-          "notes": "little yellow"
+          "name": "homeless-camp",
+          "time": "2024-09-27T15:24:28.415Z",
+          "latLong": "28.56469483450041, -81.18713125457224",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 797,
+              "genus": "Eurema",
+              "species": "daira",
+              "sex": "m",
+              "time": "2024-09-27T15:24:28.410Z",
+              "latLong": "28.564874, -81.187380",
+              "notes": "little yellow"
+            },
+            {
+              "id": 798,
+              "genus": "Phoebis",
+              "species": "sennae",
+              "time": "2024-09-27T15:24:28.410Z",
+              "latLong": "28.56411664889967, -81.18743226509906",
+              "notes": "big sulfur"
+            },
+            {
+              "id": 799,
+              "genus": "Anartia",
+              "species": "jatrophae",
+              "time": "2024-09-27T15:41:12.320Z",
+              "latLong": "28.564372, -81.186852",
+              "notes": "larger... female?"
+            },
+            {
+              "id": 800,
+              "genus": "Anartia",
+              "species": "jatrophae",
+              "time": "2024-09-27T15:45:15.148Z",
+              "latLong": "28.564372, -81.186852",
+              "notes": "smaller... male?"
+            }
+          ]
         },
         {
-          "id": 798,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-27T15:24:28.410Z",
-          "latLong": "28.56411664889967, -81.18743226509906",
-          "notes": "big sulfur"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-27T15:41:12.325Z",
-      "time": "2024-09-27T15:41:12.325Z",
-      "latLong": "28.565154135183278, -81.18675660900129",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 799,
-          "genus": "Anartia",
-          "species": "jatrophae",
-          "time": "2024-09-27T15:41:12.320Z",
-          "latLong": "28.56515949789815, -81.18675994102918",
-          "notes": "larger... female?"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-27T15:45:15.150Z",
-      "time": "2024-09-27T15:45:15.150Z",
-      "latLong": "28.565408788054853, -81.18658345557162",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 800,
-          "genus": "Anartia",
-          "species": "jatrophae",
-          "time": "2024-09-27T15:45:15.148Z",
-          "latLong": "28.56501717884692, -81.18660722285084",
-          "notes": "smaller... male?"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-27T15:49:54.988Z",
-      "time": "2024-09-27T15:49:54.988Z",
-      "latLong": "28.565039943033852, -81.18661942403244",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 801,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-27T15:49:54.987Z",
-          "latLong": "28.57541867945658, -81.15431221844106",
-          "notes": "big sulfur"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-27T16:22:45.335Z",
-      "time": "2024-09-27T16:22:45.335Z",
-      "latLong": "28.575428957578904, -81.15431018052513",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 802,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-27T16:22:45.333Z",
-          "latLong": "28.44091606, -81.64710998",
-          "notes": "little yellow"
-        }
-      ]
-    },
-    {
-      "name": "mariesther-1",
-      "time": "2024-09-27T22:02:31.979Z",
-      "latLong": "28.440821292498658, -81.64697497327133",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 803,
-          "genus": "Utetheisa",
-          "species": "ornatrix",
-          "time": "2024-09-27T22:02:31.976Z",
-          "latLong": "28.44099227732434, -81.64835631678393",
-          "notes": "Bella moth"
-        }
-      ]
-    },
-    {
-      "name": "powerline",
-      "time": "2024-09-28T14:43:01.510Z",
-      "latLong": "28.502863672603965, -81.30982589854786",
-      "collectingSession": [],
-      "notes": "times are mostly wrong here, stuck on one value; see photo times",
-      "specimen": [
-        {
-          "id": 804,
-          "genus": "Agraulis",
-          "species": "vanillae",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.502836655630492, -81.3098249485511",
-          "notes": "Gulf fritillary"
+          "name": "seifferts-nursery",
+          "time": "2024-09-27T16:22:45.335Z",
+          "latLong": "28.575294, -81.155172",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 801,
+              "genus": "",
+              "species": "",
+              "time": "2024-09-27T15:49:54.987Z",
+              "notes": "big sulfur"
+            }
+          ],
+          "sighting": [
+            {
+              "notes": "queen or soldier; many cloudless sulphurs or similar"
+            }
+          ]
         },
         {
-          "id": 805,
-          "genus": "Papilio",
-          "species": "troilus",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.50294573839468, -81.30933191442769",
-          "notes": "spicebush male"
+          "name": "mariesther-1",
+          "time": "2024-09-27T22:02:31.979Z",
+          "latLong": "28.440821292498658, -81.64697497327133",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 802,
+              "genus": "Eurema",
+              "species": "daira",
+              "sex": "m",
+              "time": "2024-09-27T16:22:45.333Z",
+              "latLong": "28.44091606, -81.64710998",
+              "notes": "little yellow"
+            },
+            {
+              "id": 803,
+              "genus": "Utetheisa",
+              "species": "ornatrix",
+              "time": "2024-09-27T22:02:31.976Z",
+              "latLong": "28.442039, -81.649697",
+              "notes": "Bella moth"
+            }
+          ]
         },
         {
-          "id": 806,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.502368462219454, -81.30824722587867",
-          "notes": "little orange skipper"
+          "name": "powerline",
+          "time": "2024-09-28T14:43:01.510Z",
+          "latLong": "28.502863672603965, -81.30982589854786",
+          "collectingSession": [],
+          "notes": "times are mostly wrong here, stuck on one value; see photo times",
+          "specimen": [
+            {
+              "id": 804,
+              "genus": "Agraulis",
+              "species": "vanillae",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.502836655630492, -81.3098249485511",
+              "notes": "Gulf fritillary"
+            },
+            {
+              "id": 805,
+              "genus": "Papilio",
+              "species": "troilus",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.50294573839468, -81.30933191442769",
+              "notes": "spicebush male"
+            },
+            {
+              "id": 806,
+              "genus": "Polites",
+              "species": "vibex",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.502368462219454, -81.30824722587867",
+              "notes": "little orange skipper"
+            },
+            {
+              "id": 807,
+              "genus": "Copaeodes",
+              "species": "minimus",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.502478550338747, -81.30815435066268",
+              "notes": "really tiny orange skipper"
+            },
+            {
+              "id": 808,
+              "genus": "Papilio",
+              "species": "troilus",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.502545302279277, -81.30815212754884",
+              "notes": "spicebush female"
+            },
+            {
+              "id": 809,
+              "genus": "Eurema",
+              "species": "daira",
+              "sex": "f",
+              "time": "2024-09-28T14:43:01.508Z",
+              "latLong": "28.502204441333376, -81.30813159050214",
+              "notes": "little yellow, larger...female?"
+            }
+          ]
         },
         {
-          "id": 807,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.502478550338747, -81.30815435066268",
-          "notes": "really tiny orange skipper"
-        },
-        {
-          "id": 808,
-          "genus": "Papilio",
-          "species": "troilus",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.502545302279277, -81.30815212754884",
-          "notes": "spicebush female"
-        },
-        {
-          "id": 809,
-          "genus": "Eurema",
-          "species": "",
-          "time": "2024-09-28T14:43:01.508Z",
-          "latLong": "28.502204441333376, -81.30813159050214",
-          "notes": "little yellow, larger...female?"
-        }
-      ]
-    },
-    {
-      "name": "mariesther-2",
-      "time": "2024-09-28T18:58:48.956Z",
-      "latLong": "28.441569, -81.646081",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 810,
-          "genus": "",
-          "species": "",
-          "time": "2024-09-28T18:58:48.955Z",
+          "name": "mariesther-2",
+          "time": "2024-09-28T18:58:48.956Z",
           "latLong": "28.441569, -81.646081",
-          "notes": "hummingbird sphinx, just over the fence past the greenway behind Mariesther's house"
-        }
-      ]
-    },
-    {
-      "name": "schofield-rd",
-      "time": "2024-09-28T19:55:30.008Z",
-      "latLong": "28.45264234197782, -80.88923790416983",
-      "collectingSession": [],
-      "specimen": [
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 810,
+              "genus": "",
+              "species": "",
+              "time": "2024-09-28T18:58:48.955Z",
+              "latLong": "28.441569, -81.646081",
+              "notes": "hummingbird sphinx, just over the fence past the greenway behind Mariesther's house"
+            }
+          ]
+        },
         {
-          "id": 811,
-          "genus": "Junonia",
-          "species": "",
+          "name": "schofield-rd",
           "time": "2024-09-28T19:55:30.008Z",
-          "latLong": "28.45071387050706, -81.6575534893335"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-29T13:31:58.864Z",
-      "time": "2024-09-29T13:31:58.864Z",
-      "latLong": "26.583743042257808, -80.22199655926536",
-      "collectingSession": [],
-      "specimen": [
+          "latLong": "28.45264234197782, -80.88923790416983",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 811,
+              "genus": "Junonia",
+              "species": "",
+              "time": "2024-09-28T19:55:30.008Z",
+              "latLong": "28.45071387050706, -81.6575534893335"
+            }
+          ]
+        },
         {
-          "id": 812,
-          "genus": "Danaus",
-          "species": "",
-          "time": "2024-09-29T13:31:58.860Z",
-          "latLong": "26.58391972797858, -80.22162922924038"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-29T20:53:45.745Z",
-      "time": "2024-09-29T20:53:45.745Z",
-      "latLong": "26.584082873604345, -80.22154747080957",
-      "collectingSession": [],
-      "specimen": [
+          "name": "indian-trails-1",
+          "time": "2024-09-29T13:31:58.864Z",
+          "latLong": "26.583743042257808, -80.22199655926536",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 812,
+              "genus": "Danaus",
+              "species": "eresimus",
+              "time": "2024-09-29T13:31:58.860Z",
+              "latLong": "26.584104, -80.221275"
+            },
+            {
+              "id": 813,
+              "genus": "Dryas",
+              "species": "julia",
+              "time": "2024-09-29T20:53:45.744Z",
+              "latLong": "26.584082873604775, -80.22154747081095"
+            }
+          ]
+        },
         {
-          "id": 813,
-          "genus": "",
-          "species": "Julia",
-          "time": "2024-09-29T20:53:45.744Z",
-          "latLong": "26.584082873604775, -80.22154747081095"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-30T12:52:13.467Z",
-      "time": "2024-09-30T12:52:13.467Z",
-      "latLong": "26.5840628651373, -80.22154899266758",
-      "collectingSession": [],
-      "specimen": [
+          "name": "indian-trails-2",
+          "time": "2024-09-30T12:52:13.467Z",
+          "latLong": "26.5840628651373, -80.22154899266758",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 814,
+              "genus": "Urbanus",
+              "species": "proteus",
+              "time": "2024-09-30T12:52:13.460Z",
+              "latLong": "26.58408055334451, -80.22155047478792"
+            },
+            {
+              "id": 815,
+              "genus": "Phoebis",
+              "species": "",
+              "time": "2024-09-30T13:24:19.279Z",
+              "latLong": "26.583950297289874, -80.2212153726816"
+            }
+          ]
+        },
         {
-          "id": 814,
-          "genus": "Urbanus",
-          "species": "proteus",
-          "time": "2024-09-30T12:52:13.460Z",
-          "latLong": "26.58408055334451, -80.22155047478792"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-30T13:24:19.282Z",
-      "time": "2024-09-30T13:24:19.282Z",
-      "latLong": "26.583935456377493, -80.22125767688436",
-      "collectingSession": [],
-      "specimen": [
+          "name": "jog-road-median",
+          "time": "2024-09-30T15:06:50.442Z",
+          "latLong": "26.562621, -80.146691",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 816,
+              "genus": "Eumaeus",
+              "species": "atala",
+              "time": "2024-09-30T15:06:50.438Z",
+              "notes": "Jane of Indian Trails had pointed out this site; tons of very mature, healthy Coontie; no adults, no larvae I could see, just found this one pupa, already butterskotch colored; color change began 10/08, due to drying; 10/09 I could see the shriveled abdomen through the pupa walls"
+            }
+          ]
+        },
         {
-          "id": 815,
-          "genus": "Phoebis",
-          "species": "",
-          "time": "2024-09-30T13:24:19.279Z",
-          "latLong": "26.583950297289874, -80.2212153726816"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-30T15:06:50.442Z",
-      "time": "2024-09-30T15:06:50.442Z",
-      "latLong": "26.561863096570494, -80.1466238713279",
-      "collectingSession": [],
-      "specimen": [
+          "name": "wawa-station",
+          "time": "2024-09-30T16:21:58.775Z",
+          "latLong": "26.617708, -80.148324",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 817,
+              "genus": "Eumaeus",
+              "species": "atala",
+              "time": "2024-09-30T16:21:58.772Z",
+              "notes": "I had spotted this site on Google Maps with Street View; pupa; brand new, abdomen still red like the larvae; saw at least a dozen larvae and two pupae, but no adults"
+            }
+          ]
+        },
         {
-          "id": 816,
-          "genus": "Atala",
-          "species": "Pupa",
-          "time": "2024-09-30T15:06:50.438Z",
-          "latLong": "26.561824331194792, -80.14664953031034"
-        }
-      ]
-    },
-    {
-      "name": "2024-09-30T16:21:58.775Z",
-      "time": "2024-09-30T16:21:58.775Z",
-      "latLong": "26.61793531267195, -80.14903738305405",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 817,
-          "genus": "",
-          "species": "Atala pupa",
-          "time": "2024-09-30T16:21:58.772Z",
-          "latLong": "26.617753042146088, -80.14910707266328"
-        }
-      ]
-    },
-    {
-      "name": "dagny-johnson",
-      "time": "2024-10-01T16:23:58.908Z",
-      "latLong": "25.174771713777137, -80.36515178126476",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 818,
-          "genus": "Phoebis",
-          "species": "agarithe",
+          "name": "dagny-johnson",
           "time": "2024-10-01T16:23:58.908Z",
           "latLong": "25.174771713777137, -80.36515178126476",
-          "notes": "double-check latLong, data wasn't captured; on trail to ocean in DJ SP"
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 818,
+              "genus": "Phoebis",
+              "species": "agarithe",
+              "time": "2024-10-01T16:23:58.908Z",
+              "latLong": "25.174771713777137, -80.36515178126476",
+              "notes": "double-check latLong, data wasn't captured; on trail to ocean in DJ SP"
+            }
+          ]
+        },
+        {
+          "name": "key-largo",
+          "time": "2024-10-01T19:20:43.006Z",
+          "latLong": "25.123729783151433, -80.41467259916605",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 819,
+              "genus": "Leptotes",
+              "species": "cassius theonus",
+              "time": "2024-10-01T19:20:43.004Z",
+              "latLong": "25.123833382353403, -80.4143570516343"
+            },
+            {
+              "id": 820,
+              "genus": "Eurema",
+              "species": "daira",
+              "sex": "f",
+              "time": "2024-10-01T19:26:09.166Z",
+              "latLong": "25.123713281870618, -80.4144428025546"
+            },
+            {
+              "id": 821,
+              "genus": "Eurema",
+              "species": "daira",
+              "sex": "f",
+              "time": "2024-10-01T19:34:52.314Z",
+              "latLong": "25.123776969411264, -80.41436744198408"
+            },
+            {
+              "id": 822,
+              "genus": "Eurema",
+              "species": "daira",
+              "time": "2024-10-01T19:35:08.219Z",
+              "latLong": "25.1237491914402, -80.41430766646774"
+            }
+          ]
+        },
+        {
+          "name": "caseys-corner",
+          "time": "2024-10-02T14:51:01.895Z",
+          "latLong": "25.47073354807554, -80.50956324361917",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 823,
+              "genus": "Asbolis",
+              "species": "capucinus",
+              "time": "2024-10-02T14:51:01.893Z",
+              "latLong": "25.470814362177755, -80.50950150645525"
+            },
+            {
+              "id": 824,
+              "genus": "Danaus",
+              "species": "gilippus",
+              "time": "2024-10-02T15:10:01.893Z",
+              "latLong": "25.470814362177755, -80.50950150645525",
+              "notes": "queen"
+            },
+            {
+              "id": 825,
+              "genus": "Battus",
+              "species": "polydamas",
+              "time": "2024-10-02T15:23:51.003Z",
+              "latLong": "25.4707808036496, -80.50952650390198"
+            },
+            {
+              "id": 826,
+              "genus": "Asbolis",
+              "species": "capucinus",
+              "time": "2024-10-02T15:32:49.256Z",
+              "latLong": "25.470856224473152, -80.50949383209039"
+            },
+            {
+              "id": 827,
+              "genus": "Battus",
+              "species": "polydamas",
+              "time": "2024-10-02T15:51:48.752Z",
+              "latLong": "25.47102567385663, -80.50944163120111"
+            }
+          ]
         }
-      ]
-    },
-    {
-      "name": "key-largo",
-      "time": "2024-10-01T19:20:43.006Z",
-      "latLong": "25.123729783151433, -80.41467259916605",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 819,
-          "genus": "",
-          "species": "Blue",
-          "time": "2024-10-01T19:20:43.004Z",
-          "latLong": "25.123833382353403, -80.4143570516343"
-        },
-        {
-          "id": 820,
-          "genus": "Eurema",
-          "species": "",
-          "time": "2024-10-01T19:26:09.166Z",
-          "latLong": "25.123713281870618, -80.4144428025546"
-        },
-        {
-          "id": 821,
-          "genus": "Eurema",
-          "species": "",
-          "time": "2024-10-01T19:34:52.314Z",
-          "latLong": "25.123776969411264, -80.41436744198408"
-        },
-        {
-          "id": 822,
-          "genus": "Eurema",
-          "species": "",
-          "time": "2024-10-01T19:35:08.219Z",
-          "latLong": "25.1237491914402, -80.41430766646774"
-        }
-      ]
-    },
-    {
-      "name": "caseys-corner",
-      "time": "2024-10-02T14:51:01.895Z",
-      "latLong": "25.47073354807554, -80.50956324361917",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 823,
-          "genus": "",
-          "species": "Skipper",
-          "time": "2024-10-02T14:51:01.893Z",
-          "latLong": "25.470814362177755, -80.50950150645525"
-        },
-        {
-          "id": 824,
-          "genus": "Danaus",
-          "species": "",
-          "time": "2024-10-02T15:10:01.893Z",
-          "latLong": "25.470814362177755, -80.50950150645525",
-          "notes": "queen"
-        },
-        {
-          "id": 825,
-          "genus": "Battus",
-          "species": "polydamas",
-          "time": "2024-10-02T15:23:51.003Z",
-          "latLong": "25.4707808036496, -80.50952650390198"
-        },
-        {
-          "id": 826,
-          "genus": "",
-          "species": "Skipper",
-          "time": "2024-10-02T15:32:49.256Z",
-          "latLong": "25.470856224473152, -80.50949383209039"
-        },
-        {
-          "id": 827,
-          "genus": "Battus",
-          "species": "polydamas",
-          "time": "2024-10-02T15:51:48.752Z",
-          "latLong": "25.47102567385663, -80.50944163120111"
-        }
-      ]
+      ],
+      "specimen": []
     }
   ],
   "sighting": [
