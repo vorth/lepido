@@ -1318,26 +1318,41 @@
           "name": "june-15",
           "time": "1977-06-15",
           "collectingSession": [],
+          "notes": "crops in fields attracting Colias and Pieris",
           "specimen": [
             {
               "id": "215",
-              "tag1": "215",
-              "sex": "f",
+              "id-1977": "242",
+              "id-green": "210",
               "genus": "Colias",
               "species": "philodice-eurytheme",
-              "notes": "-- white"
+              "sex": "f",
+              "time": "1977-06-15 1310",
+              "latLong": "42.33158, -89.69057",
+              "place": "grain field S of Weber's (pre-bypass)",
+              "notes": "white female; saw many other Colias and Pieris"
             },
             {
               "id": "216",
-              "tag1": "216",
+              "id-1977": "243",
+              "id-green": "211",
               "genus": "Boloria",
-              "species": "b. bellona"
+              "species": "b. bellona",
+              "time": "1977-06-15 1320",
+              "latLong": "42.33989, -89.69061",
+              "place": "crook in Winneshiek rd",
+              "notes": "dead on the road"
             },
             {
               "id": "217",
-              "tag1": "217",
+              "id-1977": "244",
+              "id-green": "212",
               "genus": "Euptoieta",
-              "species": "claudia"
+              "species": "claudia",
+              "time": "1977-06-15 1330",
+              "latLong": "42.34275, -89.68643",
+              "place": "on Winneshiek rd just W of new bridge",
+              "notes": "1330-1440: saw Speyeria aphrodite alcestis and cybele cybele along tracks S of Winneshiek"
             }
           ]
         }
@@ -1351,10 +1366,102 @@
       "specimen": [
         {
           "id": "218",
-          "tag1": "218",
+          "id-1977": "245",
+          "id-green": "213",
           "sex": "m",
           "genus": "Pachysphinx",
-          "species": "m. modesta"
+          "species": "m. modesta",
+          "time": "1977-06-18 1700",
+          "latLong": "41.467, -95.540",
+          "collector": "Everett Vorthmann",
+          "place": "Minden IA"
+        }
+      ]
+    },
+    {
+      "name": "home-1977-c",
+      "time": "1977-06-29",
+      "location": {
+        "ref": "home"
+      },
+      "notes": "Robin's plantain (Erigeron pulchellus) blooming",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": "219",
+          "id-1977": "246",
+          "id-green": "214",
+          "sex": "f",
+          "time": "1977-06-29 1055",
+          "latLong": "42.32746, -89.69037",
+          "genus": "Colias",
+          "species": "philodice-eurytheme",
+          "notes": "-- alfalfa; front yard on dandelion"
+        },
+        {
+          "id": "220",
+          "id-1977": "247",
+          "id-green": "215",
+          "sex": "f",
+          "genus": "Phyciodes",
+          "species": "t. tharos (morpheus)",
+          "time": "1977-06-29 1115",
+          "latLong": "42.32729, -89.69027",
+          "notes": "on sunflowers in garden by driveway"
+        },
+        {
+          "id": "221",
+          "id-1977": "248",
+          "id-green": "216",
+          "sex": "m",
+          "genus": "Colias",
+          "species": "p. philodice",
+          "time": "1977-06-29 1120",
+          "latLong": "42.32764, -89.68994",
+          "notes": "by hydrant in valley; hybrid with eurytheme (amphidusa)?"
+        },
+        {
+          "id": "222",
+          "id-1977": "249",
+          "id-green": "217",
+          "sex": "f",
+          "genus": "Pieris",
+          "species": "p. protodice",
+          "time": "1977-06-29 1125",
+          "latLong": "42.32785, -89.68998",
+          "notes": "on Robin's plantain W of barn"
+        },
+        {
+          "id": "223",
+          "id-1977": "250",
+          "id-green": "218",
+          "genus": "Satyrium",
+          "species": "calanus falacer",
+          "time": "1977-06-29 1130",
+          "latLong": "42.32785, -89.68998",
+          "notes": "on Robin's plantain W of barn"
+        },
+        {
+          "id": "224",
+          "id-1977": "251",
+          "id-green": "219",
+          "sex": "f",
+          "genus": "Calasymbolus",
+          "species": "excaecatus",
+          "time": "1977-06-29 1645",
+          "latLong": "42.32729, -89.69015",
+          "notes": "suspended leaf-like on privet hedge"
+        },
+        {
+          "id": "225",
+          "id-1977": "252",
+          "id-green": "220",
+          "sex": "m",
+          "genus": "Calasymbolus",
+          "species": "excaecatus",
+          "time": "1977-06-29 1645",
+          "latLong": "42.32729, -89.69015",
+          "notes": "suspended leaf-like on privet hedge"
         }
       ]
     },
@@ -6091,56 +6198,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "219",
-      "tag1": "219",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa"
-    },
-    {
-      "id": "220",
-      "tag1": "220",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "221",
-      "tag1": "221",
-      "sex": "x e. (amphidusa) m",
-      "genus": "Colias",
-      "species": "p. philodice",
-      "notes": "-- cross"
-    },
-    {
-      "id": "222",
-      "tag1": "222",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "223",
-      "tag1": "223",
-      "genus": "Satyrium",
-      "species": "calanus falacer"
-    },
-    {
-      "id": "224",
-      "tag1": "224",
-      "sex": "f",
-      "genus": "Calasymbolus",
-      "species": "excaecatus"
-    },
-    {
-      "id": "225",
-      "tag1": "225",
-      "sex": "m",
-      "genus": "Calasymbolus",
-      "species": "excaecatus"
     },
     {
       "id": "226",
