@@ -1380,90 +1380,151 @@
     },
     {
       "name": "home-1977-c",
-      "time": "1977-06-29",
+      "time": "1977",
       "location": {
         "ref": "home"
       },
-      "notes": "Robin's plantain (Erigeron pulchellus) blooming",
-      "collectingSession": [],
-      "specimen": [
+      "collectingSession": [
         {
-          "id": "219",
-          "id-1977": "246",
-          "id-green": "214",
-          "sex": "f",
-          "time": "1977-06-29 1055",
-          "latLong": "42.32746, -89.69037",
-          "genus": "Colias",
-          "species": "philodice-eurytheme",
-          "notes": "-- alfalfa; front yard on dandelion"
+          "name": "june-29",
+          "time": "1977-06-29",
+          "notes": "Robin's plantain (Erigeron pulchellus) blooming",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "219",
+              "id-1977": "246",
+              "id-green": "214",
+              "sex": "f",
+              "time": "1977-06-29 1055",
+              "latLong": "42.32746, -89.69037",
+              "genus": "Colias",
+              "species": "philodice-eurytheme",
+              "notes": "-- alfalfa; front yard on dandelion"
+            },
+            {
+              "id": "220",
+              "id-1977": "247",
+              "id-green": "215",
+              "sex": "f",
+              "genus": "Phyciodes",
+              "species": "t. tharos (morpheus)",
+              "time": "1977-06-29 1115",
+              "latLong": "42.32729, -89.69027",
+              "notes": "on sunflowers in garden by driveway"
+            },
+            {
+              "id": "221",
+              "id-1977": "248",
+              "id-green": "216",
+              "sex": "m",
+              "genus": "Colias",
+              "species": "p. philodice",
+              "time": "1977-06-29 1120",
+              "latLong": "42.32764, -89.68994",
+              "notes": "by hydrant in valley; hybrid with eurytheme (amphidusa)?"
+            },
+            {
+              "id": "222",
+              "id-1977": "249",
+              "id-green": "217",
+              "sex": "f",
+              "genus": "Pieris",
+              "species": "p. protodice",
+              "time": "1977-06-29 1125",
+              "latLong": "42.32785, -89.68998",
+              "notes": "on Robin's plantain W of barn"
+            },
+            {
+              "id": "223",
+              "id-1977": "250",
+              "id-green": "218",
+              "genus": "Satyrium",
+              "species": "calanus falacer",
+              "time": "1977-06-29 1130",
+              "latLong": "42.32785, -89.68998",
+              "notes": "on Robin's plantain W of barn"
+            },
+            {
+              "id": "224",
+              "id-1977": "251",
+              "id-green": "219",
+              "sex": "f",
+              "genus": "Calasymbolus",
+              "species": "excaecatus",
+              "time": "1977-06-29 1645",
+              "latLong": "42.32729, -89.69015",
+              "notes": "suspended leaf-like on privet hedge"
+            },
+            {
+              "id": "225",
+              "id-1977": "252",
+              "id-green": "220",
+              "sex": "m",
+              "genus": "Calasymbolus",
+              "species": "excaecatus",
+              "time": "1977-06-29 1645",
+              "latLong": "42.32729, -89.69015",
+              "notes": "suspended leaf-like on privet hedge"
+            }    
+          ]
         },
         {
-          "id": "220",
-          "id-1977": "247",
-          "id-green": "215",
-          "sex": "f",
-          "genus": "Phyciodes",
-          "species": "t. tharos (morpheus)",
-          "time": "1977-06-29 1115",
-          "latLong": "42.32729, -89.69027",
-          "notes": "on sunflowers in garden by driveway"
+          "name": "june-30",
+          "time": "1977-06-30",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "226",
+              "id-1977": "253",
+              "id-green": "221",
+              "sex": "f",
+              "genus": "Pholisora",
+              "species": "catullus",
+              "time": "1977-06-30 1550",
+              "latLong": "42.32753, -89.69035",
+              "notes": "front yard, on dead oak leaf"
+            }
+          ]
         },
         {
-          "id": "221",
-          "id-1977": "248",
-          "id-green": "216",
-          "sex": "m",
-          "genus": "Colias",
-          "species": "p. philodice",
-          "time": "1977-06-29 1120",
-          "latLong": "42.32764, -89.68994",
-          "notes": "by hydrant in valley; hybrid with eurytheme (amphidusa)?"
+          "name": "july-01",
+          "time": "1977-07-01",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "227",
+              "id-1977": "254",
+              "id-green": "222",
+              "sex": "f",
+              "genus": "Pholisora",
+              "species": "catullus",
+              "time": "1977-07-01 1200",
+              "latLong": "42.32753, -89.69035",
+              "notes": "front yard, on dead oak leaf"
+            }
+          ]
         },
         {
-          "id": "222",
-          "id-1977": "249",
-          "id-green": "217",
-          "sex": "f",
-          "genus": "Pieris",
-          "species": "p. protodice",
-          "time": "1977-06-29 1125",
-          "latLong": "42.32785, -89.68998",
-          "notes": "on Robin's plantain W of barn"
-        },
-        {
-          "id": "223",
-          "id-1977": "250",
-          "id-green": "218",
-          "genus": "Satyrium",
-          "species": "calanus falacer",
-          "time": "1977-06-29 1130",
-          "latLong": "42.32785, -89.68998",
-          "notes": "on Robin's plantain W of barn"
-        },
-        {
-          "id": "224",
-          "id-1977": "251",
-          "id-green": "219",
-          "sex": "f",
-          "genus": "Calasymbolus",
-          "species": "excaecatus",
-          "time": "1977-06-29 1645",
-          "latLong": "42.32729, -89.69015",
-          "notes": "suspended leaf-like on privet hedge"
-        },
-        {
-          "id": "225",
-          "id-1977": "252",
-          "id-green": "220",
-          "sex": "m",
-          "genus": "Calasymbolus",
-          "species": "excaecatus",
-          "time": "1977-06-29 1645",
-          "latLong": "42.32729, -89.69015",
-          "notes": "suspended leaf-like on privet hedge"
+          "name": "july-02",
+          "time": "1977-07-02",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "228",
+              "id-1977": "255",
+              "id-green": "223",
+              "sex": "m",
+              "genus": "Celastrina",
+              "species": "argiolus pseudargiolus (p.)",
+              "time": "1977-07-02 1710",
+              "latLong": "42.32749, -89.69004",
+              "notes": "back yard, flying"
+            }
+          ]
         }
-      ]
+      ],
+      "specimen": []
     },
     {
       "name": "north-dakota-1978",
@@ -6198,26 +6259,6 @@
       "genus": "Catocala",
       "species": "muliercula",
       "notes": "127"
-    },
-    {
-      "id": "226",
-      "tag1": "226",
-      "sex": "f",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "227",
-      "tag1": "227",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "228",
-      "tag1": "228",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
     },
     {
       "id": "229",
