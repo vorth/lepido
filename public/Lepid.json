@@ -1522,6 +1522,109 @@
               "notes": "back yard, flying"
             }
           ]
+        },
+        {
+          "name": "july-05",
+          "time": "1977-07-05",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "229",
+              "id-1977": "256",
+              "id-green": "224",
+              "sex": "m",
+              "genus": "Satyrium",
+              "species": "caryaevoris",
+              "time": "1977-07-05 1715",
+              "latLong": "42.32730, -89.69027",
+              "notes": "on sunflower in driveway garden"
+            }
+          ]
+        },
+        {
+          "name": "july-05-lighttrap",
+          "time": "1977-07-05",
+          "notes": "at light trap (sheet & flood) in shop framing",
+          "latLong": "42.32777, -89.69026",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "230",
+              "id-1977": "257",
+              "time": "1977-07-05 22:25",
+              "notes": "sm. beige moth; scalloped wings"
+            },
+            {
+              "id": "231",
+              "tag1": "u40",
+              "id-1977": "258",
+              "genus": "Lambdina",
+              "time": "1977-07-05 22:40",
+              "collector": "Layne Vorthmann",
+              "notes": "white spanworm; sm. yellowish geometrid, unmounted"
+            },
+            {
+              "id": "232",
+              "id-1977": "259",
+              "sex": "m",
+              "genus": "Catocala",
+              "species": "mira",
+              "time": "1977-07-05 22:45",
+              "notes": "little orange Underwing"
+            },
+            {
+              "id": "233",
+              "id-1977": "260",
+              "genus": "Atteva",
+              "species": "borealis",
+              "time": "1977-07-05 23:01",
+              "notes": "orange & black speckled harlequin moth"
+            },
+            {
+              "id": "234",
+              "tag1": "u33",
+              "id-1977": "261",
+              "time": "1977-07-05 23:20",
+              "genus": "Hypoprepia",
+              "species": "fucosa",
+              "collector": "Layne Vorthmann",
+              "notes": "sm. gray, yellow & red moth"
+            },
+            {
+              "id": "235",
+              "tag1": "u34",
+              "id-1977": "262",
+              "time": "1977-07-05 23:20",
+              "genus": "Hypoprepia",
+              "species": "fucosa",
+              "collector": "Layne Vorthmann"
+            },
+            {
+              "id": "236",
+              "tag1": "u41",
+              "id-1977": "263",
+              "time": "1977-07-05 23:34",
+              "notes": "littler yellowish geometrid"
+            },
+            {
+              "id": "237",
+              "tag1": "u66",
+              "id-1977": "264",
+              "genus": "Peridroma",
+              "species": "saucia",
+              "time": "1977-07-05 23:38",
+              "notes": "Variegated cutworm; generic noctuid, unlabeled, unmounted"
+            },
+            {
+              "id": "238",
+              "tag1": "u42",
+              "id-1977": "265",
+              "genus": "Lambdina",
+              "time": "1977-07-05 23:45",
+              "collector": "Layne Vorthmann",
+              "notes": "white spanworm; sm. yellowish geometrid; sim. to 231"
+            }
+          ]
         }
       ],
       "specimen": []
@@ -6260,70 +6363,10 @@
       "species": "muliercula",
       "notes": "127"
     },
-    {
-      "id": "229",
-      "tag1": "229",
-      "genus": "Satyrium",
-      "species": "caryaevoris"
-    },
-    {
-      "id": "230",
-      "-num2": "257",
-      "time": "7/5/77  22:25",
-      "place": "home; at light trap (sheet & flood) in unfinished shop",
-      "notes": "sm. beige moth"
-    },
-    {
-      "id": "231",
-      "tag1": "u40?",
-      "notes": "-- sm. yellowish geometrid, unmounted"
-    },
-    {
-      "id": "232",
-      "tag1": "232",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "mira"
-    },
-    {
-      "id": "233",
-      "tag1": "233?",
-      "tag2": "260?",
-      "genus": "Atteva",
-      "species": "borealis",
-      "notes": "-- orange & black harlequin moth"
-    },
-    {
-      "id": "234",
-      "tag1": "u33",
-      "genus": "Hypoprepia",
-      "species": "fucosa",
-      "notes": "sm. gray, yellow & red moth; unmounted"
-    },
-    {
-      "id": "235",
-      "tag1": "u34",
-      "genus": "Hypoprepia",
-      "species": "fucosa"
-    },
-    {
-      "id": "236",
-      "tag1": "u41?",
-      "notes": "-- sm. yellowish geometrid, unmounted"
-    },
-    {
-      "id": "237",
-      "tag1": "u66",
-      "-num2": "264",
-      "genus": "Peridroma",
-      "species": "saucia",
-      "notes": "-- generic noctuid, unlabeled, unmounted"
-    },
-    {
-      "id": "238",
-      "tag1": "u42?",
-      "notes": "-- sm. yellowish geometrid, unmounted"
-    },
+
+
+
+
     {
       "id": "239",
       "tag1": "u57?",
