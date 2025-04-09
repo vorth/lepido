@@ -4253,6 +4253,7 @@
               "tag1": "696",
               "sex": "m",
               "time": "15:50",
+              "latLong": "37.25179, -122.06227",
               "notes": "Chalcedon checkerspot, dying on road near bridge"
             }
           ]
@@ -5398,6 +5399,56 @@
         }
       ],
       "specimen": []
+    },
+    {
+      "name": "wardell-2024-12",
+      "time": "2024-12-16",
+      "collectingSession": [],
+      "notes": "5 Vanessa cardui larvae arrived from RiverBottom Butterflies",
+      "specimen": [
+        {
+          "id": 828,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 829,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 830,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 831,
+          "genus": "Vanessa",
+          "species": "cardui"
+        }
+      ]
+    },
+    {
+      "name": "russian-ridge-2025-03",
+      "time": "2025-03-23",
+      "collectingSession": [],
+      "notes": "Saw more than a dozen Pieris marginalis",
+      "specimen": [
+        {
+          "id": 832,
+          "genus": "Pieris",
+          "species": "marginalis",
+          "sex": "m",
+          "notes": "captured live, placed in the fridge; damaged r. forewing the next day in the enclosure, so I euthanized and spread it"
+        },
+        {
+          "id": 833,
+          "genus": "Pieris",
+          "species": "marginalis",
+          "sex": "f",
+          "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
+        }
+      ]
     }
   ],
   "sighting": [
