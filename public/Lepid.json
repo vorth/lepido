@@ -5449,6 +5449,53 @@
           "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
         }
       ]
+    },
+    {
+      "name": "el-corte-de-madera-2025-04",
+      "time": "2024-05-09",
+      "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
+      "location": {
+        "latLong": "37.401230, -122.307187"
+      },
+      "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
+      "specimen": [
+        {
+          "id": 834,
+          "time": "11:40",
+          "genus": "Polygonia",
+          "species": "satyrus",
+          "notes": "captured live, placed in a tub with nettles, but it did not lay eggs; probably male"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Celastrina",
+          "species": "ladon echo",
+          "notes": "captured live, released at home since it was a male"
+        },
+        {
+          "genus": "Pieris",
+          "species": "marginalis",
+          "notes": "saw many, several mudpuddling on the trail in the sun; seemed to be mostly males"
+        }
+      ]
+    },
+    {
+      "name": "parker-ranch-1",
+      "time": "2024-05-13",
+      "location": {
+        "latLong": "37.28154, -122.05078"
+      },
+      "notes": "basking on Toyon",
+      "specimen": [
+        {
+          "id": 835,
+          "time": "11:40",
+          "genus": "Callophrys",
+          "species": "augustinus",
+          "notes": "captured live, placed in a tub with Ceanothus and another shrub from our yard"
+        }
+      ]
     }
   ],
   "sighting": [
