@@ -1,5 +1,5 @@
 {
-  "lastNumber": 827,
+  "lastNumber": 837,
   "locations": {
     "location": [
       {
@@ -3516,7 +3516,7 @@
             "id": "669",
             "sex": "f",
             "place": "driveway, in flight",
-            "genus": "Anthocaris",
+            "genus": "Anthocharis",
             "species": "midea",
             "notes": "female orange-tip; other sightings: many E. gemma; a couple of Sleepy Orange; many Tigers; one male Spicebush; bumblebee moth; many E. Tailed Blue "
           }
@@ -4253,6 +4253,7 @@
               "tag1": "696",
               "sex": "m",
               "time": "15:50",
+              "latLong": "37.25179, -122.06227",
               "notes": "Chalcedon checkerspot, dying on road near bridge"
             }
           ]
@@ -5398,6 +5399,135 @@
         }
       ],
       "specimen": []
+    },
+    {
+      "name": "wardell-2024-12",
+      "time": "2024-12-16",
+      "collectingSession": [],
+      "notes": "5 Vanessa cardui larvae arrived from RiverBottom Butterflies",
+      "specimen": [
+        {
+          "id": 828,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 829,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 830,
+          "genus": "Vanessa",
+          "species": "cardui"
+        },
+        {
+          "id": 831,
+          "genus": "Vanessa",
+          "species": "cardui"
+        }
+      ]
+    },
+    {
+      "name": "russian-ridge-2025-03",
+      "time": "2025-03-23",
+      "collectingSession": [],
+      "notes": "Saw more than a dozen Pieris marginalis",
+      "specimen": [
+        {
+          "id": 832,
+          "genus": "Pieris",
+          "species": "marginalis",
+          "sex": "m",
+          "notes": "captured live, placed in the fridge; damaged r. forewing the next day in the enclosure, so I euthanized and spread it"
+        },
+        {
+          "id": 833,
+          "genus": "Pieris",
+          "species": "marginalis",
+          "sex": "f",
+          "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
+        }
+      ]
+    },
+    {
+      "name": "el-corte-de-madera-2025-04",
+      "time": "2024-05-09",
+      "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
+      "location": {
+        "latLong": "37.401230, -122.307187"
+      },
+      "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
+      "specimen": [
+        {
+          "id": 834,
+          "time": "11:40",
+          "genus": "Polygonia",
+          "species": "satyrus",
+          "notes": "captured live, placed in a tub with nettles, but it did not lay eggs; probably male"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Celastrina",
+          "species": "ladon echo",
+          "notes": "captured live, released at home since it was a male"
+        },
+        {
+          "genus": "Pieris",
+          "species": "marginalis",
+          "notes": "saw many, several mudpuddling on the trail in the sun; seemed to be mostly males"
+        }
+      ]
+    },
+    {
+      "name": "parker-ranch-1",
+      "time": "2024-05-13",
+      "location": {
+        "latLong": "37.28154, -122.05078"
+      },
+      "notes": "basking on Toyon",
+      "specimen": [
+        {
+          "id": 835,
+          "time": "11:40",
+          "genus": "Callophrys",
+          "species": "augustinus",
+          "notes": "captured live, placed in a tub with Ceanothus and another shrub from our yard"
+        }
+      ]
+    },
+    {
+      "name": "mt-umunhum-1",
+      "time": "2025-04-14",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": 836,
+          "genus": "Anthocharis",
+          "species": "s. sara",
+          "time": "11:08",
+          "latLong": "37.16012, -121.87415",
+          "notes": "saw several patrolling the trail"
+        },
+        {
+          "id": 837,
+          "genus": "Anthocharis",
+          "species": "s. sara",
+          "time": "12:30",
+          "latLong": "37.15876, -121.88301",
+          "notes": "saw several males and one other female; captured live, placed in a tub with Brassica nigra, but showed no interest in laying eggs.  Same after adding Cardamine californica"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Papilio",
+          "species": "eurymedon",
+          "time": "12:40",
+          "notes": "circling and gliding lazily, not landing",
+          "location": "37.15934, -121.87621"
+        }
+      ]
     }
   ],
   "sighting": [
