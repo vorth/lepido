@@ -1,5 +1,5 @@
 {
-  "lastNumber": 837,
+  "lastNumber": 841,
   "locations": {
     "location": [
       {
@@ -1466,7 +1466,7 @@
               "time": "1977-06-29 1645",
               "latLong": "42.32729, -89.69015",
               "notes": "suspended leaf-like on privet hedge"
-            }    
+            }
           ]
         },
         {
@@ -5528,6 +5528,68 @@
           "location": "37.15934, -121.87621"
         }
       ]
+    },
+    {
+      "name": "mt-umunhum-2",
+      "time": "2025-04-19",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": 838,
+          "genus": "Euphydryas",
+          "species": "chalcedona",
+          "time": "12:00",
+          "latLong": "37.16067, -121.87331",
+          "notes": "saw dozens more, if not hundreds; captured live, placed in a tub with Penstemon and Bee Plant, for egg-laying"
+        },
+        {
+          "id": 839,
+          "genus": "Callophrys",
+          "species": "dumetorum",
+          "time": "12:17",
+          "latLong": "37.15997, -121.87050",
+          "notes": "Lotus Hairstreak; saw another; captured live, placed in a tub with Eriogonum fasciculatum, for egg-laying"
+        },
+        {
+          "id": 840,
+          "genus": "Glaucopsyche",
+          "species": "lygdamus",
+          "sex": "f",
+          "time": "12:26",
+          "latLong": "37.15977, -121.86919"
+        },
+        {
+          "id": 841,
+          "genus": "Icaricia",
+          "species": "acmon",
+          "sex": "m",
+          "time": "12:39",
+          "latLong": "37.15976, -121.86837"
+        }
+      ],
+      "sighting": [
+        {
+          "genus": "Papilio",
+          "species": "eurymedon",
+          "time": "12:45",
+          "notes": "hilltopping",
+          "location": "37.15988, -121.86728"
+        },
+        {
+          "genus": "Papilio",
+          "species": "zelicaon",
+          "time": "12:45",
+          "notes": "hilltopping",
+          "location": "37.15988, -121.86728"
+        },
+        {
+          "genus": "Celerio",
+          "species": "lineata",
+          "time": "13:15",
+          "notes": "white-lined sphinx nectaring",
+          "location": "37.15924, -121.86826"
+        }
+      ]
     }
   ],
   "sighting": [
@@ -6493,10 +6555,6 @@
       "species": "muliercula",
       "notes": "127"
     },
-
-
-
-
     {
       "id": "239",
       "tag1": "u57?",
