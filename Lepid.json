@@ -1,5 +1,5 @@
 {
-  "lastNumber": 844,
+  "lastNumber": 845,
   "locations": {
     "location": [
       {
@@ -5429,195 +5429,218 @@
       ]
     },
     {
-      "name": "russian-ridge-2025-03",
-      "time": "2025-03-23",
-      "collectingSession": [],
-      "notes": "Saw more than a dozen Pieris marginalis",
-      "specimen": [
+      "name": "ca-2025",
+      "time": "2025",
+      "collectingSession": [
         {
-          "id": 832,
-          "genus": "Pieris",
-          "species": "marginalis",
-          "sex": "m",
-          "notes": "captured live, placed in the fridge; damaged r. forewing the next day in the enclosure, so I euthanized and spread it"
+          "name": "russian-ridge-2025-03",
+          "time": "2025-03-23",
+          "collectingSession": [],
+          "notes": "Saw more than a dozen Pieris marginalis",
+          "specimen": [
+            {
+              "id": 832,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "m",
+              "notes": "captured live, placed in the fridge; damaged r. forewing the next day in the enclosure, so I euthanized and spread it"
+            },
+            {
+              "id": 833,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "f",
+              "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
+            }
+          ]
         },
         {
-          "id": 833,
-          "genus": "Pieris",
-          "species": "marginalis",
-          "sex": "f",
-          "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
-        }
-      ]
-    },
-    {
-      "name": "el-corte-de-madera-2025-04",
-      "time": "2024-05-09",
-      "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
-      "location": {
-        "latLong": "37.401230, -122.307187"
-      },
-      "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
-      "specimen": [
-        {
-          "id": 834,
-          "time": "11:40",
-          "genus": "Polygonia",
-          "species": "satyrus",
-          "notes": "captured live, placed in a tub with nettles, but it did not lay eggs; probably male"
-        }
-      ],
-      "sighting": [
-        {
-          "genus": "Celastrina",
-          "species": "ladon echo",
-          "notes": "captured live, released at home since it was a male"
+          "name": "el-corte-de-madera-2025-04",
+          "time": "2024-05-09",
+          "place": "Gordon Mill trail, El Corte de Madera Creek Preserve, W of Redwood City, CA",
+          "location": {
+            "latLong": "37.401230, -122.307187"
+          },
+          "notes": "sunny gap in the woods at a turn in the trail crossing a creek.",
+          "specimen": [
+            {
+              "id": 834,
+              "time": "11:40",
+              "genus": "Polygonia",
+              "species": "satyrus",
+              "notes": "captured live, placed in a tub with nettles, but it did not lay eggs; probably male"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Celastrina",
+              "species": "ladon echo",
+              "notes": "captured live, released at home since it was a male"
+            },
+            {
+              "genus": "Pieris",
+              "species": "marginalis",
+              "notes": "saw many, several mudpuddling on the trail in the sun; seemed to be mostly males"
+            }
+          ]
         },
         {
-          "genus": "Pieris",
-          "species": "marginalis",
-          "notes": "saw many, several mudpuddling on the trail in the sun; seemed to be mostly males"
-        }
-      ]
-    },
-    {
-      "name": "parker-ranch-1",
-      "time": "2024-05-13",
-      "location": {
-        "latLong": "37.28154, -122.05078"
-      },
-      "notes": "basking on Toyon",
-      "specimen": [
-        {
-          "id": 835,
-          "time": "11:40",
-          "genus": "Callophrys",
-          "species": "augustinus",
-          "notes": "captured live, placed in a tub with Ceanothus and another shrub from our yard"
-        }
-      ]
-    },
-    {
-      "name": "mt-umunhum-1",
-      "time": "2025-04-14",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 836,
-          "genus": "Anthocharis",
-          "species": "s. sara",
-          "time": "11:08",
-          "latLong": "37.16012, -121.87415",
-          "notes": "saw several patrolling the trail"
+          "name": "parker-ranch-1",
+          "time": "2024-05-13",
+          "location": {
+            "latLong": "37.28154, -122.05078"
+          },
+          "notes": "basking on Toyon",
+          "specimen": [
+            {
+              "id": 835,
+              "time": "11:40",
+              "genus": "Callophrys",
+              "species": "augustinus",
+              "notes": "captured live, placed in a tub with Ceanothus and another shrub from our yard"
+            }
+          ]
         },
         {
-          "id": 837,
-          "genus": "Anthocharis",
-          "species": "s. sara",
-          "time": "12:30",
-          "latLong": "37.15876, -121.88301",
-          "notes": "saw several males and one other female; captured live, placed in a tub with Brassica nigra, but showed no interest in laying eggs.  Same after adding Cardamine californica"
-        }
-      ],
-      "sighting": [
-        {
-          "genus": "Papilio",
-          "species": "eurymedon",
-          "time": "12:40",
-          "notes": "circling and gliding lazily, not landing",
-          "location": "37.15934, -121.87621"
-        }
-      ]
-    },
-    {
-      "name": "mt-umunhum-2",
-      "time": "2025-04-19",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 838,
-          "genus": "Euphydryas",
-          "species": "chalcedona",
-          "time": "12:00",
-          "latLong": "37.16067, -121.87331",
-          "notes": "saw dozens more, if not hundreds; captured live, placed in a tub with Penstemon and Bee Plant, for egg-laying"
+          "name": "mt-umunhum-1",
+          "time": "2025-04-14",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 836,
+              "genus": "Anthocharis",
+              "species": "s. sara",
+              "time": "11:08",
+              "latLong": "37.16012, -121.87415",
+              "notes": "saw several patrolling the trail"
+            },
+            {
+              "id": 837,
+              "genus": "Anthocharis",
+              "species": "s. sara",
+              "time": "12:30",
+              "latLong": "37.15876, -121.88301",
+              "notes": "saw several males and one other female; captured live, placed in a tub with Brassica nigra, but showed no interest in laying eggs.  Same after adding Cardamine californica"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Papilio",
+              "species": "eurymedon",
+              "time": "12:40",
+              "notes": "circling and gliding lazily, not landing",
+              "location": "37.15934, -121.87621"
+            }
+          ]
         },
         {
-          "id": 839,
-          "genus": "Callophrys",
-          "species": "dumetorum",
-          "time": "12:17",
-          "latLong": "37.15997, -121.87050",
-          "notes": "Lotus Hairstreak; saw another; captured live, placed in a tub with Eriogonum fasciculatum, for egg-laying"
+          "name": "mt-umunhum-2",
+          "time": "2025-04-19",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 838,
+              "genus": "Euphydryas",
+              "species": "chalcedona",
+              "time": "12:00",
+              "latLong": "37.16067, -121.87331",
+              "notes": "saw dozens more, if not hundreds; captured live, placed in a tub with Penstemon and Bee Plant, for egg-laying"
+            },
+            {
+              "id": 839,
+              "genus": "Callophrys",
+              "species": "dumetorum",
+              "time": "12:17",
+              "latLong": "37.15997, -121.87050",
+              "notes": "Lotus Hairstreak; saw another; captured live, placed in a tub with Eriogonum fasciculatum, for egg-laying"
+            },
+            {
+              "id": 840,
+              "genus": "Glaucopsyche",
+              "species": "lygdamus",
+              "sex": "f",
+              "time": "12:26",
+              "latLong": "37.15977, -121.86919"
+            },
+            {
+              "id": 841,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "m",
+              "time": "12:39",
+              "latLong": "37.15976, -121.86837"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Papilio",
+              "species": "eurymedon",
+              "time": "12:45",
+              "notes": "hilltopping",
+              "latLong": "37.15988, -121.86728"
+            },
+            {
+              "genus": "Papilio",
+              "species": "zelicaon",
+              "time": "12:45",
+              "notes": "hilltopping",
+              "latLong": "37.15988, -121.86728"
+            },
+            {
+              "genus": "Celerio",
+              "species": "lineata",
+              "time": "13:15",
+              "notes": "white-lined sphinx nectaring",
+              "latLong": "37.15924, -121.86826"
+            }
+          ]
         },
         {
-          "id": 840,
-          "genus": "Glaucopsyche",
-          "species": "lygdamus",
-          "sex": "f",
-          "time": "12:26",
-          "latLong": "37.15977, -121.86919"
+          "name": "mt-umunhum-3",
+          "time": "2025-04-21",
+          "collectingSession": [],
+          "notes": "saw many mature Euphydryas chalcedona larvae, vertical on grasses or Eriogonum nudum; brought home three",
+          "specimen": [
+            {
+              "id": 842,
+              "genus": "Papilio",
+              "species": "zelicaon",
+              "time": "12:42",
+              "notes": "hilltopping",
+              "latLong": "37.15984, -121.86711"
+            },
+            {
+              "id": 843,
+              "genus": "Papilio",
+              "species": "eurymedon",
+              "time": "12:45",
+              "notes": "hilltopping",
+              "latLong": "37.15984, -121.86711"
+            },
+            {
+              "id": 844,
+              "genus": "Glaucopsyche",
+              "species": "lygdamus",
+              "time": "12:50",
+              "latLong": "37.15944, -121.86757"
+            }
+          ]
         },
         {
-          "id": 841,
-          "genus": "Icaricia",
-          "species": "acmon",
-          "sex": "m",
-          "time": "12:39",
-          "latLong": "37.15976, -121.86837"
-        }
-      ],
-      "sighting": [
-        {
-          "genus": "Papilio",
-          "species": "eurymedon",
-          "time": "12:45",
-          "notes": "hilltopping",
-          "latLong": "37.15988, -121.86728"
-        },
-        {
-          "genus": "Papilio",
-          "species": "zelicaon",
-          "time": "12:45",
-          "notes": "hilltopping",
-          "latLong": "37.15988, -121.86728"
-        },
-        {
-          "genus": "Celerio",
-          "species": "lineata",
-          "time": "13:15",
-          "notes": "white-lined sphinx nectaring",
-          "latLong": "37.15924, -121.86826"
-        }
-      ]
-    },
-    {
-      "name": "mt-umunhum-3",
-      "time": "2025-04-21",
-      "collectingSession": [],
-      "specimen": [
-        {
-          "id": 842,
-          "genus": "Papilio",
-          "species": "zelicaon",
-          "time": "12:42",
-          "notes": "hilltopping",
-          "latLong": "37.15984, -121.86711"
-        },
-        {
-          "id": 843,
-          "genus": "Papilio",
-          "species": "eurymedon",
-          "time": "12:45",
-          "notes": "hilltopping",
-          "latLong": "37.15984, -121.86711"
-        },
-        {
-          "id": 844,
-          "genus": "Glaucopsyche",
-          "species": "lygdamus",
-          "time": "12:50",
-          "latLong": "37.15944, -121.86757"
+          "name": "wardell-2025-04-22",
+          "time": "2025-04-22",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 845,
+              "genus": "Papilio",
+              "species": "zelicaon",
+              "sex": "f",
+              "time": "14:20",
+              "notes": "lazily gliding, landing as if looking to lay eggs; kept live for egg-laying",
+              "latLong": "37.28430, -122.03307"
+            }
+          ]
         }
       ]
     }
