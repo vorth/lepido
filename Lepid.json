@@ -1,5 +1,5 @@
 {
-  "lastNumber": 841,
+  "lastNumber": 844,
   "locations": {
     "location": [
       {
@@ -5573,21 +5573,51 @@
           "species": "eurymedon",
           "time": "12:45",
           "notes": "hilltopping",
-          "location": "37.15988, -121.86728"
+          "latLong": "37.15988, -121.86728"
         },
         {
           "genus": "Papilio",
           "species": "zelicaon",
           "time": "12:45",
           "notes": "hilltopping",
-          "location": "37.15988, -121.86728"
+          "latLong": "37.15988, -121.86728"
         },
         {
           "genus": "Celerio",
           "species": "lineata",
           "time": "13:15",
           "notes": "white-lined sphinx nectaring",
-          "location": "37.15924, -121.86826"
+          "latLong": "37.15924, -121.86826"
+        }
+      ]
+    },
+    {
+      "name": "mt-umunhum-3",
+      "time": "2025-04-21",
+      "collectingSession": [],
+      "specimen": [
+        {
+          "id": 842,
+          "genus": "Papilio",
+          "species": "zelicaon",
+          "time": "12:42",
+          "notes": "hilltopping",
+          "latLong": "37.15984, -121.86711"
+        },
+        {
+          "id": 843,
+          "genus": "Papilio",
+          "species": "eurymedon",
+          "time": "12:45",
+          "notes": "hilltopping",
+          "latLong": "37.15984, -121.86711"
+        },
+        {
+          "id": 844,
+          "genus": "Glaucopsyche",
+          "species": "lygdamus",
+          "time": "12:50",
+          "latLong": "37.15944, -121.86757"
         }
       ]
     }
