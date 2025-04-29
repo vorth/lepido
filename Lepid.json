@@ -1,5 +1,5 @@
 {
-  "lastNumber": 845,
+  "lastNumber": 846,
   "locations": {
     "location": [
       {
@@ -5451,6 +5451,13 @@
               "species": "marginalis",
               "sex": "f",
               "notes": "captured live, placed in the fridge; put in the enclosure with Cardamine californica (Milkmaids) the next day; laid several eggs on the blossoms; dispatched on 03-25, after laying 16 eggs"
+            },
+            {
+              "id": 846,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "m",
+              "notes": "Reared from egg of 833; laid 03-25, hatched 03-28, pupated 04-14/15, eclosed 04-23, died 04-28"
             }
           ]
         },
