@@ -5458,6 +5458,27 @@
               "species": "marginalis",
               "sex": "m",
               "notes": "Reared from egg of 833; laid 03-25, hatched 03-28, pupated 04-14/15, eclosed 04-23, died 04-28"
+            },
+            {
+              "id": 847,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "f",
+              "notes": "Reared from egg of 833; laid 03-25, hatched 03-28, pupated 04-14/15, eclosed 04-23, died 04-29"
+            },
+            {
+              "id": 848,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "m",
+              "notes": "Reared from egg of 833; laid 03-25, hatched 03-28, pupated 04-14/15, eclosed 04-23, died 04-29"
+            },
+            {
+              "id": 849,
+              "genus": "Pieris",
+              "species": "marginalis",
+              "sex": "m",
+              "notes": "Reared from egg of 833; laid 03-25, hatched 03-28, pupated 04-18/19, eclosed 04-30; slowest growth as a larva; bright green pupa; hint of lemon on ventral wings"
             }
           ]
         },
