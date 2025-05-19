@@ -8108,11 +8108,19 @@
       "genus": "Cercyonis"
     },
     {
-      "id": "541"
+      "id": "541",
+      "notes": "sphinx moth"
     },
     {
-      "id": "542",
-      "genus": "Lycaena"
+      "id": 542,
+      "genus": "Lycaena",
+      "species": "rubidus",
+      "sex":"m",
+      "place": "CO, Lake - T11S - R80W - S15 - off CO 82 on dvwy to Twin Lakes Reservoir",
+      "location": {
+        "latLong": "39.09, -106.31"
+      },
+      "time": "1979-08-22-1057"
     },
     {
       "id": "543",
