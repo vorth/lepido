@@ -1,5 +1,5 @@
 {
-  "lastNumber": 849,
+  "lastNumber": 853,
   "locations": {
     "location": [
       {
@@ -5667,6 +5667,66 @@
               "time": "14:20",
               "notes": "lazily gliding, landing as if looking to lay eggs; kept live for egg-laying",
               "latLong": "37.28430, -122.03307"
+            }
+          ]
+        },
+        {
+          "name": "mt-umunhum-4",
+          "time": "2025-05-18",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 850,
+              "genus": "Lycaena",
+              "species": "gorgon",
+              "sex": "m",
+              "time": "10:16:07",
+              "latLong": "37.15988, -121.87484",
+              "notes": "saw dozens, mostly males but a handful of females; caught another male at the same time, and released it at home"
+            },
+            {
+              "id": 851,
+              "genus": "Lycaena",
+              "species": "gorgon",
+              "sex": "f",
+              "time": "10:57:39",
+              "latLong": "37.15970, -121.86793"
+            },
+            {
+              "id": 852,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "m",
+              "time": "11:19:28",
+              "latLong": "37.15971, -121.86833"
+            },
+            {
+              "id": 853,
+              "genus": "Lycaena",
+              "species": "gorgon",
+              "sex": "m",
+              "time": "11:45:42",
+              "latLong": "37.16008, -121.87421"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Euphydryas",
+              "species": "chalcedona",
+              "latLong": "37.16068, -121.87178",
+              "notes": "hundreds; dozens nectaring on a single Yerba Santa clump uphill of the trail; most Golden Yarrow clumps had 1-4 butterflies nectaring"
+            },
+            {
+              "genus": "Papilio",
+              "species": "zelicaon",
+              "latLong": "37.15984, -121.86711",
+              "notes": "hilltopping"
+            },
+            {
+              "genus": "Speyeria",
+              "species": "callippe",
+              "latLong": "37.15984, -121.86711",
+              "notes": "patrolling the hilltop; got several photos, only one in focus"
             }
           ]
         }
