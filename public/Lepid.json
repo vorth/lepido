@@ -1,5 +1,5 @@
 {
-  "lastNumber": 855,
+  "lastNumber": 856,
   "locations": {
     "location": [
       {
@@ -5752,6 +5752,64 @@
               "latLong": "37.15993, -121.87051"
             }
           ]
+        },
+        {
+          "name": "mt-madonna-2025-05",
+          "time": "2025-05-22",
+          "place": "Blackhawk trail, Sprig Day Use Area, Mt. Madonna County Park, Watsonville, CA",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 856,
+              "genus": "Limenitis",
+              "species": "lorquini",
+              "sex": "f",
+              "time": "11:36",
+              "location": {
+                "latLong": "37.00708, -121.68264"
+              },
+              "notes": "saw several, males patrolling and perching; this one was flying low and slow, out of the sun; captured placed in killing jar, then removed to a tub"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Junonia",
+              "species": "grisea"
+            },
+            {
+              "genus": "Coenonympha",
+              "species": "california"
+            },
+            {
+              "genus": "Papilio",
+              "species": "eurymedon"
+            },
+            {
+              "genus": "Speyeria"
+            },
+            {
+              "genus": "Adelpha",
+              "species": "californica",
+              "notes": "patrolling and perching with male Limenitis lorquini, dogfighting often"
+            },
+            {
+              "genus": "Phyciodes",
+              "species": "mylitta",
+              "notes": "2 or 3 patrolling sunny, mowed verge of the trail and dogfighting often, spiraling 60 feet straight up"
+            },
+            {
+              "genus": "Junonia",
+              "species": "grisea"
+            },
+            {
+              "genus": "Chlosyne",
+              "species": "palla",
+              "location": {
+                "latLong": "37.00775, -121.68290"
+              },
+              "notes": "captured live, released at home (Wardell)"
+            }
+          ]
         }
       ]
     }
@@ -8138,7 +8196,7 @@
       "id": 542,
       "genus": "Lycaena",
       "species": "rubidus",
-      "sex":"m",
+      "sex": "m",
       "place": "CO, Lake - T11S - R80W - S15 - off CO 82 on dvwy to Twin Lakes Reservoir",
       "location": {
         "latLong": "39.09, -106.31"
