@@ -1,5 +1,5 @@
 {
-  "lastNumber": 856,
+  "lastNumber": 860,
   "locations": {
     "location": [
       {
@@ -5810,6 +5810,78 @@
               "notes": "captured live, released at home (Wardell)"
             }
           ]
+        },
+        {
+          "name": "tahoe-2025-05",
+          "time": "2025-05-28",
+          "place": "S. Lake Tahoe, CA",
+          "collectingSession": [
+            {
+              "name": "mt-tallac-trail",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 857,
+                  "genus": "Callophrys",
+                  "species": "eryphon",
+                  "sex": "m",
+                  "time": "10:27",
+                  "location": {
+                    "latLong": "38.92047, -120.06893"
+                  },
+                  "notes": "saw many all along the trail, often perching on Manzanita"
+                },
+                {
+                  "id": 858,
+                  "genus": "Callophrys",
+                  "species": "eryphon",
+                  "sex": "f",
+                  "time": "12:07",
+                  "location": {
+                    "latLong": "38.91870, -120.07065"
+                  }
+                }
+              ],
+              "sighting": [
+                {
+                  "genus": "Papilio",
+                  "species": "eurymedon",
+                  "notes": "saw several"
+                },
+                {
+                  "genus": "Anthocharis",
+                  "species": "s. sara",
+                  "notes": "saw hundreds; most seemed slightly yellowish"
+                }
+              ]
+            },
+            {
+              "name": "white-hall",
+              "location": {
+                "latLong": "38.77406, -120.39408"
+              },
+              "collectingSession": [],
+              "notes": "many wildflowers, and butterflies mudpuddling at end of culvert",
+              "specimen": [
+                {
+                  "id": 859,
+                  "time": "14:54",
+                  "genus": "Chlosyne",
+                  "species": "palla"
+                },
+                {
+                  "id": 860,
+                  "time": "14:54",
+                   "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "ladon echo"
+                }
+              ],
+              "sighting": []
+            }
+          ],
+          "specimen": [],
+          "sighting": []
         }
       ]
     }
