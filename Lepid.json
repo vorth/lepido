@@ -1,5 +1,5 @@
 {
-  "lastNumber": 860,
+  "lastNumber": 863,
   "locations": {
     "location": [
       {
@@ -5872,7 +5872,7 @@
                 {
                   "id": 860,
                   "time": "14:54",
-                   "sex": "m",
+                  "sex": "m",
                   "genus": "Celastrina",
                   "species": "ladon echo"
                 }
@@ -5882,6 +5882,43 @@
           ],
           "specimen": [],
           "sighting": []
+        },
+        {
+          "name": "mt-eden-1",
+          "time": "2025-06-09T02:23:22.048Z",
+          "latLong": "",
+          "collectingSession": [],
+          "notes": "Saw dozens of L. arota males, no females; also saw many blues, probably Echo blues",
+          "sighting": [
+            {
+              "genus": "Ochlodes",
+              "species": "agricola",
+              "notes": "numerous"
+            }
+          ],
+          "specimen": [
+            {
+              "id": 861,
+              "genus": "Lycaena",
+              "species": "arota",
+              "time": "10:35",
+              "latLong": "37.27492, -122.07008"
+            },
+            {
+              "id": 862,
+              "genus": "Lycaena",
+              "species": "arota",
+              "time": "10:45",
+              "latLong": "37.27520, -122.07109"
+            },
+            {
+              "id": 863,
+              "genus": "Limenitis",
+              "species": "lorquini",
+              "time": "11:30",
+              "latLong": "37.27644, -122.07295"
+            }
+          ]
         }
       ]
     }
