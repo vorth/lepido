@@ -1,5 +1,5 @@
 {
-  "lastNumber": 863,
+  "lastNumber": 866,
   "locations": {
     "location": [
       {
@@ -5885,10 +5885,10 @@
         },
         {
           "name": "mt-eden-1",
-          "time": "2025-06-09T02:23:22.048Z",
+          "time": "2025-06-09",
           "latLong": "",
           "collectingSession": [],
-          "notes": "Saw dozens of L. arota males, no females; also saw many blues, probably Echo blues",
+          "notes": "Saw dozens of L. arota males, no females; also saw many Echo blues",
           "sighting": [
             {
               "genus": "Ochlodes",
@@ -5917,6 +5917,32 @@
               "species": "lorquini",
               "time": "11:30",
               "latLong": "37.27644, -122.07295"
+            }
+          ]
+        },
+        {
+          "name": "mt-eden-2",
+          "time": "2025-06-10",
+          "latLong": "37.27467, -122.07022",
+          "notes": "everything nectaring on a Buckeye tree, like yesterday",
+          "specimen": [
+            {
+              "id": 864,
+              "genus": "Ochlodes",
+              "species": "agricola",
+              "time": "10:40"
+            },
+            {
+              "id": 865,
+              "genus": "Ochlodes",
+              "species": "agricola",
+              "time": "10:45"
+            },
+            {
+              "id": 866,
+              "genus": "Limenitis",
+              "species": "lorquini",
+              "time": "11:05"
             }
           ]
         }
