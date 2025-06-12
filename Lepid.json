@@ -1,5 +1,5 @@
 {
-  "lastNumber": 866,
+  "lastNumber": 869,
   "locations": {
     "location": [
       {
@@ -5943,6 +5943,34 @@
               "genus": "Limenitis",
               "species": "lorquini",
               "time": "11:05"
+            }
+          ]
+        },
+        {
+          "name": "sierra-azul-ridge-trail",
+          "time": "2025-06-12",
+          "notes": "saw many coppers, blues (Echo and Acmon), skippers, checkerspots, crescents, Lorquin's admirals, Sisters, and several fritillaries and wood nymphs",
+          "specimen": [
+            {
+              "id": 867,
+              "genus": "Adelpha",
+              "species": "californica",
+              "time": "12:09",
+              "latLong": "37.17396, -121.86984"
+            },
+            {
+              "id": 868,
+              "genus": "Adelpha",
+              "species": "californica",
+              "time": "12:11",
+              "latLong": "37.17396, -121.86984"
+            },
+            {
+              "id": 869,
+              "genus": "Speyeria",
+              "species": "",
+              "time": "12:30",
+              "latLong": "37.17296, -121.87148"
             }
           ]
         }
