@@ -1,5 +1,5 @@
 {
-  "lastNumber": 868,
+  "lastNumber": 869,
   "locations": {
     "location": [
       {
@@ -5975,16 +5975,24 @@
           ]
         },
         {
-          "name": "wardell-2025-06-14",
+          "name": "wardell-2025-06",
           "collectingSession": [],
           "specimen": [
             {
               "id": 868,
               "genus": "Speyeria",
               "species": "",
-              "time": "13:05",
+              "time": "2025-06-14T13:05",
               "latLong": "37.28402, -122.03305",
-              "notes": "nectaring on Budleia in our front yard; I tried to obtain hostplant (Violets) from a nursery, but they didn't have any, and I could not find any wild Violets at Sanborn Park"
+              "notes": "nectaring on Buddleia in our front yard; I tried to obtain hostplant (Violets) from a nursery, but they didn't have any, and I could not find any wild Violets at Sanborn Park"
+            },
+            {
+              "id": 869,
+              "genus": "Papilio",
+              "species": "rutulus",
+              "time": "2025-06-15T11:15",
+              "latLong": "37.28402, -122.03305",
+              "notes": "caught in flight"
             }
           ]
         }
