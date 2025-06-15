@@ -1,5 +1,5 @@
 {
-  "lastNumber": 869,
+  "lastNumber": 868,
   "locations": {
     "location": [
       {
@@ -5912,11 +5912,11 @@
               "latLong": "37.27520, -122.07109"
             },
             {
-              "id": 863,
               "genus": "Limenitis",
               "species": "lorquini",
               "time": "11:30",
-              "latLong": "37.27644, -122.07295"
+              "latLong": "37.27644, -122.07295",
+              "notes": "released at home 06-13 after attempting to obtain eggs"
             }
           ]
         },
@@ -5927,19 +5927,19 @@
           "notes": "everything nectaring on a Buckeye tree, like yesterday",
           "specimen": [
             {
-              "id": 864,
+              "id": 863,
               "genus": "Ochlodes",
               "species": "agricola",
               "time": "10:40"
             },
             {
-              "id": 865,
+              "id": 864,
               "genus": "Ochlodes",
               "species": "agricola",
               "time": "10:45"
             },
             {
-              "id": 866,
+              "id": 865,
               "genus": "Limenitis",
               "species": "lorquini",
               "time": "11:05"
@@ -5952,25 +5952,39 @@
           "notes": "saw many coppers, blues (Echo and Acmon), skippers, checkerspots, crescents, Lorquin's admirals, Sisters, and several fritillaries and wood nymphs",
           "specimen": [
             {
-              "id": 867,
+              "id": 866,
               "genus": "Adelpha",
               "species": "californica",
               "time": "12:09",
               "latLong": "37.17396, -121.86984"
             },
             {
-              "id": 868,
               "genus": "Adelpha",
               "species": "californica",
               "time": "12:11",
-              "latLong": "37.17396, -121.86984"
+              "latLong": "37.17396, -121.86984",
+              "notes": "released at home 06-15 after attempted egg-laying"
             },
             {
-              "id": 869,
+              "id": 867,
               "genus": "Speyeria",
               "species": "",
               "time": "12:30",
               "latLong": "37.17296, -121.87148"
+            }
+          ]
+        },
+        {
+          "name": "wardell-2025-06-14",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 868,
+              "genus": "Speyeria",
+              "species": "",
+              "time": "13:05",
+              "latLong": "37.28402, -122.03305",
+              "notes": "nectaring on Budleia in our front yard; I tried to obtain hostplant (Violets) from a nursery, but they didn't have any, and I could not find any wild Violets at Sanborn Park"
             }
           ]
         }
