@@ -1,5 +1,5 @@
 {
-  "lastNumber": 869,
+  "lastNumber": 872,
   "locations": {
     "location": [
       {
@@ -5993,6 +5993,46 @@
               "time": "2025-06-15T11:15",
               "latLong": "37.28402, -122.03305",
               "notes": "caught in flight"
+            }
+          ]
+        },
+        {
+          "name": "pygmy-blues",
+          "time": "2025-06-16T11:55",
+          "latLong": "37.45052, -122.10239",
+          "collectingSession": [
+            {
+              "name": "pygmy-blues",
+              "time": "2025-06-16T11:55",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": []
+            }
+          ],
+          "specimen": [
+            {
+              "id": 870,
+              "genus": "Brephidium",
+              "species": "exilis"
+            },
+            {
+              "id": 871,
+              "genus": "Brephidium",
+              "species": "exilis"
+            }
+          ]
+        },
+        {
+          "name": "hairstreak",
+          "collectingSession": [],
+          "notes": "we went out primarily to collect more Deerweed for my Icaricia acmon larvae",
+          "specimen": [
+            {
+              "id": 872,
+              "genus": "Satyrium",
+              "species": "tetra",
+              "time": "2025-06-18 14:21:00",
+              "latLong": "37.27601, -122.07221"
             }
           ]
         }
