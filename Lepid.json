@@ -1,5 +1,5 @@
 {
-  "lastNumber": 872,
+  "lastNumber": 874,
   "locations": {
     "location": [
       {
@@ -6000,15 +6000,7 @@
           "name": "pygmy-blues",
           "time": "2025-06-16T11:55",
           "latLong": "37.45052, -122.10239",
-          "collectingSession": [
-            {
-              "name": "pygmy-blues",
-              "time": "2025-06-16T11:55",
-              "latLong": "",
-              "collectingSession": [],
-              "specimen": []
-            }
-          ],
+          "collectingSession": [],
           "specimen": [
             {
               "id": 870,
@@ -6031,8 +6023,33 @@
               "id": 872,
               "genus": "Satyrium",
               "species": "tetra",
+              "sex": "m",
               "time": "2025-06-18 14:21:00",
               "latLong": "37.27601, -122.07221"
+            }
+          ]
+        },
+        {
+          "name": "mt-umunhum-6",
+          "time": "2025-06-22",
+          "collectingSession": [],
+          "notes": "Naked Buckwheat (Eriogonum nudum) in bloom",
+          "specimen": [
+            {
+              "id": 873,
+              "genus": "Satyrium",
+              "species": "tetra",
+              "sex": "m",
+              "time": "13:42",
+              "latLong": "37.15983, -121.87044"
+            },
+            {
+              "id": 874,
+              "genus": "Satyrium",
+              "species": "tetra",
+              "sex": "f",
+              "time": "13:45",
+              "latLong": "37.16006, -121.87091"
             }
           ]
         }
