@@ -1,5 +1,5 @@
 {
-  "lastNumber": 874,
+  "lastNumber": 875,
   "locations": {
     "location": [
       {
@@ -1039,7 +1039,7 @@
               "id-green": "190",
               "time": "1977-06-03 1730",
               "genus": "Lycaena",
-              "species": "xanthoides dione"
+              "species": "dione"
             }
           ]
         },
@@ -1717,7 +1717,7 @@
           "id": "366",
           "tag1": "366",
           "genus": "Lycaena",
-          "species": "xanthoides dione"
+          "species": "dione"
         },
         {
           "id": "367",
@@ -1795,7 +1795,7 @@
           "id": "380",
           "tag1": "380",
           "genus": "Lycaena",
-          "species": "xanthoides dione"
+          "species": "dione"
         },
         {
           "id": "381",
@@ -5001,7 +5001,7 @@
         {
           "id": "794",
           "genus": "Lycaena",
-          "species": "x. xanthoides",
+          "species": "xanthoides",
           "time": "2024-06-27-1203",
           "location": {
             "latLong": "37.45010, -122.10290"
@@ -6050,6 +6050,28 @@
               "sex": "f",
               "time": "13:45",
               "latLong": "37.16006, -121.87091"
+            }
+          ]
+        },
+        {
+          "name": "baylands-copper",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 875,
+              "genus": "Lycaena",
+              "species": "xanthoides",
+              "sex": "m",
+              "time": "2025-06-26 11:56",
+              "latLong": "37.45180, -122.10214",
+              "notes": "saw several, all males"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Brephidium",
+              "species": "exilis",
+              "notes": "only saw one; got some photos"
             }
           ]
         }
