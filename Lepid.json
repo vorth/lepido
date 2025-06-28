@@ -1,5 +1,5 @@
 {
-  "lastNumber": 875,
+  "lastNumber": 877,
   "locations": {
     "location": [
       {
@@ -6072,6 +6072,27 @@
               "genus": "Brephidium",
               "species": "exilis",
               "notes": "only saw one; got some photos"
+            }
+          ]
+        },
+        {
+          "name": "reared",
+          "notes": "Reared on Acmispon glaber (Deerweed) from eggs from 854 and 855; times are all for emergence; a total of 57 larvae successfully pupated",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 876,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "m",
+              "time": "2025-06-27 10:00"
+            },
+            {
+              "id": 877,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "f",
+              "time": "2025-06-28 09:30"
             }
           ]
         }
