@@ -1,5 +1,5 @@
 {
-  "lastNumber": 877,
+  "lastNumber": 879,
   "locations": {
     "location": [
       {
@@ -6093,6 +6093,22 @@
               "species": "acmon",
               "sex": "f",
               "time": "2025-06-28 09:30"
+            },
+            {
+              "id": 878,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "f",
+              "time": "2025-06-30 10:40",
+              "notes": "died in the enclosure; may have bred and oviposited first; mounted inverted to show pale peach female verso"
+            },
+            {
+              "id": 879,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "m",
+              "time": "2025-06-30 22:30",
+              "notes": "died in the enclosure; mounted inverted to show silvery male verso"
             }
           ]
         }
