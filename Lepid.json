@@ -1,5 +1,5 @@
 {
-  "lastNumber": 877,
+  "lastNumber": 879,
   "locations": {
     "location": [
       {
@@ -6093,8 +6093,75 @@
               "species": "acmon",
               "sex": "f",
               "time": "2025-06-28 09:30"
+            },
+            {
+              "id": 878,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "f",
+              "time": "2025-06-30 10:40",
+              "notes": "died in the enclosure; may have bred and oviposited first; mounted inverted to show pale peach female verso"
+            },
+            {
+              "id": 879,
+              "genus": "Icaricia",
+              "species": "acmon",
+              "sex": "m",
+              "time": "2025-06-30 22:30",
+              "notes": "died in the enclosure; mounted inverted to show silvery male verso"
             }
           ]
+        },
+        {
+          "name": "sonoma-co",
+          "time": "2025-07-03",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "thursday",
+              "time": "2025-07-03",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 880,
+                  "genus": "Celastrina",
+                  "species": "echo",
+                  "time": "12:45",
+                  "latLong": "38.04799, -122.75535"
+                },
+                {
+                  "id": 881,
+                  "genus": "Phyciodes",
+                  "species": "mylitta",
+                  "time": "15:42",
+                  "latLong": "38.42747, -123.09400"
+                },
+                {
+                  "id": 882,
+                  "genus": "Phyciodes",
+                  "species": "pulchella",
+                  "time": "15:45",
+                  "latLong": "38.42764, -123.09378"
+                },
+                {
+                  "id": 883,
+                  "genus": "Cercyonis",
+                  "species": "",
+                  "time": "15:56",
+                  "latLong": "38.42821, -123.09366"
+                },
+                {
+                  "id": 884,
+                  "genus": "Cercyonis",
+                  "species": "",
+                  "time": "16:00",
+                  "latLong": "38.42821, -123.09366"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         }
       ]
     }
