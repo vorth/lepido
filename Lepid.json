@@ -1,5 +1,5 @@
 {
-  "lastNumber": 879,
+  "lastNumber": 886,
   "locations": {
     "location": [
       {
@@ -6116,52 +6116,101 @@
           "name": "sonoma-co",
           "time": "2025-07-03",
           "latLong": "",
-          "collectingSession": [
+          "collectingSession": [],
+          "specimen": [
             {
-              "name": "thursday",
-              "time": "2025-07-03",
-              "latLong": "",
-              "collectingSession": [],
-              "specimen": [
-                {
-                  "id": 880,
-                  "genus": "Celastrina",
-                  "species": "echo",
-                  "time": "12:45",
-                  "latLong": "38.04799, -122.75535"
-                },
-                {
-                  "id": 881,
-                  "genus": "Phyciodes",
-                  "species": "mylitta",
-                  "time": "15:42",
-                  "latLong": "38.42747, -123.09400"
-                },
-                {
-                  "id": 882,
-                  "genus": "Phyciodes",
-                  "species": "pulchella",
-                  "time": "15:45",
-                  "latLong": "38.42764, -123.09378"
-                },
-                {
-                  "id": 883,
-                  "genus": "Cercyonis",
-                  "species": "",
-                  "time": "15:56",
-                  "latLong": "38.42821, -123.09366"
-                },
-                {
-                  "id": 884,
-                  "genus": "Cercyonis",
-                  "species": "",
-                  "time": "16:00",
-                  "latLong": "38.42821, -123.09366"
-                }
-              ]
+              "id": 880,
+              "genus": "Celastrina",
+              "species": "echo",
+              "sex": "m",
+              "time": "12:45",
+              "latLong": "38.04799, -122.75535"
+            },
+            {
+              "id": 881,
+              "genus": "Phyciodes",
+              "species": "mylitta",
+              "time": "15:42",
+              "latLong": "38.42747, -123.09400"
+            },
+            {
+              "id": 882,
+              "genus": "Phyciodes",
+              "species": "pulchella",
+              "time": "15:45",
+              "latLong": "38.42764, -123.09378"
+            },
+            {
+              "id": 883,
+              "genus": "Cercyonis",
+              "species": "",
+              "time": "15:56",
+              "latLong": "38.42821, -123.09366"
+            },
+            {
+              "id": 884,
+              "genus": "Cercyonis",
+              "species": "",
+              "time": "16:00",
+              "latLong": "38.42821, -123.09366"
+            }
+          ]
+        },
+        {
+          "name": "mt-umunhum-7",
+          "time": "2025-07-07",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 885,
+              "genus": "Satyrium",
+              "species": "saepium",
+              "sex": "m",
+              "time": "11:53",
+              "latLong": "37.15951, -121.88332",
+              "notes": "saw many more"
+            },
+            {
+              "id": 886,
+              "genus": "Satyrium",
+              "species": "tetra",
+              "sex": "m",
+              "time": "12:32",
+              "latLong": "37.15970, -121.88485",
+              "notes": "saw many more"
             }
           ],
-          "specimen": []
+          "sighting": [
+            {
+              "genus": "Apodemia",
+              "species": "mormo",
+              "notes": "My first Mormon Metalmark, and my first US Metalmark.  Saw only one, despite almost an hour of looking.  This was the goal of our hike."
+            },
+            {
+              "genus": "Cercyonis",
+              "notes": "several"
+            },
+            {
+              "genus": "Speyeria",
+              "notes": "several"
+            },
+            {
+              "genus": "Limenitis",
+              "species": "lorquini",
+              "notes": "several"
+            },
+            {
+              "genus": "Adelpha",
+              "species": "californica",
+              "notes": "many"
+            },
+            {
+              "genus": "Lycaena",
+              "species": "arota",
+              "sex": "f",
+              "notes": "saw a couple; seemed larger than earlier specimens"
+            }
+          ]
         }
       ]
     }
