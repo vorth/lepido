@@ -1,5 +1,5 @@
 {
-  "lastNumber": 886,
+  "lastNumber": 888,
   "locations": {
     "location": [
       {
@@ -6209,6 +6209,30 @@
               "species": "arota",
               "sex": "f",
               "notes": "saw a couple; seemed larger than earlier specimens"
+            }
+          ]
+        },
+        {
+          "name": "mt-umunhum-8",
+          "time": "2025-07-09",
+          "latLong": "37.15977, -121.88424",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 887,
+              "genus": "Lycaena",
+              "species": "gorgon",
+              "sex": "f",
+              "time": "10:57",
+              "latLong": ""
+            },
+            {
+              "id": 888,
+              "genus": "Apodemia",
+              "species": "mormo",
+              "time": "10:59",
+              "latLong": "",
+              "notes": "Nectaring on Eriogonum nudum.  I searched for pupae at the bases of several E. nudum, with no success."
             }
           ]
         }
