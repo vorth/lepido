@@ -1,5 +1,5 @@
 {
-  "lastNumber": 888,
+  "lastNumber": 890,
   "locations": {
     "location": [
       {
@@ -3697,11 +3697,17 @@
           "specimen": [
             {
               "id": "686",
+              "genus": "Habrodais",
+              "species": "grunus",
+              "sex": "f",
               "place": "bright spot on trail",
               "notes": "Golden Hairstreak"
             },
             {
               "id": "687",
+              "genus": "Habrodais",
+              "species": "grunus",
+              "sex": "m",
               "place": "bright spot on trail",
               "notes": "Golden Hairstreak"
             }
@@ -6233,6 +6239,32 @@
               "time": "10:59",
               "latLong": "",
               "notes": "Nectaring on Eriogonum nudum.  I searched for pupae at the bases of several E. nudum, with no success."
+            }
+          ]
+        },
+        {
+          "name": "little-basin",
+          "time": "2025-07-12",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 889,
+              "genus": "Euphyes",
+              "species": "vestris",
+              "sex": "f",
+              "time": "12:39",
+              "latLong": "37.15633, -122.20483",
+              "notes": "nectaring on morning glory (Calystegia purpurata)"
+            },
+            {
+              "id": 890,
+              "genus": "Habrodais",
+              "species": "grunus",
+              "sex": "f",
+              "time": "15:24",
+              "latLong": "37.23262, -122.09740",
+              "notes": "caught at much the same place as my two previous specimens, in 2004"
             }
           ]
         }
