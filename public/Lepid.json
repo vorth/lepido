@@ -3276,12 +3276,11 @@
             },
             {
               "id": "650",
-              "genus": "Thecla",
-              "species": "galliena",
+              "genus": "Arawacus",
+              "species": "aetolus",
               "notes": "resting on leaf",
               "reference": {
-                "ref": "dabrera",
-                "#text": "p. 226"
+                "ref": "iNaturalist"
               }
             }
           ]
@@ -3325,7 +3324,8 @@
             {
               "id": "654",
               "time": "31 0830",
-              "genus": "Thecla",
+              "genus": "Siderus",
+              "species": "philinna",
               "notes": "hairstreak; at red hummingbird flowers in patio"
             },
             {
@@ -3792,17 +3792,15 @@
             },
             {
               "id": "693",
-              "tag1": "vz0502",
               "genus": "Strymon",
-              "species": "bubastus?",
-              "notes": "Disjunct Scrub-hairstreak"
+              "species": "bubastus",
+              "notes": "Cramer's Scrub-hairstreak"
             },
             {
               "id": "694",
-              "tag1": "vz0503",
               "genus": "Strymon",
-              "species": "bubastus?",
-              "notes": "Disjunct Scrub-hairstreak"
+              "species": "bubastus",
+              "notes": "Cramer's Scrub-hairstreak"
             }
           ]
         },
@@ -3941,7 +3939,8 @@
             },
             {
               "id": "708",
-              "tag1": "vz0517",
+              "genus": "Hemiargus",
+              "species": "hanno",
               "notes": "blue"
             },
             {
@@ -4031,6 +4030,8 @@
             {
               "id": "719",
               "tag1": "vz0528",
+              "genus": "Leptotes",
+              "species": "cassius",
               "notes": "whitish blue"
             },
             {
@@ -4138,6 +4139,8 @@
               "time": "2006-01-03 15:00",
               "id": "731",
               "tag1": "vz40",
+              "genus": "Leptotes",
+              "species": "cassius",
               "notes": "whitish blue"
             },
             {
@@ -8198,15 +8201,17 @@
     },
     {
       "id": "419",
-      "tag1": "419",
-      "sex": "m?",
-      "genus": "Plebejus?"
+      "sex": "m",
+      "genus": "Plebejus",
+      "species": "melissa",
+      "latLong": "43.679, -103.259"
     },
     {
       "id": "420",
-      "tag1": "420",
-      "sex": "f?",
-      "genus": "Plebejus?"
+      "sex": "m",
+      "genus": "Plebejus",
+      "species": "melissa",
+      "latLong": "43.67, -103.01"
     },
     {
       "id": "421",
@@ -8607,8 +8612,9 @@
     },
     {
       "id": "534",
-      "mounted": "false",
-      "notes": "small dark blue, prob. Everes c. comyntas"
+      "genus": "Plebejus",
+      "species": "melissa",
+      "notes": "small dark blue"
     },
     {
       "id": "535",
@@ -8618,7 +8624,8 @@
     },
     {
       "id": "536",
-      "mounted": "false",
+      "genus": "Plebejus",
+      "species": "melissa",
       "notes": "small blue w. orange submarginals, from Steele"
     },
     {
