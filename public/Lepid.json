@@ -191,65 +191,2850 @@
   },
   "collectingSession": [
     {
-      "name": "combined-scientific-supply",
-      "time": "1978-07-31",
-      "notes": "purchased from Combined Scientific Supply; received 1978-07-31",
-      "specimen": [
+      "name": "specimens",
+      "collectingSession": [
         {
-          "id": "A15",
-          "tag1": "A15",
-          "genus": "Vanessa (V.)",
-          "species": "indica indica",
-          "time": "1970-07",
-          "place": "Puli, Taiwan",
-          "notes": "envelope said 20B730"
+          "name": "001-200",
+          "collectingSession": [
+            {
+              "name": "001-050",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "001",
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "plexippus",
+                  "time": "1973",
+                  "notes": "roadkill",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "002",
+                  "sex": "f",
+                  "genus": "Danaus",
+                  "species": "plexippus",
+                  "time": "1973",
+                  "notes": "roadkill",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "003",
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "plexippus",
+                  "time": "1973",
+                  "notes": "roadkill",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "004",
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "plexippus",
+                  "time": "1973",
+                  "notes": "roadkill",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "005",
+                  "sex": "f",
+                  "genus": "Danaus",
+                  "species": "plexippus",
+                  "time": "1973",
+                  "notes": "roadkill",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "008",
+                  "tag1": "u39",
+                  "genus": "Euptychia",
+                  "species": "c. cymela",
+                  "time": "1975",
+                  "place": "home; in gully by elms NE of house",
+                  "mounted": "false",
+                  "location": {
+                    "ref": "home"
+                  }
+                },
+                {
+                  "id": "009",
+                  "tag1": "009",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "010",
+                  "tag1": "010",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "011",
+                  "tag1": "011",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "012",
+                  "tag1": "012",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "013",
+                  "tag1": "013",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "014",
+                  "tag1": "014",
+                  "genus": "Limenitis",
+                  "species": "a. astyanax"
+                },
+                {
+                  "id": "015",
+                  "tag1": "015",
+                  "genus": "Limenitis",
+                  "species": "a. astyanax"
+                },
+                {
+                  "id": "016",
+                  "tag1": "016",
+                  "genus": "Limenitis",
+                  "species": "a. astyanax"
+                },
+                {
+                  "id": "017",
+                  "tag1": "017",
+                  "sex": "f",
+                  "genus": "Limenitis",
+                  "species": "a. archippus"
+                },
+                {
+                  "id": "018",
+                  "tag1": "018",
+                  "sex": "f",
+                  "genus": "Limenitis",
+                  "species": "a. archippus"
+                },
+                {
+                  "id": "019",
+                  "tag1": "019",
+                  "sex": "m",
+                  "genus": "Limenitis",
+                  "species": "a. archippus (watsoni)"
+                },
+                {
+                  "id": "020",
+                  "tag1": "020",
+                  "genus": "Junonia",
+                  "species": "c. coenia"
+                },
+                {
+                  "id": "021",
+                  "tag1": "021",
+                  "sex": "m",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "022",
+                  "tag1": "022",
+                  "sex": "f",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "023",
+                  "tag1": "023",
+                  "sex": "m",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "024",
+                  "tag1": "024",
+                  "sex": "f",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "025",
+                  "tag1": "025",
+                  "sex": "m",
+                  "genus": "Chlosyne",
+                  "species": "n. nycteis"
+                },
+                {
+                  "id": "026",
+                  "tag1": "026",
+                  "sex": "m",
+                  "genus": "Chlosyne",
+                  "species": "n. nycteis"
+                },
+                {
+                  "id": "027",
+                  "tag1": "027",
+                  "sex": "f",
+                  "genus": "Chlosyne",
+                  "species": "n. nycteis"
+                },
+                {
+                  "id": "028",
+                  "tag1": "028",
+                  "-num4": "f3",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "029"
+                },
+                {
+                  "id": "029",
+                  "tag1": "029",
+                  "-num4": "f4",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "030"
+                },
+                {
+                  "id": "030",
+                  "tag1": "030",
+                  "-num4": "f5",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "031"
+                },
+                {
+                  "id": "031",
+                  "tag1": "031",
+                  "-num4": "S3",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "032"
+                },
+                {
+                  "id": "032",
+                  "tag1": "032",
+                  "-num4": "S4",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "033"
+                },
+                {
+                  "id": "033",
+                  "tag1": "033",
+                  "-num4": "f1",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "034"
+                },
+                {
+                  "id": "034",
+                  "tag1": "034",
+                  "-num4": "f2",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)",
+                  "notes": "??"
+                },
+                {
+                  "id": "035",
+                  "tag1": "035",
+                  "-num4": "u1",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (umbrosa)",
+                  "notes": "035"
+                },
+                {
+                  "id": "036",
+                  "tag1": "036",
+                  "-num4": "u2",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (umbrosa)",
+                  "notes": "036"
+                },
+                {
+                  "id": "037",
+                  "tag1": "037",
+                  "-num4": "u8",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis",
+                  "notes": "glued wings"
+                },
+                {
+                  "id": "038",
+                  "tag1": "038",
+                  "-num4": "u3",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "039",
+                  "tag1": "039",
+                  "-num4": "u5",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "040",
+                  "tag1": "u30",
+                  "-num4": "u6",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis",
+                  "notes": "wings, unmounted"
+                },
+                {
+                  "id": "041",
+                  "tag1": "041",
+                  "-num4": "u7",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "042",
+                  "tag1": "042",
+                  "-num4": "u4",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "Interrogationis",
+                  "notes": "summer"
+                },
+                {
+                  "id": "043",
+                  "tag1": "043",
+                  "-num4": "u9",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "044",
+                  "tag1": "044",
+                  "genus": "Polygonia",
+                  "species": "comma"
+                },
+                {
+                  "id": "045",
+                  "tag1": "045",
+                  "genus": "Polygonia",
+                  "species": "comma (dryas)"
+                },
+                {
+                  "id": "046",
+                  "tag1": "046",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "comma (dryas)"
+                },
+                {
+                  "id": "047",
+                  "tag1": "047",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "comma (dryas)"
+                },
+                {
+                  "id": "048",
+                  "tag1": "048",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "canus",
+                  "notes": "spring?"
+                },
+                {
+                  "id": "049",
+                  "tag1": "049",
+                  "genus": "Polygonia",
+                  "species": "canus",
+                  "notes": "summer?"
+                },
+                {
+                  "id": "050",
+                  "tag1": "050",
+                  "genus": "Polygonia",
+                  "species": "canus",
+                  "notes": "summer?"
+                }
+              ]
+            },
+            {
+              "name": "051-100",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "051",
+                  "tag1": "051",
+                  "genus": "Polygonia",
+                  "species": "canus",
+                  "notes": "summer?"
+                },
+                {
+                  "id": "052",
+                  "tag1": "052",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "053",
+                  "tag1": "053",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "054",
+                  "tag1": "054",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "055",
+                  "tag1": "055",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "056",
+                  "tag1": "056",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "057",
+                  "tag1": "057",
+                  "sex": "f",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "cardui"
+                },
+                {
+                  "id": "058",
+                  "tag1": "058",
+                  "sex": "f",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "cardui"
+                },
+                {
+                  "id": "059",
+                  "tag1": "059",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "virginiensis"
+                },
+                {
+                  "id": "060",
+                  "tag1": "060",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "virginiensis"
+                },
+                {
+                  "id": "061",
+                  "tag1": "061",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti"
+                },
+                {
+                  "id": "062",
+                  "tag1": "062",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti"
+                },
+                {
+                  "id": "063",
+                  "tag1": "063",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti"
+                },
+                {
+                  "id": "064",
+                  "tag1": "064",
+                  "genus": "Nymphalis",
+                  "species": "antiopa paracreta"
+                },
+                {
+                  "id": "065",
+                  "tag1": "065",
+                  "genus": "Nymphalis",
+                  "species": "antiopa paracreta"
+                },
+                {
+                  "id": "066",
+                  "tag1": "066",
+                  "sex": "m",
+                  "genus": "Euptoieta",
+                  "species": "claudia"
+                },
+                {
+                  "id": "067",
+                  "tag1": "067",
+                  "sex": "f",
+                  "genus": "Euptoieta",
+                  "species": "claudia"
+                },
+                {
+                  "id": "068",
+                  "tag1": "068",
+                  "sex": "m",
+                  "genus": "Speyeria",
+                  "species": "c. cybele"
+                },
+                {
+                  "id": "069",
+                  "tag1": "069",
+                  "sex": "m",
+                  "genus": "Boloria",
+                  "species": "selene myrina"
+                },
+                {
+                  "id": "070",
+                  "tag1": "u15",
+                  "genus": "Satyrium",
+                  "species": "calanus falacer",
+                  "notes": "~512, unmounted also"
+                },
+                {
+                  "id": "071",
+                  "tag1": "u16",
+                  "genus": "Satyrium",
+                  "species": "calanus falacer",
+                  "notes": "~512, unmounted also"
+                },
+                {
+                  "id": "072",
+                  "tag1": "072",
+                  "genus": "Satyrium",
+                  "species": "caryaevoris"
+                },
+                {
+                  "id": "073",
+                  "tag1": "073",
+                  "sex": "m",
+                  "genus": "Lycaena",
+                  "species": "hyllus"
+                },
+                {
+                  "id": "074",
+                  "tag1": "074",
+                  "sex": "f",
+                  "genus": "Lycaena",
+                  "species": "hyllus"
+                },
+                {
+                  "id": "075",
+                  "tag1": "075",
+                  "sex": "m",
+                  "genus": "Lycaena",
+                  "species": "hyllus"
+                },
+                {
+                  "id": "076",
+                  "tag1": "076",
+                  "sex": "f",
+                  "genus": "Lycaena",
+                  "species": "hyllus"
+                },
+                {
+                  "id": "077",
+                  "tag1": "077",
+                  "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "argiolus pseudargiolus (p.)"
+                },
+                {
+                  "id": "078",
+                  "tag1": "078",
+                  "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "argiolus",
+                  "notes": "-- unmounted"
+                },
+                {
+                  "id": "079",
+                  "tag1": "079",
+                  "sex": "f",
+                  "genus": "Celastrina",
+                  "species": "argiolus",
+                  "notes": "-- unmounted"
+                },
+                {
+                  "id": "080",
+                  "tag1": "080",
+                  "sex": "m",
+                  "genus": "Everes",
+                  "species": "c. comyntas"
+                },
+                {
+                  "id": "081",
+                  "tag1": "081",
+                  "sex": "f",
+                  "genus": "Everes",
+                  "species": "c. comyntas"
+                },
+                {
+                  "id": "082",
+                  "tag1": "u26",
+                  "genus": "Colias",
+                  "species": "philodice",
+                  "notes": "-- unmounted, m"
+                },
+                {
+                  "id": "083",
+                  "tag1": "u27",
+                  "genus": "Colias",
+                  "species": "philodice",
+                  "notes": "-- unmounted, m"
+                },
+                {
+                  "id": "084",
+                  "tag1": "u53",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- sulfur \"N\""
+                },
+                {
+                  "id": "085",
+                  "tag1": "u48",
+                  "-num4": "-*",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme"
+                },
+                {
+                  "id": "086",
+                  "tag1": "u52",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- white \"m\""
+                },
+                {
+                  "id": "087",
+                  "tag1": "087",
+                  "-num4": "P",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "088",
+                  "tag1": "u54",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- alfalfa \"Q\""
+                },
+                {
+                  "id": "089",
+                  "tag1": "089",
+                  "-num4": "X",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "090",
+                  "tag1": "090",
+                  "-num4": "T",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "091",
+                  "tag1": "u31",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme",
+                  "notes": "-- unmounted"
+                },
+                {
+                  "id": "092",
+                  "tag1": "u56",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- alfalfa \"Z\""
+                },
+                {
+                  "id": "093",
+                  "tag1": "u51",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- alfalfa \"G\""
+                },
+                {
+                  "id": "094",
+                  "tag1": "u49",
+                  "-num4": "A*",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme"
+                },
+                {
+                  "id": "095",
+                  "tag1": "u55",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- white \"Y\""
+                },
+                {
+                  "id": "096",
+                  "tag1": "u50",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- white \"<solid delta>\""
+                },
+                {
+                  "id": "097",
+                  "tag1": "097",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (metra)",
+                  "discarded": true,
+                  "notes": "ruined & discarded 2024-09-03"
+                },
+                {
+                  "id": "098",
+                  "tag1": "098",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "099",
+                  "tag1": "099",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (metra)"
+                },
+                {
+                  "id": "100",
+                  "tag1": "u11",
+                  "genus": "Battus",
+                  "species": "p. philenor"
+                }
+              ]
+            },
+            {
+              "name": "101-127",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "101",
+                  "tag1": "u06?",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "102",
+                  "tag1": "u01?",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "103",
+                  "tag1": "u03?",
+                  "sex": "f",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "104",
+                  "tag1": "u02?",
+                  "sex": "f",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "105",
+                  "tag1": "u04?",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "106",
+                  "tag1": "u10?",
+                  "sex": "f",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius"
+                },
+                {
+                  "id": "107",
+                  "tag1": "105",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "g. glaucus",
+                  "notes": "105"
+                },
+                {
+                  "id": "108",
+                  "tag1": "106",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "g. glaucus",
+                  "notes": "106"
+                },
+                {
+                  "id": "109",
+                  "tag1": "107",
+                  "sex": "f",
+                  "genus": "Papilio",
+                  "species": "g. glaucus (g.)",
+                  "notes": "black"
+                },
+                {
+                  "id": "110",
+                  "tag1": "u24",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "troilus",
+                  "place": "home; roadside woods by Schmidt's"
+                },
+                {
+                  "id": "111",
+                  "tag1": "u05",
+                  "sex": "f",
+                  "genus": "Papilio",
+                  "species": "troilus"
+                },
+                {
+                  "id": "112",
+                  "tag1": "112",
+                  "sex": "m",
+                  "genus": "Polites",
+                  "species": "coras",
+                  "time": "75",
+                  "place": "St. Ansgar",
+                  "notes": "111"
+                },
+                {
+                  "id": "113",
+                  "tag1": "113",
+                  "genus": "Ancyloxypha",
+                  "species": "numitor"
+                },
+                {
+                  "id": "114",
+                  "tag1": "114",
+                  "sex": "m",
+                  "genus": "Pholisora",
+                  "species": "catullus"
+                },
+                {
+                  "id": "115",
+                  "tag1": "115",
+                  "sex": "m",
+                  "genus": "Pyrgus",
+                  "species": "c. communis"
+                },
+                {
+                  "id": "116",
+                  "tag1": "116",
+                  "sex": "m",
+                  "genus": "Epargyreus",
+                  "species": "c. clarus"
+                },
+                {
+                  "id": "117",
+                  "tag1": "117",
+                  "sex": "m",
+                  "genus": "Samia",
+                  "species": "cecropia",
+                  "notes": "116"
+                },
+                {
+                  "id": "118",
+                  "tag1": "u19",
+                  "genus": "Ctenucha",
+                  "species": "virginica",
+                  "place": "home: S. meadow",
+                  "notes": "117"
+                },
+                {
+                  "id": "119",
+                  "tag1": "u20",
+                  "genus": "Ctenucha",
+                  "species": "virginica",
+                  "place": "home: S. meadow",
+                  "notes": "118"
+                },
+                {
+                  "id": "120",
+                  "tag1": "u13",
+                  "genus": "Phragmatobia",
+                  "species": "fuliginosa",
+                  "place": "home: dining room window",
+                  "notes": "119"
+                },
+                {
+                  "id": "121",
+                  "tag1": "u22",
+                  "genus": "Phragmatobia",
+                  "species": "fuliginosa",
+                  "place": "home: dining room window",
+                  "notes": "120"
+                },
+                {
+                  "id": "122",
+                  "tag1": "u18",
+                  "genus": "Alypia",
+                  "species": "octomaculata",
+                  "notes": "121"
+                },
+                {
+                  "id": "123",
+                  "tag1": "u21",
+                  "genus": "Euthisanotia",
+                  "species": "unio",
+                  "notes": "122; pearl, yellow & brown moth ~ A13"
+                },
+                {
+                  "id": "124",
+                  "tag1": "124",
+                  "genus": "Catocala",
+                  "species": "cara",
+                  "notes": "123"
+                },
+                {
+                  "id": "125",
+                  "tag1": "125",
+                  "genus": "Catocala",
+                  "species": "cara",
+                  "notes": "124"
+                },
+                {
+                  "id": "126",
+                  "tag1": "126",
+                  "genus": "Catocala",
+                  "species": "cara",
+                  "notes": "125"
+                },
+                {
+                  "id": "127",
+                  "tag1": "127",
+                  "genus": "Catocala",
+                  "species": "amica",
+                  "notes": "126"
+                },
+                {
+                  "id": "128",
+                  "tag1": "128",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "muliercula",
+                  "notes": "127"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         },
         {
-          "id": "A16",
-          "tag1": "A16",
-          "genus": "Vanessa",
-          "species": "annabella?"
+          "name": "201-300",
+          "collectingSession": [
+            {
+              "name": "239-270",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "239",
+                  "tag1": "u57?",
+                  "genus": "Autographa",
+                  "notes": "sm. brown moth w/pearly squiggle, unmounted; 77 data says 'Anagrapha falcifera' (not in Holland)"
+                },
+                {
+                  "id": "240",
+                  "tag1": "267?",
+                  "tag2": "240?",
+                  "-num2": "267",
+                  "sex": "f",
+                  "genus": "Phragmatobia",
+                  "species": "fuliginosa",
+                  "notes": "-- sm. red & brown translucent moth"
+                },
+                {
+                  "id": "241",
+                  "tag1": "241",
+                  "sex": "m",
+                  "genus": "Calasymbolus",
+                  "species": "myops"
+                },
+                {
+                  "id": "242",
+                  "tag1": "242?",
+                  "tag2": "269?",
+                  "-num2": "269",
+                  "genus": "Scepsis",
+                  "species": "fulvicollis",
+                  "notes": "-- sm. Ctenuchid moth"
+                },
+                {
+                  "id": "243",
+                  "tag1": "243",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "mira"
+                },
+                {
+                  "id": "244",
+                  "tag1": "244",
+                  "sex": "m",
+                  "genus": "Haematopsis",
+                  "species": "grataria"
+                },
+                {
+                  "id": "245",
+                  "tag1": "245",
+                  "sex": "f",
+                  "genus": "Haematopsis",
+                  "species": "grataria"
+                },
+                {
+                  "id": "246",
+                  "tag1": "246",
+                  "sex": "f",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "247",
+                  "tag1": "247",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "mira"
+                },
+                {
+                  "id": "248",
+                  "tag1": "248",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)",
+                  "notes": "-- alfalfa"
+                },
+                {
+                  "id": "249",
+                  "tag1": "249",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "250",
+                  "tag1": "250",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "251",
+                  "tag1": "251",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "palaeogama"
+                },
+                {
+                  "id": "252",
+                  "tag1": "252",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "253",
+                  "tag1": "253",
+                  "notes": "-- mottled brown noctuid ~332"
+                },
+                {
+                  "id": "254",
+                  "tag1": "254",
+                  "genus": "Pyrgus",
+                  "species": "c. communis"
+                },
+                {
+                  "id": "255",
+                  "tag1": "255",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "p. protodice"
+                },
+                {
+                  "id": "256",
+                  "tag1": "256",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- alfalfa"
+                },
+                {
+                  "id": "257",
+                  "tag1": "257",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- alfalfa"
+                },
+                {
+                  "id": "258",
+                  "tag1": "258",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme",
+                  "notes": "-- sulfur"
+                },
+                {
+                  "id": "259",
+                  "tag1": "259",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)",
+                  "notes": "-- alfalfa"
+                },
+                {
+                  "id": "260",
+                  "tag1": "260",
+                  "sex": "f",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "cardui"
+                },
+                {
+                  "id": "261",
+                  "tag1": "261",
+                  "sex": "m",
+                  "genus": "Cercyonis"
+                },
+                {
+                  "id": "262",
+                  "tag1": "u14",
+                  "-num2": "289",
+                  "-num3": "n09",
+                  "sex": "m",
+                  "genus": "Satyrium",
+                  "species": "acadica montanensis",
+                  "time": "7/20/77  17:09",
+                  "place": "ND; on Roger's lane on sunflower",
+                  "notes": "-- ~375, unmounted"
+                },
+                {
+                  "id": "263",
+                  "tag1": "263",
+                  "sex": "m",
+                  "genus": "Plebejus",
+                  "place": "ND"
+                },
+                {
+                  "id": "264",
+                  "tag1": "264",
+                  "sex": "f",
+                  "genus": "Plebejus",
+                  "place": "ND"
+                },
+                {
+                  "id": "265",
+                  "tag1": "265",
+                  "sex": "m",
+                  "genus": "Plebejus",
+                  "place": "ND"
+                },
+                {
+                  "id": "266",
+                  "tag1": "266",
+                  "sex": "m",
+                  "genus": "Plebejus",
+                  "place": "ND"
+                },
+                {
+                  "id": "267",
+                  "tag1": "267",
+                  "sex": "f",
+                  "genus": "Plebejus",
+                  "place": "ND"
+                },
+                {
+                  "id": "268",
+                  "tag1": "268",
+                  "genus": "Hyloicus",
+                  "species": "c. chersis"
+                },
+                {
+                  "id": "269",
+                  "tag1": "269",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "luciana"
+                },
+                {
+                  "id": "270",
+                  "tag1": "270",
+                  "notes": "-- variegated fritillary"
+                }
+              ]
+            },
+            {
+              "name": "271-300",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "271",
+                  "tag1": "271",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "272",
+                  "tag1": "272",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "p. protodice"
+                },
+                {
+                  "id": "273",
+                  "tag1": "273",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "p. protodice"
+                },
+                {
+                  "id": "274",
+                  "tag1": "274",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "p. protodice"
+                },
+                {
+                  "id": "275",
+                  "tag1": "275",
+                  "sex": "m",
+                  "genus": "Cercyonis"
+                },
+                {
+                  "id": "276",
+                  "tag1": "276",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria"
+                },
+                {
+                  "id": "277",
+                  "tag1": "277",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "ultronia lucinda"
+                },
+                {
+                  "id": "278",
+                  "tag1": "278",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "unijuga"
+                },
+                {
+                  "id": "279",
+                  "tag1": "279",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (i.)"
+                },
+                {
+                  "id": "280",
+                  "tag1": "280",
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "plexippus"
+                },
+                {
+                  "id": "281",
+                  "tag1": "281",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "cara"
+                },
+                {
+                  "id": "282",
+                  "tag1": "282",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "283",
+                  "tag1": "283",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (i.)"
+                },
+                {
+                  "id": "284",
+                  "tag1": "284",
+                  "notes": "-- noctuid w/ copper hindwings"
+                },
+                {
+                  "id": "285",
+                  "tag1": "285",
+                  "notes": "-- noctuid w/ copper hindwings"
+                },
+                {
+                  "id": "286",
+                  "tag1": "286",
+                  "notes": "-- tiny beige, red & black moth"
+                },
+                {
+                  "id": "287",
+                  "tag1": "287",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (scintillans)"
+                },
+                {
+                  "id": "288",
+                  "tag1": "288",
+                  "genus": "Catocala",
+                  "notes": "--pink"
+                },
+                {
+                  "id": "289",
+                  "tag1": "289",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "cara"
+                },
+                {
+                  "id": "290",
+                  "tag1": "290",
+                  "sex": "m",
+                  "genus": "Limenitis",
+                  "species": "a. astyanax"
+                },
+                {
+                  "id": "291",
+                  "tag1": "291",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (scintillans)"
+                },
+                {
+                  "id": "292",
+                  "tag1": "292",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (ninda)"
+                },
+                {
+                  "id": "293",
+                  "tag1": "293",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "294",
+                  "tag1": "294",
+                  "sex": "f",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti"
+                },
+                {
+                  "id": "295",
+                  "tag1": "295",
+                  "notes": "-- sm. beige, striped geometrid"
+                },
+                {
+                  "id": "296",
+                  "tag1": "296",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "Interrogationis"
+                },
+                {
+                  "id": "297",
+                  "tag1": "297",
+                  "sex": "f",
+                  "genus": "Speyeria",
+                  "species": "aphrodite alcestis"
+                },
+                {
+                  "id": "298",
+                  "tag1": "298",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "299",
+                  "tag1": "299",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "300",
+                  "tag1": "300"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         },
         {
-          "id": "A17",
-          "tag1": "A17",
-          "genus": "Nymphalis"
+          "name": "301-500",
+          "collectingSession": [
+            {
+              "name": "301-350",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "301",
+                  "tag1": "301",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "parta"
+                },
+                {
+                  "id": "302",
+                  "tag1": "302"
+                },
+                {
+                  "id": "303",
+                  "tag1": "303"
+                },
+                {
+                  "id": "304",
+                  "tag1": "304"
+                },
+                {
+                  "id": "305",
+                  "tag1": "305",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (ninda)"
+                },
+                {
+                  "id": "306",
+                  "tag1": "306",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "Interrogationis"
+                },
+                {
+                  "id": "307",
+                  "tag1": "307",
+                  "sex": "f",
+                  "genus": "Everes",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "308",
+                  "tag1": "308",
+                  "sex": "m",
+                  "genus": "Everes",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "309",
+                  "tag1": "309",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "310",
+                  "tag1": "310",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "311",
+                  "tag1": "311",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "312",
+                  "tag1": "312",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "313",
+                  "tag1": "313",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "p. philodice (p.)"
+                },
+                {
+                  "id": "314",
+                  "tag1": "314",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "315",
+                  "tag1": "315",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "316",
+                  "tag1": "316",
+                  "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "argiolus pseudargiolus (p.)"
+                },
+                {
+                  "id": "317",
+                  "tag1": "317",
+                  "genus": "Nymphalis",
+                  "species": "antiopa paracreta"
+                },
+                {
+                  "id": "318",
+                  "tag1": "318",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "319",
+                  "tag1": "319",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme"
+                },
+                {
+                  "id": "320",
+                  "tag1": "320",
+                  "genus": "Chlosyne",
+                  "species": "gorgone carlota"
+                },
+                {
+                  "id": "321",
+                  "tag1": "321",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "322",
+                  "tag1": "322",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "323",
+                  "tag1": "323",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "324",
+                  "tag1": "324",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "parta"
+                },
+                {
+                  "id": "325",
+                  "tag1": "325",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "326",
+                  "tag1": "326",
+                  "sex": "m",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti (nigri)"
+                },
+                {
+                  "id": "327",
+                  "tag1": "327",
+                  "sex": "f",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti (nigri)"
+                },
+                {
+                  "id": "328",
+                  "tag1": "328",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "329",
+                  "tag1": "329"
+                },
+                {
+                  "id": "330",
+                  "tag1": "330",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "331",
+                  "tag1": "331",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "332",
+                  "tag1": "332"
+                },
+                {
+                  "id": "333",
+                  "tag1": "333",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (metra)"
+                },
+                {
+                  "id": "334",
+                  "tag1": "334",
+                  "sex": "m",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti (nigri)"
+                },
+                {
+                  "id": "335",
+                  "tag1": "335",
+                  "sex": "m",
+                  "genus": "Callophrys",
+                  "species": "g. gryneus"
+                },
+                {
+                  "id": "336",
+                  "tag1": "336",
+                  "sex": "f",
+                  "genus": "Callophrys",
+                  "species": "g. gryneus"
+                },
+                {
+                  "id": "337",
+                  "tag1": "337",
+                  "sex": "m",
+                  "genus": "Erynnis",
+                  "species": "brizo brizo"
+                },
+                {
+                  "id": "338",
+                  "tag1": "338",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "339",
+                  "tag1": "339",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "p. philodice (anthyale)"
+                },
+                {
+                  "id": "340",
+                  "tag1": "340",
+                  "sex": "m",
+                  "genus": "Erynnis",
+                  "species": "juvenalis juvenalis"
+                },
+                {
+                  "id": "341",
+                  "tag1": "341",
+                  "sex": "m",
+                  "genus": "Pieris",
+                  "species": "rapae (metra)"
+                },
+                {
+                  "id": "342",
+                  "tag1": "342",
+                  "sex": "m",
+                  "genus": "Erynnis",
+                  "species": "juvenalis juvenalis"
+                },
+                {
+                  "id": "343",
+                  "tag1": "343",
+                  "sex": "f",
+                  "genus": "Erynnis",
+                  "species": "juvenalis juvenalis"
+                },
+                {
+                  "id": "344",
+                  "tag1": "344",
+                  "sex": "f",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (marcia)"
+                },
+                {
+                  "id": "345",
+                  "tag1": "345",
+                  "sex": "f",
+                  "genus": "Telea",
+                  "species": "polyphemus"
+                },
+                {
+                  "id": "346",
+                  "tag1": "346",
+                  "sex": "f",
+                  "genus": "Epargyreus",
+                  "species": "clarus clarus"
+                },
+                {
+                  "id": "347",
+                  "tag1": "347",
+                  "sex": "m",
+                  "genus": "Euptychia",
+                  "species": "c. cymela"
+                },
+                {
+                  "id": "348",
+                  "tag1": "348",
+                  "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "argiolus pseudargiolus (p.)"
+                },
+                {
+                  "id": "349",
+                  "tag1": "349",
+                  "sex": "m?",
+                  "genus": "Poanes"
+                },
+                {
+                  "id": "350",
+                  "tag1": "350",
+                  "sex": "m",
+                  "genus": "Telea",
+                  "species": "polyphemus"
+                }
+              ]
+            },
+            {
+              "name": "351-400",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "351",
+                  "tag1": "351",
+                  "sex": "m",
+                  "genus": "Halisidota",
+                  "species": "caryae"
+                },
+                {
+                  "id": "352",
+                  "tag1": "352",
+                  "sex": "m",
+                  "genus": "Everes",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "353",
+                  "tag1": "353",
+                  "sex": "f",
+                  "genus": "Everes",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "385",
+                  "tag1": "385",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "cardui"
+                },
+                {
+                  "id": "386",
+                  "tag1": "386",
+                  "genus": "Speyeria",
+                  "species": "edwardsii"
+                },
+                {
+                  "id": "387",
+                  "tag1": "387",
+                  "sex": "f",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "388",
+                  "tag1": "388",
+                  "genus": "Speyeria",
+                  "species": "edwardsi"
+                },
+                {
+                  "id": "389",
+                  "tag1": "389",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "390",
+                  "tag1": "390",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "391",
+                  "tag1": "391",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "392",
+                  "tag1": "392",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "393",
+                  "tag1": "393"
+                },
+                {
+                  "id": "394",
+                  "tag1": "394",
+                  "sex": "m",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "395",
+                  "tag1": "395",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "396",
+                  "tag1": "396",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme"
+                },
+                {
+                  "id": "397",
+                  "tag1": "397",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "398",
+                  "tag1": "398",
+                  "genus": "Vanessa (Cynthia)",
+                  "species": "cardui"
+                },
+                {
+                  "id": "399",
+                  "tag1": "399",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme"
+                },
+                {
+                  "id": "400",
+                  "tag1": "400",
+                  "sex": "f",
+                  "genus": "Everes",
+                  "species": "comyntas"
+                }
+              ]
+            },
+            {
+              "name": "401-450",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "401",
+                  "tag1": "401"
+                },
+                {
+                  "id": "402",
+                  "tag1": "402",
+                  "sex": "m",
+                  "genus": "Phyciodes",
+                  "species": "t. tharos (morpheus)"
+                },
+                {
+                  "id": "403",
+                  "tag1": "403",
+                  "genus": "Parnassius"
+                },
+                {
+                  "id": "404",
+                  "tag1": "404",
+                  "genus": "Coenonympha"
+                },
+                {
+                  "id": "405",
+                  "tag1": "405",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "406",
+                  "tag1": "406",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "407",
+                  "tag1": "407",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "408",
+                  "tag1": "408",
+                  "genus": "Limenitis"
+                },
+                {
+                  "id": "409",
+                  "tag1": "409"
+                },
+                {
+                  "id": "410",
+                  "tag1": "410",
+                  "genus": "Speyeria",
+                  "species": "edwardsi"
+                },
+                {
+                  "id": "411",
+                  "tag1": "411",
+                  "genus": "Speyeria",
+                  "species": "edwardsi"
+                },
+                {
+                  "id": "412",
+                  "genus": "Drasteria",
+                  "species": "hudsonica",
+                  "notes": "sm. Noctuid moth like underwing"
+                },
+                {
+                  "id": "413",
+                  "tag1": "413",
+                  "genus": "Speyeria",
+                  "species": "edwardsi"
+                },
+                {
+                  "id": "414",
+                  "tag1": "414",
+                  "genus": "Erynnis"
+                },
+                {
+                  "id": "415",
+                  "tag1": "415",
+                  "genus": "Speyeria"
+                },
+                {
+                  "id": "416",
+                  "tag1": "416",
+                  "genus": "Cercyonis"
+                },
+                {
+                  "id": "417",
+                  "tag1": "417"
+                },
+                {
+                  "id": "418",
+                  "tag1": "418",
+                  "genus": "Cercyonis"
+                },
+                {
+                  "id": "419",
+                  "sex": "m",
+                  "genus": "Plebejus",
+                  "species": "melissa",
+                  "latLong": "43.679, -103.259"
+                },
+                {
+                  "id": "420",
+                  "sex": "m",
+                  "genus": "Plebejus",
+                  "species": "melissa",
+                  "latLong": "43.67, -103.01"
+                },
+                {
+                  "id": "421",
+                  "tag1": "421"
+                },
+                {
+                  "id": "422",
+                  "tag1": "422",
+                  "genus": "Cercyonis"
+                },
+                {
+                  "id": "423",
+                  "tag1": "423",
+                  "genus": "Chlosyne",
+                  "species": "gorgone carlota"
+                },
+                {
+                  "id": "424",
+                  "tag1": "424",
+                  "genus": "Chlosyne",
+                  "species": "gorgone carlota"
+                },
+                {
+                  "id": "425",
+                  "tag1": "425",
+                  "sex": "m",
+                  "genus": "Strymon",
+                  "species": "melinus franki"
+                },
+                {
+                  "id": "426",
+                  "tag1": "426",
+                  "sex": "f",
+                  "genus": "Hesperia/Poanes"
+                },
+                {
+                  "id": "427",
+                  "tag1": "427",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "parta"
+                },
+                {
+                  "id": "428",
+                  "tag1": "428",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "ultronia lucinda"
+                },
+                {
+                  "id": "429",
+                  "tag1": "429",
+                  "sex": "m",
+                  "genus": "Satyrium"
+                },
+                {
+                  "id": "430",
+                  "tag1": "430",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "431",
+                  "tag1": "431",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "432",
+                  "tag1": "432",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "ultronia lucinda"
+                },
+                {
+                  "id": "433",
+                  "tag1": "433",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "434",
+                  "tag1": "434",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "435",
+                  "tag1": "435",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "clyton"
+                },
+                {
+                  "id": "436",
+                  "tag1": "436",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "437",
+                  "tag1": "437",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "438",
+                  "tag1": "438",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "439",
+                  "tag1": "439",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "440",
+                  "tag1": "440",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "441",
+                  "tag1": "441",
+                  "genus": "Limenitis",
+                  "species": "a. archippus"
+                },
+                {
+                  "id": "442",
+                  "tag1": "442",
+                  "genus": "Catocala"
+                },
+                {
+                  "id": "443",
+                  "tag1": "443"
+                },
+                {
+                  "id": "444",
+                  "tag1": "444",
+                  "genus": "Libytheana",
+                  "species": "b. bachmanii"
+                },
+                {
+                  "id": "445",
+                  "tag1": "445"
+                },
+                {
+                  "id": "446",
+                  "tag1": "446",
+                  "sex": "f",
+                  "genus": "Hesperia/Poanes"
+                },
+                {
+                  "id": "447",
+                  "tag1": "447"
+                },
+                {
+                  "id": "448",
+                  "tag1": "448",
+                  "genus": "Catocala"
+                },
+                {
+                  "id": "449",
+                  "tag1": "449",
+                  "sex": "m",
+                  "genus": "Papilio",
+                  "species": "g. glaucus"
+                },
+                {
+                  "id": "450",
+                  "tag1": "450",
+                  "sex": "f",
+                  "genus": "Isia",
+                  "species": "isabellae"
+                }
+              ]
+            },
+            {
+              "name": "451-458",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "451",
+                  "tag1": "451"
+                },
+                {
+                  "id": "452",
+                  "tag1": "452",
+                  "sex": "f",
+                  "genus": "Hesperia/Poanes"
+                },
+                {
+                  "id": "453",
+                  "tag1": "453",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "454",
+                  "tag1": "454",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "amatrix (amatrix)"
+                },
+                {
+                  "id": "455",
+                  "tag1": "455",
+                  "sex": "f",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "456",
+                  "tag1": "456",
+                  "sex": "f",
+                  "genus": "Junonia",
+                  "species": "c. coenia"
+                },
+                {
+                  "id": "457",
+                  "tag1": "457",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "Interrogationis"
+                },
+                {
+                  "id": "458",
+                  "tag1": "458",
+                  "genus": "Papilio",
+                  "species": "polyxenes asterius",
+                  "notes": "card made but can't find the specimen... lost?  may have been u36, discarded"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         },
         {
-          "id": "A18",
-          "tag1": "A18",
-          "genus": "Nymphalis"
+          "name": "501-600",
+          "specimen": [
+            {
+              "id": "508",
+              "tag1": "508",
+              "sex": "m",
+              "genus": "Erynnis",
+              "species": "juvenalis juvenalis"
+            },
+            {
+              "id": "509",
+              "tag1": "509",
+              "sex": "f",
+              "genus": "Papilio",
+              "species": "g. glaucus"
+            },
+            {
+              "id": "510",
+              "tag1": "510",
+              "sex": "f",
+              "genus": "Erynnis",
+              "species": "juvenalis juvenalis"
+            },
+            {
+              "id": "511",
+              "tag1": "511",
+              "sex": "m",
+              "genus": "Telea",
+              "species": "polyphemus"
+            },
+            {
+              "id": "512",
+              "tag1": "512",
+              "sex": "m",
+              "genus": "Satyrium",
+              "species": "calanus falacer"
+            },
+            {
+              "id": "513",
+              "tag1": "513",
+              "sex": "f",
+              "genus": "Ancyloxypha",
+              "species": "numitor"
+            },
+            {
+              "id": "514",
+              "tag1": "514",
+              "sex": "m",
+              "genus": "Calasymbolus",
+              "species": "myops"
+            },
+            {
+              "id": "515",
+              "tag1": "515",
+              "sex": "m",
+              "genus": "Ancyloxypha",
+              "species": "numitor"
+            },
+            {
+              "id": "516",
+              "tag1": "516",
+              "sex": "m",
+              "genus": "Hemiargus",
+              "species": "isola alce"
+            },
+            {
+              "id": "517",
+              "tag1": "517",
+              "sex": "m",
+              "genus": "Polygonia",
+              "species": "comma (dryas)"
+            },
+            {
+              "id": "518",
+              "tag1": "518",
+              "sex": "m",
+              "genus": "Vanessa (V.)",
+              "species": "atalanta rubria"
+            },
+            {
+              "id": "519",
+              "tag1": "519",
+              "sex": "f",
+              "genus": "Nymphalis",
+              "species": "antiopa paracreta"
+            },
+            {
+              "id": "520",
+              "tag1": "520",
+              "sex": "f",
+              "genus": "Nymphalis",
+              "species": "antiopa paracreta"
+            },
+            {
+              "id": "521",
+              "tag1": "521",
+              "sex": "m",
+              "genus": "Syssphinx",
+              "species": "bicolor"
+            },
+            {
+              "id": "522",
+              "tag1": "522",
+              "mounted": "false",
+              "notes": "generic moth"
+            },
+            {
+              "id": "523",
+              "tag1": "523",
+              "sex": "m",
+              "genus": "Actias",
+              "species": "luna"
+            },
+            {
+              "id": "524",
+              "tag1": "524",
+              "genus": "Speyeria/Euptoieta",
+              "mounted": "false",
+              "notes": "possibly large female Asterocampa clyton"
+            },
+            {
+              "id": "525",
+              "tag1": "525",
+              "genus": "Cercyonis",
+              "mounted": "false"
+            },
+            {
+              "id": "526",
+              "tag1": "526",
+              "genus": "Cercyonis",
+              "mounted": "false"
+            },
+            {
+              "id": "527",
+              "tag1": "527",
+              "sex": "f",
+              "genus": "Cercyonis"
+            },
+            {
+              "id": "528",
+              "tag1": "528",
+              "sex": "m",
+              "genus": "Cercyonis"
+            },
+            {
+              "id": "529",
+              "tag1": "529",
+              "genus": "Limenitis"
+            },
+            {
+              "id": "530",
+              "tag1": "530",
+              "genus": "Speyeria"
+            },
+            {
+              "id": "531",
+              "genus": "Cercyonis",
+              "mounted": "false"
+            },
+            {
+              "id": "532",
+              "genus": "Cercyonis",
+              "mounted": "false"
+            },
+            {
+              "id": "533",
+              "genus": "Pieris"
+            },
+            {
+              "id": "534",
+              "genus": "Plebejus",
+              "species": "melissa",
+              "notes": "small dark blue"
+            },
+            {
+              "id": "535",
+              "sex": "f",
+              "genus": "Pieris",
+              "species": "p. protodice"
+            },
+            {
+              "id": "536",
+              "genus": "Plebejus",
+              "species": "melissa",
+              "notes": "small blue w. orange submarginals, from Steele"
+            },
+            {
+              "id": "537",
+              "sex": "m",
+              "genus": "Hesperia/Poanes"
+            },
+            {
+              "id": "538",
+              "sex": "m",
+              "genus": "Plebejus?"
+            },
+            {
+              "id": "539",
+              "genus": "Phyciodes",
+              "species": "pulchella",
+              "location": {
+                "latLong": "39.068138, -106.409844"
+              },
+              "place": "CO, Lake - T11S - R81W - S26 - at Parry Peak campground in center of loop, on grass",
+              "time": "1979-08-22-1024"
+            },
+            {
+              "id": "540",
+              "genus": "Cercyonis"
+            },
+            {
+              "id": "541",
+              "notes": "sphinx moth"
+            },
+            {
+              "id": 542,
+              "genus": "Lycaena",
+              "species": "rubidus",
+              "sex": "m",
+              "place": "CO, Lake - T11S - R80W - S15 - off CO 82 on dvwy to Twin Lakes Reservoir",
+              "location": {
+                "latLong": "39.09, -106.31"
+              },
+              "time": "1979-08-22-1057"
+            },
+            {
+              "id": "543",
+              "genus": "Vanessa (Cynthia)",
+              "species": "cardui"
+            },
+            {
+              "id": "544",
+              "genus": "Sympistis",
+              "species": "dayi?",
+              "notes": "sm. Noctuid moth w. pearly spots, prob. Plusiina subtribe, Autographa or Syngrapha"
+            },
+            {
+              "id": "545",
+              "tag1": "545",
+              "genus": "Catocala"
+            },
+            {
+              "id": "546",
+              "tag1": "546"
+            },
+            {
+              "id": "547",
+              "genus": "Boloria",
+              "species": "selene myrina",
+              "time": "1980-05-25 1145",
+              "location": {
+                "ref": "home",
+                "place": "flew over hedge and into valley"
+              }
+            },
+            {
+              "id": "548",
+              "genus": "Boloria",
+              "species": "selene myrina",
+              "time": "1980-05-26 1344",
+              "location": {
+                "ref": "home",
+                "place": "in front of front door of house"
+              }
+            },
+            {
+              "id": "586",
+              "time": "1981-06-17 2130",
+              "place": "home, at light in garage by house door",
+              "notes": "white lined sphinx"
+            },
+            {
+              "id": "587",
+              "time": "1981-06-17 2135",
+              "place": "home, at light in garage by house door",
+              "notes": "white lined sphinx"
+            },
+            {
+              "id": "588",
+              "tag1": "588",
+              "species": "promethea",
+              "time": "1982-07-13",
+              "place": "home"
+            },
+            {
+              "id": "589",
+              "tag1": "589",
+              "sex": "m",
+              "genus": "Basilona",
+              "species": "imperialis",
+              "time": "1982-07-19",
+              "place": "Mendel's"
+            },
+            {
+              "id": "590",
+              "tag1": "595?",
+              "genus": "Catocala",
+              "time": "1982-05-22 23:30",
+              "place": "home: at driveway flood"
+            },
+            {
+              "id": "591",
+              "tag1": "591",
+              "genus": "Amphion",
+              "species": "nessus",
+              "time": "1983-06-21 19:00",
+              "place": "home: at privet hedge (3rd day blooming)"
+            },
+            {
+              "id": "592",
+              "tag1": "592",
+              "genus": "Calasymbolus",
+              "species": "myops",
+              "time": "1983-07-27 19:30",
+              "place": "home: under fuse box (garage light)"
+            },
+            {
+              "id": "593",
+              "collector": "Everett Vorthmann",
+              "sex": "f",
+              "genus": "Papilio",
+              "species": "g. glaucus",
+              "time": "1986-08-17",
+              "place": "home; garden in front of house"
+            },
+            {
+              "id": "594",
+              "notes": "card made but can't find the specimen... lost?"
+            },
+            {
+              "id": "595",
+              "tag1": "595",
+              "genus": "Catocala",
+              "time": "no data",
+              "place": "no data",
+              "notes": "card made but can't find the specimen... lost?"
+            }
+          ],
+          "collectingSession": []
         },
         {
-          "id": "A19",
-          "tag1": "A19",
-          "genus": "Nymphalis"
+          "name": "purchased",
+          "specimen": [
+            {
+              "id": "A01",
+              "tag1": "AF13",
+              "sex": "m",
+              "genus": "Papilio",
+              "species": "pylades"
+            },
+            {
+              "id": "A02",
+              "tag1": "A02",
+              "genus": "Salamis",
+              "species": "cacta"
+            },
+            {
+              "id": "A04",
+              "tag1": "A04",
+              "sex": "m",
+              "genus": "Precis",
+              "species": "clelia"
+            },
+            {
+              "id": "A05",
+              "tag1": "A05",
+              "sex": "m",
+              "genus": "Atrophaneura",
+              "species": "horishana"
+            },
+            {
+              "id": "A07",
+              "tag1": "AF24",
+              "sex": "m",
+              "genus": "Cymothoe",
+              "species": "aramis",
+              "time": "13 AOUT 1976"
+            },
+            {
+              "id": "A08",
+              "tag1": "A08",
+              "genus": "Cymothoe",
+              "species": "sangaris?"
+            },
+            {
+              "id": "A09",
+              "tag1": "A09",
+              "genus": "Precis"
+            },
+            {
+              "id": "A10",
+              "tag1": "A10"
+            },
+            {
+              "id": "A11",
+              "tag1": "A11",
+              "genus": "Vanessa"
+            },
+            {
+              "id": "A12",
+              "tag1": "A12",
+              "genus": "Vanessa"
+            },
+            {
+              "id": "A13",
+              "tag1": "A13"
+            },
+            {
+              "id": "A14",
+              "tag1": "A14"
+            },
+            {
+              "id": "A99",
+              "tag1": "A99"
+            },
+            {
+              "id": "AF56",
+              "tag1": "AF56",
+              "sex": "m",
+              "genus": "Danaus",
+              "species": "petiverania"
+            },
+            {
+              "id": "AF57",
+              "tag1": "AF57",
+              "sex": "m",
+              "genus": "Papilio",
+              "species": "antheus"
+            }
+          ],
+          "collectingSession": []
         },
         {
-          "id": "A20",
-          "tag1": "A20",
-          "genus": "Polygonia"
+          "name": "combined-scientific-supply",
+          "time": "1978-07-31",
+          "notes": "purchased from Combined Scientific Supply; received 1978-07-31",
+          "specimen": [
+            {
+              "id": "A15",
+              "tag1": "A15",
+              "genus": "Vanessa (V.)",
+              "species": "indica indica",
+              "time": "1970-07",
+              "place": "Puli, Taiwan",
+              "notes": "envelope said 20B730"
+            },
+            {
+              "id": "A16",
+              "tag1": "A16",
+              "genus": "Vanessa",
+              "species": "annabella?"
+            },
+            {
+              "id": "A17",
+              "tag1": "A17",
+              "genus": "Nymphalis"
+            },
+            {
+              "id": "A18",
+              "tag1": "A18",
+              "genus": "Nymphalis"
+            },
+            {
+              "id": "A19",
+              "tag1": "A19",
+              "genus": "Nymphalis"
+            },
+            {
+              "id": "A20",
+              "tag1": "A20",
+              "genus": "Polygonia"
+            },
+            {
+              "id": "A21",
+              "tag1": "A21",
+              "genus": "Libytheana"
+            },
+            {
+              "id": "A22",
+              "tag1": "A22"
+            },
+            {
+              "id": "A23",
+              "tag1": "A23",
+              "genus": "Eumaeus"
+            },
+            {
+              "id": "A24",
+              "tag1": "A24",
+              "genus": "Urania"
+            }
+          ]
         },
         {
-          "id": "A21",
-          "tag1": "A21",
-          "genus": "Libytheana"
-        },
-        {
-          "id": "A22",
-          "tag1": "A22"
-        },
-        {
-          "id": "A23",
-          "tag1": "A23",
-          "genus": "Eumaeus"
-        },
-        {
-          "id": "A24",
-          "tag1": "A24",
-          "genus": "Urania"
+          "name": "unnumbered",
+          "specimen": [
+            {
+              "id": "u12",
+              "tag1": "u12",
+              "sex": "f",
+              "genus": "Actias",
+              "species": "luna",
+              "time": "90?",
+              "place": "home: at shop"
+            },
+            {
+              "id": "u23",
+              "tag1": "u23",
+              "genus": "Nymphalis",
+              "species": "vau-album ssp."
+            },
+            {
+              "id": "u25",
+              "tag1": "u25",
+              "sex": "f",
+              "genus": "Colias",
+              "species": "eurytheme/philodice",
+              "discarded": true,
+              "notes": "discarded, was completely destroyed in the trash drawer"
+            },
+            {
+              "id": "u28",
+              "tag1": "u28",
+              "genus": "Colias",
+              "species": "philodice"
+            },
+            {
+              "id": "u29",
+              "tag1": "u29",
+              "genus": "Colias",
+              "species": "philodice"
+            },
+            {
+              "id": "u32",
+              "tag1": "u32",
+              "genus": "Calasymbolus",
+              "species": "excaecatus"
+            },
+            {
+              "id": "u36",
+              "tag1": "u36",
+              "sex": "f",
+              "genus": "Papilio",
+              "species": "polyxenes",
+              "discarded": true,
+              "notes": "discarded, was completely destroyed in the trash drawer"
+            },
+            {
+              "id": "u37",
+              "tag1": "u37",
+              "sex": "m",
+              "genus": "Telea",
+              "species": "polyphemus"
+            },
+            {
+              "id": "u38",
+              "tag1": "u38",
+              "genus": "Euptychia",
+              "notes": "-- unmounted wings"
+            },
+            {
+              "id": "u43",
+              "tag1": "u43",
+              "genus": "Pieris",
+              "notes": "-- unmounted"
+            },
+            {
+              "id": "u44",
+              "tag1": "u44",
+              "notes": "-- sm. brown blue, pieces, unmounted"
+            },
+            {
+              "id": "u45",
+              "tag1": "u45",
+              "genus": "Euptoieta",
+              "species": "claudia",
+              "notes": "-- wings, unmounted"
+            },
+            {
+              "id": "u46",
+              "tag1": "u46",
+              "genus": "Pieris",
+              "species": "rapae",
+              "notes": "-- unmounted"
+            },
+            {
+              "id": "u47",
+              "tag1": "u47",
+              "genus": "Pieris",
+              "species": "rapae",
+              "notes": "-- unmounted"
+            },
+            {
+              "id": "xx1",
+              "genus": "Papilio",
+              "species": "g. glaucus",
+              "time": "1999-08-08",
+              "place": "found dead in S sawmill window; unmounted in bottom drawer"
+            },
+            {
+              "id": "xx2",
+              "genus": "Actias",
+              "species": "luna",
+              "time": "1996-08-17",
+              "place": "found by shop; already dead; unmounted in bottom drawer"
+            },
+            {
+              "id": "xx3",
+              "genus": "Sphinx",
+              "species": "vashti",
+              "notes": "Vashti Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; likely captured at Wardell"
+            }
+          ],
+          "collectingSession": []
         }
-      ]
+      ],
+      "specimen": []
     },
     {
       "name": "ozarks-1974",
@@ -6276,2714 +9061,7 @@
       ]
     }
   ],
-  "sighting": [
-    {
-      "genus": "Adelpha",
-      "species": "alala completa",
-      "time": "1998-12-2x",
-      "place": "Venezuela, Merida, Los Chorros del Milla Zoo",
-      "notes": "Honeymoon trip after wedding and Christmas.  Photographed sitting on my head (photo scanned 2021-09-01).  Personal email from Andrew Neild: That's a great shot of you! Yes, the correct name according to my book is Adelpha alala titia (described form the Cordillera de Merida), but Willmott in his Adelpha revision treated Venezuelan A. alala titia as a junior synonym of Colombian A. alala completa, saying he saw no obvious differences. Either name is correct (I really don't mind either way!), but if you want to follow the recommendation of the revision, you should use the name A. alala completa."
-    },
-    {
-      "sex": "f",
-      "genus": "Basilona",
-      "species": "imperialis",
-      "time": "2004-07-31",
-      "place": "home",
-      "notes": "Mom found it (where?); lethargic"
-    }
-  ],
-  "specimen": [
-    {
-      "id": "001",
-      "sex": "m",
-      "genus": "Danaus",
-      "species": "plexippus",
-      "time": "1973",
-      "notes": "roadkill",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "002",
-      "sex": "f",
-      "genus": "Danaus",
-      "species": "plexippus",
-      "time": "1973",
-      "notes": "roadkill",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "003",
-      "sex": "m",
-      "genus": "Danaus",
-      "species": "plexippus",
-      "time": "1973",
-      "notes": "roadkill",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "004",
-      "sex": "m",
-      "genus": "Danaus",
-      "species": "plexippus",
-      "time": "1973",
-      "notes": "roadkill",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "005",
-      "sex": "f",
-      "genus": "Danaus",
-      "species": "plexippus",
-      "time": "1973",
-      "notes": "roadkill",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "008",
-      "tag1": "u39",
-      "genus": "Euptychia",
-      "species": "c. cymela",
-      "time": "1975",
-      "place": "home; in gully by elms NE of house",
-      "mounted": "false",
-      "location": {
-        "ref": "home"
-      }
-    },
-    {
-      "id": "009",
-      "tag1": "009",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "celtis"
-    },
-    {
-      "id": "010",
-      "tag1": "010",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "celtis"
-    },
-    {
-      "id": "011",
-      "tag1": "011",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "celtis"
-    },
-    {
-      "id": "012",
-      "tag1": "012",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "013",
-      "tag1": "013",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "014",
-      "tag1": "014",
-      "genus": "Limenitis",
-      "species": "a. astyanax"
-    },
-    {
-      "id": "015",
-      "tag1": "015",
-      "genus": "Limenitis",
-      "species": "a. astyanax"
-    },
-    {
-      "id": "016",
-      "tag1": "016",
-      "genus": "Limenitis",
-      "species": "a. astyanax"
-    },
-    {
-      "id": "017",
-      "tag1": "017",
-      "sex": "f",
-      "genus": "Limenitis",
-      "species": "a. archippus"
-    },
-    {
-      "id": "018",
-      "tag1": "018",
-      "sex": "f",
-      "genus": "Limenitis",
-      "species": "a. archippus"
-    },
-    {
-      "id": "019",
-      "tag1": "019",
-      "sex": "m",
-      "genus": "Limenitis",
-      "species": "a. archippus (watsoni)"
-    },
-    {
-      "id": "020",
-      "tag1": "020",
-      "genus": "Junonia",
-      "species": "c. coenia"
-    },
-    {
-      "id": "021",
-      "tag1": "021",
-      "sex": "m",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "022",
-      "tag1": "022",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "023",
-      "tag1": "023",
-      "sex": "m",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "024",
-      "tag1": "024",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "025",
-      "tag1": "025",
-      "sex": "m",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "026",
-      "tag1": "026",
-      "sex": "m",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "027",
-      "tag1": "027",
-      "sex": "f",
-      "genus": "Chlosyne",
-      "species": "n. nycteis"
-    },
-    {
-      "id": "028",
-      "tag1": "028",
-      "-num4": "f3",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "029"
-    },
-    {
-      "id": "029",
-      "tag1": "029",
-      "-num4": "f4",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "030"
-    },
-    {
-      "id": "030",
-      "tag1": "030",
-      "-num4": "f5",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "031"
-    },
-    {
-      "id": "031",
-      "tag1": "031",
-      "-num4": "S3",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "032"
-    },
-    {
-      "id": "032",
-      "tag1": "032",
-      "-num4": "S4",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "033"
-    },
-    {
-      "id": "033",
-      "tag1": "033",
-      "-num4": "f1",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "034"
-    },
-    {
-      "id": "034",
-      "tag1": "034",
-      "-num4": "f2",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis (fabricii)",
-      "notes": "??"
-    },
-    {
-      "id": "035",
-      "tag1": "035",
-      "-num4": "u1",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (umbrosa)",
-      "notes": "035"
-    },
-    {
-      "id": "036",
-      "tag1": "036",
-      "-num4": "u2",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis (umbrosa)",
-      "notes": "036"
-    },
-    {
-      "id": "037",
-      "tag1": "037",
-      "-num4": "u8",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis",
-      "notes": "glued wings"
-    },
-    {
-      "id": "038",
-      "tag1": "038",
-      "-num4": "u3",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "039",
-      "tag1": "039",
-      "-num4": "u5",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "040",
-      "tag1": "u30",
-      "-num4": "u6",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis",
-      "notes": "wings, unmounted"
-    },
-    {
-      "id": "041",
-      "tag1": "041",
-      "-num4": "u7",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "042",
-      "tag1": "042",
-      "-num4": "u4",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "Interrogationis",
-      "notes": "summer"
-    },
-    {
-      "id": "043",
-      "tag1": "043",
-      "-num4": "u9",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "044",
-      "tag1": "044",
-      "genus": "Polygonia",
-      "species": "comma"
-    },
-    {
-      "id": "045",
-      "tag1": "045",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "046",
-      "tag1": "046",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "047",
-      "tag1": "047",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "048",
-      "tag1": "048",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "spring?"
-    },
-    {
-      "id": "049",
-      "tag1": "049",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "summer?"
-    },
-    {
-      "id": "050",
-      "tag1": "050",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "summer?"
-    },
-    {
-      "id": "051",
-      "tag1": "051",
-      "genus": "Polygonia",
-      "species": "canus",
-      "notes": "summer?"
-    },
-    {
-      "id": "052",
-      "tag1": "052",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "053",
-      "tag1": "053",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "054",
-      "tag1": "054",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "055",
-      "tag1": "055",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "056",
-      "tag1": "056",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "057",
-      "tag1": "057",
-      "sex": "f",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "058",
-      "tag1": "058",
-      "sex": "f",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "059",
-      "tag1": "059",
-      "genus": "Vanessa (Cynthia)",
-      "species": "virginiensis"
-    },
-    {
-      "id": "060",
-      "tag1": "060",
-      "genus": "Vanessa (Cynthia)",
-      "species": "virginiensis"
-    },
-    {
-      "id": "061",
-      "tag1": "061",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
-    },
-    {
-      "id": "062",
-      "tag1": "062",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
-    },
-    {
-      "id": "063",
-      "tag1": "063",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
-    },
-    {
-      "id": "064",
-      "tag1": "064",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "065",
-      "tag1": "065",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "066",
-      "tag1": "066",
-      "sex": "m",
-      "genus": "Euptoieta",
-      "species": "claudia"
-    },
-    {
-      "id": "067",
-      "tag1": "067",
-      "sex": "f",
-      "genus": "Euptoieta",
-      "species": "claudia"
-    },
-    {
-      "id": "068",
-      "tag1": "068",
-      "sex": "m",
-      "genus": "Speyeria",
-      "species": "c. cybele"
-    },
-    {
-      "id": "069",
-      "tag1": "069",
-      "sex": "m",
-      "genus": "Boloria",
-      "species": "selene myrina"
-    },
-    {
-      "id": "070",
-      "tag1": "u15",
-      "genus": "Satyrium",
-      "species": "calanus falacer",
-      "notes": "~512, unmounted also"
-    },
-    {
-      "id": "071",
-      "tag1": "u16",
-      "genus": "Satyrium",
-      "species": "calanus falacer",
-      "notes": "~512, unmounted also"
-    },
-    {
-      "id": "072",
-      "tag1": "072",
-      "genus": "Satyrium",
-      "species": "caryaevoris"
-    },
-    {
-      "id": "073",
-      "tag1": "073",
-      "sex": "m",
-      "genus": "Lycaena",
-      "species": "hyllus"
-    },
-    {
-      "id": "074",
-      "tag1": "074",
-      "sex": "f",
-      "genus": "Lycaena",
-      "species": "hyllus"
-    },
-    {
-      "id": "075",
-      "tag1": "075",
-      "sex": "m",
-      "genus": "Lycaena",
-      "species": "hyllus"
-    },
-    {
-      "id": "076",
-      "tag1": "076",
-      "sex": "f",
-      "genus": "Lycaena",
-      "species": "hyllus"
-    },
-    {
-      "id": "077",
-      "tag1": "077",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "078",
-      "tag1": "078",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "079",
-      "tag1": "079",
-      "sex": "f",
-      "genus": "Celastrina",
-      "species": "argiolus",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "080",
-      "tag1": "080",
-      "sex": "m",
-      "genus": "Everes",
-      "species": "c. comyntas"
-    },
-    {
-      "id": "081",
-      "tag1": "081",
-      "sex": "f",
-      "genus": "Everes",
-      "species": "c. comyntas"
-    },
-    {
-      "id": "082",
-      "tag1": "u26",
-      "genus": "Colias",
-      "species": "philodice",
-      "notes": "-- unmounted, m"
-    },
-    {
-      "id": "083",
-      "tag1": "u27",
-      "genus": "Colias",
-      "species": "philodice",
-      "notes": "-- unmounted, m"
-    },
-    {
-      "id": "084",
-      "tag1": "u53",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- sulfur \"N\""
-    },
-    {
-      "id": "085",
-      "tag1": "u48",
-      "-num4": "-*",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme"
-    },
-    {
-      "id": "086",
-      "tag1": "u52",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white \"m\""
-    },
-    {
-      "id": "087",
-      "tag1": "087",
-      "-num4": "P",
-      "sex": "x e. (ariadne) m",
-      "genus": "Colias",
-      "species": "philodice (anthyale)"
-    },
-    {
-      "id": "088",
-      "tag1": "u54",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa \"Q\""
-    },
-    {
-      "id": "089",
-      "tag1": "089",
-      "-num4": "X",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)"
-    },
-    {
-      "id": "090",
-      "tag1": "090",
-      "-num4": "T",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)"
-    },
-    {
-      "id": "091",
-      "tag1": "u31",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "092",
-      "tag1": "u56",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa \"Z\""
-    },
-    {
-      "id": "093",
-      "tag1": "u51",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa \"G\""
-    },
-    {
-      "id": "094",
-      "tag1": "u49",
-      "-num4": "A*",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme"
-    },
-    {
-      "id": "095",
-      "tag1": "u55",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white \"Y\""
-    },
-    {
-      "id": "096",
-      "tag1": "u50",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- white \"<solid delta>\""
-    },
-    {
-      "id": "097",
-      "tag1": "097",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (metra)",
-      "discarded": true,
-      "notes": "ruined & discarded 2024-09-03"
-    },
-    {
-      "id": "098",
-      "tag1": "098",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "099",
-      "tag1": "099",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "rapae (metra)"
-    },
-    {
-      "id": "100",
-      "tag1": "u11",
-      "genus": "Battus",
-      "species": "p. philenor"
-    },
-    {
-      "id": "101",
-      "tag1": "u06?",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "102",
-      "tag1": "u01?",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "103",
-      "tag1": "u03?",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "104",
-      "tag1": "u02?",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "105",
-      "tag1": "u04?",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "106",
-      "tag1": "u10?",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "polyxenes asterius"
-    },
-    {
-      "id": "107",
-      "tag1": "105",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "g. glaucus",
-      "notes": "105"
-    },
-    {
-      "id": "108",
-      "tag1": "106",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "g. glaucus",
-      "notes": "106"
-    },
-    {
-      "id": "109",
-      "tag1": "107",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "g. glaucus (g.)",
-      "notes": "black"
-    },
-    {
-      "id": "110",
-      "tag1": "u24",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "troilus",
-      "place": "home; roadside woods by Schmidt's"
-    },
-    {
-      "id": "111",
-      "tag1": "u05",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "troilus"
-    },
-    {
-      "id": "112",
-      "tag1": "112",
-      "sex": "m",
-      "genus": "Polites",
-      "species": "coras",
-      "time": "75",
-      "place": "St. Ansgar",
-      "notes": "111"
-    },
-    {
-      "id": "113",
-      "tag1": "113",
-      "genus": "Ancyloxypha",
-      "species": "numitor"
-    },
-    {
-      "id": "114",
-      "tag1": "114",
-      "sex": "m",
-      "genus": "Pholisora",
-      "species": "catullus"
-    },
-    {
-      "id": "115",
-      "tag1": "115",
-      "sex": "m",
-      "genus": "Pyrgus",
-      "species": "c. communis"
-    },
-    {
-      "id": "116",
-      "tag1": "116",
-      "sex": "m",
-      "genus": "Epargyreus",
-      "species": "c. clarus"
-    },
-    {
-      "id": "117",
-      "tag1": "117",
-      "sex": "m",
-      "genus": "Samia",
-      "species": "cecropia",
-      "notes": "116"
-    },
-    {
-      "id": "118",
-      "tag1": "u19",
-      "genus": "Ctenucha",
-      "species": "virginica",
-      "place": "home: S. meadow",
-      "notes": "117"
-    },
-    {
-      "id": "119",
-      "tag1": "u20",
-      "genus": "Ctenucha",
-      "species": "virginica",
-      "place": "home: S. meadow",
-      "notes": "118"
-    },
-    {
-      "id": "120",
-      "tag1": "u13",
-      "genus": "Phragmatobia",
-      "species": "fuliginosa",
-      "place": "home: dining room window",
-      "notes": "119"
-    },
-    {
-      "id": "121",
-      "tag1": "u22",
-      "genus": "Phragmatobia",
-      "species": "fuliginosa",
-      "place": "home: dining room window",
-      "notes": "120"
-    },
-    {
-      "id": "122",
-      "tag1": "u18",
-      "genus": "Alypia",
-      "species": "octomaculata",
-      "notes": "121"
-    },
-    {
-      "id": "123",
-      "tag1": "u21",
-      "genus": "Euthisanotia",
-      "species": "unio",
-      "notes": "122; pearl, yellow & brown moth ~ A13"
-    },
-    {
-      "id": "124",
-      "tag1": "124",
-      "genus": "Catocala",
-      "species": "cara",
-      "notes": "123"
-    },
-    {
-      "id": "125",
-      "tag1": "125",
-      "genus": "Catocala",
-      "species": "cara",
-      "notes": "124"
-    },
-    {
-      "id": "126",
-      "tag1": "126",
-      "genus": "Catocala",
-      "species": "cara",
-      "notes": "125"
-    },
-    {
-      "id": "127",
-      "tag1": "127",
-      "genus": "Catocala",
-      "species": "amica",
-      "notes": "126"
-    },
-    {
-      "id": "128",
-      "tag1": "128",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "muliercula",
-      "notes": "127"
-    },
-    {
-      "id": "239",
-      "tag1": "u57?",
-      "genus": "Autographa",
-      "notes": "sm. brown moth w/pearly squiggle, unmounted; 77 data says 'Anagrapha falcifera' (not in Holland)"
-    },
-    {
-      "id": "240",
-      "tag1": "267?",
-      "tag2": "240?",
-      "-num2": "267",
-      "sex": "f",
-      "genus": "Phragmatobia",
-      "species": "fuliginosa",
-      "notes": "-- sm. red & brown translucent moth"
-    },
-    {
-      "id": "241",
-      "tag1": "241",
-      "sex": "m",
-      "genus": "Calasymbolus",
-      "species": "myops"
-    },
-    {
-      "id": "242",
-      "tag1": "242?",
-      "tag2": "269?",
-      "-num2": "269",
-      "genus": "Scepsis",
-      "species": "fulvicollis",
-      "notes": "-- sm. Ctenuchid moth"
-    },
-    {
-      "id": "243",
-      "tag1": "243",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "mira"
-    },
-    {
-      "id": "244",
-      "tag1": "244",
-      "sex": "m",
-      "genus": "Haematopsis",
-      "species": "grataria"
-    },
-    {
-      "id": "245",
-      "tag1": "245",
-      "sex": "f",
-      "genus": "Haematopsis",
-      "species": "grataria"
-    },
-    {
-      "id": "246",
-      "tag1": "246",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "247",
-      "tag1": "247",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "mira"
-    },
-    {
-      "id": "248",
-      "tag1": "248",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)",
-      "notes": "-- alfalfa"
-    },
-    {
-      "id": "249",
-      "tag1": "249",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "250",
-      "tag1": "250",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "251",
-      "tag1": "251",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "palaeogama"
-    },
-    {
-      "id": "252",
-      "tag1": "252",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "253",
-      "tag1": "253",
-      "notes": "-- mottled brown noctuid ~332"
-    },
-    {
-      "id": "254",
-      "tag1": "254",
-      "genus": "Pyrgus",
-      "species": "c. communis"
-    },
-    {
-      "id": "255",
-      "tag1": "255",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "256",
-      "tag1": "256",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa"
-    },
-    {
-      "id": "257",
-      "tag1": "257",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- alfalfa"
-    },
-    {
-      "id": "258",
-      "tag1": "258",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme",
-      "notes": "-- sulfur"
-    },
-    {
-      "id": "259",
-      "tag1": "259",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)",
-      "notes": "-- alfalfa"
-    },
-    {
-      "id": "260",
-      "tag1": "260",
-      "sex": "f",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "261",
-      "tag1": "261",
-      "sex": "m",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "262",
-      "tag1": "u14",
-      "-num2": "289",
-      "-num3": "n09",
-      "sex": "m",
-      "genus": "Satyrium",
-      "species": "acadica montanensis",
-      "time": "7/20/77  17:09",
-      "place": "ND; on Roger's lane on sunflower",
-      "notes": "-- ~375, unmounted"
-    },
-    {
-      "id": "263",
-      "tag1": "263",
-      "sex": "m",
-      "genus": "Plebejus",
-      "place": "ND"
-    },
-    {
-      "id": "264",
-      "tag1": "264",
-      "sex": "f",
-      "genus": "Plebejus",
-      "place": "ND"
-    },
-    {
-      "id": "265",
-      "tag1": "265",
-      "sex": "m",
-      "genus": "Plebejus",
-      "place": "ND"
-    },
-    {
-      "id": "266",
-      "tag1": "266",
-      "sex": "m",
-      "genus": "Plebejus",
-      "place": "ND"
-    },
-    {
-      "id": "267",
-      "tag1": "267",
-      "sex": "f",
-      "genus": "Plebejus",
-      "place": "ND"
-    },
-    {
-      "id": "268",
-      "tag1": "268",
-      "genus": "Hyloicus",
-      "species": "c. chersis"
-    },
-    {
-      "id": "269",
-      "tag1": "269",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "luciana"
-    },
-    {
-      "id": "270",
-      "tag1": "270",
-      "notes": "-- variegated fritillary"
-    },
-    {
-      "id": "271",
-      "tag1": "271",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "272",
-      "tag1": "272",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "273",
-      "tag1": "273",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "274",
-      "tag1": "274",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "275",
-      "tag1": "275",
-      "sex": "m",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "276",
-      "tag1": "276",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "277",
-      "tag1": "277",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "ultronia lucinda"
-    },
-    {
-      "id": "278",
-      "tag1": "278",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "unijuga"
-    },
-    {
-      "id": "279",
-      "tag1": "279",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "innubens (i.)"
-    },
-    {
-      "id": "280",
-      "tag1": "280",
-      "sex": "m",
-      "genus": "Danaus",
-      "species": "plexippus"
-    },
-    {
-      "id": "281",
-      "tag1": "281",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "cara"
-    },
-    {
-      "id": "282",
-      "tag1": "282",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "celtis"
-    },
-    {
-      "id": "283",
-      "tag1": "283",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "innubens (i.)"
-    },
-    {
-      "id": "284",
-      "tag1": "284",
-      "notes": "-- noctuid w/ copper hindwings"
-    },
-    {
-      "id": "285",
-      "tag1": "285",
-      "notes": "-- noctuid w/ copper hindwings"
-    },
-    {
-      "id": "286",
-      "tag1": "286",
-      "notes": "-- tiny beige, red & black moth"
-    },
-    {
-      "id": "287",
-      "tag1": "287",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "innubens (scintillans)"
-    },
-    {
-      "id": "288",
-      "tag1": "288",
-      "genus": "Catocala",
-      "notes": "--pink"
-    },
-    {
-      "id": "289",
-      "tag1": "289",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "cara"
-    },
-    {
-      "id": "290",
-      "tag1": "290",
-      "sex": "m",
-      "genus": "Limenitis",
-      "species": "a. astyanax"
-    },
-    {
-      "id": "291",
-      "tag1": "291",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "innubens (scintillans)"
-    },
-    {
-      "id": "292",
-      "tag1": "292",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "innubens (ninda)"
-    },
-    {
-      "id": "293",
-      "tag1": "293",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "294",
-      "tag1": "294",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "m. milberti"
-    },
-    {
-      "id": "295",
-      "tag1": "295",
-      "notes": "-- sm. beige, striped geometrid"
-    },
-    {
-      "id": "296",
-      "tag1": "296",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "Interrogationis"
-    },
-    {
-      "id": "297",
-      "tag1": "297",
-      "sex": "f",
-      "genus": "Speyeria",
-      "species": "aphrodite alcestis"
-    },
-    {
-      "id": "298",
-      "tag1": "298",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "299",
-      "tag1": "299",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "rapae (rapae)"
-    },
-    {
-      "id": "300",
-      "tag1": "300"
-    },
-    {
-      "id": "301",
-      "tag1": "301",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "parta"
-    },
-    {
-      "id": "302",
-      "tag1": "302"
-    },
-    {
-      "id": "303",
-      "tag1": "303"
-    },
-    {
-      "id": "304",
-      "tag1": "304"
-    },
-    {
-      "id": "305",
-      "tag1": "305",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "innubens (ninda)"
-    },
-    {
-      "id": "306",
-      "tag1": "306",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "Interrogationis"
-    },
-    {
-      "id": "307",
-      "tag1": "307",
-      "sex": "f",
-      "genus": "Everes",
-      "species": "comyntas"
-    },
-    {
-      "id": "308",
-      "tag1": "308",
-      "sex": "m",
-      "genus": "Everes",
-      "species": "comyntas"
-    },
-    {
-      "id": "309",
-      "tag1": "309",
-      "sex": "x e. (ariadne) m",
-      "genus": "Colias",
-      "species": "philodice (anthyale)"
-    },
-    {
-      "id": "310",
-      "tag1": "310",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)"
-    },
-    {
-      "id": "311",
-      "tag1": "311",
-      "sex": "x e. (ariadne) m",
-      "genus": "Colias",
-      "species": "philodice (anthyale)"
-    },
-    {
-      "id": "312",
-      "tag1": "312",
-      "sex": "x e. (ariadne) m",
-      "genus": "Colias",
-      "species": "philodice (anthyale)"
-    },
-    {
-      "id": "313",
-      "tag1": "313",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "p. philodice (p.)"
-    },
-    {
-      "id": "314",
-      "tag1": "314",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme (amphidusa)"
-    },
-    {
-      "id": "315",
-      "tag1": "315",
-      "sex": "x e. (ariadne) m",
-      "genus": "Colias",
-      "species": "philodice (anthyale)"
-    },
-    {
-      "id": "316",
-      "tag1": "316",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "317",
-      "tag1": "317",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "318",
-      "tag1": "318",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "319",
-      "tag1": "319",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme"
-    },
-    {
-      "id": "320",
-      "tag1": "320",
-      "genus": "Chlosyne",
-      "species": "gorgone carlota"
-    },
-    {
-      "id": "321",
-      "tag1": "321",
-      "genus": "Polygonia",
-      "species": "comma (harrisii)"
-    },
-    {
-      "id": "322",
-      "tag1": "322",
-      "genus": "Polygonia",
-      "species": "interrogationis"
-    },
-    {
-      "id": "323",
-      "tag1": "323",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "324",
-      "tag1": "324",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "parta"
-    },
-    {
-      "id": "325",
-      "tag1": "325",
-      "genus": "Polygonia",
-      "species": "comma (harrisii)"
-    },
-    {
-      "id": "326",
-      "tag1": "326",
-      "sex": "m",
-      "genus": "Nymphalis",
-      "species": "m. milberti (nigri)"
-    },
-    {
-      "id": "327",
-      "tag1": "327",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "m. milberti (nigri)"
-    },
-    {
-      "id": "328",
-      "tag1": "328",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "329",
-      "tag1": "329"
-    },
-    {
-      "id": "330",
-      "tag1": "330",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "comma (harrisii)"
-    },
-    {
-      "id": "331",
-      "tag1": "331",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "332",
-      "tag1": "332"
-    },
-    {
-      "id": "333",
-      "tag1": "333",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (metra)"
-    },
-    {
-      "id": "334",
-      "tag1": "334",
-      "sex": "m",
-      "genus": "Nymphalis",
-      "species": "m. milberti (nigri)"
-    },
-    {
-      "id": "335",
-      "tag1": "335",
-      "sex": "m",
-      "genus": "Callophrys",
-      "species": "g. gryneus"
-    },
-    {
-      "id": "336",
-      "tag1": "336",
-      "sex": "f",
-      "genus": "Callophrys",
-      "species": "g. gryneus"
-    },
-    {
-      "id": "337",
-      "tag1": "337",
-      "sex": "m",
-      "genus": "Erynnis",
-      "species": "brizo brizo"
-    },
-    {
-      "id": "338",
-      "tag1": "338",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "339",
-      "tag1": "339",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "p. philodice (anthyale)"
-    },
-    {
-      "id": "340",
-      "tag1": "340",
-      "sex": "m",
-      "genus": "Erynnis",
-      "species": "juvenalis juvenalis"
-    },
-    {
-      "id": "341",
-      "tag1": "341",
-      "sex": "m",
-      "genus": "Pieris",
-      "species": "rapae (metra)"
-    },
-    {
-      "id": "342",
-      "tag1": "342",
-      "sex": "m",
-      "genus": "Erynnis",
-      "species": "juvenalis juvenalis"
-    },
-    {
-      "id": "343",
-      "tag1": "343",
-      "sex": "f",
-      "genus": "Erynnis",
-      "species": "juvenalis juvenalis"
-    },
-    {
-      "id": "344",
-      "tag1": "344",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (marcia)"
-    },
-    {
-      "id": "345",
-      "tag1": "345",
-      "sex": "f",
-      "genus": "Telea",
-      "species": "polyphemus"
-    },
-    {
-      "id": "346",
-      "tag1": "346",
-      "sex": "f",
-      "genus": "Epargyreus",
-      "species": "clarus clarus"
-    },
-    {
-      "id": "347",
-      "tag1": "347",
-      "sex": "m",
-      "genus": "Euptychia",
-      "species": "c. cymela"
-    },
-    {
-      "id": "348",
-      "tag1": "348",
-      "sex": "m",
-      "genus": "Celastrina",
-      "species": "argiolus pseudargiolus (p.)"
-    },
-    {
-      "id": "349",
-      "tag1": "349",
-      "sex": "m?",
-      "genus": "Poanes"
-    },
-    {
-      "id": "350",
-      "tag1": "350",
-      "sex": "m",
-      "genus": "Telea",
-      "species": "polyphemus"
-    },
-    {
-      "id": "351",
-      "tag1": "351",
-      "sex": "m",
-      "genus": "Halisidota",
-      "species": "caryae"
-    },
-    {
-      "id": "352",
-      "tag1": "352",
-      "sex": "m",
-      "genus": "Everes",
-      "species": "comyntas"
-    },
-    {
-      "id": "353",
-      "tag1": "353",
-      "sex": "f",
-      "genus": "Everes",
-      "species": "comyntas"
-    },
-    {
-      "id": "385",
-      "tag1": "385",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "386",
-      "tag1": "386",
-      "genus": "Speyeria",
-      "species": "edwardsii"
-    },
-    {
-      "id": "387",
-      "tag1": "387",
-      "sex": "f",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "388",
-      "tag1": "388",
-      "genus": "Speyeria",
-      "species": "edwardsi"
-    },
-    {
-      "id": "389",
-      "tag1": "389",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "390",
-      "tag1": "390",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "391",
-      "tag1": "391",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "392",
-      "tag1": "392",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "393",
-      "tag1": "393"
-    },
-    {
-      "id": "394",
-      "tag1": "394",
-      "sex": "m",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "395",
-      "tag1": "395",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "396",
-      "tag1": "396",
-      "sex": "m",
-      "genus": "Colias",
-      "species": "eurytheme"
-    },
-    {
-      "id": "397",
-      "tag1": "397",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "398",
-      "tag1": "398",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "399",
-      "tag1": "399",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "philodice-eurytheme"
-    },
-    {
-      "id": "400",
-      "tag1": "400",
-      "sex": "f",
-      "genus": "Everes",
-      "species": "comyntas"
-    },
-    {
-      "id": "401",
-      "tag1": "401"
-    },
-    {
-      "id": "402",
-      "tag1": "402",
-      "sex": "m",
-      "genus": "Phyciodes",
-      "species": "t. tharos (morpheus)"
-    },
-    {
-      "id": "403",
-      "tag1": "403",
-      "genus": "Parnassius"
-    },
-    {
-      "id": "404",
-      "tag1": "404",
-      "genus": "Coenonympha"
-    },
-    {
-      "id": "405",
-      "tag1": "405",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "406",
-      "tag1": "406",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "407",
-      "tag1": "407",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "408",
-      "tag1": "408",
-      "genus": "Limenitis"
-    },
-    {
-      "id": "409",
-      "tag1": "409"
-    },
-    {
-      "id": "410",
-      "tag1": "410",
-      "genus": "Speyeria",
-      "species": "edwardsi"
-    },
-    {
-      "id": "411",
-      "tag1": "411",
-      "genus": "Speyeria",
-      "species": "edwardsi"
-    },
-    {
-      "id": "412",
-      "genus": "Drasteria",
-      "species": "hudsonica",
-      "notes": "sm. Noctuid moth like underwing"
-    },
-    {
-      "id": "413",
-      "tag1": "413",
-      "genus": "Speyeria",
-      "species": "edwardsi"
-    },
-    {
-      "id": "414",
-      "tag1": "414",
-      "genus": "Erynnis"
-    },
-    {
-      "id": "415",
-      "tag1": "415",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "416",
-      "tag1": "416",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "417",
-      "tag1": "417"
-    },
-    {
-      "id": "418",
-      "tag1": "418",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "419",
-      "sex": "m",
-      "genus": "Plebejus",
-      "species": "melissa",
-      "latLong": "43.679, -103.259"
-    },
-    {
-      "id": "420",
-      "sex": "m",
-      "genus": "Plebejus",
-      "species": "melissa",
-      "latLong": "43.67, -103.01"
-    },
-    {
-      "id": "421",
-      "tag1": "421"
-    },
-    {
-      "id": "422",
-      "tag1": "422",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "423",
-      "tag1": "423",
-      "genus": "Chlosyne",
-      "species": "gorgone carlota"
-    },
-    {
-      "id": "424",
-      "tag1": "424",
-      "genus": "Chlosyne",
-      "species": "gorgone carlota"
-    },
-    {
-      "id": "425",
-      "tag1": "425",
-      "sex": "m",
-      "genus": "Strymon",
-      "species": "melinus franki"
-    },
-    {
-      "id": "426",
-      "tag1": "426",
-      "sex": "f",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "427",
-      "tag1": "427",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "parta"
-    },
-    {
-      "id": "428",
-      "tag1": "428",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "ultronia lucinda"
-    },
-    {
-      "id": "429",
-      "tag1": "429",
-      "sex": "m",
-      "genus": "Satyrium"
-    },
-    {
-      "id": "430",
-      "tag1": "430",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "431",
-      "tag1": "431",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "432",
-      "tag1": "432",
-      "sex": "f",
-      "genus": "Catocala",
-      "species": "ultronia lucinda"
-    },
-    {
-      "id": "433",
-      "tag1": "433",
-      "sex": "m",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "434",
-      "tag1": "434",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "435",
-      "tag1": "435",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "clyton"
-    },
-    {
-      "id": "436",
-      "tag1": "436",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "437",
-      "tag1": "437",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "438",
-      "tag1": "438",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "439",
-      "tag1": "439",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "440",
-      "tag1": "440",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "441",
-      "tag1": "441",
-      "genus": "Limenitis",
-      "species": "a. archippus"
-    },
-    {
-      "id": "442",
-      "tag1": "442",
-      "genus": "Catocala"
-    },
-    {
-      "id": "443",
-      "tag1": "443"
-    },
-    {
-      "id": "444",
-      "tag1": "444",
-      "genus": "Libytheana",
-      "species": "b. bachmanii"
-    },
-    {
-      "id": "445",
-      "tag1": "445"
-    },
-    {
-      "id": "446",
-      "tag1": "446",
-      "sex": "f",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "447",
-      "tag1": "447"
-    },
-    {
-      "id": "448",
-      "tag1": "448",
-      "genus": "Catocala"
-    },
-    {
-      "id": "449",
-      "tag1": "449",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "g. glaucus"
-    },
-    {
-      "id": "450",
-      "tag1": "450",
-      "sex": "f",
-      "genus": "Isia",
-      "species": "isabellae"
-    },
-    {
-      "id": "451",
-      "tag1": "451"
-    },
-    {
-      "id": "452",
-      "tag1": "452",
-      "sex": "f",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "453",
-      "tag1": "453",
-      "genus": "Polygonia",
-      "species": "canus"
-    },
-    {
-      "id": "454",
-      "tag1": "454",
-      "sex": "m",
-      "genus": "Catocala",
-      "species": "amatrix (amatrix)"
-    },
-    {
-      "id": "455",
-      "tag1": "455",
-      "sex": "f",
-      "genus": "Asterocampa",
-      "species": "celtis"
-    },
-    {
-      "id": "456",
-      "tag1": "456",
-      "sex": "f",
-      "genus": "Junonia",
-      "species": "c. coenia"
-    },
-    {
-      "id": "457",
-      "tag1": "457",
-      "sex": "f",
-      "genus": "Polygonia",
-      "species": "Interrogationis"
-    },
-    {
-      "id": "458",
-      "tag1": "458",
-      "genus": "Papilio",
-      "species": "polyxenes asterius",
-      "notes": "card made but can't find the specimen... lost?  may have been u36, discarded"
-    },
-    {
-      "id": "508",
-      "tag1": "508",
-      "sex": "m",
-      "genus": "Erynnis",
-      "species": "juvenalis juvenalis"
-    },
-    {
-      "id": "509",
-      "tag1": "509",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "g. glaucus"
-    },
-    {
-      "id": "510",
-      "tag1": "510",
-      "sex": "f",
-      "genus": "Erynnis",
-      "species": "juvenalis juvenalis"
-    },
-    {
-      "id": "511",
-      "tag1": "511",
-      "sex": "m",
-      "genus": "Telea",
-      "species": "polyphemus"
-    },
-    {
-      "id": "512",
-      "tag1": "512",
-      "sex": "m",
-      "genus": "Satyrium",
-      "species": "calanus falacer"
-    },
-    {
-      "id": "513",
-      "tag1": "513",
-      "sex": "f",
-      "genus": "Ancyloxypha",
-      "species": "numitor"
-    },
-    {
-      "id": "514",
-      "tag1": "514",
-      "sex": "m",
-      "genus": "Calasymbolus",
-      "species": "myops"
-    },
-    {
-      "id": "515",
-      "tag1": "515",
-      "sex": "m",
-      "genus": "Ancyloxypha",
-      "species": "numitor"
-    },
-    {
-      "id": "516",
-      "tag1": "516",
-      "sex": "m",
-      "genus": "Hemiargus",
-      "species": "isola alce"
-    },
-    {
-      "id": "517",
-      "tag1": "517",
-      "sex": "m",
-      "genus": "Polygonia",
-      "species": "comma (dryas)"
-    },
-    {
-      "id": "518",
-      "tag1": "518",
-      "sex": "m",
-      "genus": "Vanessa (V.)",
-      "species": "atalanta rubria"
-    },
-    {
-      "id": "519",
-      "tag1": "519",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "520",
-      "tag1": "520",
-      "sex": "f",
-      "genus": "Nymphalis",
-      "species": "antiopa paracreta"
-    },
-    {
-      "id": "521",
-      "tag1": "521",
-      "sex": "m",
-      "genus": "Syssphinx",
-      "species": "bicolor"
-    },
-    {
-      "id": "522",
-      "tag1": "522",
-      "mounted": "false",
-      "notes": "generic moth"
-    },
-    {
-      "id": "523",
-      "tag1": "523",
-      "sex": "m",
-      "genus": "Actias",
-      "species": "luna"
-    },
-    {
-      "id": "524",
-      "tag1": "524",
-      "genus": "Speyeria/Euptoieta",
-      "mounted": "false",
-      "notes": "possibly large female Asterocampa clyton"
-    },
-    {
-      "id": "525",
-      "tag1": "525",
-      "genus": "Cercyonis",
-      "mounted": "false"
-    },
-    {
-      "id": "526",
-      "tag1": "526",
-      "genus": "Cercyonis",
-      "mounted": "false"
-    },
-    {
-      "id": "527",
-      "tag1": "527",
-      "sex": "f",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "528",
-      "tag1": "528",
-      "sex": "m",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "529",
-      "tag1": "529",
-      "genus": "Limenitis"
-    },
-    {
-      "id": "530",
-      "tag1": "530",
-      "genus": "Speyeria"
-    },
-    {
-      "id": "531",
-      "genus": "Cercyonis",
-      "mounted": "false"
-    },
-    {
-      "id": "532",
-      "genus": "Cercyonis",
-      "mounted": "false"
-    },
-    {
-      "id": "533",
-      "genus": "Pieris"
-    },
-    {
-      "id": "534",
-      "genus": "Plebejus",
-      "species": "melissa",
-      "notes": "small dark blue"
-    },
-    {
-      "id": "535",
-      "sex": "f",
-      "genus": "Pieris",
-      "species": "p. protodice"
-    },
-    {
-      "id": "536",
-      "genus": "Plebejus",
-      "species": "melissa",
-      "notes": "small blue w. orange submarginals, from Steele"
-    },
-    {
-      "id": "537",
-      "sex": "m",
-      "genus": "Hesperia/Poanes"
-    },
-    {
-      "id": "538",
-      "sex": "m",
-      "genus": "Plebejus?"
-    },
-    {
-      "id": "539",
-      "genus": "Phyciodes",
-      "species": "pulchella",
-      "location": {
-        "latLong": "39.068138, -106.409844"
-      },
-      "place": "CO, Lake - T11S - R81W - S26 - at Parry Peak campground in center of loop, on grass",
-      "time": "1979-08-22-1024"
-    },
-    {
-      "id": "540",
-      "genus": "Cercyonis"
-    },
-    {
-      "id": "541",
-      "notes": "sphinx moth"
-    },
-    {
-      "id": 542,
-      "genus": "Lycaena",
-      "species": "rubidus",
-      "sex": "m",
-      "place": "CO, Lake - T11S - R80W - S15 - off CO 82 on dvwy to Twin Lakes Reservoir",
-      "location": {
-        "latLong": "39.09, -106.31"
-      },
-      "time": "1979-08-22-1057"
-    },
-    {
-      "id": "543",
-      "genus": "Vanessa (Cynthia)",
-      "species": "cardui"
-    },
-    {
-      "id": "544",
-      "genus": "Sympistis",
-      "species": "dayi?",
-      "notes": "sm. Noctuid moth w. pearly spots, prob. Plusiina subtribe, Autographa or Syngrapha"
-    },
-    {
-      "id": "545",
-      "tag1": "545",
-      "genus": "Catocala"
-    },
-    {
-      "id": "546",
-      "tag1": "546"
-    },
-    {
-      "id": "547",
-      "genus": "Boloria",
-      "species": "selene myrina",
-      "time": "1980-05-25 1145",
-      "location": {
-        "ref": "home",
-        "place": "flew over hedge and into valley"
-      }
-    },
-    {
-      "id": "548",
-      "genus": "Boloria",
-      "species": "selene myrina",
-      "time": "1980-05-26 1344",
-      "location": {
-        "ref": "home",
-        "place": "in front of front door of house"
-      }
-    },
-    {
-      "id": "586",
-      "time": "1981-06-17 2130",
-      "place": "home, at light in garage by house door",
-      "notes": "white lined sphinx"
-    },
-    {
-      "id": "587",
-      "time": "1981-06-17 2135",
-      "place": "home, at light in garage by house door",
-      "notes": "white lined sphinx"
-    },
-    {
-      "id": "588",
-      "tag1": "588",
-      "species": "promethea",
-      "time": "1982-07-13",
-      "place": "home"
-    },
-    {
-      "id": "589",
-      "tag1": "589",
-      "sex": "m",
-      "genus": "Basilona",
-      "species": "imperialis",
-      "time": "1982-07-19",
-      "place": "Mendel's"
-    },
-    {
-      "id": "590",
-      "tag1": "595?",
-      "genus": "Catocala",
-      "time": "1982-05-22 23:30",
-      "place": "home: at driveway flood"
-    },
-    {
-      "id": "591",
-      "tag1": "591",
-      "genus": "Amphion",
-      "species": "nessus",
-      "time": "1983-06-21 19:00",
-      "place": "home: at privet hedge (3rd day blooming)"
-    },
-    {
-      "id": "592",
-      "tag1": "592",
-      "genus": "Calasymbolus",
-      "species": "myops",
-      "time": "1983-07-27 19:30",
-      "place": "home: under fuse box (garage light)"
-    },
-    {
-      "id": "593",
-      "collector": "Everett Vorthmann",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "g. glaucus",
-      "time": "1986-08-17",
-      "place": "home; garden in front of house"
-    },
-    {
-      "id": "594",
-      "notes": "card made but can't find the specimen... lost?"
-    },
-    {
-      "id": "595",
-      "tag1": "595",
-      "genus": "Catocala",
-      "time": "no data",
-      "place": "no data",
-      "notes": "card made but can't find the specimen... lost?"
-    },
-    {
-      "id": "A01",
-      "tag1": "AF13",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "pylades"
-    },
-    {
-      "id": "A02",
-      "tag1": "A02",
-      "genus": "Salamis",
-      "species": "cacta"
-    },
-    {
-      "id": "A04",
-      "tag1": "A04",
-      "sex": "m",
-      "genus": "Precis",
-      "species": "clelia"
-    },
-    {
-      "id": "A05",
-      "tag1": "A05",
-      "sex": "m",
-      "genus": "Atrophaneura",
-      "species": "horishana"
-    },
-    {
-      "id": "A07",
-      "tag1": "AF24",
-      "sex": "m",
-      "genus": "Cymothoe",
-      "species": "aramis",
-      "time": "13 AOUT 1976"
-    },
-    {
-      "id": "A08",
-      "tag1": "A08",
-      "genus": "Cymothoe",
-      "species": "sangaris?"
-    },
-    {
-      "id": "A09",
-      "tag1": "A09",
-      "genus": "Precis"
-    },
-    {
-      "id": "A10",
-      "tag1": "A10"
-    },
-    {
-      "id": "A11",
-      "tag1": "A11",
-      "genus": "Vanessa"
-    },
-    {
-      "id": "A12",
-      "tag1": "A12",
-      "genus": "Vanessa"
-    },
-    {
-      "id": "A13",
-      "tag1": "A13"
-    },
-    {
-      "id": "A14",
-      "tag1": "A14"
-    },
-    {
-      "id": "A99",
-      "tag1": "A99"
-    },
-    {
-      "id": "AF56",
-      "tag1": "AF56",
-      "sex": "m",
-      "genus": "Danaus",
-      "species": "petiverania"
-    },
-    {
-      "id": "AF57",
-      "tag1": "AF57",
-      "sex": "m",
-      "genus": "Papilio",
-      "species": "antheus"
-    },
-    {
-      "id": "u12",
-      "tag1": "u12",
-      "sex": "f",
-      "genus": "Actias",
-      "species": "luna",
-      "time": "90?",
-      "place": "home: at shop"
-    },
-    {
-      "id": "u23",
-      "tag1": "u23",
-      "genus": "Nymphalis",
-      "species": "vau-album ssp."
-    },
-    {
-      "id": "u25",
-      "tag1": "u25",
-      "sex": "f",
-      "genus": "Colias",
-      "species": "eurytheme/philodice",
-      "discarded": true,
-      "notes": "discarded, was completely destroyed in the trash drawer"
-    },
-    {
-      "id": "u28",
-      "tag1": "u28",
-      "genus": "Colias",
-      "species": "philodice"
-    },
-    {
-      "id": "u29",
-      "tag1": "u29",
-      "genus": "Colias",
-      "species": "philodice"
-    },
-    {
-      "id": "u32",
-      "tag1": "u32",
-      "genus": "Calasymbolus",
-      "species": "excaecatus"
-    },
-    {
-      "id": "u36",
-      "tag1": "u36",
-      "sex": "f",
-      "genus": "Papilio",
-      "species": "polyxenes",
-      "discarded": true,
-      "notes": "discarded, was completely destroyed in the trash drawer"
-    },
-    {
-      "id": "u37",
-      "tag1": "u37",
-      "sex": "m",
-      "genus": "Telea",
-      "species": "polyphemus"
-    },
-    {
-      "id": "u38",
-      "tag1": "u38",
-      "genus": "Euptychia",
-      "notes": "-- unmounted wings"
-    },
-    {
-      "id": "u43",
-      "tag1": "u43",
-      "genus": "Pieris",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "u44",
-      "tag1": "u44",
-      "notes": "-- sm. brown blue, pieces, unmounted"
-    },
-    {
-      "id": "u45",
-      "tag1": "u45",
-      "genus": "Euptoieta",
-      "species": "claudia",
-      "notes": "-- wings, unmounted"
-    },
-    {
-      "id": "u46",
-      "tag1": "u46",
-      "genus": "Pieris",
-      "species": "rapae",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "u47",
-      "tag1": "u47",
-      "genus": "Pieris",
-      "species": "rapae",
-      "notes": "-- unmounted"
-    },
-    {
-      "id": "xx1",
-      "genus": "Papilio",
-      "species": "g. glaucus",
-      "time": "1999-08-08",
-      "place": "found dead in S sawmill window; unmounted in bottom drawer"
-    },
-    {
-      "id": "xx2",
-      "genus": "Actias",
-      "species": "luna",
-      "time": "1996-08-17",
-      "place": "found by shop; already dead; unmounted in bottom drawer"
-    },
-    {
-      "id": "xx3",
-      "genus": "Sphinx",
-      "species": "vashti",
-      "notes": "Vashti Sphinx; was in the freezer in an unlabeled envelope, with the remaining VZ specimens and the Asheville moths; likely captured at Wardell"
-    }
-  ],
+  "specimen": [],
   "pupa": {
     "-label": "pnm1",
     "time": "1986-08-24",
