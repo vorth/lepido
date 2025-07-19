@@ -89,62 +89,60 @@ export const NewSession = ( props ) =>
 } 
 
 export const NewSpecimen = ( props ) =>
+{
+  const [ id, setId ] = createSignal( '' );
+  const [ genus, setGenus ] = createSignal( '' );
+  const [ species, setSpecies ] = createSignal( '' );
+  const [ time, setTime ] = createSignal( new Date() .toISOString() );
+  const [ latLong, setLatLong ] = createSignal( '' );
+  const changeGenus = (e,value) => setGenus( value );
+  const changeSpecies = (e,value) => setSpecies( value );
+  const changeTime = (e,value) =>
   {
-    const [ id, setId ] = createSignal( '' );
-    const [ genus, setGenus ] = createSignal( '' );
-    const [ species, setSpecies ] = createSignal( '' );
-    const [ time, setTime ] = createSignal( new Date() .toISOString() );
-    const [ latLong, setLatLong ] = createSignal( '' );
-    const changeGenus = (e,value) => setGenus( value );
-    const changeSpecies = (e,value) => setSpecies( value );
-    const changeTime = (e,value) =>
-    {
-      setTime( value );
-      lastTime = value;
+    setTime( value );
+    lastTime = value;
+  }
+
+  createEffect( () => {
+    if ( props.show ) {
+      setId( props.nextId() );
+      setTime( new Date() .toISOString() );
+      geoLocate(
+        position => {
+          setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
+        },
+        error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
+      )
     }
-  
-    createEffect( () => {
-      if ( props.show ) {
-        setId( props.nextId() );
-        geoLocate(
-          position => {
-            setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
-          },
-          error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
-        )
-      }
-    });
-  
-    const handleCancel = () =>
-    {
-      props.close();
-    }
-    const handleSave = () =>
-    {
-      props.close( { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() } );
-    }
-  
-    return (
-      <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
-        <DialogTitle id="specimen-dialog-title">New Specimen</DialogTitle>
-        <DialogContent>
-          <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
-          <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
-          <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
-          <TextField class="dialog-input" id="specimen-time" label="time" value={ time() } onChange={ changeTime } />
-          <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={handleSave} color="secondary">
-            Save
-          </Button>
-          <Button onClick={handleCancel} color="primary">
-            Cancel
-          </Button>
-        </DialogActions>
-      </Dialog>
-    )
-  } 
-  
-  
-  
+  });
+
+  const handleCancel = () =>
+  {
+    props.close();
+  }
+  const handleSave = () =>
+  {
+    props.close( { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() } );
+  }
+
+  return (
+    <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
+      <DialogTitle id="specimen-dialog-title">New Specimen</DialogTitle>
+      <DialogContent>
+        <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
+        <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
+        <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
+        <TextField class="dialog-input" id="specimen-time" label="time" value={ time() } onChange={ changeTime } />
+        <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+      </DialogContent>
+      <DialogActions>
+        <Button onClick={handleSave} color="secondary">
+          Save
+        </Button>
+        <Button onClick={handleCancel} color="primary">
+          Cancel
+        </Button>
+      </DialogActions>
+    </Dialog>
+  )
+} 

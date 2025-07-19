@@ -54,7 +54,7 @@ a:hover {
 
 #root {
   display: grid;
-  grid-template-rows: min-content min-content 1fr;
+  grid-template-rows: min-content min-content min-content 1fr;
   margin: 0 auto;
   --detail-color: rgb(88, 112, 132);
   --selection-color: rgb(183, 208, 229);
@@ -142,6 +142,16 @@ a:hover {
   margin: 10px;
 }
 
+.mode-buttons {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin: 5px;
+  gap: 5px;
+} 
+
+.active-mode {
+  background-color: #3F3F45;
+}
 
 @media ( min-width: 1000px ) {
 
@@ -156,7 +166,7 @@ a:hover {
   
   #collection {
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr min-content;
   }
   
   #picker {
