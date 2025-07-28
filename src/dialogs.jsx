@@ -8,15 +8,16 @@ import DialogTitle from '@suid/material/DialogTitle';
 import Button from '@suid/material/Button';
 import TextField from '@suid/material/TextField';
 
-let lastDate = new Date() .toISOString();
-let lastTime = new Date() .toISOString();
-
 const geoLocate = ( success, error ) =>
 {
   if (!navigator.geolocation) {
     alert( "Geolocation is not supported by your browser" );
   } else {
-    navigator.geolocation .getCurrentPosition( success, error );
+    navigator.geolocation .getCurrentPosition( success, error, {
+      enableHighAccuracy: true,
+      maximumAge: 0,
+      timeout: 5000
+    } );
   }
 }
 
@@ -26,7 +27,9 @@ export const createSession = ( success, failure ) =>
   const name = time;
   geoLocate(
     position => {
-      const latLong = `${position.coords.latitude}, ${position.coords.longitude}`;
+      const lat = position.coords.latitude.toFixed(5);
+      const lng = position.coords.longitude.toFixed(5);
+      const latLong = `${lat}, ${lng}`;
       success( { name, time, latLong, collectingSession: [], specimen: [] } );
     },
     error => failure( 'Geolocation failed: ' + JSON.stringify( error ) )
@@ -45,14 +48,16 @@ export const NewSession = ( props ) =>
   const changeDate = (e,value) =>
   {
     setDate( value );
-    lastDate = value;
   }
 
   createEffect( () => {
     if ( props.show ) {
+      setDate( new Date() .toISOString() );
       geoLocate(
         position => {
-          setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
+          const lat = position.coords.latitude.toFixed(5);
+          const lng = position.coords.longitude.toFixed(5);
+          setLatLong(`${lat}, ${lng}`);
         },
         error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
       )
@@ -100,7 +105,6 @@ export const NewSpecimen = ( props ) =>
   const changeTime = (e,value) =>
   {
     setTime( value );
-    lastTime = value;
   }
 
   createEffect( () => {
@@ -109,7 +113,9 @@ export const NewSpecimen = ( props ) =>
       setTime( new Date() .toISOString() );
       geoLocate(
         position => {
-          setLatLong( `${position.coords.latitude}, ${position.coords.longitude}` );
+          const lat = position.coords.latitude.toFixed(5);
+          const lng = position.coords.longitude.toFixed(5);
+          setLatLong( `${lat}, ${lng}` );
         },
         error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
       )
@@ -145,4 +151,4 @@ export const NewSpecimen = ( props ) =>
       </DialogActions>
     </Dialog>
   )
-} 
+}
