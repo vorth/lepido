@@ -2,12 +2,13 @@
 import { onMount, Show, useContext } from 'solid-js'
 
 import './App.css'
-import { createSession, NewSession, NewSpecimen } from './dialogs.jsx';
-import { AppContext, MainContext } from './context.jsx';
+import { NewSession, NewSpecimen } from './dialogs.jsx';
 import { CollectingSession } from './component/session.jsx';
 import { SpecimenDetails } from './component/details.jsx';
-import { COLLECTING, CURATING, VIEWING, useMode } from './context/mode.jsx';
-import { useSelection } from './context/selection.jsx';
+import { COLLECTING, CURATING, ModeProvider, VIEWING, useMode } from './context/mode.jsx';
+import { SelectionProvider, useSelection } from './context/selection.jsx';
+import { EditorProvider, useEditor } from './context/editor.jsx';
+import { DataProvider, useData } from './component/data.jsx';
 
 
 const queryParams = new URLSearchParams( window.location.search );
@@ -18,9 +19,10 @@ const AppUI = () =>
   const { mode, setMode } = useMode();
   const { setSelectedId } = useSelection();
   const { data, localData, sourceData, loadStorage,
-    loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
+    loadFromResource, loadFromStorage, saveDataLocally, backUpFile } = useData();
+  const {
     newSessionParent, saveNewSession, newSpecimenParent, saveNewSpecimen, getNextId,
-    lastOpenedSession } = useContext( MainContext );
+    lastOpenedSession } = useEditor();
 
   const sessionName = () => (lastOpenedSession && lastOpenedSession()?.join('/')) || '';
   
@@ -81,7 +83,17 @@ const AppUI = () =>
   );
 }
 
-const App = () => <AppContext><AppUI/></AppContext>;
+const App = () => (
+  <ModeProvider>
+    <DataProvider>
+      <SelectionProvider>
+        <EditorProvider>
+          <AppUI/>
+        </EditorProvider>
+      </SelectionProvider>
+    </DataProvider>
+  </ModeProvider>
+);
 
 export { App }
 

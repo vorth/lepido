@@ -1,14 +1,14 @@
 
-import { useContext, createSignal, createEffect, For, Show, batch } from 'solid-js';
+import { createSignal, createEffect, For, Show, batch } from 'solid-js';
 
 import { Specimen } from './specimen.jsx';
 import { useMode, VIEWING } from '../context/mode.jsx';
 import { useSelection } from '../context/selection.jsx';
-import { MainContext } from '../context.jsx';
+import { useEditor } from '../context/editor.jsx';
 
 const AddSession = props =>
 {
-  const { openSessionDialog } = useContext( MainContext );
+  const { openSessionDialog } = useEditor();
   const handleClick = e =>
   {
     e .stopPropagation();
@@ -22,7 +22,7 @@ const AddSession = props =>
 
 const AddSpecimen = props =>
 {
-  const { openSpecimenDialog } = useContext( MainContext );
+  const { openSpecimenDialog } = useEditor();
   const handleClick = e =>
   {
     e .stopPropagation();
@@ -38,7 +38,7 @@ export const CollectingSession = props =>
 {
   const { mode } = useMode();
   const { setSelectedId, selectedSpecimen } = useSelection();
-  const { lastOpenedSession, setLastOpenedSession } = useContext( MainContext );
+  const { lastOpenedSession, setLastOpenedSession } = useEditor();
   const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( true );
   const [ sessionsCollapsed, setSessionsCollapsed ] = createSignal( false );
   const name = () => props.session.name || 'COLLECTION';

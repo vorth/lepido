@@ -58,6 +58,7 @@ export const NewSession = ( props ) =>
           const lat = position.coords.latitude.toFixed(5);
           const lng = position.coords.longitude.toFixed(5);
           setLatLong(`${lat}, ${lng}`);
+          console.log(`new session geolocation: ${lat}, ${lng}`);          
         },
         error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
       )
@@ -116,6 +117,7 @@ export const NewSpecimen = ( props ) =>
           const lat = position.coords.latitude.toFixed(5);
           const lng = position.coords.longitude.toFixed(5);
           setLatLong( `${lat}, ${lng}` );
+          console.log(`new specimen geolocation: ${lat}, ${lng}`);
         },
         error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
       )

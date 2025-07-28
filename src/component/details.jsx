@@ -1,8 +1,8 @@
 import { createRenderEffect, For, Show, useContext } from 'solid-js';
 
-import { MainContext } from '../context.jsx';
 import { CURATING, useMode } from '../context/mode.jsx';
 import { useSelection } from '../context/selection.jsx';
+import { useEditor } from '../context/editor.jsx';
 
 export const Field = props =>
 {
@@ -15,7 +15,7 @@ export const Field = props =>
 
 export const SpecimenDetails = props =>
 {
-  const { lastOpenedSession, moveSpecimen } = useContext( MainContext );
+  const { lastOpenedSession, moveSpecimen } = useEditor();
   const { selectedSpecimen } = useSelection();
   const { mode } = useMode();
   const handleMove = () => moveSpecimen( specimen() );

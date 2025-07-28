@@ -1,5 +1,6 @@
 
 import { createContext, createSignal, useContext } from "solid-js";
+import { useData } from "../component/data";
 
 const findSpecimen = ( session, specimenID ) =>
 {
@@ -37,8 +38,9 @@ export const useSelection = () =>
 export const SelectionProvider = (props) =>
 {
   const [selectedId, setSelectedId] = createSignal(null);
+  const { data } = useData();;
 
-  const selectedSpecimen = () => findSpecimen( props.collection, selectedId() );
+  const selectedSpecimen = () => findSpecimen( data(), selectedId() );
 
   return (
     <SelectionContext.Provider value={{ selectedId, setSelectedId, selectedSpecimen }}>
