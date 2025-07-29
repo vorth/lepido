@@ -1,5 +1,5 @@
 {
-  "lastNumber": 893,
+  "lastNumber": 894,
   "locations": {
     "location": [
       {
@@ -9086,6 +9086,20 @@
               "time": "11:56",
               "latLong": "37.21265, -121.85955",
               "notes": "saw several more in this area, as iNat predicted"
+            }
+          ]
+        },
+        {
+          "name": "rancho-del-oso",
+          "time": "2025-07-28",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 894,
+              "genus": "Polygonia",
+              "species": "satyrus",
+              "time": "14:17",
+              "latLong": "37.10004, -122.27555"
             }
           ]
         }
