@@ -1,5 +1,5 @@
 {
-  "lastNumber": 894,
+  "lastNumber": 898,
   "locations": {
     "location": [
       {
@@ -9104,6 +9104,49 @@
           ]
         }
       ]
+    },
+    {
+      "name": "lepsoc-2025",
+      "time": "2025-07-31T05:05:05.097Z",
+      "latLong": "31.55544, -110.29551",
+      "collectingSession": [
+        {
+          "name": "wednesday",
+          "time": "2025-07-30",
+          "latLong": "31.62604, -110.17403",
+          "collectingSession": [],
+          "notes": "Sheets put up by Bruce (Walsh?) and others; I came with David and Megan McCarty, and John Beck.",
+          "specimen": [
+            {
+              "id": 895,
+              "genus": "Pachysphinx",
+              "species": "modesta",
+              "time": "20:49",
+              "notes": "Ammonia injection by Bruce"
+            },
+            {
+              "id": 896,
+              "genus": "Smerinthus",
+              "species": "saliceti",
+              "time": "21:01"
+            },
+            {
+              "id": 897,
+              "genus": "Manduca",
+              "species": "quinquemaculatus",
+              "time": "21:12",
+              "notes": "Ammonia injection by Bruce"
+            },
+            {
+              "id": 898,
+              "genus": "Syssphinx",
+              "species": "hubbardi",
+              "time": "21:22"
+            }
+          ]
+        }
+      ],
+      "specimen": []
     }
   ],
   "specimen": [],
