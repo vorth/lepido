@@ -1,5 +1,5 @@
 {
-  "lastNumber": 898,
+  "lastNumber": 914,
   "locations": {
     "location": [
       {
@@ -9113,35 +9113,157 @@
         {
           "name": "wednesday",
           "time": "2025-07-30",
+          "collectingSession": [
+            {
+              "name": "san-pedro-river",
+              "notes": "Sheets put up by Bruce Walsh; I came with David and Megan McCarty, and John Beck.",
+              "latLong": "31.62604, -110.17403",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 895,
+                  "genus": "Pachysphinx",
+                  "species": "modesta",
+                  "time": "20:49",
+                  "notes": "Ammonia injection by Bruce"
+                },
+                {
+                  "id": 896,
+                  "genus": "Smerinthus",
+                  "species": "saliceti",
+                  "time": "21:01"
+                },
+                {
+                  "id": 897,
+                  "genus": "Manduca",
+                  "species": "quinquemaculatus",
+                  "time": "21:12",
+                  "notes": "Ammonia injection by Bruce"
+                },
+                {
+                  "id": 898,
+                  "genus": "Syssphinx",
+                  "species": "hubbardi",
+                  "time": "21:22"
+                }
+              ]
+            },
+            {
+              "name": "bruce-walsh-traps",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 899,
+                  "genus": "Neumoegenia",
+                  "species": "poetica"
+                },
+                {
+                  "id": 900,
+                  "genus": "Neumoegenia",
+                  "species": "poetica"
+                },
+                {
+                  "id": 901,
+                  "genus": "Neumoegenia",
+                  "species": "poetica"
+                },
+                {
+                  "id": 902,
+                  "genus": "Neumoegenia",
+                  "species": "poetica"
+                },
+                {
+                  "id": 903,
+                  "genus": "Virbia",
+                  "species": "costata"
+                },
+                {
+                  "id": 904,
+                  "genus": "Virbia",
+                  "species": "costata"
+                },
+                {
+                  "id": 905,
+                  "genus": "Virbia",
+                  "species": "costata"
+                },
+                {
+                  "id": 906,
+                  "genus": "Virbia",
+                  "species": "costata"
+                },
+                {
+                  "id": 907,
+                  "genus": "Virbia",
+                  "species": "costata"
+                },
+                {
+                  "id": 908,
+                  "genus": "Virbia",
+                  "species": "costata"
+                }
+              ]
+            },
+            {
+              "name": "trapped-tub-unknown",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 909,
+                  "genus": "Lasiocampid",
+                  "species": "brown"
+                },
+                {
+                  "id": 910,
+                  "genus": "Catocala",
+                  "species": ""
+                }
+              ]
+            }
+          ],
+          "specimen": []
+        },
+        {
+          "name": "thursday",
+          "time": "2025-07-31",
           "latLong": "31.62604, -110.17403",
-          "collectingSession": [],
-          "notes": "Sheets put up by Bruce Walsh and others; I came with David and Megan McCarty, and John Beck.",
-          "specimen": [
+          "collectingSession": [
             {
-              "id": 895,
-              "genus": "Pachysphinx",
-              "species": "modesta",
-              "time": "20:49",
-              "notes": "Ammonia injection by Bruce"
+              "name": "miller-canyon",
+              "notes": "with David and Megan McCarty",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 911,
+                  "latLong": "31.42618, -110.26047",
+                  "time": "15:56",
+                  "notes": "blue"
+                },
+                {
+                  "id": 912,
+                  "notes": "small black skipper",
+                  "time": "16:45",
+                  "latLong": "31.41670, -110.27392"
+                }
+              ]
             },
             {
-              "id": 896,
-              "genus": "Smerinthus",
-              "species": "saliceti",
-              "time": "21:01"
-            },
-            {
-              "id": 897,
-              "genus": "Manduca",
-              "species": "quinquemaculatus",
-              "time": "21:12",
-              "notes": "Ammonia injection by Bruce"
-            },
-            {
-              "id": 898,
-              "genus": "Syssphinx",
-              "species": "hubbardi",
-              "time": "21:22"
+              "name": "carr-canyon-sheets",
+              "latLong": "31.44847, -110.28335",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 913,
+                  "notes": "small sphinx moth",
+                  "time": "20:20"
+                },
+                {
+                  "id": 914,
+                  "genus": "Eacles",
+                  "species": "oslari",
+                  "time": "22:09"
+                }
+              ]
             }
           ]
         }
