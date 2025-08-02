@@ -1,5 +1,5 @@
 {
-  "lastNumber": 914,
+  "lastNumber": 925,
   "locations": {
     "location": [
       {
@@ -9144,7 +9144,8 @@
                   "id": 898,
                   "genus": "Syssphinx",
                   "species": "hubbardi",
-                  "time": "21:22"
+                  "time": "21:22",
+                  "notes": "Brian Scholtens found the sole example on the side-nets"
                 }
               ]
             },
@@ -9207,16 +9208,18 @@
             {
               "name": "trapped-tub-unknown",
               "collectingSession": [],
+              "notes": "IDs by Bruce Walsh",
               "specimen": [
                 {
                   "id": 909,
-                  "genus": "Lasiocampid",
-                  "species": "brown"
+                  "genus": "Caloecia",
+                  "species": "juvenalis",
+                  "notes": "medium-large brown lasiocampid"
                 },
                 {
                   "id": 910,
                   "genus": "Catocala",
-                  "species": ""
+                  "species": "amatrix"
                 }
               ]
             }
@@ -9264,6 +9267,92 @@
                   "time": "22:09"
                 }
               ]
+            }
+          ]
+        },
+        {
+          "name": "friday",
+          "time": "2025-08-01",
+          "notes": "Skipped PM LepSoc talks with David and Megan McCarty, and drove west.  Trees were pretty dry up high, though undergrowth was mostly green everywhere",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 915,
+              "genus": "",
+              "species": "ceraunus",
+              "latLong": "31.44487,110.44662",
+              "time": "12:43"
+            },
+            {
+              "id": 916,
+              "genus": "",
+              "species": "ceraunus",
+              "latLong": "31.42618,110.44890",
+              "time": "13:08"
+            },
+            {
+              "id": 917,
+              "genus": "",
+              "species": "ceraunus",
+              "latLong": "31.42618,-110.44890",
+              "time": "13:12"
+            },
+            {
+              "id": 918,
+              "genus": "",
+              "species": "",
+              "notes": "dainty sulfur caught by David",
+              "latLong": "31.42618,-110.44890",
+              "time": "13:12"
+            },
+            {
+              "id": 919,
+              "genus": "small",
+              "species": "skipper",
+              "latLong": "31.42696,-110.44843",
+              "time": "13:27"
+            },
+            {
+              "id": 920,
+              "genus": "medium",
+              "species": "skipper",
+              "latLong": "31.42702,-110.44846",
+              "time": "13:29"
+            },
+            {
+              "id": 921,
+              "genus": "Pieris",
+              "species": "protodice",
+              "latLong": "31.42508,-110.44843",
+              "time": "13:45"
+            },
+            {
+              "id": 922,
+              "genus": "small",
+              "species": "skipper",
+              "latLong": "31.41810,-110.43054",
+              "time": "14:18"
+            },
+            {
+              "id": 923,
+              "genus": "Eurema",
+              "species": "",
+              "latLong": "31.41869,-110.42971",
+              "time": "14:48"
+            },
+            {
+              "id": 924,
+              "genus": "Chlosyne",
+              "species": "lacinia",
+              "latLong": "31.41782,-110.43072",
+              "time": "14:41"
+            },
+            {
+              "id": 925,
+              "genus": "Chlosyne",
+              "species": "lacinia",
+              "latLong": "31.44464,-110.44683",
+              "time": "15:07"
             }
           ]
         }
