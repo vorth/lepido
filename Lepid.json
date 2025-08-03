@@ -1,5 +1,5 @@
 {
-  "lastNumber": 932,
+  "lastNumber": 933,
   "locations": {
     "location": [
       {
@@ -9369,7 +9369,16 @@
             },
             {
               "id": 927,
-              "notes": "sphingid, but round-tipped wings?"
+              "genus": "Crinodes",
+              "species":"biedermani",
+              "notes": "Notodontid, identified by James Adams and Brian Scholtens"
+            },
+            {
+              "id": 933,
+              "genus": "Stamnodes",
+              "species": "deceptiva",
+              "time": "",
+              "latLong": "31.55546, -110.29550"
             }
           ]
         },
