@@ -1,5 +1,5 @@
 {
-  "lastNumber": 925,
+  "lastNumber": 932,
   "locations": {
     "location": [
       {
@@ -9355,6 +9355,77 @@
               "time": "15:07"
             }
           ]
+        },
+        {
+          "name": "Simon-trap",
+          "time": "2025-08-01",
+          "notes": "overnight trap placed by Colin and Brevan",
+          "latLong": "31.36263, -110.30007",
+          "specimen": [
+            {
+              "id": 926,
+              "genus": "Eacles",
+              "species": "oslari"
+            },
+            {
+              "id": 927,
+              "notes": "sphingid, but round-tipped wings?"
+            }
+          ]
+        },
+        {
+          "name": "saturday",
+          "time": "2025-08-03T00:09:05.004Z",
+          "latLong": "31.55547, -110.29549",
+          "collectingSession": [
+            {
+              "name": "afternoon",
+              "notes": "on the army base with David and Megan McCarty",
+              "time": "2025-08-03T00:09:14.659Z",
+              "latLong": "31.55547, -110.29548",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 928,
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "notes": "collected by Megan McCarty",
+                  "time": "13:48",
+                  "latLong": "31.54200,-110.36260"
+                },
+                {
+                  "id": 929,
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "time": "13:53",
+                  "latLong": "31.54200,-110.36260"
+                },
+                {
+                  "id": 930,
+                  "genus": "Battus",
+                  "species": "philenor",
+                  "time": "15:11",
+                  "latLong": "31.54780,-110.36067"
+                },
+                {
+                  "id": 931,
+                  "genus": "Battus",
+                  "species": "philenor",
+                  "notes": "collected by David McCarty",
+                  "time": "15:12",
+                  "latLong": "31.54759,-110.36071"
+                },
+                {
+                  "id": 932,
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "time": "15:34",
+                  "latLong": "31.54772,-110.36145"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         }
       ],
       "specimen": []
