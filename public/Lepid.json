@@ -1,5 +1,5 @@
 {
-  "lastNumber": 933,
+  "lastNumber": 945,
   "locations": {
     "location": [
       {
@@ -9370,14 +9370,13 @@
             {
               "id": 927,
               "genus": "Crinodes",
-              "species":"biedermani",
+              "species": "biedermani",
               "notes": "Notodontid, identified by James Adams and Brian Scholtens"
             },
             {
               "id": 933,
               "genus": "Stamnodes",
               "species": "deceptiva",
-              "time": "",
               "latLong": "31.55546, -110.29550"
             }
           ]
@@ -9434,6 +9433,140 @@
               ]
             }
           ],
+          "specimen": []
+        },
+        {
+          "name": "sunday",
+          "time": "2025-08-03",
+          "notes": "Mike Young drove his pickup truck; Megan and David McCarty joined us at Montezuma Pass",
+          "collectingSession": [
+            {
+              "name": "switchback",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 934,
+                  "tag": "A",
+                  "genus": "variegated",
+                  "species": "",
+                  "time": "08:08",
+                  "latLong": "31.35200,-110.27720"
+                },
+                {
+                  "id": 935,
+                  "tag": "B",
+                  "genus": "Cissia",
+                  "species": "cheneyorum",
+                  "time": "08:09",
+                  "latLong": "31.35199,-110.27721"
+                },
+                {
+                  "id": 936,
+                  "tag": "C",
+                  "genus": "Eurema",
+                  "species": "",
+                  "time": "08:24",
+                  "latLong": "31.35202,-110.27723"
+                },
+                {
+                  "id": 937,
+                  "tag": "D",
+                  "notes": "forester moth",
+                  "time": "08:24",
+                  "latLong": "31.35202,-110.27723"
+                },
+                {
+                  "id": 944,
+                  "tag": "O",
+                  "notes": "sleepy orange, caught on the way back down",
+                  "genus": "Eurema",
+                  "time": "12:34",
+                  "latLong": "31.35202,-110.27723"
+                }
+              ]
+            },
+            {
+              "name": "montezuma-pass",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 938,
+                  "tag": "E",
+                  "genus": "Chlosyne",
+                  "species": "theona",
+                  "time": "08:40",
+                  "latLong": "31.35105,-110.28546"
+                },
+                {
+                  "id": 939,
+                  "tag": "F",
+                  "notes": "duskywing, pair caught together",
+                  "time": "09:12",
+                  "latLong": "31.34682,-110.28480"
+                },
+                {
+                  "id": 940,
+                  "tag": "F",
+                  "notes": "duskywing, pair caught together",
+                  "time": "09:12",
+                  "latLong": "31.34682,-110.28480"
+                },
+                {
+                  "id": 941,
+                  "tag": "G",
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "time": "09:25",
+                  "latLong": "31.34581,-110.28466"
+                },
+                {
+                  "id": 942,
+                  "notes": "Duskywing",
+                  "tag": "H",
+                  "time": "09:33",
+                  "latLong": "31.34596,-110.28480"
+                },
+                {
+                  "id": 943,
+                  "tag": "I",
+                  "genus": "Chlosyne",
+                  "species": "theona",
+                  "time": "09:38",
+                  "latLong": "31.34581,-110.28452"
+                }
+              ]
+            },
+            {
+              "name": "copper-canyon",
+              "time": "11:30",
+              "latLong": "31.36255,-110.30040",
+              "collectingSession": [],
+              "specimen": [],
+              "notes": "puddling patches, variegated, sleepy orange, theona, Reakirt's blues, skipperling",
+              "sighting": []
+            },
+            {
+              "name": "base-lake-house",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 945,
+                  "tag": "N",
+                  "genus": "Phoebis",
+                  "species": "marcellina",
+                  "time": "15:11",
+                  "latLong": "31.54740,-110.36059"
+                }
+              ]
+            }
+          ],
+          "specimen": []
+        },
+        {
+          "name": "monday",
+          "time": "2025-08-04T04:49:48.356Z",
+          "latLong": "31.55544, -110.29548",
+          "collectingSession": [],
           "specimen": []
         }
       ],
