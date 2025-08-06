@@ -1,5 +1,5 @@
 {
-  "lastNumber": 945,
+  "lastNumber": 963,
   "locations": {
     "location": [
       {
@@ -9564,9 +9564,162 @@
         },
         {
           "name": "monday",
-          "time": "2025-08-04T04:49:48.356Z",
-          "latLong": "31.55544, -110.29548",
-          "collectingSession": [],
+          "time": "2025-08-04",
+          "notes": "Met David and Megan McCarty at the Harshaw Creek Trailhead, to collect together until they had to leave",
+          "collectingSession": [
+            {
+              "name": "puddle-party",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 946,
+                  "notes": "J red satyr by Megan",
+                  "genus": "Cissia",
+                  "species": "cheneyorum",
+                  "time": "07:59",
+                  "latLong": "31.49940,-110.70317"
+                },
+                {
+                  "id": 947,
+                  "genus": "Texola",
+                  "species": "elada",
+                  "time": "08:03",
+                  "latLong": "31.49940,-110.70317"
+                },
+                {
+                  "id": 948,
+                  "notes": "L larger crescent by David",
+                  "genus": "Texola",
+                  "species": "elada",
+                  "time": "08:07",
+                  "latLong": "31.49950,-110.70316"
+                },
+                {
+                  "id": 949,
+                  "notes": "M sm crescent by Megan",
+                  "genus": "Texola",
+                  "species": "elada",
+                  "time": "08:10",
+                  "latLong": "31.49947,-110.70304"
+                },
+                {
+                  "id": 950,
+                  "notes": "Q med skipper",
+                  "species": "",
+                  "time": "08:35",
+                  "latLong": "31.49941,-110.70295"
+                },
+                {
+                  "id": 951,
+                  "genus": "Libytheana",
+                  "species": "carinenta",
+                  "time": "08:41",
+                  "latLong": "31.49947,-110.70304"
+                },
+                {
+                  "id": 952,
+                  "genus": "Hemiargus",
+                  "species": "ceraunus",
+                  "time": "09:14",
+                  "latLong": "31.49955,-110.70305"
+                },
+                {
+                  "id": 953,
+                  "notes": "X sm skipper by Megan",
+                  "species": "",
+                  "time": "09:17",
+                  "latLong": "31.49940,-110.70314"
+                },
+                {
+                  "id": 954,
+                  "notes": "Y hoary skipper by Megan",
+                  "species": "",
+                  "time": "09:42",
+                  "latLong": "31.49940,-110.70314"
+                },
+                {
+                  "id": 955,
+                  "notes": "Z med bordered skipper",
+                  "species": "",
+                  "time": "09:43",
+                  "latLong": "31.49948,-110.70302"
+                }
+              ]
+            },
+            {
+              "name": "cemetery",
+              "notes": "Nectaring frenzy on lone blooming Seepwillow, with roots in the running stream",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 956,
+                  "genus": "Emesis",
+                  "species": "zela",
+                  "sex": "m",
+                  "time": "10:51",
+                  "latLong": "31.46798,-110.70876"
+                },
+                {
+                  "id": 957,
+                  "genus": "Calephelis",
+                  "species": "nemesis",
+                  "sex": "f",
+                  "time": "11:08",
+                  "latLong": "31.46798,-110.70876"
+                },
+                {
+                  "id": 958,
+                  "genus": "Texola",
+                  "species": "elada",
+                  "time": "11:14",
+                  "latLong": "31.46800,-110.70866"
+                },
+                {
+                  "id": 959,
+                  "notes": "Dymasia",
+                  "species": "dymas",
+                  "time": "11:20",
+                  "latLong": "31.46799,-110.70862"
+                }
+              ]
+            },
+            {
+              "name": "seepwillow",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 960,
+                  "sex": "f",
+                  "genus": "Danaus",
+                  "species": "gilippus",
+                  "time": "11:49",
+                  "latLong": "31.47474,-110.70028"
+                },
+                {
+                  "id": 961,
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "gilippus",
+                  "time": "11:51",
+                  "latLong": "31.47475,-110.70029"
+                },
+                {
+                  "id": 962,
+                  "genus": "Callophrys",
+                  "species": "gryneus siva",
+                  "time": "11:54",
+                  "latLong": "31.47473,-110.70021"
+                },
+                {
+                  "id": 963,
+                  "genus": "Callophrys",
+                  "species": "gryneus siva",
+                  "time": "11:54",
+                  "latLong": "31.47473,-110.70021"
+                }
+              ]
+            }
+          ],
           "specimen": []
         }
       ],
