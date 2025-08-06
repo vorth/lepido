@@ -1287,7 +1287,7 @@
                   "id": "255",
                   "tag1": "255",
                   "sex": "m",
-                  "genus": "Pieris",
+                  "genus": "Pontia",
                   "species": "p. protodice"
                 },
                 {
@@ -1398,6 +1398,8 @@
                 {
                   "id": "270",
                   "tag1": "270",
+                  "genus": "Euptoieta",
+                  "species": "claudia",
                   "notes": "-- variegated fritillary"
                 }
               ]
@@ -1417,21 +1419,21 @@
                   "id": "272",
                   "tag1": "272",
                   "sex": "f",
-                  "genus": "Pieris",
+                  "genus": "Pontia",
                   "species": "p. protodice"
                 },
                 {
                   "id": "273",
                   "tag1": "273",
                   "sex": "m",
-                  "genus": "Pieris",
+                  "genus": "Pontia",
                   "species": "p. protodice"
                 },
                 {
                   "id": "274",
                   "tag1": "274",
                   "sex": "f",
-                  "genus": "Pieris",
+                  "genus": "Pontia",
                   "species": "p. protodice"
                 },
                 {
@@ -2595,7 +2597,7 @@
             {
               "id": "535",
               "sex": "f",
-              "genus": "Pieris",
+              "genus": "Pontia",
               "species": "p. protodice"
             },
             {
@@ -4214,7 +4216,7 @@
               "id-1977": "249",
               "id-green": "217",
               "sex": "f",
-              "genus": "Pieris",
+              "genus": "Pontia",
               "species": "p. protodice",
               "time": "1977-06-29 1125",
               "latLong": "42.32785, -89.68998",
@@ -9238,6 +9240,8 @@
               "specimen": [
                 {
                   "id": 911,
+                  "genus": "Hemiargus",
+                  "species": "ceraunus",
                   "latLong": "31.42618, -110.26047",
                   "time": "15:56",
                   "notes": "blue"
@@ -9258,6 +9262,8 @@
                 {
                   "id": 913,
                   "notes": "small sphinx moth",
+                  "genus": "Sphinx",
+                  "species": "dollii",
                   "time": "20:20"
                 },
                 {
@@ -9278,65 +9284,62 @@
           "specimen": [
             {
               "id": 915,
-              "genus": "",
+              "genus": "Hemiargus",
               "species": "ceraunus",
               "latLong": "31.44487,110.44662",
               "time": "12:43"
             },
             {
               "id": 916,
-              "genus": "",
+              "genus": "Hemiargus",
               "species": "ceraunus",
               "latLong": "31.42618,110.44890",
               "time": "13:08"
             },
             {
               "id": 917,
-              "genus": "",
+              "genus": "Hemiargus",
               "species": "ceraunus",
               "latLong": "31.42618,-110.44890",
               "time": "13:12"
             },
             {
               "id": 918,
-              "genus": "",
-              "species": "",
+              "genus": "Nathalis",
+              "species": "iole",
               "notes": "dainty sulfur caught by David",
               "latLong": "31.42618,-110.44890",
               "time": "13:12"
             },
             {
               "id": 919,
-              "genus": "small",
-              "species": "skipper",
+              "notes": "small skipper",
               "latLong": "31.42696,-110.44843",
               "time": "13:27"
             },
             {
               "id": 920,
-              "genus": "medium",
-              "species": "skipper",
+              "notes": "medium skipper",
               "latLong": "31.42702,-110.44846",
               "time": "13:29"
             },
             {
               "id": 921,
-              "genus": "Pieris",
+              "genus": "Pontia",
               "species": "protodice",
               "latLong": "31.42508,-110.44843",
               "time": "13:45"
             },
             {
               "id": 922,
-              "genus": "small",
-              "species": "skipper",
+              "notes": "small skipper",
               "latLong": "31.41810,-110.43054",
               "time": "14:18"
             },
             {
               "id": 923,
               "genus": "Eurema",
-              "species": "",
+              "species": "nicippe",
               "latLong": "31.41869,-110.42971",
               "time": "14:48"
             },
@@ -9357,7 +9360,7 @@
           ]
         },
         {
-          "name": "Simon-trap",
+          "name": "Colin-trap",
           "time": "2025-08-01",
           "notes": "overnight trap placed by Colin and Brevan",
           "latLong": "31.36263, -110.30007",
@@ -9447,8 +9450,8 @@
                 {
                   "id": 934,
                   "tag": "A",
-                  "genus": "variegated",
-                  "species": "",
+                  "genus": "Euptoieta",
+                  "species": "claudia",
                   "time": "08:08",
                   "latLong": "31.35200,-110.27720"
                 },
@@ -9464,7 +9467,7 @@
                   "id": 936,
                   "tag": "C",
                   "genus": "Eurema",
-                  "species": "",
+                  "species": "nicippe",
                   "time": "08:24",
                   "latLong": "31.35202,-110.27723"
                 },
@@ -9480,6 +9483,7 @@
                   "tag": "O",
                   "notes": "sleepy orange, caught on the way back down",
                   "genus": "Eurema",
+                  "species": "nicippe",
                   "time": "12:34",
                   "latLong": "31.35202,-110.27723"
                 }
@@ -9604,8 +9608,8 @@
                 },
                 {
                   "id": 950,
-                  "notes": "Q med skipper",
-                  "species": "",
+                  "genus": "Cogia",
+                  "species": "hippalus",
                   "time": "08:35",
                   "latLong": "31.49941,-110.70295"
                 },
@@ -9632,8 +9636,9 @@
                 },
                 {
                   "id": 954,
-                  "notes": "Y hoary skipper by Megan",
-                  "species": "",
+                  "notes": "hoary skipper by Megan",
+                  "genus": "Achalarus",
+                  "species": "casica",
                   "time": "09:42",
                   "latLong": "31.49940,-110.70314"
                 },
@@ -9685,7 +9690,15 @@
             },
             {
               "name": "seepwillow",
+              "notes": "Many species of insects nectaring en masse on more than a dozen Baccharis salicifolia (Seepwillow) plants in or on the water of Harshaw Creek",
               "collectingSession": [],
+              "sighting": [
+                {
+                  "genus": "Apodemia",
+                  "species": "palmeri",
+                  "notes": "nectaring right in front of me, but I missed it trying to avoid capturing the bees and wasps"
+                }
+              ],
               "specimen": [
                 {
                   "id": 960,
