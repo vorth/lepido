@@ -1,5 +1,5 @@
 {
-  "lastNumber": 963,
+  "lastNumber": 964,
   "locations": {
     "location": [
       {
@@ -9248,6 +9248,8 @@
                 },
                 {
                   "id": 912,
+                  "genus": "Staphylus",
+                  "species": "ceos",
                   "notes": "small black skipper",
                   "time": "16:45",
                   "latLong": "31.41670, -110.27392"
@@ -9333,6 +9335,8 @@
             {
               "id": 922,
               "notes": "small skipper",
+              "genus": "Staphylus",
+              "species": "ceos",
               "latLong": "31.41810,-110.43054",
               "time": "14:18"
             },
@@ -9346,14 +9350,14 @@
             {
               "id": 924,
               "genus": "Chlosyne",
-              "species": "lacinia",
+              "species": "lacinia crocale",
               "latLong": "31.41782,-110.43072",
               "time": "14:41"
             },
             {
               "id": 925,
               "genus": "Chlosyne",
-              "species": "lacinia",
+              "species": "lacinia crocale",
               "latLong": "31.44464,-110.44683",
               "time": "15:07"
             }
@@ -9399,7 +9403,7 @@
                 {
                   "id": 928,
                   "genus": "Chlosyne",
-                  "species": "lacinia",
+                  "species": "lacinia crocale",
                   "notes": "collected by Megan McCarty",
                   "time": "13:48",
                   "latLong": "31.54200,-110.36260"
@@ -9407,7 +9411,7 @@
                 {
                   "id": 929,
                   "genus": "Chlosyne",
-                  "species": "lacinia",
+                  "species": "lacinia crocale",
                   "time": "13:53",
                   "latLong": "31.54200,-110.36260"
                 },
@@ -9429,7 +9433,7 @@
                 {
                   "id": 932,
                   "genus": "Chlosyne",
-                  "species": "lacinia",
+                  "species": "lacinia crocale",
                   "time": "15:34",
                   "latLong": "31.54772,-110.36145"
                 }
@@ -9465,7 +9469,6 @@
                 },
                 {
                   "id": 936,
-                  "tag": "C",
                   "genus": "Eurema",
                   "species": "nicippe",
                   "time": "08:24",
@@ -9473,7 +9476,8 @@
                 },
                 {
                   "id": 937,
-                  "tag": "D",
+                  "genus": "Alypiodes",
+                  "species": "bimaculata",
                   "notes": "forester moth",
                   "time": "08:24",
                   "latLong": "31.35202,-110.27723"
@@ -9519,7 +9523,7 @@
                   "id": 941,
                   "tag": "G",
                   "genus": "Chlosyne",
-                  "species": "lacinia",
+                  "species": "lacinia crocale",
                   "time": "09:25",
                   "latLong": "31.34581,-110.28466"
                 },
@@ -9581,7 +9585,8 @@
                   "genus": "Cissia",
                   "species": "cheneyorum",
                   "time": "07:59",
-                  "latLong": "31.49940,-110.70317"
+                  "latLong": "31.49940,-110.70317",
+                  "collector": "Megan McCarty"
                 },
                 {
                   "id": 947,
@@ -9592,19 +9597,20 @@
                 },
                 {
                   "id": 948,
-                  "notes": "L larger crescent by David",
+                  "notes": "L",
                   "genus": "Texola",
                   "species": "elada",
                   "time": "08:07",
-                  "latLong": "31.49950,-110.70316"
+                  "latLong": "31.49950,-110.70316",
+                  "collector": "David McCarty"
                 },
                 {
                   "id": 949,
-                  "notes": "M sm crescent by Megan",
                   "genus": "Texola",
                   "species": "elada",
                   "time": "08:10",
-                  "latLong": "31.49947,-110.70304"
+                  "latLong": "31.49947,-110.70304",
+                  "collector": "Megan McCarty"
                 },
                 {
                   "id": 950,
@@ -9629,18 +9635,21 @@
                 },
                 {
                   "id": 953,
-                  "notes": "X sm skipper by Megan",
-                  "species": "",
+                  "notes": "lots of spots for a common sootywing",
+                  "genus": "Pholisora",
+                  "species": "catullus",
                   "time": "09:17",
-                  "latLong": "31.49940,-110.70314"
+                  "latLong": "31.49940,-110.70314",
+                  "collector": "Megan McCarty"
                 },
                 {
                   "id": 954,
-                  "notes": "hoary skipper by Megan",
+                  "notes": "hoary skipper",
                   "genus": "Achalarus",
                   "species": "casica",
                   "time": "09:42",
-                  "latLong": "31.49940,-110.70314"
+                  "latLong": "31.49940,-110.70314",
+                  "collector": "Megan McCarty"
                 },
                 {
                   "id": 955,
@@ -9648,6 +9657,14 @@
                   "species": "",
                   "time": "09:43",
                   "latLong": "31.49948,-110.70302"
+                },
+                {
+                  "id": 964,
+                  "genus": "Celotes",
+                  "species": "nessus",
+                  "time": "09:45",
+                  "latLong": "31.49948,-110.70302",
+                  "collector": "Megan McCarty"
                 }
               ]
             },
