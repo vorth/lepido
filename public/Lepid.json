@@ -9315,12 +9315,18 @@
             },
             {
               "id": 919,
+              "genus": "Amblyscirtes",
+              "species": "exoteria",
+              "sex": "m",
               "notes": "small skipper",
               "latLong": "31.42696,-110.44843",
               "time": "13:27"
             },
             {
               "id": 920,
+              "genus": "Amblyscirtes",
+              "species": "exoteria",
+              "sex": "f",
               "notes": "medium skipper",
               "latLong": "31.42702,-110.44846",
               "time": "13:29"
