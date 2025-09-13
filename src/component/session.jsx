@@ -34,6 +34,20 @@ const AddSpecimen = props =>
   );
 }
 
+const ImportSpecimens = props =>
+{
+  const { importSpecimens } = useEditor();
+  const handleClick = e =>
+  {
+    e .stopPropagation();
+    importSpecimens( props.parent );
+  }
+
+  return (
+    <button class='import-specimens add-button' onClick={handleClick}>+</button>
+  );
+}
+
 export const CollectingSession = props =>
 {
   const { mode } = useMode();
@@ -94,6 +108,7 @@ export const CollectingSession = props =>
           <AddSession parent={props.session}/>
         }>
           <AddSpecimen parent={props.session} />
+          <ImportSpecimens parent={props.session} />
         </Show>
       </Show>
     </div>

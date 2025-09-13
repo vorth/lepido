@@ -5,7 +5,7 @@ import './App.css'
 import { NewSession, NewSpecimen } from './dialogs.jsx';
 import { CollectingSession } from './component/session.jsx';
 import { SpecimenDetails } from './component/details.jsx';
-import { COLLECTING, CURATING, ModeProvider, VIEWING, useMode } from './context/mode.jsx';
+import { CURATING, ModeProvider, VIEWING, useMode } from './context/mode.jsx';
 import { SelectionProvider, useSelection } from './context/selection.jsx';
 import { EditorProvider, useEditor } from './context/editor.jsx';
 import { DataProvider, useData } from './component/data.jsx';
@@ -22,6 +22,7 @@ const AppUI = () =>
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile } = useData();
   const {
     newSessionParent, saveNewSession, newSpecimenParent, saveNewSpecimen, getNextId,
+    saveNewSpecimenFromDialog,
     lastOpenedSession } = useEditor();
 
   const sessionName = () => (lastOpenedSession && lastOpenedSession()?.join('/')) || '';
@@ -35,12 +36,6 @@ const AppUI = () =>
         }
       } );
     }
-
-    // if ( mode() === COLLECTING ) {
-    //   setTimeout(() => {
-    //     openSessionDialog( data() ); 
-    //   });
-    // }
   } );
 
   return (
@@ -48,7 +43,6 @@ const AppUI = () =>
       <div class="mode-buttons">
         <button class={`mode-button ${mode() === VIEWING ? 'active-mode' : ''}`} onClick={()=>setMode(VIEWING)}>VIEW</button>
         <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={()=>setMode(CURATING)}>CURATE</button>
-        <button class={`mode-button ${mode() === COLLECTING ? 'active-mode' : ''}`} onClick={()=>setMode(COLLECTING)}>COLLECT</button>
       </div>
       <div class="buttons">
         {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
@@ -75,9 +69,9 @@ const AppUI = () =>
           </div>
         </div>
       </div>
-      <Show when={mode() === COLLECTING}>
+      <Show when={mode() === CURATING}>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
-        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimen} nextId={getNextId} />
+        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimenFromDialog} nextId={getNextId} />
       </Show>
     </>
   );

@@ -60,6 +60,7 @@ a:hover {
   --selection-color: rgb(183, 208, 229);
   --session-color: rgb(48, 63, 75);
   --border-color: rgb(225, 210, 134);
+  --import-color: rgb(137, 58, 58);
 }
 
 #container {
@@ -131,6 +132,10 @@ a:hover {
 }
 .add-specimen {
   background-color: var(--detail-color);
+}
+.import-specimens {
+  background-color: var(--import-color);
+  right: 25px;
 }
 
 .dialog-input {

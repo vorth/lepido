@@ -1,4 +1,3 @@
-
 import { createContext, createSignal, useContext } from "solid-js";
 import { useData } from "../component/data";
 import { useSelection } from "./selection";
@@ -14,8 +13,7 @@ export const useEditor = () =>
   return context;
 }
 
-export const EditorProvider = (props) =>
-{
+export function EditorProvider(props) {
   const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
   const { data, updateData, saveDataLocally } = useData();
   const { setSelectedId } = useSelection();
@@ -44,20 +42,24 @@ export const EditorProvider = (props) =>
   {
     setNewSpecimenParent( parent );
   }
-  const saveNewSpecimen = newSpecimen =>
+  const saveNewSpecimen = ( newSpecimen, parent ) =>
   {
-    const parent = newSpecimenParent();
-    setNewSpecimenParent( null );
     if ( !!newSpecimen ) {
       if ( ! parent.specimen ) {
         parent.specimen = [];
       }
       parent.specimen .push( newSpecimen );
       data() .lastNumber = newSpecimen.id;
-      updateData();
-      saveDataLocally();
       setSelectedId( newSpecimen.id );
     }
+  }
+  const saveNewSpecimenFromDialog = newSpecimen =>
+  {
+    const parent = newSpecimenParent();
+    setNewSpecimenParent( null );
+    saveNewSpecimen( newSpecimen, parent );
+    updateData();
+    saveDataLocally();
   }
 
   const getCollectingSession = ( path ) =>
@@ -92,12 +94,65 @@ export const EditorProvider = (props) =>
     return lastId + 1;
   }
 
+  const importSpecimen = ( collection, photo, envelope ) => {
+    const { latitude, longitude, dateTimeOriginal, notes, temperatureF } = photo;
+    const id = getNextId();
+    const specimen = {
+      id,
+      envelope, temperatureF,
+      date: dateTimeOriginal,
+      latLong: `${Number(latitude).toFixed(5)}, ${Number(longitude).toFixed(5)}`
+    };
+    if ( notes ) {
+      specimen.notes = notes;
+    }
+    saveNewSpecimen( specimen, collection );
+  };
+
+  const importSpecimens = async (parent) => {
+    const input = document.createElement('input');
+    input.type = 'file';
+    input.accept = '.json';
+    
+    input.onchange = async (e) => {
+      const file = e.target.files[0];
+      if (!file) return;
+      
+      try {
+        const text = await file.text();
+        
+        const photos = JSON.parse(text);
+
+        if (!Array.isArray(photos)) {
+          throw new Error('Invalid photos file format - expected array');
+        }
+        
+        for (const photo of photos) {
+          const { latitude, longitude, dateTimeOriginal, qrCode } = photo;
+          if (!latitude || !longitude || !dateTimeOriginal || !qrCode) {
+            console.warn('Skipping photo with missing data:', photo);
+            continue;
+          }
+          importSpecimen( parent, photo, qrCode );
+        }
+        updateData();
+        saveDataLocally();
+        
+      } catch (err) {
+        alert(`Error importing specimens: ${err.message}`);
+      }
+    };
+    
+    input.click();
+  };
+
   const contextValue = {
     lastOpenedSession, setLastOpenedSession,
     newSessionParent, saveNewSession, openSessionDialog,
-    newSpecimenParent, saveNewSpecimen, openSpecimenDialog, getNextId,
+    newSpecimenParent, saveNewSpecimen, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
     openSessionDialog, openSpecimenDialog,
-    getCollectingSession, moveSpecimen
+    getCollectingSession, moveSpecimen,
+    importSpecimens,
   };
 
   return (
