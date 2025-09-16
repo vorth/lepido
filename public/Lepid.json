@@ -1,5 +1,5 @@
 {
-  "lastNumber": 964,
+  "lastNumber": 965,
   "locations": {
     "location": [
       {
@@ -9102,6 +9102,23 @@
               "species": "satyrus",
               "time": "14:17",
               "latLong": "37.10004, -122.27555"
+            }
+          ]
+        },
+        {
+          "name": "sept",
+          "time": "2025-09-13T19:18:16.634Z",
+          "latLong": "37.28426, -122.03245",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 965,
+              "genus": "Phyciodes",
+              "species": "pulchella",
+              "temperatureF": "70.3",
+              "date": "9/13/25, 11:53:54",
+              "latLong": "37.28432, -122.03305",
+              "notes": "nectaring on California Buckwheat (Eriogonum fasciculatum)"
             }
           ]
         }
