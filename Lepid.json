@@ -1,5 +1,5 @@
 {
-  "lastNumber": 965,
+  "lastNumber": 967,
   "locations": {
     "location": [
       {
@@ -2806,8 +2806,11 @@
             },
             {
               "id": "A09",
-              "tag1": "A09",
-              "genus": "Precis"
+              "genus": "Junonia",
+              "location": {
+                "place": "Brazil"
+              },
+              "notes": "BR199 in Butterly Company catalog"
             },
             {
               "id": "A10",
@@ -9106,19 +9109,54 @@
           ]
         },
         {
-          "name": "sept",
-          "time": "2025-09-13T19:18:16.634Z",
-          "latLong": "37.28426, -122.03245",
+          "name": "cool-mylitta",
           "collectingSession": [],
           "specimen": [
             {
               "id": 965,
               "genus": "Phyciodes",
-              "species": "pulchella",
+              "species": "mylitta",
               "temperatureF": "70.3",
               "date": "9/13/25, 11:53:54",
               "latLong": "37.28432, -122.03305",
               "notes": "nectaring on California Buckwheat (Eriogonum fasciculatum)"
+            }
+          ]
+        },
+        {
+          "name": "mt-umunhum-10",
+          "temperatureF": "69.6",
+          "date": "9/27/25, 12:30:00",
+          "latLong": "37.17591, -121.86420",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 966,
+              "genus": "Ochlodes",
+              "species": "sylvanoides"
+            },
+            {
+              "id": 967,
+              "genus": "Ochlodes",
+              "species": "sylvanoides"
+            }
+          ]
+        },
+        {
+          "name": "lantana-oct-4",
+          "date": "2025/10/4, 14:30",
+          "latLong": "37.28430, -122.03305",
+          "notes": "nectaring on white Lantana and E. fasciculatum",
+          "collectingSession": [],
+          "specimen": [],
+          "sighting": [
+            {
+              "genus": "Hylephila",
+              "species": "phyleus"
+            },
+            {
+              "genus": "Junonia",
+              "species": "grisea"
             }
           ]
         }
