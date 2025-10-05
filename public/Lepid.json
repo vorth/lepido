@@ -2806,8 +2806,11 @@
             },
             {
               "id": "A09",
-              "tag1": "A09",
-              "genus": "Precis"
+              "genus": "Junonia",
+              "location": {
+                "place": "Brazil"
+              },
+              "notes": "BR199 in Butterly Company catalog"
             },
             {
               "id": "A10",
