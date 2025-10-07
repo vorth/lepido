@@ -2807,10 +2807,11 @@
             {
               "id": "A09",
               "genus": "Junonia",
+              "species": "genoveva",
+              "notes": "ID by Jeffrey Marcus, email 2025-10-07; BR199 in Butterly Company catalog",
               "location": {
                 "place": "Brazil"
-              },
-              "notes": "BR199 in Butterly Company catalog"
+              }
             },
             {
               "id": "A10",
@@ -6269,12 +6270,8 @@
           "time": "08-29 1500",
           "place": "UCV Maracay, at MIZA",
           "genus": "Junonia",
-          "species": "evarete",
-          "notes": "sim. 619; killed in car grill; found at tangerine stand at start of multi-lane autopista",
-          "reference": {
-            "ref": "kaufman",
-            "#text": "p. 206-7"
-          }
+          "species": "zonalis",
+          "notes": "ID by Jeffrey Marcus, email 2025-10-07; sim. 619; killed in car grill; found at tangerine stand at start of multi-lane autopista"
         }
       ]
     },
@@ -6717,7 +6714,9 @@
             {
               "id": "705",
               "tag1": "vz0514",
-              "notes": "Junonia (azul)"
+              "genus": "Junonia",
+              "species": "divaricata",
+              "notes": "ID by Jeffrey Marcus, email 2025-10-07"
             },
             {
               "id": "706",
@@ -6727,7 +6726,9 @@
             {
               "id": "707",
               "tag1": "vz0516",
-              "notes": "Junonia (azul)"
+              "genus": "Junonia",
+              "species": "divaricata",
+              "notes": "ID by Jeffrey Marcus, email 2025-10-07"
             },
             {
               "id": "708",
