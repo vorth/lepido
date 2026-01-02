@@ -1163,120 +1163,12 @@
           "specimen": []
         },
         {
-          "name": "201-300",
+          "name": "254-300",
           "collectingSession": [
             {
-              "name": "239-270",
+              "name": "254-270",
               "collectingSession": [],
               "specimen": [
-                {
-                  "id": "239",
-                  "tag1": "u57?",
-                  "genus": "Autographa",
-                  "notes": "sm. brown moth w/pearly squiggle, unmounted; 77 data says 'Anagrapha falcifera' (not in Holland)"
-                },
-                {
-                  "id": "240",
-                  "tag1": "267?",
-                  "tag2": "240?",
-                  "-num2": "267",
-                  "sex": "f",
-                  "genus": "Phragmatobia",
-                  "species": "fuliginosa",
-                  "notes": "-- sm. red & brown translucent moth"
-                },
-                {
-                  "id": "241",
-                  "tag1": "241",
-                  "sex": "m",
-                  "genus": "Calasymbolus",
-                  "species": "myops"
-                },
-                {
-                  "id": "242",
-                  "tag1": "242?",
-                  "tag2": "269?",
-                  "-num2": "269",
-                  "genus": "Scepsis",
-                  "species": "fulvicollis",
-                  "notes": "-- sm. Ctenuchid moth"
-                },
-                {
-                  "id": "243",
-                  "tag1": "243",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "mira"
-                },
-                {
-                  "id": "244",
-                  "tag1": "244",
-                  "sex": "m",
-                  "genus": "Haematopsis",
-                  "species": "grataria"
-                },
-                {
-                  "id": "245",
-                  "tag1": "245",
-                  "sex": "f",
-                  "genus": "Haematopsis",
-                  "species": "grataria"
-                },
-                {
-                  "id": "246",
-                  "tag1": "246",
-                  "sex": "f",
-                  "genus": "Phyciodes",
-                  "species": "t. tharos (morpheus)"
-                },
-                {
-                  "id": "247",
-                  "tag1": "247",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "mira"
-                },
-                {
-                  "id": "248",
-                  "tag1": "248",
-                  "sex": "m",
-                  "genus": "Colias",
-                  "species": "eurytheme (amphidusa)",
-                  "notes": "-- alfalfa"
-                },
-                {
-                  "id": "249",
-                  "tag1": "249",
-                  "sex": "m",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "250",
-                  "tag1": "250",
-                  "sex": "m",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "251",
-                  "tag1": "251",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "palaeogama"
-                },
-                {
-                  "id": "252",
-                  "tag1": "252",
-                  "sex": "m",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "253",
-                  "tag1": "253",
-                  "notes": "-- mottled brown noctuid ~332"
-                },
                 {
                   "id": "254",
                   "tag1": "254",
@@ -4414,6 +4306,192 @@
               "time": "1977-07-05 23:45",
               "collector": "Layne Vorthmann",
               "notes": "white spanworm; sm. yellowish geometrid; sim. to 231"
+            }
+          ]
+        },
+        {
+          "name": "july-06-lighttrap",
+          "time": "1977-07-06",
+          "notes": "at light trap (sheet & flood) in shop framing",
+          "latLong": "42.32777, -89.69026",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "239",
+              "tag1": "u57?",
+              "id-1977": "266",
+              "time": "1977-07-06 22:08",
+              "genus": "Anagrapha",
+              "species": "falcifera",
+              "notes": "sm. brown moth w/pearly squiggle, unmounted"
+            },
+            {
+              "id": "240",
+              "id-1977": "267",
+              "sex": "f",
+              "time": "1977-07-06 22:30",
+              "genus": "Phragmatobia",
+              "species": "fuliginosa",
+              "notes": "-- sm. red & brown translucent moth"
+            },
+            {
+              "id": "241",
+              "id-1977": "268",
+              "sex": "m",
+              "time": "1977-07-06 23:05",
+              "genus": "Calasymbolus",
+              "species": "myops"
+            },
+            {
+              "id": "242",
+              "id-1977": "269",
+              "time": "1977-07-07 00:02",
+              "genus": "Scepsis",
+              "species": "fulvicollis",
+              "notes": "-- sm. Ctenuchid moth"
+            },
+            {
+              "id": "243",
+              "id-1977": "270",
+              "sex": "m",
+              "time": "1977-07-07 00:04",
+              "genus": "Catocala",
+              "species": "mira",
+              "notes": "orange underwing, sim.to 232"
+            },
+            {
+              "id": "244",
+              "id-1977": "271",
+              "sex": "m",
+              "time": "1977-07-07 00:35",
+              "genus": "Haematopsis",
+              "species": "grataria",
+              "notes": "Chickweed geometer"
+            },
+            {
+              "id": "245",
+              "id-1977": "272",
+              "sex": "f",
+              "time": "1977-07-07 00:35",
+              "genus": "Haematopsis",
+              "species": "grataria",
+              "notes": "Chickweed geometer"
+            }
+          ]
+        },
+        {
+          "name": "july-09",
+          "time": "1977-07-09 14:50",
+          "notes": "yellow flowering bush in back garden",
+          "latLong": "42.32777, -89.69026",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "246",
+              "sex": "f",
+              "genus": "Phyciodes",
+              "species": "t. tharos (morpheus)",
+              "notes": "first to be spread with strips of D-data paper"
+            }
+          ]
+        },
+        {
+          "name": "july-12",
+          "time": "1977-07-12 22:10",
+          "notes": "at SE flood light",
+          "latLong": "42.32733, -89.69013",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "247",
+              "id-1977": "274",
+              "sex": "f",
+              "genus": "Catocala",
+              "species": "mira"
+            }
+          ]
+        },
+        {
+          "name": "july-13",
+          "time": "1977-07-13",
+          "notes": "hot and sunny",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "248",
+              "time": "1977-07-13 16:20",
+              "latLong": "42.32763, -89.68995",
+              "sex": "m",
+              "genus": "Colias",
+              "species": "eurytheme (amphidusa)",
+              "notes": "-- alfalfa; by hydrant in valley"
+            },
+            {
+              "id": "249",
+              "time": "1977-07-13 16:25",
+              "latLong": "42.32748, -89.69003",
+              "sex": "m",
+              "genus": "Pieris",
+              "species": "rapae (rapae)",
+              "notes": "back yard, flying"
+            },
+            {
+              "id": "250",
+              "time": "1977-07-13 16:40",
+              "latLong": "42.32747, -89.69044",
+              "sex": "m",
+              "genus": "Pieris",
+              "species": "rapae (rapae)",
+              "notes": "front yard by Mugo pine"
+            },
+            {
+              "id": "251",
+              "time": "1977-07-13 17:25",
+              "latLong": "42.29971, -89.62143",
+              "sex": "m",
+              "genus": "Catocala",
+              "species": "palaeogama",
+              "notes": "on State Bank building, SE corner"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Limenitis",
+              "species": "archippus",
+              "latLong": "42.32740, -89.68991",
+              "place": "in valley"
+            }
+          ]
+        },
+        {
+          "name": "july-14",
+          "time": "1977-07-14 13:20",
+          "notes": "on bushes by FS tank",
+          "latLong": "42.32767, -89.69022",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "252",
+              "tag1": "252",
+              "sex": "m",
+              "genus": "Pieris",
+              "species": "rapae (rapae)"
+            }
+          ]
+        },
+        {
+          "name": "july-15",
+          "time": "1977-07-15 13:50",
+          "latLong": "42.29971, -89.62143",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "253",
+              "id-1977": "280",
+              "genus": "Zale",
+              "species": "lunata (edusa)",
+              "sex": "m",
+              "notes": "-- mottled brown erebid ~332 ('Homoptera'); on State Bank building, SE corner"
             }
           ]
         }
