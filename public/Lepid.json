@@ -1,5 +1,5 @@
 {
-  "lastNumber": 969,
+  "lastNumber": 970,
   "locations": {
     "location": [
       {
@@ -9946,9 +9946,29 @@
         }
       ],
       "specimen": []
+    },
+    {
+      "name": "ca-2026",
+      "collectingSession": [
+        {
+          "name": "garage-window",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 970,
+              "genus": "Nymphalis",
+              "species": "californica",
+              "envelope": "AJ",
+              "temperatureF": "68.4",
+              "date": "2026-02-03 17:19:01",
+              "latLong": "37.28420, -122.03301",
+              "notes": "dead in garage at window"
+            }
+          ]
+        }
+      ]
     }
   ],
-  "specimen": [],
   "pupa": {
     "-label": "pnm1",
     "time": "1986-08-24",
