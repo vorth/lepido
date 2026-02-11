@@ -1,5 +1,5 @@
 {
-  "lastNumber": 967,
+  "lastNumber": 969,
   "locations": {
     "location": [
       {
@@ -9236,6 +9236,58 @@
             {
               "genus": "Junonia",
               "species": "grisea"
+            }
+          ]
+        },
+        {
+          "name": "gulf-frits",
+          "latLong": "37.29823, -122.03332",
+          "notes": "larvae found on Passionflower (Passiflora caerulea) purchased from Summerwinds; reared to adults; all times are for adult emergence",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 968,
+              "genus": "Dione",
+              "species": "vanillae",
+              "time": "2025-12-06 12:47",
+              "notes": "named 'Fritz' in my journal notes; see daily notes there",
+              "rearing": [
+                "2025-11-09: found 4th (looked like 3rd) instar larva on potted Passionflower",
+                "2025-11-10: larva molted to 5th instar",
+                "2025-11-15: larva in J",
+                "2025-11-17: larva pupated",
+                "2025-12-06: adult emerged"
+              ]
+            },
+            {
+              "id": 969,
+              "genus": "Dione",
+              "species": "vanillae",
+              "time": "2025-12-26 08:20",
+              "notes": "named 'Otto' in my journal notes; see daily notes there",
+              "rearing": [
+                "2025-11-11: found 1st instar larva on Passionflower cutting where 968 was eating",
+                "2025-11-13: larva molted to 2nd instar",
+                "2025-11-17: larva molted to 3rd instar",
+                "2025-11-21: larva molted to 4th instar",
+                "2025-11-27: larva molted to 5th instar",
+                "2025-12-05: larva in J",
+                "2025-12-06: larva pupated",
+                "2025-12-26: adult emerged"
+              ]
+            },
+            {
+              "genus": "Dione",
+              "species": "vanillae",
+              "notes": "named 'Melba' in my journal notes; see daily notes there",
+              "rearing": [
+                "2025-12-29: found 4th (looked like 3rd) instar larva on Passionflower in the back yard",
+                "2026-01-02: larva molted to 5th instar",
+                "2026-01-09: larva in J",
+                "2026-01-09: larva pupated",
+                "2026-01-27: adult emerged",
+                "2026-01-31: adult released"
+              ]
             }
           ]
         }
