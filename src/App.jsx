@@ -1,11 +1,13 @@
 
-import { onMount, Show, useContext } from 'solid-js'
+import { onMount, Show } from 'solid-js'
 
-import './App.css'
+import './App.css';
+import './labels.css';
 import { NewSession, NewSpecimen } from './dialogs.jsx';
 import { CollectingSession } from './component/session.jsx';
 import { SpecimenDetails } from './component/details.jsx';
-import { CURATING, ModeProvider, VIEWING, useMode } from './context/mode.jsx';
+import { LabelsPanel } from './component/labels.jsx';
+import { CURATING, LABELING, ModeProvider, VIEWING, useMode } from './context/mode.jsx';
 import { SelectionProvider, useSelection } from './context/selection.jsx';
 import { EditorProvider, useEditor } from './context/editor.jsx';
 import { DataProvider, useData } from './component/data.jsx';
@@ -43,6 +45,7 @@ const AppUI = () =>
       <div class="mode-buttons">
         <button class={`mode-button ${mode() === VIEWING ? 'active-mode' : ''}`} onClick={()=>setMode(VIEWING)}>VIEW</button>
         <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={()=>setMode(CURATING)}>CURATE</button>
+        <button class={`mode-button ${mode() === LABELING ? 'active-mode' : ''}`} onClick={()=>setMode(LABELING)}>LABELS</button>
       </div>
       <div class="buttons">
         {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
@@ -60,14 +63,23 @@ const AppUI = () =>
         </Show>
       </div>
       <div id="container">
-        <div id="collection">
-          <div id="picker">
-            <CollectingSession session={ data() } path={[]} />
+        <Show when={mode() === LABELING} fallback={
+          <div id="collection">
+            <div id="picker">
+              <CollectingSession session={ data() } path={[]} />
+            </div>
+            <div id="detail">
+              <SpecimenDetails/>
+            </div>
           </div>
-          <div id="detail">
-            <SpecimenDetails/>
+        }>
+          <div id="collection" class="labels-layout">
+            <div id="picker">
+              <CollectingSession session={ data() } path={[]} />
+            </div>
+            <LabelsPanel />
           </div>
-        </div>
+        </Show>
       </div>
       <Show when={mode() === CURATING}>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />

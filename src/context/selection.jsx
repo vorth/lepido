@@ -24,6 +24,22 @@ const findSpecimen = ( session, specimenID ) =>
   return {};
 }
 
+const collectAllSpecimens = ( session, result = [] ) =>
+{
+  if ( !session ) return result;
+  if ( Array.isArray( session.specimen ) ) {
+    result.push( ...session.specimen );
+  } else if ( session.specimen ) {
+    result.push( session.specimen );
+  }
+  if ( Array.isArray( session.collectingSession ) ) {
+    for ( const sub of session.collectingSession ) {
+      collectAllSpecimens( sub, result );
+    }
+  }
+  return result;
+}
+
 const SelectionContext = createContext();
 
 export const useSelection = () =>
@@ -38,12 +54,37 @@ export const useSelection = () =>
 export const SelectionProvider = (props) =>
 {
   const [selectedId, setSelectedId] = createSignal(null);
+  const [labelSelection, setLabelSelection] = createSignal( new Set() );
   const { data } = useData();;
 
   const selectedSpecimen = () => findSpecimen( data(), selectedId() );
 
+  const toggleLabelSelection = (id) =>
+  {
+    const current = new Set( labelSelection() );
+    if ( current.has(id) ) {
+      current.delete(id);
+    } else {
+      current.add(id);
+    }
+    setLabelSelection( current );
+  }
+
+  const clearLabelSelection = () => setLabelSelection( new Set() );
+
+  const labelSpecimens = () =>
+  {
+    const ids = labelSelection();
+    if ( ids.size === 0 ) return [];
+    const all = collectAllSpecimens( data() );
+    return all.filter( s => ids.has( s.id ) );
+  }
+
   return (
-    <SelectionContext.Provider value={{ selectedId, setSelectedId, selectedSpecimen }}>
+    <SelectionContext.Provider value={{
+      selectedId, setSelectedId, selectedSpecimen,
+      labelSelection, toggleLabelSelection, clearLabelSelection, labelSpecimens
+    }}>
       {props.children}
     </SelectionContext.Provider>
   );

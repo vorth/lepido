@@ -95,11 +95,11 @@ export function EditorProvider(props) {
   }
 
   const importSpecimen = ( collection, photo, envelope ) => {
-    const { latitude, longitude, dateTimeOriginal, notes, temperature, elevation } = photo;
+    const { latitude, longitude, dateTimeOriginal, notes, temperature, elevation, collector, location, } = photo;
     const id = getNextId();
     const specimen = {
       id,
-      envelope, temperature, elevation,
+      envelope, temperature, elevation, collector, location,
       date: dateTimeOriginal,
       latLong: `${Number(latitude).toFixed(5)}, ${Number(longitude).toFixed(5)}`
     };

@@ -3,7 +3,8 @@ import { createContext, createSignal, useContext } from "solid-js";
 
 const VIEWING = 0;
 const CURATING = 1;
-export { VIEWING, CURATING };
+const LABELING = 2;
+export { VIEWING, CURATING, LABELING };
 
 const ModeContext = createContext( { mode: () => VIEWING } );
 
