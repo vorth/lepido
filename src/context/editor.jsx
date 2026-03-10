@@ -95,11 +95,11 @@ export function EditorProvider(props) {
   }
 
   const importSpecimen = ( collection, photo, envelope ) => {
-    const { latitude, longitude, dateTimeOriginal, notes, temperatureF } = photo;
+    const { latitude, longitude, dateTimeOriginal, notes, temperature, elevation } = photo;
     const id = getNextId();
     const specimen = {
       id,
-      envelope, temperatureF,
+      envelope, temperature, elevation,
       date: dateTimeOriginal,
       latLong: `${Number(latitude).toFixed(5)}, ${Number(longitude).toFixed(5)}`
     };
@@ -110,40 +110,28 @@ export function EditorProvider(props) {
   };
 
   const importSpecimens = async (parent) => {
-    const input = document.createElement('input');
-    input.type = 'file';
-    input.accept = '.json';
-    
-    input.onchange = async (e) => {
-      const file = e.target.files[0];
-      if (!file) return;
-      
-      try {
-        const text = await file.text();
-        
-        const photos = JSON.parse(text);
+    try {
+      const text = await navigator.clipboard.readText();
+      const photos = JSON.parse(text);
 
-        if (!Array.isArray(photos)) {
-          throw new Error('Invalid photos file format - expected array');
-        }
-        
-        for (const photo of photos) {
-          const { latitude, longitude, dateTimeOriginal, qrCode } = photo;
-          if (!latitude || !longitude || !dateTimeOriginal || !qrCode) {
-            console.warn('Skipping photo with missing data:', photo);
-            continue;
-          }
-          importSpecimen( parent, photo, qrCode );
-        }
-        updateData();
-        saveDataLocally();
-        
-      } catch (err) {
-        alert(`Error importing specimens: ${err.message}`);
+      if (!Array.isArray(photos)) {
+        throw new Error('Invalid photos file format - expected array');
       }
-    };
-    
-    input.click();
+
+      for (const photo of photos) {
+        const { latitude, longitude, dateTimeOriginal, qrCode } = photo;
+        if (!latitude || !longitude || !dateTimeOriginal || !qrCode) {
+          console.warn('Skipping photo with missing data:', photo);
+          continue;
+        }
+        importSpecimen( parent, photo, qrCode );
+      }
+      updateData();
+      saveDataLocally();
+
+    } catch (err) {
+      alert(`Error importing specimens: ${err.message}`);
+    }
   };
 
   const contextValue = {
