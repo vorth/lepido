@@ -82,7 +82,11 @@
     align-items: center;
 }
 
-#label-output .single-label .label-locality span,#label-output .single-label .label-notes span,#label-output .single-label .label-notes p {
+.label-taxon {
+  font-style: italic;
+}
+
+#label-output .single-label .label-locality span,#label-output .single-label .label-notes span,#label-output .single-label .label-notes p,#label-output .single-label .label-taxonomy .label-taxon {
     font-family: Geneva,sans-serif;
     font-size: 3pt;
     letter-spacing: -0.05px;
