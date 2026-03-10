@@ -1,5 +1,5 @@
 {
-  "lastNumber": 970,
+  "lastNumber": 971,
   "locations": {
     "location": [
       {
@@ -9963,6 +9963,46 @@
               "date": "2026-02-03 17:19:01",
               "latLong": "37.28420, -122.03301",
               "notes": "dead in garage at window"
+            }
+          ]
+        },
+        {
+          "name": "hicks-rd",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 971,
+              "genus": "Glaucopsyche",
+              "species": "lygdamus",
+              "sex": "m",
+              "temperature": "20°C/68°F",
+              "elevation": "241m/791ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "date": "2026-03-10 12:06",
+              "latLong": "37.16488, -121.85022"
+            }
+          ],
+          "sighting": [
+            {
+              "genus": "Nymphalis",
+              "species": "californica"
+            },
+            {
+              "genus": "Anthocharis",
+              "species": "sara"
+            },
+            {
+              "genus": "Coenonympha",
+              "species": "tullia"
+            },
+            {
+              "genus": "Phyciodes",
+              "species": "mylitta"
+            },
+            {
+              "genus": "Euphydryas",
+              "species": "chalcedona"
             }
           ]
         }
