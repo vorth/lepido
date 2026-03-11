@@ -3,7 +3,7 @@ import { onMount, Show } from 'solid-js'
 
 import './App.css';
 import './labels.css';
-import { NewSession, NewSpecimen } from './dialogs.jsx';
+import { NewSession, SpecimenDialog } from './dialogs.jsx';
 import { CollectingSession } from './component/session.jsx';
 import { SpecimenDetails } from './component/details.jsx';
 import { LabelsPanel } from './component/labels.jsx';
@@ -25,6 +25,7 @@ const AppUI = () =>
   const {
     newSessionParent, saveNewSession, newSpecimenParent, saveNewSpecimen, getNextId,
     saveNewSpecimenFromDialog,
+    editingSpecimen, saveEditedSpecimen,
     lastOpenedSession } = useEditor();
 
   const sessionName = () => (lastOpenedSession && lastOpenedSession()?.join('/')) || '';
@@ -83,7 +84,8 @@ const AppUI = () =>
       </div>
       <Show when={mode() === CURATING}>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
-        <NewSpecimen show={!!newSpecimenParent()} close={saveNewSpecimenFromDialog} nextId={getNextId} />
+        <SpecimenDialog show={!!newSpecimenParent()} close={saveNewSpecimenFromDialog} nextId={getNextId} />
+        <SpecimenDialog show={!!editingSpecimen()} close={saveEditedSpecimen} specimen={editingSpecimen()} />
       </Show>
     </>
   );

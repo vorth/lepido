@@ -15,10 +15,11 @@ export const Field = props =>
 
 export const SpecimenDetails = props =>
 {
-  const { lastOpenedSession, moveSpecimen } = useEditor();
+  const { lastOpenedSession, moveSpecimen, openEditSpecimenDialog } = useEditor();
   const { selectedSpecimen } = useSelection();
   const { mode } = useMode();
   const handleMove = () => moveSpecimen( specimen() );
+  const handleEdit = () => openEditSpecimenDialog( selectedSpecimen().specimen );
 
   return (
     <Show when={ !! selectedSpecimen() .specimen }>
@@ -27,6 +28,7 @@ export const SpecimenDetails = props =>
           <Field key={key} value={value} />
         }</For>
       </div>
+      {( mode() === CURATING ) && <button class='edit-button' onClick={handleEdit}>Edit</button>}
       {( (mode() === CURATING) && !! lastOpenedSession() ) &&  <button class='move-button' onClick={handleMove}>Move to {lastOpenedSession().join('/')}</button>}
     </Show>
   );

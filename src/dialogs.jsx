@@ -94,33 +94,66 @@ export const NewSession = ( props ) =>
   )
 } 
 
-export const NewSpecimen = ( props ) =>
+export const SpecimenDialog = ( props ) =>
 {
+  const editing = () => !!props.specimen;
   const [ id, setId ] = createSignal( '' );
   const [ genus, setGenus ] = createSignal( '' );
   const [ species, setSpecies ] = createSignal( '' );
-  const [ time, setTime ] = createSignal( new Date() .toISOString() );
+  const [ time, setTime ] = createSignal( '' );
   const [ latLong, setLatLong ] = createSignal( '' );
+  const [ notes, setNotes ] = createSignal( '' );
+  const [ temperature, setTemperature ] = createSignal( '' );
+  const [ elevation, setElevation ] = createSignal( '' );
+  const [ collector, setCollector ] = createSignal( '' );
+  const [ location, setLocation ] = createSignal( '' );
+  const [ envelope, setEnvelope ] = createSignal( '' );
   const changeGenus = (e,value) => setGenus( value );
   const changeSpecies = (e,value) => setSpecies( value );
-  const changeTime = (e,value) =>
-  {
-    setTime( value );
-  }
+  const changeTime = (e,value) => setTime( value );
+  const changeNotes = (e,value) => setNotes( value );
+  const changeTemperature = (e,value) => setTemperature( value );
+  const changeElevation = (e,value) => setElevation( value );
+  const changeCollector = (e,value) => setCollector( value );
+  const changeLocation = (e,value) => setLocation( value );
+  const changeEnvelope = (e,value) => setEnvelope( value );
 
   createEffect( () => {
     if ( props.show ) {
-      setId( props.nextId() );
-      setTime( new Date() .toISOString() );
-      geoLocate(
-        position => {
-          const lat = position.coords.latitude.toFixed(5);
-          const lng = position.coords.longitude.toFixed(5);
-          setLatLong( `${lat}, ${lng}` );
-          console.log(`new specimen geolocation: ${lat}, ${lng}`);
-        },
-        error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
-      )
+      if ( editing() ) {
+        const s = props.specimen;
+        setId( s.id || '' );
+        setGenus( s.genus || '' );
+        setSpecies( s.species || '' );
+        setTime( s.time || s.date || '' );
+        setLatLong( s.latLong || '' );
+        setNotes( s.notes || '' );
+        setTemperature( s.temperature || '' );
+        setElevation( s.elevation || '' );
+        setCollector( s.collector || '' );
+        setLocation( s.location || '' );
+        setEnvelope( s.envelope || '' );
+      } else {
+        setId( props.nextId() );
+        setGenus( '' );
+        setSpecies( '' );
+        setTime( new Date() .toISOString() );
+        setNotes( '' );
+        setTemperature( '' );
+        setElevation( '' );
+        setCollector( '' );
+        setLocation( '' );
+        setEnvelope( '' );
+        geoLocate(
+          position => {
+            const lat = position.coords.latitude.toFixed(5);
+            const lng = position.coords.longitude.toFixed(5);
+            setLatLong( `${lat}, ${lng}` );
+            console.log(`new specimen geolocation: ${lat}, ${lng}`);
+          },
+          error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
+        )
+      }
     }
   });
 
@@ -130,18 +163,31 @@ export const NewSpecimen = ( props ) =>
   }
   const handleSave = () =>
   {
-    props.close( { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() } );
+    const result = { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() };
+    if ( notes() ) result.notes = notes();
+    if ( temperature() ) result.temperature = temperature();
+    if ( elevation() ) result.elevation = elevation();
+    if ( collector() ) result.collector = collector();
+    if ( location() ) result.location = location();
+    if ( envelope() ) result.envelope = envelope();
+    props.close( result );
   }
 
   return (
     <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
-      <DialogTitle id="specimen-dialog-title">New Specimen</DialogTitle>
+      <DialogTitle id="specimen-dialog-title">{editing() ? 'Edit' : 'New'} Specimen</DialogTitle>
       <DialogContent>
         <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
         <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
         <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
         <TextField class="dialog-input" id="specimen-time" label="time" value={ time() } onChange={ changeTime } />
         <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
+        <TextField class="dialog-input" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
+        <TextField class="dialog-input" id="specimen-elevation" label="elevation" value={ elevation() } onChange={ changeElevation } />
+        <TextField class="dialog-input" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
+        <TextField class="dialog-input" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
+        <TextField class="dialog-input" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
@@ -154,3 +200,6 @@ export const NewSpecimen = ( props ) =>
     </Dialog>
   )
 }
+
+// Backward-compatible alias
+export const NewSpecimen = SpecimenDialog;

@@ -42,6 +42,23 @@ export function EditorProvider(props) {
   {
     setNewSpecimenParent( parent );
   }
+
+  const [ editingSpecimen, setEditingSpecimen ] = createSignal( null );
+  const openEditSpecimenDialog = specimen =>
+  {
+    setEditingSpecimen( specimen );
+  }
+  const saveEditedSpecimen = updated =>
+  {
+    const specimen = editingSpecimen();
+    setEditingSpecimen( null );
+    if ( !!updated && !!specimen ) {
+      Object.keys( specimen ).forEach( k => { if ( k !== 'id' ) delete specimen[k]; } );
+      Object.assign( specimen, updated );
+      updateData();
+      saveDataLocally();
+    }
+  }
   const saveNewSpecimen = ( newSpecimen, parent ) =>
   {
     if ( !!newSpecimen ) {
@@ -139,6 +156,7 @@ export function EditorProvider(props) {
     newSessionParent, saveNewSession, openSessionDialog,
     newSpecimenParent, saveNewSpecimen, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
     openSessionDialog, openSpecimenDialog,
+    editingSpecimen, openEditSpecimenDialog, saveEditedSpecimen,
     getCollectingSession, moveSpecimen,
     importSpecimens,
   };
