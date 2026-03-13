@@ -163,7 +163,7 @@ export const SpecimenDialog = ( props ) =>
   }
   const handleSave = () =>
   {
-    const result = { id: id(), genus: genus(), species: species(), time: time(), latLong: latLong() };
+    const result = { id: id(), genus: genus(), species: species(), date: time(), latLong: latLong() };
     if ( notes() ) result.notes = notes();
     if ( temperature() ) result.temperature = temperature();
     if ( elevation() ) result.elevation = elevation();
@@ -180,7 +180,7 @@ export const SpecimenDialog = ( props ) =>
         <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
         <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
         <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
-        <TextField class="dialog-input" id="specimen-time" label="time" value={ time() } onChange={ changeTime } />
+        <TextField class="dialog-input" id="specimen-time" label="date" value={ time() } onChange={ changeTime } />
         <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
         <TextField class="dialog-input" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
         <TextField class="dialog-input" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
