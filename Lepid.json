@@ -1,5 +1,5 @@
 {
-  "lastNumber": 971,
+  "lastNumber": 974,
   "locations": {
     "location": [
       {
@@ -10003,6 +10003,53 @@
             {
               "genus": "Euphydryas",
               "species": "chalcedona"
+            }
+          ]
+        },
+        {
+          "name": "chews-ridge-march",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 972,
+              "genus": "Nymphalis",
+              "species": "californica",
+              "date": "2026-03-14 16:28:35",
+              "latLong": "36.36315, -121.58373",
+              "temperature": "21°C/71°F",
+              "elevation": "633m/2077ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Monterey Co.",
+              "envelope": " Q",
+              "notes": "saw dozens, on the wing all over the ridge; at least a dozen mudpuddling here"
+            },
+            {
+              "id": 973,
+              "genus": "Callophrys",
+              "species": "augustinus",
+              "date": "2026-03-14 15:07:26",
+              "latLong": "36.31252, -121.56816",
+              "sex": "f",
+              "temperature": "21°C/71°F",
+              "elevation": "1499m/4918ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Monterey Co.",
+              "envelope": "GB",
+              "notes": "sunning on Manzanita"
+            },
+            {
+              "id": 974,
+              "genus": "Callophrys",
+              "species": "augustinus",
+              "date": "2026-03-14 15:09:20",
+              "latLong": "36.31254, -121.56821",
+              "sex": "m",
+              "temperature": "21°C/71°F",
+              "elevation": "1499m/4918ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Monterey Co.",
+              "envelope": "FZ",
+              "notes": "sunning on Manzanita"
             }
           ]
         }
