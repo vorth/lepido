@@ -84,7 +84,7 @@ export const CollectingSession = props =>
 
   return (
     <div class="session" onClick={ toggleCollapsed }>
-      {name()}
+      <span class="session-name">{name()}</span>
       <ul class='sessionList'>
         <Show when={ !specimensCollapsed() }>
           <Show when={ Array.isArray( props.session.specimen ) } fallback={

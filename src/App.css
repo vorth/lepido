@@ -68,11 +68,6 @@ a:hover {
   height: 100%;
 }
 
-.buttons {
-  display: flex;
-  justify-content: center;
-}
-
 #collection {
   position: absolute;
   inset: 0;
@@ -109,8 +104,13 @@ a:hover {
 
 .session {
   border: 1px solid var(--border-color);
+  border-radius: 4px;
   background-color: var(--session-color);
   position: relative;
+}
+
+.session-name {
+  margin-inline-start: 8px;
 }
 
 .sessionList {
@@ -148,10 +148,20 @@ a:hover {
 }
 
 .mode-buttons {
-  display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin: 5px;
-  gap: 5px;
+}
+.load-save-buttons {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.buttons {
+  display: grid;
+  margin: 8px;
+  gap: 8px;
+}
+
+.status {
+  margin: 8px;
 }
 
 .active-mode {

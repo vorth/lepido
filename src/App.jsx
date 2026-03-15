@@ -43,12 +43,12 @@ const AppUI = () =>
 
   return (
     <>
-      <div class="mode-buttons">
+      <div class="mode-buttons buttons">
         <button class={`mode-button ${mode() === VIEWING ? 'active-mode' : ''}`} onClick={()=>setMode(VIEWING)}>VIEW</button>
         <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={()=>setMode(CURATING)}>CURATE</button>
         <button class={`mode-button ${mode() === LABELING ? 'active-mode' : ''}`} onClick={()=>setMode(LABELING)}>LABELS</button>
       </div>
-      <div class="buttons">
+      <div class="load-save-buttons buttons">
         {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
         <button class="other-button" onClick={loadFromResource}>Load From Source</button>
         <button class="other-button" onClick={loadFromStorage} >Load From Local</button>
