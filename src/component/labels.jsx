@@ -62,6 +62,9 @@ const SpecimenLabel = props =>
         <span class="label-taxon">{props.specimen.genus} {props.specimen.species}</span>
         <span class="label-id">{props.specimen.id}</span>
       </div>
+      <div class="label-taxonomy">
+        <span class="label-id">{props.specimen.envelope}</span>
+      </div>
     </div>
   );
 }
