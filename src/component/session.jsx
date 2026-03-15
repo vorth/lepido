@@ -54,7 +54,6 @@ export const CollectingSession = props =>
   const { setSelectedId, selectedSpecimen } = useSelection();
   const { lastOpenedSession, setLastOpenedSession } = useEditor();
   const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( true );
-  const [ sessionsCollapsed, setSessionsCollapsed ] = createSignal( false );
   const name = () => props.session.name || 'COLLECTION';
   const path = () => [ ...props.path, name() ];
 
@@ -95,7 +94,7 @@ export const CollectingSession = props =>
             }</For>
           </Show>
         </Show>
-        <Show when={ !sessionsCollapsed() }>
+        <Show when={ !specimensCollapsed() }>
           <For each={props.session.collectingSession}>{ session =>
             <li>
               <CollectingSession session={ session } path={path()} />
@@ -103,13 +102,10 @@ export const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
-      <Show when= { mode() === CURATING } >
-        <Show when={ !specimensCollapsed() } fallback={
-          <AddSession parent={props.session}/>
-        }>
-          <AddSpecimen parent={props.session} />
-          <ImportSpecimens parent={props.session} />
-        </Show>
+      <Show when= { mode() === CURATING && !specimensCollapsed() } >
+        <AddSession parent={props.session}/>
+        <AddSpecimen parent={props.session} />
+        <ImportSpecimens parent={props.session} />
       </Show>
     </div>
   );
