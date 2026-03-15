@@ -58,7 +58,7 @@ const AppUI = () =>
       <div class="status">
         <div>Session: {sessionName()}</div>
         <div>Last ID: {data().lastNumber}</div>
-        <Show when= { mode() !== VIEWING } >
+        <Show when= { mode() === CURATING } >
           <div>Last ID (local): {localData().lastNumber}</div>
           <div>Last ID (source): {sourceData().lastNumber}</div>
         </Show>

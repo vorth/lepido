@@ -2,7 +2,7 @@
 import { createSignal, createEffect, For, Show, batch } from 'solid-js';
 
 import { Specimen } from './specimen.jsx';
-import { useMode, VIEWING } from '../context/mode.jsx';
+import { useMode, CURATING } from '../context/mode.jsx';
 import { useSelection } from '../context/selection.jsx';
 import { useEditor } from '../context/editor.jsx';
 
@@ -16,7 +16,7 @@ const AddSession = props =>
   }
 
   return (
-    <button class='add-session add-button' onClick={handleClick}>+</button>
+    <button class='add-session add-button' onClick={handleClick}>add session</button>
   );
 }
 
@@ -30,7 +30,7 @@ const AddSpecimen = props =>
   }
 
   return (
-    <button class='add-specimen add-button' onClick={handleClick}>+</button>
+    <button class='add-specimen add-button' onClick={handleClick}>add specimen</button>
   );
 }
 
@@ -44,7 +44,7 @@ const ImportSpecimens = props =>
   }
 
   return (
-    <button class='import-specimens add-button' onClick={handleClick}>+</button>
+    <button class='import-specimens add-button' onClick={handleClick}>import JSON</button>
   );
 }
 
@@ -103,7 +103,7 @@ export const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
-      <Show when= { mode() !== VIEWING } >
+      <Show when= { mode() === CURATING } >
         <Show when={ !specimensCollapsed() } fallback={
           <AddSession parent={props.session}/>
         }>
