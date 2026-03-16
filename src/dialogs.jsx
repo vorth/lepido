@@ -39,7 +39,7 @@ export const createSession = ( success, failure ) =>
 export const NewSession = ( props ) =>
 {
   const [ name, setName ] = createSignal( '' );
-  const [ date, setDate ] = createSignal( new Date() .toISOString() );
+  const [ date, setDate ] = createSignal( '' );
   const [ latLong, setLatLong ] = createSignal( '' );
   const changeName = (e,value) =>
   {
@@ -50,20 +50,20 @@ export const NewSession = ( props ) =>
     setDate( value );
   }
 
-  createEffect( () => {
-    if ( props.show ) {
-      setDate( new Date() .toISOString() );
-      geoLocate(
-        position => {
-          const lat = position.coords.latitude.toFixed(5);
-          const lng = position.coords.longitude.toFixed(5);
-          setLatLong(`${lat}, ${lng}`);
-          console.log(`new session geolocation: ${lat}, ${lng}`);          
-        },
-        error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
-      )
-    }
-  });
+  // createEffect( () => {
+  //   if ( props.show ) {
+  //     setDate( new Date() .toISOString() );
+  //     geoLocate(
+  //       position => {
+  //         const lat = position.coords.latitude.toFixed(5);
+  //         const lng = position.coords.longitude.toFixed(5);
+  //         setLatLong(`${lat}, ${lng}`);
+  //         console.log(`new session geolocation: ${lat}, ${lng}`);          
+  //       },
+  //       error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
+  //     )
+  //   }
+  // });
 
   const handleCancel = () =>
   {
@@ -78,9 +78,9 @@ export const NewSession = ( props ) =>
     <Dialog open={props.show} onClose={handleCancel} aria-labelledby="session-dialog-title" >
       <DialogTitle id="session-dialog-title">New Session</DialogTitle>
       <DialogContent>
+        {/* <TextField class="dialog-input" style="margin: 6px;" id="session-date" label="date" value={ date() } onChange={ changeDate } />
+        <TextField class="dialog-input" style="margin: 6px;" id="session-loc"  label="latLong" value={ latLong() } disabled={true} /> */}
         <TextField class="dialog-input" style="margin: 6px;" id="session-name" label="name" value={ name() } onChange={ changeName } />
-        <TextField class="dialog-input" style="margin: 6px;" id="session-date" label="date" value={ date() } onChange={ changeDate } />
-        <TextField class="dialog-input" style="margin: 6px;" id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
@@ -183,17 +183,17 @@ export const SpecimenDialog = ( props ) =>
       <DialogTitle id="specimen-dialog-title">{editing() ? 'Edit' : 'New'} Specimen</DialogTitle>
       <DialogContent>
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-id" label="ID" value={ id() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-sex" label="sex" value={ sex() } onChange={ changeSex } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-time" label="date" value={ time() } onChange={ changeTime } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
         <TextField class="dialog-input" style="margin: 6px;" id="specimen-elevation" label="elevation" value={ elevation() } onChange={ changeElevation } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-sex" label="sex" value={ sex() } onChange={ changeSex } />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
