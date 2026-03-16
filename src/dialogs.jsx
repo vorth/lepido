@@ -78,9 +78,9 @@ export const NewSession = ( props ) =>
     <Dialog open={props.show} onClose={handleCancel} aria-labelledby="session-dialog-title" >
       <DialogTitle id="session-dialog-title">New Session</DialogTitle>
       <DialogContent>
-        <TextField class="dialog-input" id="session-name" label="name" value={ name() } onChange={ changeName } />
-        <TextField class="dialog-input" id="session-date" label="date" value={ date() } onChange={ changeDate } />
-        <TextField class="dialog-input" id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="session-name" label="name" value={ name() } onChange={ changeName } />
+        <TextField class="dialog-input" style="margin: 6px;" id="session-date" label="date" value={ date() } onChange={ changeDate } />
+        <TextField class="dialog-input" style="margin: 6px;" id="session-loc"  label="latLong" value={ latLong() } disabled={true} />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
@@ -108,6 +108,7 @@ export const SpecimenDialog = ( props ) =>
   const [ collector, setCollector ] = createSignal( '' );
   const [ location, setLocation ] = createSignal( '' );
   const [ envelope, setEnvelope ] = createSignal( '' );
+  const [ sex, setSex ] = createSignal( '' );
   const changeGenus = (e,value) => setGenus( value );
   const changeSpecies = (e,value) => setSpecies( value );
   const changeTime = (e,value) => setTime( value );
@@ -117,6 +118,7 @@ export const SpecimenDialog = ( props ) =>
   const changeCollector = (e,value) => setCollector( value );
   const changeLocation = (e,value) => setLocation( value );
   const changeEnvelope = (e,value) => setEnvelope( value );
+  const changeSex = (e,value) => setSex( value );
 
   createEffect( () => {
     if ( props.show ) {
@@ -133,6 +135,7 @@ export const SpecimenDialog = ( props ) =>
         setCollector( s.collector || '' );
         setLocation( s.location || '' );
         setEnvelope( s.envelope || '' );
+        setSex( s.sex || '' );
       } else {
         setId( props.nextId() );
         setGenus( '' );
@@ -144,6 +147,7 @@ export const SpecimenDialog = ( props ) =>
         setCollector( '' );
         setLocation( '' );
         setEnvelope( '' );
+        setSex( '' );
         geoLocate(
           position => {
             const lat = position.coords.latitude.toFixed(5);
@@ -170,6 +174,7 @@ export const SpecimenDialog = ( props ) =>
     if ( collector() ) result.collector = collector();
     if ( location() ) result.location = location();
     if ( envelope() ) result.envelope = envelope();
+    if ( sex() ) result.sex = sex();
     props.close( result );
   }
 
@@ -177,17 +182,18 @@ export const SpecimenDialog = ( props ) =>
     <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
       <DialogTitle id="specimen-dialog-title">{editing() ? 'Edit' : 'New'} Specimen</DialogTitle>
       <DialogContent>
-        <TextField class="dialog-input" id="specimen-id" label="ID" value={ id() } disabled={true} />
-        <TextField class="dialog-input" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
-        <TextField class="dialog-input" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
-        <TextField class="dialog-input" id="specimen-time" label="date" value={ time() } onChange={ changeTime } />
-        <TextField class="dialog-input" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
-        <TextField class="dialog-input" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
-        <TextField class="dialog-input" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
-        <TextField class="dialog-input" id="specimen-elevation" label="elevation" value={ elevation() } onChange={ changeElevation } />
-        <TextField class="dialog-input" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
-        <TextField class="dialog-input" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
-        <TextField class="dialog-input" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-id" label="ID" value={ id() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-time" label="date" value={ time() } onChange={ changeTime } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-elevation" label="elevation" value={ elevation() } onChange={ changeElevation } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
+        <TextField class="dialog-input" style="margin: 6px;" id="specimen-sex" label="sex" value={ sex() } onChange={ changeSex } />
       </DialogContent>
       <DialogActions>
         <Button onClick={handleSave} color="secondary">
