@@ -224,31 +224,6 @@ a:hover {
   justify-content: center;
 }
 
-.label-id {
-  font-weight: bold;
-  font-size: 9pt;
-}
-
-.label-taxon {
-  font-size: 9pt;
-}
-
-.label-sex {
-  font-size: 8pt;
-}
-
-.label-location {
-  font-size: 7pt;
-}
-
-.label-date {
-  font-size: 8pt;
-}
-
-.label-notes {
-  font-size: 6.5pt;
-  color: #333;
-}
 
 /* Print styles */
 @media print {

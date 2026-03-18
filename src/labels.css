@@ -50,6 +50,7 @@
     flex-flow: row wrap;
     justify-content: flex-start;
     margin: .75rem 1.5rem;
+    font-size: 6pt;
 }
 
 #label-output .single-label {
@@ -64,21 +65,24 @@
     margin: 0;
 }
 
-#label-output .single-label .label-locality,#label-output .single-label .label-notes,#label-output .single-label .label-taxonomy {
-    border: 1.5px solid var(--black);
+#label-output .single-label .label-locality,
+#label-output .single-label .label-notes,
+#label-output .single-label .label-taxonomy {
+    border: 0.5px solid var(--black);
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: .5px;
+    margin: 1px;
     padding: .48px .72px;
-    width: 60px;
+    width: 120px;
 }
 
 #label-output .single-label .label-locality {
     align-items: flex-start;
 }
 
-#label-output .single-label .label-notes,#label-output .single-label .label-taxonomy {
+#label-output .single-label .label-notes,
+#label-output .single-label .label-taxonomy {
     align-items: center;
 }
 
@@ -86,9 +90,11 @@
   font-style: italic;
 }
 
-#label-output .single-label .label-locality span,#label-output .single-label .label-notes span,#label-output .single-label .label-notes p,#label-output .single-label .label-taxonomy .label-taxon {
+#label-output .single-label .label-locality span,
+#label-output .single-label .label-notes span,
+#label-output .single-label .label-notes p,
+#label-output .single-label .label-taxonomy .label-taxon {
     font-family: Geneva,sans-serif;
-    font-size: 3pt;
     letter-spacing: -0.05px;
     line-height: 1.6;
     width: 100%;
@@ -103,7 +109,7 @@
     padding: 0;
 }
 
-#label-output .single-label .label-notes span,#label-output .single-label .label-notes p,#label-output .single-label .label-taxonomy span {
+#label-output .single-label .label-taxonomy span {
     text-align: center;
 }
 
@@ -121,6 +127,7 @@
         display: block;
         overflow-wrap: normal;
         margin: 0;
+        font-size: 3pt;
     }
 
     #label-output .single-label {
@@ -131,7 +138,11 @@
         margin: 0;
     }
 
-    #label-output .single-label .label-locality,#label-output .single-label .label-notes,#label-output .single-label .label-taxonomy {
+    #label-output .single-label .label-locality,
+    #label-output .single-label .label-notes,
+    #label-output .single-label .label-taxonomy {
         margin: 1px .5px;
+        width: 60px;
+        border: 0.5px solid var(--black);
     }
 }
