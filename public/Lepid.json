@@ -1,5 +1,5 @@
 {
-  "lastNumber": 974,
+  "lastNumber": 975,
   "locations": {
     "location": [
       {
@@ -10068,6 +10068,28 @@
               "location": "US-CA, Monterey Co.",
               "envelope": "FZ",
               "notes": "sunning on Manzanita"
+            }
+          ]
+        },
+        {
+          "name": "calabazas-creek",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 975,
+              "genus": "Glaucopsyche",
+              "species": "lygdamus",
+              "date": "2026-03-15 12:43:20",
+              "latLong": "37.30505, -122.02164",
+              "notes": "caught for eggs; none produced",
+              "temperature": "25°C/78°F",
+              "elevation": "74m/243ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "envelope": "GL",
+              "sex": "f"
             }
           ]
         }
