@@ -1,5 +1,5 @@
 {
-  "lastNumber": 975,
+  "lastNumber": 977,
   "locations": {
     "location": [
       {
@@ -10092,6 +10092,48 @@
               "sex": "f"
             }
           ]
+        },
+        {
+          "name": "LA",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "day1",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 976,
+                  "genus": "Celastrina",
+                  "species": "ladon echo",
+                  "date": "2026-03-22 14:41:51",
+                  "latLong": "34.37871, -117.59791",
+                  "temperature": "24°C/75°F",
+                  "elevation": "N/A",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, San Bernardino Co.",
+                  "envelope": " O",
+                  "sex": "m"
+                },
+                {
+                  "id": 977,
+                  "genus": "Celastrina",
+                  "species": "ladon echo",
+                  "date": "2026-03-22 10:54:23",
+                  "latLong": "34.28290, -118.19573",
+                  "temperature": "27°C/80°F",
+                  "elevation": "N/A",
+                  "collector": "Brian Banker",
+                  "location": "US-CA, Los Angeles Co.",
+                  "envelope": " N",
+                  "sex": "m"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         }
       ]
     }
