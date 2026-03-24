@@ -1,5 +1,5 @@
 {
-  "lastNumber": 977,
+  "lastNumber": 1001,
   "locations": {
     "location": [
       {
@@ -10131,6 +10131,298 @@
                   "sex": "m"
                 }
               ]
+            },
+            {
+              "name": "day2",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [
+                {
+                  "name": "bobs-gap",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 978,
+                      "envelope": "AL",
+                      "temperature": "22°C/71°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 10:28:32",
+                      "latLong": "34.45246, -117.81317",
+                      "notes": "Anthocharis (two!)"
+                    },
+                    {
+                      "id": 979,
+                      "envelope": " J",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 10:32:19",
+                      "latLong": "34.45242, -117.81316",
+                      "notes": "Spring white?"
+                    },
+                    {
+                      "id": 980,
+                      "envelope": " B",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 10:34:43",
+                      "latLong": "34.45226, -117.81314",
+                      "notes": "Anthocharis"
+                    },
+                    {
+                      "id": 981,
+                      "envelope": " I",
+                      "temperature": "23°C/74°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 10:39:20",
+                      "latLong": "34.45260, -117.81315",
+                      "notes": "Spring white?"
+                    },
+                    {
+                      "id": 982,
+                      "envelope": " Q",
+                      "temperature": "23°C/74°F",
+                      "elevation": "1220m/4003ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 11:08:06",
+                      "latLong": "34.45515, -117.81392",
+                      "notes": "Apodemia"
+                    },
+                    {
+                      "id": 983,
+                      "envelope": " G",
+                      "temperature": "23°C/74°F",
+                      "elevation": "1220m/4003ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 11:09:55",
+                      "latLong": "34.45500, -117.81394",
+                      "notes": "Lotus hairstreak"
+                    },
+                    {
+                      "id": 984,
+                      "envelope": "AF",
+                      "temperature": "23°C/74°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 11:22:14",
+                      "latLong": "34.45254, -117.81296",
+                      "notes": "Lotus Hairstreak"
+                    },
+                    {
+                      "id": 985,
+                      "envelope": " L",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "date": "2026-03-23 11:40:26",
+                      "latLong": "34.45232, -117.81304",
+                      "notes": "Chlosyne acastus?"
+                    },
+                    {
+                      "id": 986,
+                      "genus": "Anthocharis",
+                      "species": "",
+                      "date": "2026-03-23 11:40:26",
+                      "latLong": "34.45232, -117.81304",
+                      "notes": "photo was missing",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1239m/4065ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Los Angeles Co.",
+                      "envelope": " A",
+                      "sex": "f"
+                    },
+                    {
+                      "id": 1001,
+                      "genus": "Anthocharis",
+                      "species": "",
+                      "date": "2026-03-23 10:28",
+                      "latLong": "34.05236, -116.59522",
+                      "notes": "same data as 978",
+                      "collector": "Scott Vorthmann",
+                      "envelope": "AL again",
+                      "sex": "m"
+                    }
+                  ]
+                },
+                {
+                  "name": "mitsubishi-concrete",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 987,
+                      "envelope": " D",
+                      "temperature": "28°C/82°F",
+                      "elevation": "1293m/4242ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 14:11:41",
+                      "latLong": "34.35666, -116.85476",
+                      "notes": "Spring white?"
+                    },
+                    {
+                      "id": 988,
+                      "envelope": " E",
+                      "temperature": "28°C/83°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 14:18:32",
+                      "latLong": "34.36433, -116.85645",
+                      "notes": "Chlosyne acastus"
+                    },
+                    {
+                      "id": 989,
+                      "envelope": " N",
+                      "temperature": "28°C/82°F",
+                      "elevation": "1293m/4242ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 14:22:40",
+                      "latLong": "34.35677, -116.85483",
+                      "notes": "Chlosyne acastus"
+                    },
+                    {
+                      "id": 1000,
+                      "envelope": " C",
+                      "temperature": "28°C/82°F",
+                      "elevation": "N/A",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 13:56:46",
+                      "latLong": "34.35666, -116.85476",
+                      "notes": "Apodemia"
+                    }
+                  ]
+                },
+                {
+                  "name": "rock-corral",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 990,
+                      "envelope": " O",
+                      "temperature": "31°C/88°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:28:01",
+                      "latLong": "34.32278, -116.56059",
+                      "notes": "Apodemia"
+                    },
+                    {
+                      "id": 991,
+                      "envelope": " M",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:36:15",
+                      "latLong": "34.32190, -116.56065",
+                      "notes": "Euphydryas"
+                    },
+                    {
+                      "id": 992,
+                      "envelope": "AA",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:36:54",
+                      "latLong": "34.32189, -116.56070",
+                      "notes": "Apodemia"
+                    },
+                    {
+                      "id": 993,
+                      "envelope": " Z",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:39:18",
+                      "latLong": "34.32194, -116.56089"
+                    },
+                    {
+                      "id": 994,
+                      "envelope": "AB",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:41:57",
+                      "latLong": "34.32198, -116.56082"
+                    },
+                    {
+                      "id": 995,
+                      "envelope": " W",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1137m/3730ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:48:30",
+                      "latLong": "34.32162, -116.56036"
+                    },
+                    {
+                      "id": 996,
+                      "envelope": " X",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 15:57:18",
+                      "latLong": "34.32192, -116.56072"
+                    },
+                    {
+                      "id": 997,
+                      "envelope": " Y",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 16:02:24",
+                      "latLong": "34.32225, -116.56124"
+                    },
+                    {
+                      "id": 998,
+                      "envelope": " V",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 16:09:20",
+                      "latLong": "34.32237, -116.56059"
+                    },
+                    {
+                      "id": 999,
+                      "envelope": " S",
+                      "temperature": "31°C/87°F",
+                      "elevation": "1121m/3678ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-23 16:11:32",
+                      "latLong": "34.32235, -116.56050"
+                    }
+                  ]
+                }
+              ],
+              "specimen": []
             }
           ],
           "specimen": []
