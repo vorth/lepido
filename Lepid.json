@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1001,
+  "lastNumber": 1016,
   "locations": {
     "location": [
       {
@@ -10418,6 +10418,215 @@
                       "location": "US-CA, San Bernardino Co.",
                       "date": "2026-03-23 16:11:32",
                       "latLong": "34.32235, -116.56050"
+                    }
+                  ]
+                }
+              ],
+              "specimen": []
+            },
+            {
+              "name": "day3",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [
+                {
+                  "name": "dirt-road",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1002,
+                      "genus": "Chlosyne",
+                      "species": "californica",
+                      "date": "2026-03-24 10:45:04",
+                      "latLong": "34.10245, -116.51890",
+                      "temperature": "26°C/79°F",
+                      "elevation": "971m/3186ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "envelope": " N"
+                    },
+                    {
+                      "id": 1003,
+                      "envelope": " E",
+                      "temperature": "26°C/79°F",
+                      "elevation": "971m/3186ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Bernardino Co.",
+                      "date": "2026-03-24 10:54:55",
+                      "latLong": "34.10245, -116.51890",
+                      "notes": "blue"
+                    }
+                  ]
+                },
+                {
+                  "name": "scenic-overlook",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1004,
+                      "genus": "Euphydryas",
+                      "species": "chalcedona hennei",
+                      "date": "2026-03-24 13:37:38",
+                      "latLong": "33.58514, -116.42558",
+                      "temperature": "26°C/79°F",
+                      "elevation": "1168m/3832ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "envelope": " I",
+                      "sex": "m"
+                    },
+                    {
+                      "id": 1005,
+                      "genus": "Euphydryas",
+                      "species": "chalcedona hennei",
+                      "date": "2026-03-24 13:42:50",
+                      "latLong": "33.58502, -116.42573",
+                      "temperature": "26°C/79°F",
+                      "elevation": "1168m/3832ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "envelope": " Q",
+                      "sex": "m"
+                    },
+                    {
+                      "id": 1006,
+                      "genus": "Chlosyne",
+                      "species": "californica",
+                      "date": "2026-03-24 13:45:12",
+                      "latLong": "33.58507, -116.42586",
+                      "temperature": "26°C/78°F",
+                      "elevation": "1168m/3832ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "envelope": "AS"
+                    },
+                    {
+                      "id": 1007,
+                      "genus": "Anthocharis",
+                      "species": "",
+                      "date": "2026-03-24 13:50:05",
+                      "latLong": "33.58478, -116.42569",
+                      "temperature": "26°C/79°F",
+                      "elevation": "1168m/3832ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "envelope": " L",
+                      "sex": "f"
+                    }
+                  ]
+                },
+                {
+                  "name": "cactus-springs",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1008,
+                      "envelope": " C",
+                      "temperature": "26°C/79°F",
+                      "elevation": "1220m/4003ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 14:19:03",
+                      "latLong": "33.58004, -116.44777",
+                      "notes": "m Behr's metalmark"
+                    },
+                    {
+                      "id": 1009,
+                      "envelope": "AG",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1220m/4003ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 14:46:41",
+                      "latLong": "33.57938, -116.44695",
+                      "notes": "funereal?"
+                    },
+                    {
+                      "id": 1010,
+                      "envelope": "AV",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1208m/3963ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 14:51:56",
+                      "latLong": "33.57935, -116.44565",
+                      "notes": "f orange sulphur"
+                    },
+                    {
+                      "id": 1011,
+                      "envelope": " M",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1199m/3934ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 15:15:28",
+                      "latLong": "33.57911, -116.44295",
+                      "notes": "desert black swallowtail"
+                    },
+                    {
+                      "id": 1012,
+                      "envelope": "AQ",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1199m/3934ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 15:26:13",
+                      "latLong": "33.57911, -116.44254",
+                      "notes": "great purple hairstreak"
+                    },
+                    {
+                      "id": 1013,
+                      "envelope": "AY",
+                      "temperature": "27°C/81°F",
+                      "elevation": "1177m/3862ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 15:46:07",
+                      "latLong": "33.58196, -116.43894"
+                    },
+                    {
+                      "id": 1014,
+                      "envelope": "AC",
+                      "temperature": "27°C/81°F",
+                      "elevation": "1181m/3875ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 15:51:34",
+                      "latLong": "33.58149, -116.43989"
+                    }
+                  ]
+                },
+                {
+                  "name": "emmet-lake",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1015,
+                      "envelope": "AD",
+                      "temperature": "25°C/78°F",
+                      "elevation": "1324m/4344ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 16:53:04",
+                      "latLong": "33.67011, -116.69660"
+                    },
+                    {
+                      "id": 1016,
+                      "envelope": " H",
+                      "temperature": "25°C/78°F",
+                      "elevation": "1324m/4344ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, Riverside Co.",
+                      "date": "2026-03-24 16:57:03",
+                      "latLong": "33.67036, -116.69609"
                     }
                   ]
                 }
