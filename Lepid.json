@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1016,
+  "lastNumber": 1026,
   "locations": {
     "location": [
       {
@@ -10627,6 +10627,130 @@
                       "location": "US-CA, Riverside Co.",
                       "date": "2026-03-24 16:57:03",
                       "latLong": "33.67036, -116.69609"
+                    }
+                  ]
+                }
+              ],
+              "specimen": []
+            },
+            {
+              "name": "day4",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [
+                {
+                  "name": "ocotillo",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1017,
+                      "envelope": " H",
+                      "temperature": "34°C/93°F",
+                      "elevation": "501m/1644ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 11:43:13",
+                      "latLong": "33.13110, -116.41258"
+                    }
+                  ]
+                },
+                {
+                  "name": "garnet-peak",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1018,
+                      "envelope": " E",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1647m/5404ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:01:31",
+                      "latLong": "32.91481, -116.46107"
+                    },
+                    {
+                      "id": 1019,
+                      "envelope": " G",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1647m/5404ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:03:32",
+                      "latLong": "32.91477, -116.46103"
+                    },
+                    {
+                      "id": 1020,
+                      "envelope": "AD",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1654m/5427ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:09:33",
+                      "latLong": "32.91604, -116.46038"
+                    },
+                    {
+                      "id": 1021,
+                      "envelope": "AL",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1656m/5433ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:13:46",
+                      "latLong": "32.91746, -116.46010"
+                    },
+                    {
+                      "id": 1022,
+                      "envelope": "BB",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1656m/5433ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:23:02",
+                      "latLong": "32.91819, -116.45973"
+                    },
+                    {
+                      "id": 1023,
+                      "envelope": " S",
+                      "temperature": "22°C/72°F",
+                      "elevation": "1711m/5614ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 14:40:51",
+                      "latLong": "32.92139, -116.46133"
+                    },
+                    {
+                      "id": 1024,
+                      "envelope": " L",
+                      "temperature": "22°C/71°F",
+                      "elevation": "1728m/5669ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 15:30:42",
+                      "latLong": "32.92491, -116.46055"
+                    },
+                    {
+                      "id": 1025,
+                      "envelope": "AP",
+                      "temperature": "22°C/72°F",
+                      "elevation": "1656m/5433ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 15:56:39",
+                      "latLong": "32.91848, -116.45997"
+                    },
+                    {
+                      "id": 1026,
+                      "envelope": "AM",
+                      "temperature": "22°C/72°F",
+                      "elevation": "1647m/5404ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-CA, San Diego Co.",
+                      "date": "2026-03-25 16:17:13",
+                      "latLong": "32.91096, -116.46061"
                     }
                   ]
                 }
