@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1026,
+  "lastNumber": 1027,
   "locations": {
     "location": [
       {
@@ -10756,6 +10756,25 @@
                 }
               ],
               "specimen": []
+            },
+            {
+              "name": "day6",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1027,
+                  "envelope": "AD",
+                  "temperature": "17°C/63°F",
+                  "elevation": "N/A",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Los Angeles Co.",
+                  "date": "2026-03-27 08:46:04",
+                  "latLong": "34.17533, -118.21605",
+                  "notes": "Marine blue"
+                }
+              ]
             }
           ],
           "specimen": []
