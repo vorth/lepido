@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1027,
+  "lastNumber": 1031,
   "locations": {
     "location": [
       {
@@ -10773,6 +10773,70 @@
                   "date": "2026-03-27 08:46:04",
                   "latLong": "34.17533, -118.21605",
                   "notes": "Marine blue"
+                }
+              ]
+            }
+          ],
+          "specimen": []
+        },
+        {
+          "name": "Arizona",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "Phoenix",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1028,
+                  "genus": "Eurema",
+                  "species": "nicippe",
+                  "date": "2026-03-28 09:06:11",
+                  "latLong": "33.40948, -111.47918",
+                  "temperature": "28°C/82°F",
+                  "elevation": "561m/1841ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pinal Co.",
+                  "envelope": " O"
+                },
+                {
+                  "id": 1029,
+                  "genus": "Libytheana",
+                  "species": "carinenta",
+                  "date": "2026-03-28 09:08:50",
+                  "latLong": "33.40949, -111.47910",
+                  "temperature": "28°C/82°F",
+                  "elevation": "569m/1867ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pinal Co.",
+                  "envelope": "AZ"
+                },
+                {
+                  "id": 1030,
+                  "genus": "Eurema",
+                  "species": "nicippe",
+                  "date": "2026-03-28 09:11:57",
+                  "latLong": "33.40952, -111.47927",
+                  "temperature": "28°C/82°F",
+                  "elevation": "561m/1841ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pinal Co.",
+                  "envelope": " K"
+                },
+                {
+                  "id": 1031,
+                  "genus": "Libytheana",
+                  "species": "carinenta",
+                  "date": "2026-03-28 09:17:42",
+                  "latLong": "33.40933, -111.47953",
+                  "temperature": "28°C/82°F",
+                  "elevation": "561m/1841ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pinal Co.",
+                  "envelope": "AU"
                 }
               ]
             }
