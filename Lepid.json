@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1039,
+  "lastNumber": 1061,
   "locations": {
     "location": [
       {
@@ -10927,6 +10927,250 @@
                   "latLong": "32.59241, -110.71991"
                 }
               ]
+            },
+            {
+              "name": "day3",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [
+                {
+                  "name": "pena-blanca",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1040,
+                      "envelope": " K",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1203m/3947ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 10:48:57",
+                      "latLong": "31.38367, -111.09284"
+                    },
+                    {
+                      "id": 1041,
+                      "envelope": " O",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1203m/3947ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 10:50:40",
+                      "latLong": "31.38373, -111.09282"
+                    },
+                    {
+                      "id": 1042,
+                      "envelope": "AW",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 10:55:30",
+                      "latLong": "31.38297, -111.09182"
+                    },
+                    {
+                      "id": 1043,
+                      "envelope": " V",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 10:58:55",
+                      "latLong": "31.38302, -111.09171"
+                    },
+                    {
+                      "id": 1044,
+                      "envelope": "BA",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:02:03",
+                      "latLong": "31.38302, -111.09171"
+                    },
+                    {
+                      "id": 1045,
+                      "envelope": " Q",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:18:27",
+                      "latLong": "31.38302, -111.09171"
+                    },
+                    {
+                      "id": 1046,
+                      "envelope": "AS",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:19:28",
+                      "latLong": "31.38307, -111.09173"
+                    },
+                    {
+                      "id": 1047,
+                      "envelope": "AG",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:26:30",
+                      "latLong": "31.38307, -111.09173"
+                    },
+                    {
+                      "id": 1048,
+                      "envelope": "AY",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:35:02",
+                      "latLong": "31.38307, -111.09173"
+                    },
+                    {
+                      "id": 1049,
+                      "envelope": "BJ",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:37:45",
+                      "latLong": "31.38126, -111.09158"
+                    },
+                    {
+                      "id": 1050,
+                      "envelope": "BI",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:50:00",
+                      "latLong": "31.38126, -111.09158"
+                    },
+                    {
+                      "id": 1051,
+                      "envelope": "AD",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 11:56:21",
+                      "latLong": "31.38126, -111.09158"
+                    },
+                    {
+                      "id": 1052,
+                      "envelope": " F",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 12:08:55",
+                      "latLong": "31.38126, -111.09158"
+                    },
+                    {
+                      "id": 1053,
+                      "envelope": " E",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 12:19:08",
+                      "latLong": "31.38126, -111.09158"
+                    },
+                    {
+                      "id": 1054,
+                      "envelope": " A",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 12:24:34",
+                      "latLong": "31.38229, -111.09252"
+                    }
+                  ]
+                },
+                {
+                  "name": "sycamore",
+                  "time": "",
+                  "latLong": "",
+                  "collectingSession": [],
+                  "specimen": [
+                    {
+                      "id": 1055,
+                      "envelope": " J",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1230m/4035ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 14:30:56",
+                      "latLong": "31.42868, -111.19141"
+                    },
+                    {
+                      "id": 1056,
+                      "envelope": " L",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1230m/4035ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 14:44:57",
+                      "latLong": "31.42868, -111.19141"
+                    },
+                    {
+                      "id": 1057,
+                      "envelope": "AZ",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 14:51:36",
+                      "latLong": "31.42832, -111.19225"
+                    },
+                    {
+                      "id": 1058,
+                      "envelope": "AU",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 14:58:02",
+                      "latLong": "31.42801, -111.19309"
+                    },
+                    {
+                      "id": 1059,
+                      "envelope": " G",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 15:11:04",
+                      "latLong": "31.42801, -111.19309"
+                    },
+                    {
+                      "id": 1060,
+                      "envelope": " H",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 15:22:49",
+                      "latLong": "31.42801, -111.19309"
+                    },
+                    {
+                      "id": 1061,
+                      "envelope": " N",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "date": "2026-03-30 15:38:30",
+                      "latLong": "31.42801, -111.19309"
+                    }
+                  ]
+                }
+              ],
+              "specimen": []
             }
           ],
           "specimen": []
