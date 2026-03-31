@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1061,
+  "lastNumber": 1062,
   "locations": {
     "location": [
       {
@@ -10941,23 +10941,27 @@
                   "specimen": [
                     {
                       "id": 1040,
-                      "envelope": " K",
+                      "genus": "Echinargus",
+                      "species": "isola",
+                      "date": "2026-03-30 10:48:57",
+                      "latLong": "31.38367, -111.09284",
+                      "notes": "Reakirt's",
                       "temperature": "23°C/73°F",
                       "elevation": "1203m/3947ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 10:48:57",
-                      "latLong": "31.38367, -111.09284"
+                      "envelope": " K"
                     },
                     {
                       "id": 1041,
-                      "envelope": " O",
+                      "genus": "Anthanassa",
+                      "species": "texana",
+                      "date": "2026-03-30 10:50:40",
+                      "latLong": "31.38373, -111.09282",
                       "temperature": "23°C/73°F",
                       "elevation": "1203m/3947ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 10:50:40",
-                      "latLong": "31.38373, -111.09282"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1042,
@@ -10971,43 +10975,48 @@
                     },
                     {
                       "id": 1043,
-                      "envelope": " V",
+                      "genus": "Papilio",
+                      "species": "multicaudatus",
+                      "date": "2026-03-30 10:58:55",
+                      "latLong": "31.38302, -111.09171",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 10:58:55",
-                      "latLong": "31.38302, -111.09171"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1044,
-                      "envelope": "BA",
+                      "genus": "Oarisma",
+                      "species": "aurantiaca",
+                      "date": "2026-03-30 11:02:03",
+                      "latLong": "31.38302, -111.09171",
+                      "notes": "Orange skipperling",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:02:03",
-                      "latLong": "31.38302, -111.09171"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1045,
-                      "envelope": " Q",
+                      "genus": "Eurema",
+                      "species": "mexicanus",
+                      "date": "2026-03-30 11:18:27",
+                      "latLong": "31.38302, -111.09171",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:18:27",
-                      "latLong": "31.38302, -111.09171"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1046,
-                      "envelope": "AS",
+                      "genus": "Anthanassa",
+                      "species": "texana",
+                      "date": "2026-03-30 11:19:28",
+                      "latLong": "31.38307, -111.09173",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:19:28",
-                      "latLong": "31.38307, -111.09173"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1047,
@@ -11021,73 +11030,95 @@
                     },
                     {
                       "id": 1048,
-                      "envelope": "AY",
+                      "genus": "Eurema",
+                      "species": "mexicanus",
+                      "date": "2026-03-30 11:35:02",
+                      "latLong": "31.38307, -111.09173",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1049,
+                      "genus": "Eurema",
+                      "species": "mexicanus",
+                      "date": "2026-03-30 11:37:45",
+                      "latLong": "31.38126, -111.09158",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1050,
+                      "genus": "Celotes",
+                      "species": "nessus",
+                      "date": "2026-03-30 11:50:00",
+                      "latLong": "31.38126, -111.09158",
+                      "notes": "id uncertain",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1051,
+                      "genus": "Junonia",
+                      "species": "nigrosuffusa",
+                      "date": "2026-03-30 11:56:21",
+                      "latLong": "31.38126, -111.09158",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1052,
+                      "genus": "Calephelis",
+                      "species": "",
+                      "date": "2026-03-30 12:08:55",
+                      "latLong": "31.38126, -111.09158",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1053,
+                      "genus": "Zerene",
+                      "species": "cesonia",
+                      "date": "2026-03-30 12:19:08",
+                      "latLong": "31.38126, -111.09158",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1241m/4072ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "f"
+                    },
+                    {
+                      "id": 1054,
+                      "genus": "Abaeis",
+                      "species": "nicippe",
+                      "date": "2026-03-30 12:24:34",
+                      "latLong": "31.38229, -111.09252",
+                      "temperature": "25°C/76°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co."
+                    },
+                    {
+                      "id": 1062,
+                      "genus": "Heliopetes",
+                      "species": "",
+                      "date": "2026-03-30 11:19:28",
+                      "latLong": "31.38307, -111.09173",
+                      "notes": "white skipper",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:35:02",
-                      "latLong": "31.38307, -111.09173"
-                    },
-                    {
-                      "id": 1049,
-                      "envelope": "BJ",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1241m/4072ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:37:45",
-                      "latLong": "31.38126, -111.09158"
-                    },
-                    {
-                      "id": 1050,
-                      "envelope": "BI",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1241m/4072ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:50:00",
-                      "latLong": "31.38126, -111.09158"
-                    },
-                    {
-                      "id": 1051,
-                      "envelope": "AD",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1241m/4072ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:56:21",
-                      "latLong": "31.38126, -111.09158"
-                    },
-                    {
-                      "id": 1052,
-                      "envelope": " F",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1241m/4072ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 12:08:55",
-                      "latLong": "31.38126, -111.09158"
-                    },
-                    {
-                      "id": 1053,
-                      "envelope": " E",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1241m/4072ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 12:19:08",
-                      "latLong": "31.38126, -111.09158"
-                    },
-                    {
-                      "id": 1054,
-                      "envelope": " A",
-                      "temperature": "25°C/76°F",
-                      "elevation": "1216m/3990ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 12:24:34",
-                      "latLong": "31.38229, -111.09252"
+                      "sex": "f"
                     }
                   ]
                 },
@@ -11099,23 +11130,25 @@
                   "specimen": [
                     {
                       "id": 1055,
-                      "envelope": " J",
+                      "genus": "Junonia",
+                      "species": "coenia",
+                      "date": "2026-03-30 14:30:56",
+                      "latLong": "31.42868, -111.19141",
                       "temperature": "26°C/80°F",
                       "elevation": "1230m/4035ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 14:30:56",
-                      "latLong": "31.42868, -111.19141"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1056,
-                      "envelope": " L",
+                      "genus": "Eurema",
+                      "species": "mexicanus",
+                      "date": "2026-03-30 14:44:57",
+                      "latLong": "31.42868, -111.19141",
                       "temperature": "26°C/80°F",
                       "elevation": "1230m/4035ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 14:44:57",
-                      "latLong": "31.42868, -111.19141"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1057,
@@ -11129,13 +11162,15 @@
                     },
                     {
                       "id": 1058,
-                      "envelope": "AU",
+                      "genus": "Zerene",
+                      "species": "cesonia",
+                      "date": "2026-03-30 14:58:02",
+                      "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 14:58:02",
-                      "latLong": "31.42801, -111.19309"
+                      "sex": "f"
                     },
                     {
                       "id": 1059,
@@ -11149,23 +11184,25 @@
                     },
                     {
                       "id": 1060,
-                      "envelope": " H",
+                      "genus": "Calephelis",
+                      "species": "",
+                      "date": "2026-03-30 15:22:49",
+                      "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 15:22:49",
-                      "latLong": "31.42801, -111.19309"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1061,
-                      "envelope": " N",
+                      "genus": "Junonia",
+                      "species": "nigrosuffusa",
+                      "date": "2026-03-30 15:38:30",
+                      "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 15:38:30",
-                      "latLong": "31.42801, -111.19309"
+                      "location": "US-AZ, Santa Cruz Co."
                     }
                   ]
                 }
