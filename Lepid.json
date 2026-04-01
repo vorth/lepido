@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1062,
+  "lastNumber": 1067,
   "locations": {
     "location": [
       {
@@ -11208,6 +11208,79 @@
                 }
               ],
               "specimen": []
+            },
+            {
+              "name": "madera",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1063,
+                  "genus": "Asterocampa",
+                  "species": "",
+                  "date": "2026-03-31 09:57:10",
+                  "latLong": "31.74122, -110.88725",
+                  "temperature": "25°C/76°F",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": " N",
+                  "sex": "m"
+                },
+                {
+                  "id": 1064,
+                  "genus": "Zerene",
+                  "species": "cesonia",
+                  "date": "2026-03-31 10:05:04",
+                  "latLong": "31.74108, -110.88733",
+                  "temperature": "25°C/76°F",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "AL"
+                },
+                {
+                  "id": 1065,
+                  "genus": "Asterocampa",
+                  "species": "",
+                  "date": "2026-03-31 10:24:44",
+                  "latLong": "31.73971, -110.88625",
+                  "notes": "hackberry",
+                  "temperature": "24°C/76°F",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "BA",
+                  "sex": "m"
+                },
+                {
+                  "id": 1066,
+                  "genus": "Anthanassa",
+                  "species": "texana",
+                  "date": "2026-03-31 10:54:14",
+                  "latLong": "31.74007, -110.88722",
+                  "notes": "Texas crescent",
+                  "temperature": "24°C/76°F",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": " C",
+                  "sex": "f"
+                },
+                {
+                  "id": 1067,
+                  "genus": "Nathalis",
+                  "species": "iole",
+                  "date": "2026-03-31 11:05:41",
+                  "latLong": "31.73987, -110.88725",
+                  "temperature": "24°C/76°F",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "AP"
+                }
+              ]
             }
           ],
           "specimen": []
