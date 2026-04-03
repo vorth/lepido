@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1067,
+  "lastNumber": 1073,
   "locations": {
     "location": [
       {
@@ -11279,6 +11279,96 @@
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pima Co.",
                   "envelope": "AP"
+                }
+              ]
+            },
+            {
+              "name": "miller",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1068,
+                  "genus": "Strymon",
+                  "species": "melinus",
+                  "date": "2026-04-01 11:21:17",
+                  "latLong": "31.41536, -110.27777",
+                  "temperature": "17°C/62°F",
+                  "elevation": "1777m/5830ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": " K"
+                }
+              ]
+            },
+            {
+              "name": "NM",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1069,
+                  "genus": "Zerene",
+                  "species": "cesonia",
+                  "date": "2026-04-02 10:14:51",
+                  "latLong": "32.13074, -108.94071",
+                  "temperature": "21°C/71°F",
+                  "elevation": "1322m/4337ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NM, Hidalgo Co.",
+                  "envelope": "BI"
+                },
+                {
+                  "id": 1070,
+                  "genus": "Callophrys",
+                  "species": "",
+                  "date": "2026-04-02 13:04:29",
+                  "latLong": "32.14331, -107.61858",
+                  "temperature": "21°C/71°F",
+                  "elevation": "1612m/5289ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NM, Luna Co.",
+                  "envelope": " D"
+                },
+                {
+                  "id": 1071,
+                  "genus": "Atlides",
+                  "species": "halesus",
+                  "date": "2026-04-02 13:22:25",
+                  "latLong": "32.14331, -107.61858",
+                  "temperature": "21°C/71°F",
+                  "elevation": "1612m/5289ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NM, Luna Co.",
+                  "envelope": "BB",
+                  "sex": "f"
+                },
+                {
+                  "id": 1072,
+                  "genus": "Callophrys",
+                  "species": "",
+                  "date": "2026-04-02 13:44:01",
+                  "latLong": "32.14311, -107.61851",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1612m/5289ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NM, Luna Co.",
+                  "envelope": " P"
+                },
+                {
+                  "id": 1073,
+                  "genus": "Systasea",
+                  "species": "",
+                  "date": "2026-04-02 13:56:03",
+                  "latLong": "32.14374, -107.61842",
+                  "notes": "powdered skipper?",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1612m/5289ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NM, Luna Co.",
+                  "envelope": "AE"
                 }
               ]
             }
