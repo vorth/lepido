@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1073,
+  "lastNumber": 1077,
   "locations": {
     "location": [
       {
@@ -11369,6 +11369,56 @@
                   "collector": "Scott Vorthmann",
                   "location": "US-NM, Luna Co.",
                   "envelope": "AE"
+                }
+              ]
+            },
+            {
+              "name": "friday",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1074,
+                  "envelope": " I",
+                  "temperature": "17°C/63°F",
+                  "elevation": "2266m/7434ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-03 12:22:17",
+                  "latLong": "31.92840, -109.25635"
+                },
+                {
+                  "id": 1075,
+                  "envelope": "AM",
+                  "temperature": "18°C/64°F",
+                  "elevation": "2205m/7234ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-03 12:31:33",
+                  "latLong": "31.92790, -109.25601"
+                },
+                {
+                  "id": 1076,
+                  "envelope": "AU",
+                  "temperature": "20°C/68°F",
+                  "elevation": "1961m/6434ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-03 13:09:15",
+                  "latLong": "31.90882, -109.25188"
+                },
+                {
+                  "id": 1077,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-04-03 13:14:28",
+                  "latLong": "31.90882, -109.25188",
+                  "temperature": "20°C/68°F",
+                  "elevation": "1961m/6434ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": " H"
                 }
               ]
             }
