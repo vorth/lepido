@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1077,
+  "lastNumber": 1091,
   "locations": {
     "location": [
       {
@@ -11419,6 +11419,167 @@
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
                   "envelope": " H"
+                }
+              ]
+            },
+            {
+              "name": "garden",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1078,
+                  "envelope": " J",
+                  "temperature": "21°C/71°F",
+                  "elevation": "1683m/5522ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:09:39",
+                  "latLong": "31.47024, -110.35490",
+                  "notes": "Adelpha eulalia"
+                },
+                {
+                  "id": 1079,
+                  "envelope": "AI",
+                  "temperature": "21°C/70°F",
+                  "elevation": "1685m/5528ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:20:44",
+                  "latLong": "31.46844, -110.35449",
+                  "notes": "Papilio multicaudatus"
+                },
+                {
+                  "id": 1080,
+                  "envelope": "AD",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1685m/5528ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:34:12",
+                  "latLong": "31.46723, -110.35583"
+                },
+                {
+                  "id": 1081,
+                  "envelope": "BJ",
+                  "temperature": "22°C/71°F",
+                  "elevation": "1706m/5597ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:45:11",
+                  "latLong": "31.46759, -110.35831",
+                  "notes": "checkerspot"
+                },
+                {
+                  "id": 1082,
+                  "envelope": "AY",
+                  "temperature": "22°C/71°F",
+                  "elevation": "1706m/5597ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:51:25",
+                  "latLong": "31.46759, -110.35831",
+                  "notes": "Limenitis arthemis arizonensis"
+                },
+                {
+                  "id": 1083,
+                  "envelope": " Q",
+                  "temperature": "22°C/71°F",
+                  "elevation": "1706m/5597ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:55:15",
+                  "latLong": "31.46759, -110.35831",
+                  "notes": "metalmark"
+                },
+                {
+                  "id": 1084,
+                  "envelope": "AC",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 12:56:28",
+                  "latLong": "31.46740, -110.35839",
+                  "notes": "metalmark"
+                },
+                {
+                  "id": 1085,
+                  "envelope": " L",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 13:01:24",
+                  "latLong": "31.46740, -110.35878",
+                  "notes": "Chlosyne lacinia"
+                },
+                {
+                  "id": 1086,
+                  "envelope": "AQ",
+                  "temperature": "24°C/74°F",
+                  "elevation": "1514m/4967ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 13:09:03",
+                  "latLong": "31.49922, -110.31537",
+                  "notes": "metalmark"
+                },
+                {
+                  "id": 1087,
+                  "envelope": "AF",
+                  "temperature": "22°C/72°F",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 13:13:44",
+                  "latLong": "31.46737, -110.35870",
+                  "notes": "skipper"
+                },
+                {
+                  "id": 1088,
+                  "envelope": " R",
+                  "temperature": "22°C/71°F",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 13:20:59",
+                  "latLong": "31.46751, -110.35864",
+                  "notes": "Limenitis arthemis arizonensis"
+                },
+                {
+                  "id": 1089,
+                  "envelope": "AN",
+                  "temperature": "23°C/73°F",
+                  "elevation": "1659m/5443ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 14:01:59",
+                  "latLong": "31.47172, -110.35581",
+                  "notes": "checkerspot"
+                },
+                {
+                  "id": 1090,
+                  "envelope": "BH",
+                  "temperature": "24°C/74°F",
+                  "elevation": "1591m/5220ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 14:03:38",
+                  "latLong": "31.47598, -110.33083",
+                  "notes": "checkerspot"
+                },
+                {
+                  "id": 1091,
+                  "envelope": "AS",
+                  "temperature": "24°C/75°F",
+                  "elevation": "1558m/5112ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "date": "2026-04-05 14:25:04",
+                  "latLong": "31.48330, -110.32848",
+                  "notes": "Adelpha eulalia"
                 }
               ]
             }
