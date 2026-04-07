@@ -186,10 +186,6 @@ a:hover {
   color: black;
 }
 
-.labels-layout {
-  grid-template-columns: minmax(0,1fr) minmax(0,2fr) !important;
-}
-
 #labels-panel {
   display: flex;
   flex-direction: column;
