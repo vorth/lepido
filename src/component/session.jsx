@@ -1,6 +1,10 @@
 
 import { createSignal, createEffect, For, Show, batch } from 'solid-js';
 
+const collapsedState = new Map();
+const getCollapsed = (key) => collapsedState.has(key) ? collapsedState.get(key) : true;
+const setCollapsed = (key, val) => collapsedState.set(key, val);
+
 import { Specimen } from './specimen.jsx';
 import { useMode, CURATING } from '../context/mode.jsx';
 import { useSelection } from '../context/selection.jsx';
@@ -53,17 +57,22 @@ export const CollectingSession = props =>
   const { mode } = useMode();
   const { setSelectedId, selectedSpecimen } = useSelection();
   const { lastOpenedSession, setLastOpenedSession } = useEditor();
-  const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( true );
   const name = () => props.session.name || 'COLLECTION';
   const path = () => [ ...props.path, name() ];
+  const pathKey = () => path().join('/');
+  const [ specimensCollapsed, setSpecimensCollapsed ] = createSignal( getCollapsed( pathKey() ) );
 
   createEffect( () => {
     if ( selectedSpecimen() ?.container === props.session ) {
       setSpecimensCollapsed( false );
     }
-    if ( lastOpenedSession() ?.join('/') === path().join('/') ) {
+    if ( lastOpenedSession() ?.join('/') === pathKey() ) {
       setSpecimensCollapsed( false );
     }
+  } );
+
+  createEffect( () => {
+    setCollapsed( pathKey(), specimensCollapsed() );
   } );
 
   const toggleCollapsed = e =>
