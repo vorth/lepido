@@ -61,6 +61,7 @@ a:hover {
   --session-color: rgb(48, 63, 75);
   --border-color: rgb(225, 210, 134);
   --import-color: rgb(195 83 83);
+  --label-color: rgb(134, 169, 104);
 }
 
 #container {
@@ -141,6 +142,12 @@ a:hover {
   background-color: var(--import-color);
   right: 25px;
 }
+.toggle-labels {
+  position: absolute;
+  top: -1px;
+  right: 5px;
+  background-color: var(--label-color);
+}
 
 /* .dialog-input {
   margin-block: 8px;
@@ -175,7 +182,7 @@ a:hover {
 /* Labels mode */
 
 .label-selected {
-  background-color: rgb(134, 169, 104) !important;
+  background-color: var(--label-color) !important;
   color: black;
 }
 

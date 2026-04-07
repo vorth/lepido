@@ -59,13 +59,19 @@ export const SelectionProvider = (props) =>
 
   const selectedSpecimen = () => findSpecimen( data(), selectedId() );
 
-  const toggleLabelSelection = (id) =>
+  const toggleLabelSelection = (id, state) =>
   {
     const current = new Set( labelSelection() );
-    if ( current.has(id) ) {
-      current.delete(id);
-    } else {
+    if ( state === undefined ) {
+      if ( current.has(id) ) {
+        current.delete(id);
+      } else {
+        current.add(id);
+      }
+    } else if ( state ) {
       current.add(id);
+    } else {
+      current.delete(id);
     }
     setLabelSelection( current );
   }
@@ -83,6 +89,7 @@ export const SelectionProvider = (props) =>
   return (
     <SelectionContext.Provider value={{
       selectedId, setSelectedId, selectedSpecimen,
+      collectAllSpecimens,
       labelSelection, toggleLabelSelection, clearLabelSelection, labelSpecimens
     }}>
       {props.children}

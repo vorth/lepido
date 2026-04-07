@@ -41,12 +41,15 @@ const AppUI = () =>
     }
   } );
 
+  const doSetMode = newMode => () =>
+    setMode( newMode );
+
   return (
     <>
       <div class="mode-buttons buttons">
-        <button class={`mode-button ${mode() === VIEWING ? 'active-mode' : ''}`} onClick={()=>setMode(VIEWING)}>VIEW</button>
-        <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={()=>setMode(CURATING)}>CURATE</button>
-        <button class={`mode-button ${mode() === LABELING ? 'active-mode' : ''}`} onClick={()=>setMode(LABELING)}>LABELS</button>
+        <button class={`mode-button ${mode() === VIEWING ? 'active-mode' : ''}`} onClick={doSetMode(VIEWING)}>VIEW</button>
+        <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={doSetMode(CURATING)}>CURATE</button>
+        <button class={`mode-button ${mode() === LABELING ? 'active-mode' : ''}`} onClick={doSetMode(LABELING)}>LABELS</button>
       </div>
       <div class="load-save-buttons buttons">
         {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}

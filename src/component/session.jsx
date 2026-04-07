@@ -6,9 +6,30 @@ const getCollapsed = (key) => collapsedState.has(key) ? collapsedState.get(key) 
 const setCollapsed = (key, val) => collapsedState.set(key, val);
 
 import { Specimen } from './specimen.jsx';
-import { useMode, CURATING } from '../context/mode.jsx';
+import { useMode, VIEWING, LABELING } from '../context/mode.jsx';
 import { useSelection } from '../context/selection.jsx';
 import { useEditor } from '../context/editor.jsx';
+
+const ToggleLabels = props =>
+{
+  const { labelSelection, toggleLabelSelection, collectAllSpecimens } = useSelection();
+  const handleClick = e =>
+  {
+    e .stopPropagation();
+    // recursively toggle all specimens in this session.  If any specimen is not selected, select all.  If all are selected, deselect all.
+    const specimens = props.session ? collectAllSpecimens( props.session ) : [];
+    const allSelected = specimens.every( s => labelSelection().has( s.id ) );
+    if ( allSelected ) {
+      specimens.forEach( s => toggleLabelSelection( s.id, false ) );
+    } else {
+      specimens.forEach( s => toggleLabelSelection( s.id, true ) );
+    }
+  }
+
+  return (
+    <button class='toggle-labels add-button' onClick={handleClick}>toggle labels</button>
+  );
+}
 
 const AddSession = props =>
 {
@@ -111,10 +132,16 @@ export const CollectingSession = props =>
           }</For>
         </Show>
       </ul>
-      <Show when= { mode() === CURATING && !specimensCollapsed() } >
-        <AddSession parent={props.session}/>
-        <AddSpecimen parent={props.session} />
-        <ImportSpecimens parent={props.session} />
+      <Show when= { mode() !== VIEWING && !specimensCollapsed() } >
+        <Show when={ mode() === LABELING } fallback={
+          <>
+            <AddSession parent={props.session}/>
+            <AddSpecimen parent={props.session} />
+            <ImportSpecimens parent={props.session} />
+          </>
+        }>
+          <ToggleLabels session={props.session} />
+        </Show>
       </Show>
     </div>
   );
