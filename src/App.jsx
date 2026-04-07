@@ -64,23 +64,18 @@ const AppUI = () =>
         </Show>
       </div>
       <div id="container">
-        <Show when={mode() === LABELING} fallback={
-          <div id="collection">
-            <div id="picker">
-              <CollectingSession session={ data() } path={[]} />
-            </div>
+        <div id="collection" class={mode() === LABELING ? 'labels-layout' : ''}>
+          <div id="picker">
+            <CollectingSession session={ data() } path={[]} />
+          </div>
+          <Show when={mode() === LABELING} fallback={
             <div id="detail">
               <SpecimenDetails/>
             </div>
-          </div>
-        }>
-          <div id="collection" class="labels-layout">
-            <div id="picker">
-              <CollectingSession session={ data() } path={[]} />
-            </div>
+          }>
             <LabelsPanel />
-          </div>
-        </Show>
+          </Show>
+        </div>
       </div>
       <Show when={mode() === CURATING}>
         <NewSession show={!!newSessionParent()} close={saveNewSession} />
