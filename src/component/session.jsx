@@ -114,35 +114,35 @@ export const CollectingSession = props =>
   return (
     <div class="session" onClick={ toggleCollapsed }>
       <span class="session-name">{name()}</span>
-      <ul class='sessionList'>
-        <Show when={ !specimensCollapsed() }>
-          <Show when={ Array.isArray( props.session.specimen ) } fallback={
-            props.session.specimen && <Specimen specimen={props.session.specimen} container={props.session} />
-          }>
-            <For each={props.session.specimen}>{ (specimen) =>
-              <Specimen specimen={specimen} container={props.session}/>
+      <div class="session-collapsible" classList={{'session-expanded': !specimensCollapsed()}}>
+        <div class="session-collapsible-inner">
+          <ul class='sessionList'>
+            <Show when={ Array.isArray( props.session.specimen ) } fallback={
+              props.session.specimen && <Specimen specimen={props.session.specimen} container={props.session} />
+            }>
+              <For each={props.session.specimen}>{ (specimen) =>
+                <Specimen specimen={specimen} container={props.session}/>
+              }</For>
+            </Show>
+            <For each={props.session.collectingSession}>{ session =>
+              <li>
+                <CollectingSession session={ session } path={path()} />
+              </li>
             }</For>
+          </ul>
+          <Show when={ mode() !== VIEWING }>
+            <Show when={ mode() === LABELING } fallback={
+              <>
+                <AddSession parent={props.session}/>
+                <AddSpecimen parent={props.session} />
+                <ImportSpecimens parent={props.session} />
+              </>
+            }>
+              <ToggleLabels session={props.session} />
+            </Show>
           </Show>
-        </Show>
-        <Show when={ !specimensCollapsed() }>
-          <For each={props.session.collectingSession}>{ session =>
-            <li>
-              <CollectingSession session={ session } path={path()} />
-            </li>
-          }</For>
-        </Show>
-      </ul>
-      <Show when= { mode() !== VIEWING && !specimensCollapsed() } >
-        <Show when={ mode() === LABELING } fallback={
-          <>
-            <AddSession parent={props.session}/>
-            <AddSpecimen parent={props.session} />
-            <ImportSpecimens parent={props.session} />
-          </>
-        }>
-          <ToggleLabels session={props.session} />
-        </Show>
-      </Show>
+        </div>
+      </div>
     </div>
   );
 }

@@ -94,6 +94,22 @@ a:hover {
   background-color: var(--detail-color);
 }
 
+.detail-collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.detail-collapsible.detail-expanded {
+  grid-template-rows: 1fr;
+  border-top: 3px solid var(--border-color);
+}
+
+.detail-collapsible-inner {
+  overflow: hidden;
+  min-height: 0;
+}
+
 .specimen {
   background-color: var(--detail-color);
 }
@@ -112,6 +128,21 @@ a:hover {
 
 .session-name {
   margin-inline-start: 8px;
+}
+
+.session-collapsible {
+  display: grid;
+  grid-template-rows: 0fr;
+  transition: grid-template-rows 0.25s ease;
+}
+
+.session-collapsible.session-expanded {
+  grid-template-rows: 1fr;
+}
+
+.session-collapsible-inner {
+  overflow: hidden;
+  min-height: 0;
 }
 
 .sessionList {
@@ -234,6 +265,7 @@ a:hover {
   padding: 8px 12px;
   background-color: var(--session-color);
   border-bottom: 1px solid var(--border-color);
+  border-top: 3px solid var(--border-color);
 }
 
 .labels-page {

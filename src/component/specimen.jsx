@@ -20,11 +20,27 @@ export const Specimen = props =>
     }
   }
   let elt;
+  const scrollToSelf = () => elt.scrollIntoView( { behavior: 'smooth', block: 'nearest' } );
+
   createEffect( () => {
-    if ( !! elt ) {
-      if ( isSelected() ) {
-        elt.scrollIntoView( { behavior: 'smooth', block: 'nearest' } );
+    if ( !! elt && isSelected() ) {
+      const collapsible = elt.closest( '.session-collapsible' );
+      if ( !collapsible ) {
+        scrollToSelf();
+        return;
       }
+      // Wait for any CSS transition to finish, with a fallback timeout
+      // in case the element is already fully expanded (no transition fires)
+      let done = false;
+      const finish = () => {
+        if ( done ) return;
+        done = true;
+        collapsible.removeEventListener( 'transitionend', onEnd );
+        scrollToSelf();
+      };
+      const onEnd = () => finish();
+      collapsible.addEventListener( 'transitionend', onEnd );
+      setTimeout( finish, 300 );
     }
   });
 
