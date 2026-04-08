@@ -136,12 +136,18 @@ export function EditorProvider(props) {
       }
 
       for (const photo of photos) {
-        const { latitude, longitude, dateTimeOriginal, qrCode } = photo;
+        const { latitude, longitude, dateTimeOriginal, qrCode, multiplicity, } = photo;
         if (!latitude || !longitude || !dateTimeOriginal || !qrCode) {
           console.warn('Skipping photo with missing data:', photo);
           continue;
         }
-        importSpecimen( parent, photo, qrCode );
+        if ( multiplicity && multiplicity > 1 ) {
+          for ( let i = 1; i <= multiplicity; i++ ) {
+            importSpecimen( parent, photo, `${qrCode}-${i}` );
+          }
+        } else {
+          importSpecimen( parent, photo, qrCode );
+        }
       }
       updateData();
       saveDataLocally();
