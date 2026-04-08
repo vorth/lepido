@@ -54,7 +54,7 @@ a:hover {
 
 #root {
   display: grid;
-  grid-template-rows: min-content min-content min-content 1fr;
+  grid-template-rows: min-content min-content 1fr;
   margin: 0 auto;
   --detail-color: rgb(88, 112, 132);
   --selection-color: rgb(183, 208, 229);
@@ -173,6 +173,40 @@ a:hover {
 
 .status {
   margin: 8px;
+}
+
+.top-bar {
+  position: relative;
+}
+
+.top-bar-collapsed {
+  min-height: 1.5em;
+}
+
+.top-bar-toggle {
+  position: absolute;
+  right: 8px;
+  background: none;
+  border: none;
+  color: rgba(255, 255, 255, 0.87);
+  cursor: pointer;
+  font-size: 0.9em;
+  padding: 2px 6px;
+  line-height: 1;
+  z-index: 1;
+}
+.top-bar-toggle:hover {
+  color: #646cff;
+  border-color: transparent;
+}
+
+.top-bar-collapsed .top-bar-toggle {
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.top-bar-open .top-bar-toggle {
+  bottom: 4px;
 }
 
 .active-mode {

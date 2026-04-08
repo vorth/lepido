@@ -1,5 +1,5 @@
 
-import { onMount, Show } from 'solid-js'
+import { createSignal, onMount, Show } from 'solid-js'
 
 import './App.css';
 import './labels.css';
@@ -29,7 +29,9 @@ const AppUI = () =>
     lastOpenedSession } = useEditor();
 
   const sessionName = () => (lastOpenedSession && lastOpenedSession()?.join('/')) || '';
-  
+  const [topBarOpen, setTopBarOpen] = createSignal(false);
+  const toggleTopBar = () => setTopBarOpen(prev => !prev);
+
   onMount( () => {
     loadStorage();
     if ( mode() === VIEWING ) {
@@ -51,20 +53,26 @@ const AppUI = () =>
         <button class={`mode-button ${mode() === CURATING ? 'active-mode' : ''}`} onClick={doSetMode(CURATING)}>CURATE</button>
         <button class={`mode-button ${mode() === LABELING ? 'active-mode' : ''}`} onClick={doSetMode(LABELING)}>LABELS</button>
       </div>
-      <div class="load-save-buttons buttons">
-        {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
-        <button class="other-button" onClick={loadFromResource}>Load From Source</button>
-        <button class="other-button" onClick={loadFromStorage} >Load From Local</button>
-        <button class="other-button" onClick={saveDataLocally} >Save To Local</button>
-        <button class="other-button" onClick={backUpFile}>Back Up</button>
-      </div>
-      <div class="status">
-        <div>Session: {sessionName()}</div>
-        <div>Last ID: {data().lastNumber}</div>
-        <Show when= { mode() === CURATING } >
-          <div>Last ID (local): {localData().lastNumber}</div>
-          <div>Last ID (source): {sourceData().lastNumber}</div>
+
+      <div class={`top-bar ${topBarOpen() ? 'top-bar-open' : 'top-bar-collapsed'}`}>
+        <Show when={topBarOpen()}>
+          <div class="load-save-buttons buttons">
+            {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
+            <button class="other-button" onClick={loadFromResource}>Load From Source</button>
+            <button class="other-button" onClick={loadFromStorage} >Load From Local</button>
+            <button class="other-button" onClick={saveDataLocally} >Save To Local</button>
+            <button class="other-button" onClick={backUpFile}>Back Up</button>
+          </div>
+          <div class="status">
+            <div>Session: {sessionName()}</div>
+            <div>Last ID: {data().lastNumber}</div>
+            <div>Last ID (local): {localData().lastNumber}</div>
+            <div>Last ID (source): {sourceData().lastNumber}</div>
+          </div>
         </Show>
+        <button class="top-bar-toggle" onClick={toggleTopBar}>
+          {topBarOpen() ? '▲' : '▶'}
+        </button>
       </div>
       <div id="container">
         <div id="collection" class={mode() === LABELING ? 'labels-layout' : ''}>
