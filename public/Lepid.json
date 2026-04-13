@@ -10108,26 +10108,22 @@
                   "id": 976,
                   "genus": "Celastrina",
                   "species": "ladon echo",
-                  "date": "2026-03-22 14:41:51",
+                  "date": "2026-03-22 14:41",
                   "latLong": "34.37871, -117.59791",
                   "temperature": "24°C/75°F",
-                  "elevation": "N/A",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, San Bernardino Co.",
-                  "envelope": " O",
                   "sex": "m"
                 },
                 {
                   "id": 977,
                   "genus": "Celastrina",
                   "species": "ladon echo",
-                  "date": "2026-03-22 10:54:23",
+                  "date": "2026-03-22 10:54",
                   "latLong": "34.28290, -118.19573",
                   "temperature": "27°C/80°F",
-                  "elevation": "N/A",
                   "collector": "Brian Banker",
                   "location": "US-CA, Los Angeles Co.",
-                  "envelope": " N",
                   "sex": "m"
                 }
               ]
@@ -10145,115 +10141,119 @@
                   "specimen": [
                     {
                       "id": 978,
-                      "envelope": "AL",
+                      "genus": "Anthocharis",
+                      "species": "sara",
+                      "date": "2026-03-23 10:28",
+                      "latLong": "34.45246, -117.81317",
                       "temperature": "22°C/71°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 10:28:32",
-                      "latLong": "34.45246, -117.81317",
-                      "notes": "Anthocharis (two!)"
+                      "sex": "m"
                     },
                     {
                       "id": 979,
-                      "envelope": " J",
+                      "genus": "Pontia",
+                      "species": "occidentalis",
+                      "date": "2026-03-23 10:32",
+                      "latLong": "34.45242, -117.81316",
                       "temperature": "23°C/73°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 10:32:19",
-                      "latLong": "34.45242, -117.81316",
-                      "notes": "Spring white?"
+                      "location": "US-CA, Los Angeles Co."
                     },
                     {
                       "id": 980,
-                      "envelope": " B",
+                      "genus": "Anthocharis",
+                      "species": "sara",
+                      "date": "2026-03-23 10:34",
+                      "latLong": "34.45226, -117.81314",
                       "temperature": "23°C/73°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 10:34:43",
-                      "latLong": "34.45226, -117.81314",
-                      "notes": "Anthocharis"
+                      "sex": "m"
                     },
                     {
                       "id": 981,
-                      "envelope": " I",
+                      "genus": "Pontia",
+                      "species": "beckerii",
+                      "date": "2026-03-23 10:39",
+                      "latLong": "34.45260, -117.81315",
                       "temperature": "23°C/74°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 10:39:20",
-                      "latLong": "34.45260, -117.81315",
-                      "notes": "Spring white?"
+                      "sex": "m"
                     },
                     {
                       "id": 982,
-                      "envelope": " Q",
+                      "genus": "Apodemia",
+                      "species": "virgulti",
+                      "date": "2026-03-23 11:08",
+                      "latLong": "34.45515, -117.81392",
                       "temperature": "23°C/74°F",
                       "elevation": "1220m/4003ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 11:08:06",
-                      "latLong": "34.45515, -117.81392",
-                      "notes": "Apodemia"
+                      "sex": "f"
                     },
                     {
                       "id": 983,
-                      "envelope": " G",
+                      "genus": "Callophrys",
+                      "species": "dumetorum",
+                      "date": "2026-03-23 11:09",
+                      "latLong": "34.45500, -117.81394",
                       "temperature": "23°C/74°F",
                       "elevation": "1220m/4003ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 11:09:55",
-                      "latLong": "34.45500, -117.81394",
-                      "notes": "Lotus hairstreak"
+                      "location": "US-CA, Los Angeles Co."
                     },
                     {
                       "id": 984,
-                      "envelope": "AF",
+                      "genus": "Callophrys",
+                      "species": "dumetorum",
+                      "date": "2026-03-23 11:22",
+                      "latLong": "34.45254, -117.81296",
                       "temperature": "23°C/74°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 11:22:14",
-                      "latLong": "34.45254, -117.81296",
-                      "notes": "Lotus Hairstreak"
+                      "location": "US-CA, Los Angeles Co."
                     },
                     {
                       "id": 985,
-                      "envelope": " L",
+                      "genus": "Chlosyne",
+                      "species": "acastus",
+                      "date": "2026-03-23 11:40",
+                      "latLong": "34.45232, -117.81304",
                       "temperature": "25°C/76°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "date": "2026-03-23 11:40:26",
-                      "latLong": "34.45232, -117.81304",
-                      "notes": "Chlosyne acastus?"
+                      "sex": "m"
                     },
                     {
                       "id": 986,
                       "genus": "Anthocharis",
-                      "species": "",
-                      "date": "2026-03-23 11:40:26",
+                      "species": "sara",
+                      "date": "2026-03-23 11:40",
                       "latLong": "34.45232, -117.81304",
-                      "notes": "photo was missing",
                       "temperature": "25°C/76°F",
                       "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Los Angeles Co.",
-                      "envelope": " A",
                       "sex": "f"
                     },
                     {
                       "id": 1001,
                       "genus": "Anthocharis",
-                      "species": "",
+                      "species": "sara",
                       "date": "2026-03-23 10:28",
                       "latLong": "34.05236, -116.59522",
-                      "notes": "same data as 978",
+                      "temperature": "22°C/71°F",
+                      "elevation": "1239m/4065ft",
                       "collector": "Scott Vorthmann",
-                      "envelope": "AL again",
+                      "location": "US-CA, Los Angeles Co.",
                       "sex": "m"
                     }
                   ]
@@ -10266,47 +10266,49 @@
                   "specimen": [
                     {
                       "id": 987,
-                      "envelope": " D",
+                      "genus": "Pontia",
+                      "species": "protodice",
+                      "date": "2026-03-23 14:11",
+                      "latLong": "34.35666, -116.85476",
                       "temperature": "28°C/82°F",
                       "elevation": "1293m/4242ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 14:11:41",
-                      "latLong": "34.35666, -116.85476",
-                      "notes": "Spring white?"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 988,
-                      "envelope": " E",
+                      "genus": "Chlosyne",
+                      "species": "acastus",
+                      "date": "2026-03-23 14:18",
+                      "latLong": "34.36433, -116.85645",
                       "temperature": "28°C/83°F",
                       "elevation": "1241m/4072ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 14:18:32",
-                      "latLong": "34.36433, -116.85645",
-                      "notes": "Chlosyne acastus"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 989,
-                      "envelope": " N",
+                      "genus": "Chlosyne",
+                      "species": "acastus",
+                      "date": "2026-03-23 14:22",
+                      "latLong": "34.35677, -116.85483",
                       "temperature": "28°C/82°F",
                       "elevation": "1293m/4242ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 14:22:40",
-                      "latLong": "34.35677, -116.85483",
-                      "notes": "Chlosyne acastus"
+                      "sex": "f"
                     },
                     {
                       "id": 1000,
-                      "envelope": " C",
+                      "genus": "Apodemia",
+                      "species": "",
+                      "date": "2026-03-23 13:56",
+                      "latLong": "34.35666, -116.85476",
+                      "notes": "deserti?",
                       "temperature": "28°C/82°F",
-                      "elevation": "N/A",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 13:56:46",
-                      "latLong": "34.35666, -116.85476",
-                      "notes": "Apodemia"
+                      "sex": "f"
                     }
                   ]
                 },
@@ -10318,106 +10320,122 @@
                   "specimen": [
                     {
                       "id": 990,
-                      "envelope": " O",
+                      "genus": "Erynnis",
+                      "species": "tristis",
+                      "date": "2026-03-23 15:28",
+                      "latLong": "34.32278, -116.56059",
+                      "notes": "Mournful Duskywing",
                       "temperature": "31°C/88°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:28:01",
-                      "latLong": "34.32278, -116.56059",
-                      "notes": "Apodemia"
+                      "sex": "m"
                     },
                     {
                       "id": 991,
-                      "envelope": " M",
+                      "genus": "Euphydryas",
+                      "species": "chalcedona corralensis",
+                      "date": "2026-03-23 15:36",
+                      "latLong": "34.32190, -116.56065",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:36:15",
-                      "latLong": "34.32190, -116.56065",
-                      "notes": "Euphydryas"
+                      "sex": "m"
                     },
                     {
                       "id": 992,
-                      "envelope": "AA",
+                      "genus": "Apodemia",
+                      "species": "",
+                      "date": "2026-03-23 15:36",
+                      "latLong": "34.32189, -116.56070",
+                      "notes": "deserti?",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:36:54",
-                      "latLong": "34.32189, -116.56070",
-                      "notes": "Apodemia"
+                      "sex": "m"
                     },
                     {
                       "id": 993,
-                      "envelope": " Z",
+                      "genus": "Leptotes",
+                      "species": "marina",
+                      "date": "2026-03-23 15:39",
+                      "latLong": "34.32194, -116.56089",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:39:18",
-                      "latLong": "34.32194, -116.56089"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 994,
-                      "envelope": "AB",
+                      "genus": "Euphydryas",
+                      "species": "chalcedona corralensis",
+                      "date": "2026-03-23 15:41",
+                      "latLong": "34.32198, -116.56082",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:41:57",
-                      "latLong": "34.32198, -116.56082"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 995,
-                      "envelope": " W",
+                      "genus": "Icaricia",
+                      "species": "acmon",
+                      "date": "2026-03-23 15:48",
+                      "latLong": "34.32162, -116.56036",
                       "temperature": "31°C/87°F",
                       "elevation": "1137m/3730ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:48:30",
-                      "latLong": "34.32162, -116.56036"
+                      "sex": "m"
                     },
                     {
                       "id": 996,
-                      "envelope": " X",
+                      "genus": "Pontia",
+                      "species": "beckerii",
+                      "date": "2026-03-23 15:57",
+                      "latLong": "34.32192, -116.56072",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 15:57:18",
-                      "latLong": "34.32192, -116.56072"
+                      "sex": "m"
                     },
                     {
                       "id": 997,
-                      "envelope": " Y",
+                      "genus": "Nathalis",
+                      "species": "iole",
+                      "date": "2026-03-23 16:02",
+                      "latLong": "34.32225, -116.56124",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 16:02:24",
-                      "latLong": "34.32225, -116.56124"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 998,
-                      "envelope": " V",
+                      "genus": "Chlosyne",
+                      "species": "acastus",
+                      "date": "2026-03-23 16:09",
+                      "latLong": "34.32237, -116.56059",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 16:09:20",
-                      "latLong": "34.32237, -116.56059"
+                      "sex": "f"
                     },
                     {
                       "id": 999,
-                      "envelope": " S",
+                      "genus": "Euphydryas",
+                      "species": "chalcedona corralensis",
+                      "date": "2026-03-23 16:11",
+                      "latLong": "34.32235, -116.56050",
                       "temperature": "31°C/87°F",
                       "elevation": "1121m/3678ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-23 16:11:32",
-                      "latLong": "34.32235, -116.56050"
+                      "sex": "f"
                     }
                   ]
                 }
@@ -10439,24 +10457,24 @@
                       "id": 1002,
                       "genus": "Chlosyne",
                       "species": "californica",
-                      "date": "2026-03-24 10:45:04",
+                      "date": "2026-03-24 10:45",
                       "latLong": "34.10245, -116.51890",
                       "temperature": "26°C/79°F",
                       "elevation": "971m/3186ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Bernardino Co.",
-                      "envelope": " N"
+                      "location": "US-CA, San Bernardino Co."
                     },
                     {
                       "id": 1003,
-                      "envelope": " E",
+                      "genus": "Glaucopsyche",
+                      "species": "lygdamus",
+                      "date": "2026-03-24 10:54",
+                      "latLong": "34.10245, -116.51890",
                       "temperature": "26°C/79°F",
                       "elevation": "971m/3186ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Bernardino Co.",
-                      "date": "2026-03-24 10:54:55",
-                      "latLong": "34.10245, -116.51890",
-                      "notes": "blue"
+                      "sex": "m"
                     }
                   ]
                 },
@@ -10470,51 +10488,47 @@
                       "id": 1004,
                       "genus": "Euphydryas",
                       "species": "chalcedona hennei",
-                      "date": "2026-03-24 13:37:38",
+                      "date": "2026-03-24 13:37",
                       "latLong": "33.58514, -116.42558",
                       "temperature": "26°C/79°F",
                       "elevation": "1168m/3832ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "envelope": " I",
                       "sex": "m"
                     },
                     {
                       "id": 1005,
                       "genus": "Euphydryas",
                       "species": "chalcedona hennei",
-                      "date": "2026-03-24 13:42:50",
+                      "date": "2026-03-24 13:42",
                       "latLong": "33.58502, -116.42573",
                       "temperature": "26°C/79°F",
                       "elevation": "1168m/3832ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "envelope": " Q",
                       "sex": "m"
                     },
                     {
                       "id": 1006,
                       "genus": "Chlosyne",
                       "species": "californica",
-                      "date": "2026-03-24 13:45:12",
+                      "date": "2026-03-24 13:45",
                       "latLong": "33.58507, -116.42586",
                       "temperature": "26°C/78°F",
                       "elevation": "1168m/3832ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Riverside Co.",
-                      "envelope": "AS"
+                      "location": "US-CA, Riverside Co."
                     },
                     {
                       "id": 1007,
                       "genus": "Anthocharis",
-                      "species": "",
-                      "date": "2026-03-24 13:50:05",
+                      "species": "sara",
+                      "date": "2026-03-24 13:50",
                       "latLong": "33.58478, -116.42569",
                       "temperature": "26°C/79°F",
                       "elevation": "1168m/3832ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "envelope": " L",
                       "sex": "f"
                     }
                   ]
@@ -10527,78 +10541,87 @@
                   "specimen": [
                     {
                       "id": 1008,
-                      "envelope": " C",
+                      "genus": "Apodemia",
+                      "species": "virgulti",
+                      "date": "2026-03-24 14:19",
+                      "latLong": "33.58004, -116.44777",
                       "temperature": "26°C/79°F",
                       "elevation": "1220m/4003ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 14:19:03",
-                      "latLong": "33.58004, -116.44777",
-                      "notes": "m Behr's metalmark"
+                      "sex": "m"
                     },
                     {
                       "id": 1009,
-                      "envelope": "AG",
+                      "genus": "Erynnis",
+                      "species": "tristis",
+                      "date": "2026-03-24 14:46",
+                      "latLong": "33.57938, -116.44695",
+                      "notes": "mournful",
                       "temperature": "26°C/80°F",
                       "elevation": "1220m/4003ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 14:46:41",
-                      "latLong": "33.57938, -116.44695",
-                      "notes": "funereal?"
+                      "sex": "f"
                     },
                     {
                       "id": 1010,
-                      "envelope": "AV",
+                      "genus": "Colias",
+                      "species": "eurytheme",
+                      "date": "2026-03-24 14:51",
+                      "latLong": "33.57935, -116.44565",
                       "temperature": "26°C/80°F",
                       "elevation": "1208m/3963ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 14:51:56",
-                      "latLong": "33.57935, -116.44565",
-                      "notes": "f orange sulphur"
+                      "sex": "f"
                     },
                     {
                       "id": 1011,
-                      "envelope": " M",
+                      "genus": "Papilio",
+                      "species": "polyxenes rudkini",
+                      "date": "2026-03-24 15:15",
+                      "latLong": "33.57911, -116.44295",
                       "temperature": "26°C/80°F",
                       "elevation": "1199m/3934ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 15:15:28",
-                      "latLong": "33.57911, -116.44295",
-                      "notes": "desert black swallowtail"
+                      "sex": "m"
                     },
                     {
                       "id": 1012,
-                      "envelope": "AQ",
+                      "genus": "Atlides",
+                      "species": "halesus",
+                      "date": "2026-03-24 15:26",
+                      "latLong": "33.57911, -116.44254",
                       "temperature": "26°C/80°F",
                       "elevation": "1199m/3934ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 15:26:13",
-                      "latLong": "33.57911, -116.44254",
-                      "notes": "great purple hairstreak"
+                      "sex": "m"
                     },
                     {
                       "id": 1013,
-                      "envelope": "AY",
+                      "genus": "Leptotes",
+                      "species": "marina",
+                      "date": "2026-03-24 15:46",
+                      "latLong": "33.58196, -116.43894",
                       "temperature": "27°C/81°F",
                       "elevation": "1177m/3862ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 15:46:07",
-                      "latLong": "33.58196, -116.43894"
+                      "location": "US-CA, Riverside Co."
                     },
                     {
                       "id": 1014,
-                      "envelope": "AC",
+                      "genus": "Chiomara",
+                      "species": "asychis",
+                      "date": "2026-03-24 15:51",
+                      "latLong": "33.58149, -116.43989",
+                      "notes": "rare stray!",
                       "temperature": "27°C/81°F",
                       "elevation": "1181m/3875ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 15:51:34",
-                      "latLong": "33.58149, -116.43989"
+                      "location": "US-CA, Riverside Co."
                     }
                   ]
                 },
@@ -10610,23 +10633,27 @@
                   "specimen": [
                     {
                       "id": 1015,
-                      "envelope": "AD",
+                      "genus": "Lycaeides",
+                      "species": "melissa",
+                      "date": "2026-03-24 16:53",
+                      "latLong": "33.67011, -116.69660",
                       "temperature": "25°C/78°F",
                       "elevation": "1324m/4344ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 16:53:04",
-                      "latLong": "33.67011, -116.69660"
+                      "sex": "m"
                     },
                     {
                       "id": 1016,
-                      "envelope": " H",
+                      "genus": "Lycaeides",
+                      "species": "melissa",
+                      "date": "2026-03-24 16:57",
+                      "latLong": "33.67036, -116.69609",
                       "temperature": "25°C/78°F",
                       "elevation": "1324m/4344ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, Riverside Co.",
-                      "date": "2026-03-24 16:57:03",
-                      "latLong": "33.67036, -116.69609"
+                      "sex": "f"
                     }
                   ]
                 }
@@ -10646,13 +10673,15 @@
                   "specimen": [
                     {
                       "id": 1017,
-                      "envelope": " H",
+                      "genus": "Pontia",
+                      "species": "protodice",
+                      "date": "2026-03-25 11:43",
+                      "latLong": "33.13110, -116.41258",
                       "temperature": "34°C/93°F",
                       "elevation": "501m/1644ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 11:43:13",
-                      "latLong": "33.13110, -116.41258"
+                      "sex": "m"
                     }
                   ]
                 },
@@ -10664,93 +10693,105 @@
                   "specimen": [
                     {
                       "id": 1018,
-                      "envelope": " E",
+                      "genus": "Euchloe",
+                      "species": "hyantis hyantis",
+                      "date": "2026-03-25 14:01",
+                      "latLong": "32.91481, -116.46107",
                       "temperature": "23°C/73°F",
                       "elevation": "1647m/5404ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:01:31",
-                      "latLong": "32.91481, -116.46107"
+                      "location": "US-CA, San Diego Co."
                     },
                     {
                       "id": 1019,
-                      "envelope": " G",
+                      "genus": "Euchloe",
+                      "species": "hyantis hyantis",
+                      "date": "2026-03-25 14:03",
+                      "latLong": "32.91477, -116.46103",
                       "temperature": "23°C/73°F",
                       "elevation": "1647m/5404ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:03:32",
-                      "latLong": "32.91477, -116.46103"
+                      "location": "US-CA, San Diego Co."
                     },
                     {
                       "id": 1020,
-                      "envelope": "AD",
+                      "genus": "Plebejus",
+                      "species": "icarioides",
+                      "date": "2026-03-25 14:09",
+                      "latLong": "32.91604, -116.46038",
                       "temperature": "23°C/73°F",
                       "elevation": "1654m/5427ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:09:33",
-                      "latLong": "32.91604, -116.46038"
+                      "sex": "m"
                     },
                     {
                       "id": 1021,
-                      "envelope": "AL",
+                      "genus": "Plebejus",
+                      "species": "icarioides",
+                      "date": "2026-03-25 14:13",
+                      "latLong": "32.91746, -116.46010",
                       "temperature": "23°C/73°F",
                       "elevation": "1656m/5433ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:13:46",
-                      "latLong": "32.91746, -116.46010"
+                      "sex": "m"
                     },
                     {
                       "id": 1022,
-                      "envelope": "BB",
+                      "genus": "Phyciodes",
+                      "species": "mylitta arizonensis",
+                      "date": "2026-03-25 14:23",
+                      "latLong": "32.91819, -116.45973",
                       "temperature": "23°C/73°F",
                       "elevation": "1656m/5433ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:23:02",
-                      "latLong": "32.91819, -116.45973"
+                      "location": "US-CA, San Diego Co."
                     },
                     {
                       "id": 1023,
-                      "envelope": " S",
+                      "genus": "Papilio",
+                      "species": "indra pergamus",
+                      "date": "2026-03-25 14:40",
+                      "latLong": "32.92139, -116.46133",
                       "temperature": "22°C/72°F",
                       "elevation": "1711m/5614ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 14:40:51",
-                      "latLong": "32.92139, -116.46133"
+                      "sex": "f"
                     },
                     {
                       "id": 1024,
-                      "envelope": " L",
+                      "genus": "Callophrys",
+                      "species": "augustinus",
+                      "date": "2026-03-25 15:30",
+                      "latLong": "32.92491, -116.46055",
                       "temperature": "22°C/71°F",
                       "elevation": "1728m/5669ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 15:30:42",
-                      "latLong": "32.92491, -116.46055"
+                      "location": "US-CA, San Diego Co."
                     },
                     {
                       "id": 1025,
-                      "envelope": "AP",
+                      "genus": "Phyciodes",
+                      "species": "mylitta arizonensis",
+                      "date": "2026-03-25 15:56",
+                      "latLong": "32.91848, -116.45997",
                       "temperature": "22°C/72°F",
                       "elevation": "1656m/5433ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 15:56:39",
-                      "latLong": "32.91848, -116.45997"
+                      "location": "US-CA, San Diego Co."
                     },
                     {
                       "id": 1026,
-                      "envelope": "AM",
+                      "genus": "Euchloe",
+                      "species": "hyantis hyantis",
+                      "date": "2026-03-25 16:17",
+                      "latLong": "32.91096, -116.46061",
                       "temperature": "22°C/72°F",
                       "elevation": "1647m/5404ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-CA, San Diego Co.",
-                      "date": "2026-03-25 16:17:13",
-                      "latLong": "32.91096, -116.46061"
+                      "location": "US-CA, San Diego Co."
                     }
                   ]
                 }
@@ -10765,14 +10806,14 @@
               "specimen": [
                 {
                   "id": 1027,
-                  "envelope": "AD",
+                  "genus": "Leptotes",
+                  "species": "marina",
+                  "date": "2026-03-27 08:46",
+                  "latLong": "34.17533, -118.21605",
                   "temperature": "17°C/63°F",
                   "elevation": "N/A",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Los Angeles Co.",
-                  "date": "2026-03-27 08:46:04",
-                  "latLong": "34.17533, -118.21605",
-                  "notes": "Marine blue"
+                  "location": "US-CA, Los Angeles Co."
                 }
               ]
             }
@@ -10792,51 +10833,47 @@
               "specimen": [
                 {
                   "id": 1028,
-                  "genus": "Eurema",
+                  "genus": "Abaeis",
                   "species": "nicippe",
-                  "date": "2026-03-28 09:06:11",
+                  "date": "2026-03-28 09:06",
                   "latLong": "33.40948, -111.47918",
                   "temperature": "28°C/82°F",
                   "elevation": "561m/1841ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "envelope": " O"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1029,
                   "genus": "Libytheana",
-                  "species": "carinenta",
-                  "date": "2026-03-28 09:08:50",
+                  "species": "carinenta streckeri",
+                  "date": "2026-03-28 09:08",
                   "latLong": "33.40949, -111.47910",
                   "temperature": "28°C/82°F",
                   "elevation": "569m/1867ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "envelope": "AZ"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1030,
-                  "genus": "Eurema",
+                  "genus": "Abaeis",
                   "species": "nicippe",
-                  "date": "2026-03-28 09:11:57",
+                  "date": "2026-03-28 09:11",
                   "latLong": "33.40952, -111.47927",
                   "temperature": "28°C/82°F",
                   "elevation": "561m/1841ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "envelope": " K"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1031,
                   "genus": "Libytheana",
-                  "species": "carinenta",
-                  "date": "2026-03-28 09:17:42",
+                  "species": "carinenta streckeri",
+                  "date": "2026-03-28 09:17",
                   "latLong": "33.40933, -111.47953",
                   "temperature": "28°C/82°F",
                   "elevation": "561m/1841ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "envelope": "AU"
+                  "location": "US-AZ, Pinal Co."
                 }
               ]
             },
@@ -10848,83 +10885,94 @@
               "specimen": [
                 {
                   "id": 1032,
-                  "envelope": "AF",
+                  "genus": "Anthanassa",
+                  "species": "texana texana",
+                  "date": "2026-03-29 10:10",
+                  "latLong": "32.54294, -110.70817",
                   "temperature": "24°C/75°F",
                   "elevation": "1428m/4685ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 10:10:20",
-                  "latLong": "32.54294, -110.70817"
+                  "sex": "f"
                 },
                 {
                   "id": 1033,
-                  "envelope": "AC",
+                  "genus": "Callophrys",
+                  "species": "siva",
+                  "date": "2026-03-29 10:27",
+                  "latLong": "32.54364, -110.70717",
                   "temperature": "24°C/75°F",
                   "elevation": "1428m/4685ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 10:27:02",
-                  "latLong": "32.54364, -110.70717"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1034,
-                  "envelope": " I",
+                  "genus": "Texola",
+                  "species": "elada perse",
+                  "date": "2026-03-29 10:38",
+                  "latLong": "32.53875, -110.70413",
                   "temperature": "25°C/77°F",
                   "elevation": "1367m/4485ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 10:38:49",
-                  "latLong": "32.53875, -110.70413"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1035,
-                  "envelope": "AE",
+                  "genus": "Pontia",
+                  "species": "protodice",
+                  "date": "2026-03-29 11:11",
+                  "latLong": "32.54453, -110.70612",
                   "temperature": "25°C/78°F",
                   "elevation": "1405m/4610ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 11:11:53",
-                  "latLong": "32.54453, -110.70612"
+                  "sex": "f"
                 },
                 {
                   "id": 1036,
-                  "envelope": "BH",
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "date": "2026-03-29 11:23",
+                  "latLong": "32.54156, -110.70669",
                   "temperature": "25°C/77°F",
                   "elevation": "1407m/4616ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 11:23:23",
-                  "latLong": "32.54156, -110.70669"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1037,
-                  "envelope": " P",
+                  "genus": "Pontia",
+                  "species": "protodice",
+                  "date": "2026-03-29 11:30",
+                  "latLong": "32.54139, -110.70651",
                   "temperature": "26°C/79°F",
                   "elevation": "1407m/4616ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 11:30:57",
-                  "latLong": "32.54139, -110.70651"
+                  "sex": "m"
                 },
                 {
                   "id": 1038,
-                  "envelope": "AQ",
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "date": "2026-03-29 11:42",
+                  "latLong": "32.54169, -110.70717",
                   "temperature": "26°C/79°F",
                   "elevation": "1428m/4685ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 11:42:04",
-                  "latLong": "32.54169, -110.70717"
+                  "location": "US-AZ, Pinal Co."
                 },
                 {
                   "id": 1039,
-                  "envelope": "AN",
+                  "genus": "Battus",
+                  "species": "philenor",
+                  "date": "2026-03-29 12:37",
+                  "latLong": "32.59241, -110.71991",
                   "temperature": "28°C/82°F",
                   "elevation": "1320m/4331ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pinal Co.",
-                  "date": "2026-03-29 12:37:22",
-                  "latLong": "32.59241, -110.71991"
+                  "location": "US-AZ, Pinal Co."
                 }
               ]
             },
@@ -10943,52 +10991,54 @@
                       "id": 1040,
                       "genus": "Echinargus",
                       "species": "isola",
-                      "date": "2026-03-30 10:48:57",
+                      "date": "2026-03-30 10:48",
                       "latLong": "31.38367, -111.09284",
-                      "notes": "Reakirt's",
                       "temperature": "23°C/73°F",
                       "elevation": "1203m/3947ft",
                       "collector": "Scott Vorthmann",
                       "location": "US-AZ, Santa Cruz Co.",
-                      "envelope": " K"
+                      "sex": "m"
                     },
                     {
                       "id": 1041,
                       "genus": "Anthanassa",
-                      "species": "texana",
-                      "date": "2026-03-30 10:50:40",
+                      "species": "texana texana",
+                      "date": "2026-03-30 10:50",
                       "latLong": "31.38373, -111.09282",
                       "temperature": "23°C/73°F",
                       "elevation": "1203m/3947ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co."
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "m"
                     },
                     {
                       "id": 1042,
-                      "envelope": "AW",
+                      "genus": "Leptotes",
+                      "species": "marina",
+                      "date": "2026-03-30 10:55",
+                      "latLong": "31.38297, -111.09182",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 10:55:30",
-                      "latLong": "31.38297, -111.09182"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1043,
                       "genus": "Papilio",
                       "species": "multicaudatus",
-                      "date": "2026-03-30 10:58:55",
+                      "date": "2026-03-30 10:58",
                       "latLong": "31.38302, -111.09171",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co."
+                      "collector": "Florelia Braschi",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "m"
                     },
                     {
                       "id": 1044,
                       "genus": "Oarisma",
                       "species": "aurantiaca",
-                      "date": "2026-03-30 11:02:03",
+                      "date": "2026-03-30 11:02",
                       "latLong": "31.38302, -111.09171",
                       "notes": "Orange skipperling",
                       "temperature": "23°C/73°F",
@@ -11000,7 +11050,7 @@
                       "id": 1045,
                       "genus": "Eurema",
                       "species": "mexicanus",
-                      "date": "2026-03-30 11:18:27",
+                      "date": "2026-03-30 11:18",
                       "latLong": "31.38302, -111.09171",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
@@ -11010,8 +11060,20 @@
                     {
                       "id": 1046,
                       "genus": "Anthanassa",
-                      "species": "texana",
-                      "date": "2026-03-30 11:19:28",
+                      "species": "texana texana",
+                      "date": "2026-03-30 11:19",
+                      "latLong": "31.38307, -111.09173",
+                      "temperature": "23°C/73°F",
+                      "elevation": "1216m/3990ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "m"
+                    },
+                    {
+                      "id": 1047,
+                      "genus": "Pyrgus",
+                      "species": "communis",
+                      "date": "2026-03-30 11:26",
                       "latLong": "31.38307, -111.09173",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
@@ -11019,20 +11081,10 @@
                       "location": "US-AZ, Santa Cruz Co."
                     },
                     {
-                      "id": 1047,
-                      "envelope": "AG",
-                      "temperature": "23°C/73°F",
-                      "elevation": "1216m/3990ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 11:26:30",
-                      "latLong": "31.38307, -111.09173"
-                    },
-                    {
                       "id": 1048,
                       "genus": "Eurema",
                       "species": "mexicanus",
-                      "date": "2026-03-30 11:35:02",
+                      "date": "2026-03-30 11:35",
                       "latLong": "31.38307, -111.09173",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
@@ -11043,7 +11095,7 @@
                       "id": 1049,
                       "genus": "Eurema",
                       "species": "mexicanus",
-                      "date": "2026-03-30 11:37:45",
+                      "date": "2026-03-30 11:37",
                       "latLong": "31.38126, -111.09158",
                       "temperature": "25°C/76°F",
                       "elevation": "1241m/4072ft",
@@ -11054,9 +11106,8 @@
                       "id": 1050,
                       "genus": "Celotes",
                       "species": "nessus",
-                      "date": "2026-03-30 11:50:00",
+                      "date": "2026-03-30 11:50",
                       "latLong": "31.38126, -111.09158",
-                      "notes": "id uncertain",
                       "temperature": "25°C/76°F",
                       "elevation": "1241m/4072ft",
                       "collector": "Scott Vorthmann",
@@ -11065,8 +11116,8 @@
                     {
                       "id": 1051,
                       "genus": "Junonia",
-                      "species": "nigrosuffusa",
-                      "date": "2026-03-30 11:56:21",
+                      "species": "grisea",
+                      "date": "2026-03-30 11:56",
                       "latLong": "31.38126, -111.09158",
                       "temperature": "25°C/76°F",
                       "elevation": "1241m/4072ft",
@@ -11076,19 +11127,20 @@
                     {
                       "id": 1052,
                       "genus": "Calephelis",
-                      "species": "",
-                      "date": "2026-03-30 12:08:55",
+                      "species": "nemesis",
+                      "date": "2026-03-30 12:08",
                       "latLong": "31.38126, -111.09158",
                       "temperature": "25°C/76°F",
                       "elevation": "1241m/4072ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co."
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "f"
                     },
                     {
                       "id": 1053,
                       "genus": "Zerene",
                       "species": "cesonia",
-                      "date": "2026-03-30 12:19:08",
+                      "date": "2026-03-30 12:19",
                       "latLong": "31.38126, -111.09158",
                       "temperature": "25°C/76°F",
                       "elevation": "1241m/4072ft",
@@ -11100,7 +11152,7 @@
                       "id": 1054,
                       "genus": "Abaeis",
                       "species": "nicippe",
-                      "date": "2026-03-30 12:24:34",
+                      "date": "2026-03-30 12:24",
                       "latLong": "31.38229, -111.09252",
                       "temperature": "25°C/76°F",
                       "elevation": "1216m/3990ft",
@@ -11109,11 +11161,10 @@
                     },
                     {
                       "id": 1062,
-                      "genus": "Heliopetes",
-                      "species": "",
-                      "date": "2026-03-30 11:19:28",
+                      "genus": "Pyrgus",
+                      "species": "communis",
+                      "date": "2026-03-30 11:19",
                       "latLong": "31.38307, -111.09173",
-                      "notes": "white skipper",
                       "temperature": "23°C/73°F",
                       "elevation": "1216m/3990ft",
                       "collector": "Scott Vorthmann",
@@ -11131,8 +11182,8 @@
                     {
                       "id": 1055,
                       "genus": "Junonia",
-                      "species": "coenia",
-                      "date": "2026-03-30 14:30:56",
+                      "species": "grisea",
+                      "date": "2026-03-30 14:30",
                       "latLong": "31.42868, -111.19141",
                       "temperature": "26°C/80°F",
                       "elevation": "1230m/4035ft",
@@ -11143,7 +11194,7 @@
                       "id": 1056,
                       "genus": "Eurema",
                       "species": "mexicanus",
-                      "date": "2026-03-30 14:44:57",
+                      "date": "2026-03-30 14:44",
                       "latLong": "31.42868, -111.19141",
                       "temperature": "26°C/80°F",
                       "elevation": "1230m/4035ft",
@@ -11152,19 +11203,20 @@
                     },
                     {
                       "id": 1057,
-                      "envelope": "AZ",
+                      "genus": "Leptotes",
+                      "species": "marina",
+                      "date": "2026-03-30 14:51",
+                      "latLong": "31.42832, -111.19225",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
                       "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 14:51:36",
-                      "latLong": "31.42832, -111.19225"
+                      "location": "US-AZ, Santa Cruz Co."
                     },
                     {
                       "id": 1058,
                       "genus": "Zerene",
                       "species": "cesonia",
-                      "date": "2026-03-30 14:58:02",
+                      "date": "2026-03-30 14:58",
                       "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
@@ -11174,19 +11226,9 @@
                     },
                     {
                       "id": 1059,
-                      "envelope": " G",
-                      "temperature": "26°C/80°F",
-                      "elevation": "1221m/4006ft",
-                      "collector": "Scott Vorthmann",
-                      "location": "US-AZ, Santa Cruz Co.",
-                      "date": "2026-03-30 15:11:04",
-                      "latLong": "31.42801, -111.19309"
-                    },
-                    {
-                      "id": 1060,
-                      "genus": "Calephelis",
-                      "species": "",
-                      "date": "2026-03-30 15:22:49",
+                      "genus": "Junonia",
+                      "species": "nigrosuffusa",
+                      "date": "2026-03-30 15:11",
                       "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
@@ -11194,10 +11236,22 @@
                       "location": "US-AZ, Santa Cruz Co."
                     },
                     {
+                      "id": 1060,
+                      "genus": "Calephelis",
+                      "species": "nemesis",
+                      "date": "2026-03-30 15:22",
+                      "latLong": "31.42801, -111.19309",
+                      "temperature": "26°C/80°F",
+                      "elevation": "1221m/4006ft",
+                      "collector": "Scott Vorthmann",
+                      "location": "US-AZ, Santa Cruz Co.",
+                      "sex": "m"
+                    },
+                    {
                       "id": 1061,
                       "genus": "Junonia",
                       "species": "nigrosuffusa",
-                      "date": "2026-03-30 15:38:30",
+                      "date": "2026-03-30 15:38",
                       "latLong": "31.42801, -111.19309",
                       "temperature": "26°C/80°F",
                       "elevation": "1221m/4006ft",
@@ -11218,67 +11272,60 @@
                 {
                   "id": 1063,
                   "genus": "Asterocampa",
-                  "species": "",
-                  "date": "2026-03-31 09:57:10",
+                  "species": "leilia",
+                  "date": "2026-03-31 09:57",
                   "latLong": "31.74122, -110.88725",
                   "temperature": "25°C/76°F",
                   "elevation": "1357m/4452ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pima Co.",
-                  "envelope": " N",
                   "sex": "m"
                 },
                 {
                   "id": 1064,
                   "genus": "Zerene",
                   "species": "cesonia",
-                  "date": "2026-03-31 10:05:04",
+                  "date": "2026-03-31 10:05",
                   "latLong": "31.74108, -110.88733",
                   "temperature": "25°C/76°F",
                   "elevation": "1357m/4452ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pima Co.",
-                  "envelope": "AL"
+                  "location": "US-AZ, Pima Co."
                 },
                 {
                   "id": 1065,
                   "genus": "Asterocampa",
-                  "species": "",
-                  "date": "2026-03-31 10:24:44",
+                  "species": "leilia",
+                  "date": "2026-03-31 10:24",
                   "latLong": "31.73971, -110.88625",
-                  "notes": "hackberry",
                   "temperature": "24°C/76°F",
                   "elevation": "1357m/4452ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pima Co.",
-                  "envelope": "BA",
                   "sex": "m"
                 },
                 {
                   "id": 1066,
                   "genus": "Anthanassa",
-                  "species": "texana",
-                  "date": "2026-03-31 10:54:14",
+                  "species": "texana texana",
+                  "date": "2026-03-31 10:54",
                   "latLong": "31.74007, -110.88722",
-                  "notes": "Texas crescent",
                   "temperature": "24°C/76°F",
                   "elevation": "1357m/4452ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pima Co.",
-                  "envelope": " C",
                   "sex": "f"
                 },
                 {
                   "id": 1067,
                   "genus": "Nathalis",
                   "species": "iole",
-                  "date": "2026-03-31 11:05:41",
+                  "date": "2026-03-31 11:05",
                   "latLong": "31.73987, -110.88725",
                   "temperature": "24°C/76°F",
                   "elevation": "1357m/4452ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Pima Co.",
-                  "envelope": "AP"
+                  "location": "US-AZ, Pima Co."
                 }
               ]
             },
@@ -11292,13 +11339,12 @@
                   "id": 1068,
                   "genus": "Strymon",
                   "species": "melinus",
-                  "date": "2026-04-01 11:21:17",
+                  "date": "2026-04-01 11:21",
                   "latLong": "31.41536, -110.27777",
                   "temperature": "17°C/62°F",
                   "elevation": "1777m/5830ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "envelope": " K"
+                  "location": "US-AZ, Cochise Co."
                 }
               ]
             },
@@ -11312,63 +11358,58 @@
                   "id": 1069,
                   "genus": "Zerene",
                   "species": "cesonia",
-                  "date": "2026-04-02 10:14:51",
+                  "date": "2026-04-02 10:14",
                   "latLong": "32.13074, -108.94071",
                   "temperature": "21°C/71°F",
                   "elevation": "1322m/4337ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-NM, Hidalgo Co.",
-                  "envelope": "BI"
+                  "sex": "f"
                 },
                 {
                   "id": 1070,
                   "genus": "Callophrys",
-                  "species": "",
-                  "date": "2026-04-02 13:04:29",
+                  "species": "siva",
+                  "date": "2026-04-02 13:04",
                   "latLong": "32.14331, -107.61858",
                   "temperature": "21°C/71°F",
                   "elevation": "1612m/5289ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-NM, Luna Co.",
-                  "envelope": " D"
+                  "location": "US-NM, Luna Co."
                 },
                 {
                   "id": 1071,
                   "genus": "Atlides",
                   "species": "halesus",
-                  "date": "2026-04-02 13:22:25",
+                  "date": "2026-04-02 13:22",
                   "latLong": "32.14331, -107.61858",
                   "temperature": "21°C/71°F",
                   "elevation": "1612m/5289ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-NM, Luna Co.",
-                  "envelope": "BB",
                   "sex": "f"
                 },
                 {
                   "id": 1072,
                   "genus": "Callophrys",
-                  "species": "",
-                  "date": "2026-04-02 13:44:01",
+                  "species": "siva",
+                  "date": "2026-04-02 13:44",
                   "latLong": "32.14311, -107.61851",
                   "temperature": "22°C/72°F",
                   "elevation": "1612m/5289ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-NM, Luna Co.",
-                  "envelope": " P"
+                  "location": "US-NM, Luna Co."
                 },
                 {
                   "id": 1073,
                   "genus": "Systasea",
-                  "species": "",
-                  "date": "2026-04-02 13:56:03",
+                  "species": "zampa",
+                  "date": "2026-04-02 13:56",
                   "latLong": "32.14374, -107.61842",
-                  "notes": "powdered skipper?",
                   "temperature": "22°C/72°F",
                   "elevation": "1612m/5289ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-NM, Luna Co.",
-                  "envelope": "AE"
+                  "location": "US-NM, Luna Co."
                 }
               ]
             },
@@ -11380,45 +11421,47 @@
               "specimen": [
                 {
                   "id": 1074,
-                  "envelope": " I",
+                  "genus": "Strymon",
+                  "species": "melinus",
+                  "date": "2026-04-03 12:22",
+                  "latLong": "31.92840, -109.25635",
                   "temperature": "17°C/63°F",
                   "elevation": "2266m/7434ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-03 12:22:17",
-                  "latLong": "31.92840, -109.25635"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1075,
-                  "envelope": "AM",
+                  "genus": "Strymon",
+                  "species": "melinus",
+                  "date": "2026-04-03 12:31",
+                  "latLong": "31.92790, -109.25601",
                   "temperature": "18°C/64°F",
                   "elevation": "2205m/7234ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-03 12:31:33",
-                  "latLong": "31.92790, -109.25601"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1076,
-                  "envelope": "AU",
-                  "temperature": "20°C/68°F",
-                  "elevation": "1961m/6434ft",
-                  "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-03 13:09:15",
-                  "latLong": "31.90882, -109.25188"
-                },
-                {
-                  "id": 1077,
-                  "genus": "",
-                  "species": "",
-                  "date": "2026-04-03 13:14:28",
+                  "genus": "Callophrys",
+                  "species": "siva",
+                  "date": "2026-04-03 13:09",
                   "latLong": "31.90882, -109.25188",
                   "temperature": "20°C/68°F",
                   "elevation": "1961m/6434ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "envelope": " H"
+                  "location": "US-AZ, Cochise Co."
+                },
+                {
+                  "id": 1077,
+                  "genus": "Callophrys",
+                  "species": "siva",
+                  "date": "2026-04-03 13:14",
+                  "latLong": "31.90882, -109.25188",
+                  "temperature": "20°C/68°F",
+                  "elevation": "1961m/6434ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co."
                 }
               ]
             },
@@ -11430,156 +11473,165 @@
               "specimen": [
                 {
                   "id": 1078,
-                  "envelope": " J",
+                  "genus": "Adelpha",
+                  "species": "eulalia",
+                  "date": "2026-04-05 12:09",
+                  "latLong": "31.47024, -110.35490",
                   "temperature": "21°C/71°F",
                   "elevation": "1683m/5522ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:09:39",
-                  "latLong": "31.47024, -110.35490",
-                  "notes": "Adelpha eulalia"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1079,
-                  "envelope": "AI",
+                  "genus": "Papilio",
+                  "species": "multicaudatus",
+                  "date": "2026-04-05 12:20",
+                  "latLong": "31.46844, -110.35449",
                   "temperature": "21°C/70°F",
                   "elevation": "1685m/5528ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:20:44",
-                  "latLong": "31.46844, -110.35449",
-                  "notes": "Papilio multicaudatus"
+                  "sex": "m"
                 },
                 {
                   "id": 1080,
-                  "envelope": "AD",
+                  "genus": "Chlosyne",
+                  "species": "theona thekla",
+                  "date": "2026-04-05 12:34",
+                  "latLong": "31.46723, -110.35583",
                   "temperature": "22°C/72°F",
                   "elevation": "1685m/5528ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:34:12",
-                  "latLong": "31.46723, -110.35583"
+                  "sex": "f"
                 },
                 {
                   "id": 1081,
-                  "envelope": "BJ",
+                  "genus": "Chlosyne",
+                  "species": "theona thekla",
+                  "date": "2026-04-05 12:45",
+                  "latLong": "31.46759, -110.35831",
                   "temperature": "22°C/71°F",
                   "elevation": "1706m/5597ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:45:11",
-                  "latLong": "31.46759, -110.35831",
-                  "notes": "checkerspot"
+                  "sex": "m"
                 },
                 {
                   "id": 1082,
-                  "envelope": "AY",
+                  "genus": "Limenitis",
+                  "species": "arthemis arizonensis",
+                  "date": "2026-04-05 12:51",
+                  "latLong": "31.46759, -110.35831",
                   "temperature": "22°C/71°F",
                   "elevation": "1706m/5597ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:51:25",
-                  "latLong": "31.46759, -110.35831",
-                  "notes": "Limenitis arthemis arizonensis"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1083,
-                  "envelope": " Q",
+                  "genus": "Emesis",
+                  "species": "zela",
+                  "date": "2026-04-05 12:55",
+                  "latLong": "31.46759, -110.35831",
                   "temperature": "22°C/71°F",
                   "elevation": "1706m/5597ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:55:15",
-                  "latLong": "31.46759, -110.35831",
-                  "notes": "metalmark"
+                  "sex": "f"
                 },
                 {
                   "id": 1084,
-                  "envelope": "AC",
+                  "genus": "Emesis",
+                  "species": "zela",
+                  "date": "2026-04-05 12:56",
+                  "latLong": "31.46740, -110.35839",
                   "temperature": "22°C/72°F",
                   "elevation": "1725m/5659ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 12:56:28",
-                  "latLong": "31.46740, -110.35839",
-                  "notes": "metalmark"
+                  "sex": "f"
                 },
                 {
                   "id": 1085,
-                  "envelope": " L",
+                  "genus": "Chlosyne",
+                  "species": "lacinia",
+                  "date": "2026-04-05 13:01",
+                  "latLong": "31.46740, -110.35878",
                   "temperature": "22°C/72°F",
                   "elevation": "1725m/5659ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 13:01:24",
-                  "latLong": "31.46740, -110.35878",
-                  "notes": "Chlosyne lacinia"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1086,
-                  "envelope": "AQ",
+                  "genus": "Emesis",
+                  "species": "zela",
+                  "date": "2026-04-05 13:09",
+                  "latLong": "31.49922, -110.31537",
                   "temperature": "24°C/74°F",
                   "elevation": "1514m/4967ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 13:09:03",
-                  "latLong": "31.49922, -110.31537",
-                  "notes": "metalmark"
+                  "sex": "f"
                 },
                 {
                   "id": 1087,
-                  "envelope": "AF",
+                  "genus": "Cecropterus",
+                  "species": "casica",
+                  "date": "2026-04-05 13:13",
+                  "latLong": "31.46737, -110.35870",
                   "temperature": "22°C/72°F",
                   "elevation": "1725m/5659ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 13:13:44",
-                  "latLong": "31.46737, -110.35870",
-                  "notes": "skipper"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1088,
-                  "envelope": " R",
+                  "genus": "Limenitis",
+                  "species": "arthemis arizonensis",
+                  "date": "2026-04-05 13:20",
+                  "latLong": "31.46751, -110.35864",
                   "temperature": "22°C/71°F",
                   "elevation": "1725m/5659ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 13:20:59",
-                  "latLong": "31.46751, -110.35864",
-                  "notes": "Limenitis arthemis arizonensis"
+                  "location": "US-AZ, Cochise Co."
                 },
                 {
                   "id": 1089,
-                  "envelope": "AN",
+                  "genus": "Chlosyne",
+                  "species": "theona thekla",
+                  "date": "2026-04-05 14:01",
+                  "latLong": "31.47172, -110.35581",
                   "temperature": "23°C/73°F",
                   "elevation": "1659m/5443ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 14:01:59",
-                  "latLong": "31.47172, -110.35581",
-                  "notes": "checkerspot"
+                  "sex": "m"
                 },
                 {
                   "id": 1090,
-                  "envelope": "BH",
+                  "genus": "Chlosyne",
+                  "species": "theona thekla",
+                  "date": "2026-04-05 14:03",
+                  "latLong": "31.47598, -110.33083",
                   "temperature": "24°C/74°F",
                   "elevation": "1591m/5220ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 14:03:38",
-                  "latLong": "31.47598, -110.33083",
-                  "notes": "checkerspot"
+                  "sex": "m"
                 },
                 {
                   "id": 1091,
-                  "envelope": "AS",
+                  "genus": "Adelpha",
+                  "species": "eulalia",
+                  "date": "2026-04-05 14:25",
+                  "latLong": "31.48330, -110.32848",
                   "temperature": "24°C/75°F",
                   "elevation": "1558m/5112ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-AZ, Cochise Co.",
-                  "date": "2026-04-05 14:25:04",
-                  "latLong": "31.48330, -110.32848",
-                  "notes": "Adelpha eulalia"
+                  "location": "US-AZ, Cochise Co."
                 }
               ]
             }
