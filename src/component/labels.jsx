@@ -69,17 +69,41 @@ const SpecimenLabel = props =>
   );
 }
 
+const exportCSV = ( specimens ) =>
+{
+  const header = 'description,name,latitude,longitude,date';
+  const rows = specimens.map( s => {
+    const description = `${s.genus || ''} ${s.species || ''}`.trim();
+    const name = `${s.id || ''} ${s.genus || ''}`.trim();
+    const [lat, lon] = (s.latLong || '').split(',').map(v => v.trim());
+    const date = s.date || s.time || '';
+    return [description, name, lat || '', lon || '', date]
+      .map( v => `"${String(v).replace(/"/g, '""')}"` )
+      .join(',');
+  });
+  const csv = [header, ...rows].join('\n');
+  const blob = new Blob([csv], { type: 'text/csv' });
+  const url = URL.createObjectURL(blob);
+  const a = document.createElement('a');
+  a.href = url;
+  a.download = 'specimens.csv';
+  a.click();
+  URL.revokeObjectURL(url);
+}
+
 export const LabelsPanel = () =>
 {
   const { labelSpecimens, clearLabelSelection, labelSelection } = useSelection();
 
   const handlePrint = () => window.print();
+  const handleExportCSV = () => exportCSV( labelSpecimens() );
 
   return (
     <div id="labels-panel">
       <div class="labels-toolbar no-print">
         <span>{labelSelection().size} specimen{labelSelection().size !== 1 ? 's' : ''} selected</span>
         <button class="other-button" onClick={handlePrint} disabled={labelSelection().size === 0}>Print Labels</button>
+        <button class="other-button" onClick={handleExportCSV} disabled={labelSelection().size === 0}>Export CSV</button>
         <button class="other-button" onClick={clearLabelSelection}>Clear Selection</button>
       </div>
       <div class="label-output" id="label-output">
