@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1092,
+  "lastNumber": 1093,
   "locations": {
     "location": [
       {
@@ -11655,6 +11655,26 @@
               "collector": "Scott Vorthmann",
               "location": "US-CA, Santa Clara Co.",
               "envelope": "AG"
+            }
+          ]
+        },
+        {
+          "name": "mt-eden-trail",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 1093,
+              "genus": "Lycaena",
+              "species": "arota",
+              "date": "2026-05-09 14:13:18",
+              "latLong": "37.27592, -122.07221",
+              "temperature": "23°C/74°F",
+              "elevation": "263m/863ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "envelope": "AN"
             }
           ]
         }
