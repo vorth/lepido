@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1091,
+  "lastNumber": 1092,
   "locations": {
     "location": [
       {
@@ -11637,6 +11637,26 @@
             }
           ],
           "specimen": []
+        },
+        {
+          "name": "hicks-rd-2",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 1092,
+              "genus": "Chlosyne",
+              "species": "palla",
+              "date": "2026-05-08 14:48:55",
+              "latLong": "37.16488, 121.85022",
+              "temperature": "21°C/70°F",
+              "elevation": "241m/791ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "envelope": "AG"
+            }
+          ]
         }
       ]
     }
