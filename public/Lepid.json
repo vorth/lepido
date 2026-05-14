@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1096,
+  "lastNumber": 1097,
   "locations": {
     "location": [
       {
@@ -11724,6 +11724,26 @@
               "location": "US-CA, Solano Co.",
               "envelope": "GV-2",
               "sex": "f"
+            }
+          ]
+        },
+        {
+          "name": "home",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 1097,
+              "genus": "Strymon",
+              "species": "melinus",
+              "date": "2026-05-14 13:38:08",
+              "latLong": "37.28424, -122.03291",
+              "temperature": "27°C/81°F",
+              "elevation": "99m/325ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "envelope": "BH"
             }
           ]
         }
