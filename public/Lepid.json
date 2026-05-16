@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1100,
+  "lastNumber": 1101,
   "locations": {
     "location": [
       {
@@ -11744,6 +11744,18 @@
               "collector": "Scott Vorthmann",
               "location": "US-CA, Santa Clara Co.",
               "envelope": "BH"
+            },
+            {
+              "id": 1101,
+              "genus": "Nymphalis",
+              "species": "californica",
+              "date": "2026-05-16 11:00",
+              "latLong": "37.28417, -122.03250",
+              "notes": "one of swarming thousands",
+              "temperature": "68°F",
+              "elevation": "99m/325ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co."
             }
           ]
         },
