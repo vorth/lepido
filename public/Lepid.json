@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1097,
+  "lastNumber": 1100,
   "locations": {
     "location": [
       {
@@ -11744,6 +11744,50 @@
               "collector": "Scott Vorthmann",
               "location": "US-CA, Santa Clara Co.",
               "envelope": "BH"
+            }
+          ]
+        },
+        {
+          "name": "half-moon-bay",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 1098,
+              "genus": "Phyciodes",
+              "species": "campestris",
+              "date": "2026-05-15 12:18:13",
+              "latLong": "37.39509, -122.39392",
+              "temperature": "16°C/62°F",
+              "elevation": "108m/354ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, San Mateo Co.",
+              "envelope": "BJ"
+            },
+            {
+              "id": 1099,
+              "genus": "Polygonia",
+              "species": "oreas",
+              "date": "2026-05-15 12:21:23",
+              "latLong": "37.39519, -122.39386",
+              "temperature": "16°C/62°F",
+              "elevation": "108m/354ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, San Mateo Co.",
+              "envelope": "AY"
+            },
+            {
+              "id": 1100,
+              "genus": "Phyciodes",
+              "species": "campestris",
+              "date": "2026-05-15 13:02:06",
+              "latLong": "37.39520, -122.39394",
+              "temperature": "17°C/62°F",
+              "elevation": "108m/354ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, San Mateo Co.",
+              "envelope": "AQ"
             }
           ]
         }
