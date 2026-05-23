@@ -11818,164 +11818,148 @@
                   "id": 1102,
                   "genus": "Battus",
                   "species": "philenor hirsuta",
-                  "date": "2026-05-19 15:24:36",
+                  "date": "2026-05-19 15:24",
                   "latLong": "40.93751, -122.24571",
                   "temperature": "28°C/82°F",
                   "elevation": "358m/1175ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Shasta Co.",
-                  "envelope": " J",
                   "sex": "m"
                 },
                 {
                   "id": 1103,
                   "genus": "Euphilotes",
                   "species": "glaucon",
-                  "date": "2026-05-19 15:28:53",
+                  "date": "2026-05-19 15:28",
                   "latLong": "40.93807, -122.24599",
                   "notes": "blue on lupines, ID by Glenn Fine",
                   "temperature": "28°C/82°F",
                   "elevation": "335m/1099ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": "BJ"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1104,
                   "genus": "Euphydryas",
-                  "species": "chalcedona",
-                  "date": "2026-05-19 15:33:45",
+                  "species": "chalcedona dwinellei",
+                  "date": "2026-05-19 15:33",
                   "latLong": "40.93796, -122.24651",
                   "temperature": "28°C/82°F",
                   "elevation": "335m/1099ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": "AF"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1105,
-                  "genus": "",
-                  "species": "",
-                  "date": "2026-05-19 15:36:24",
+                  "genus": "Satyrium",
+                  "species": "californica",
+                  "date": "2026-05-19 15:36",
                   "latLong": "40.93803, -122.24601",
-                  "notes": "hairstreak",
                   "temperature": "28°C/82°F",
                   "elevation": "335m/1099ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": "AQ"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1106,
                   "genus": "Adelpha",
                   "species": "californica",
-                  "date": "2026-05-19 15:39:13",
+                  "date": "2026-05-19 15:39",
                   "latLong": "40.93818, -122.24599",
                   "temperature": "28°C/82°F",
                   "elevation": "335m/1099ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": "AY"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1107,
-                  "genus": "",
-                  "species": "",
-                  "date": "2026-05-19 15:50:20",
+                  "genus": "Satyrium",
+                  "species": "californica",
+                  "date": "2026-05-19 15:50",
                   "latLong": "40.94030, -122.24640",
-                  "notes": "hairstreak",
                   "temperature": "28°C/82°F",
                   "elevation": "370m/1214ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": " M"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1108,
                   "genus": "Satyrium",
                   "species": "sylvinus",
-                  "date": "2026-05-19 15:50:23",
+                  "date": "2026-05-19 15:50",
                   "latLong": "40.94028, -122.24613",
                   "temperature": "28°C/82°F",
                   "elevation": "370m/1214ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": " L"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1109,
                   "genus": "Battus",
                   "species": "philenor hirsuta",
-                  "date": "2026-05-19 16:10:06",
+                  "date": "2026-05-19 16:10",
                   "latLong": "40.93658, -122.24693",
                   "temperature": "28°C/82°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Shasta Co.",
-                  "envelope": " V",
                   "sex": "m"
                 },
                 {
                   "id": 1110,
                   "genus": "Chlosyne",
-                  "species": "",
-                  "date": "2026-05-19 16:13:09",
+                  "species": "palla",
+                  "date": "2026-05-19 16:13",
                   "latLong": "40.93673, -122.24689",
-                  "notes": "acastus or palla?",
                   "temperature": "28°C/82°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Shasta Co.",
-                  "envelope": " A"
+                  "sex": "m"
                 },
                 {
                   "id": 1111,
                   "genus": "Papilio",
                   "species": "indra shastensis",
-                  "date": "2026-05-19 16:13:52",
+                  "date": "2026-05-19 16:13",
                   "latLong": "40.93681, -122.24694",
                   "temperature": "28°C/82°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": " S"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1112,
                   "genus": "Papilio",
                   "species": "zelicaon",
-                  "date": "2026-05-19 16:38:52",
+                  "date": "2026-05-19 16:38",
                   "latLong": "40.93553, -122.24679",
                   "temperature": "28°C/83°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": " R"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1113,
                   "genus": "Papilio",
                   "species": "eurymedon",
-                  "date": "2026-05-19 16:49:44",
+                  "date": "2026-05-19 16:49",
                   "latLong": "40.93639, -122.24690",
                   "temperature": "28°C/83°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Shasta Co.",
-                  "envelope": " T"
+                  "location": "US-CA, Shasta Co."
                 },
                 {
                   "id": 1114,
-                  "genus": "Glaucopsyche",
-                  "species": "lygdamus",
+                  "genus": "Icaricia",
+                  "species": "saepiolus",
                   "date": "2026-05-20 16:16",
-                  "latLong": "41.38658, -122.42964",
-                  "notes": "latlong needs adjusted",
+                  "latLong": "40.93639, -122.24690",
                   "temperature": "28°C/82°F",
                   "elevation": "331m/1086ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Shasta Co.",
-                  "envelope": "AW",
                   "sex": "m"
                 }
               ]
@@ -11988,173 +11972,196 @@
               "specimen": [
                 {
                   "id": 1115,
-                  "envelope": "GB",
+                  "genus": "Boloria",
+                  "species": "epithore",
+                  "date": "2026-05-20 09:39",
+                  "latLong": "41.38655, -122.42969",
                   "temperature": "16°C/61°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 09:39:05",
-                  "latLong": "41.38655, -122.42969"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1116,
-                  "envelope": "GW",
+                  "genus": "Phyciodes",
+                  "species": "orseis",
+                  "date": "2026-05-20 09:39",
+                  "latLong": "41.38655, -122.42969",
                   "temperature": "16°C/61°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 09:39:15",
-                  "latLong": "41.38655, -122.42969"
+                  "sex": "f"
                 },
                 {
                   "id": 1117,
-                  "envelope": "AC",
+                  "genus": "Chlosyne",
+                  "species": "palla",
+                  "date": "2026-05-20 10:04",
+                  "latLong": "41.39173, -122.40502",
                   "temperature": "16°C/60°F",
                   "elevation": "1158m/3799ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:04:16",
-                  "latLong": "41.39173, -122.40502"
+                  "sex": "f"
                 },
                 {
                   "id": 1118,
-                  "envelope": " Q",
+                  "genus": "Coenonympha",
+                  "species": "california eryngii",
+                  "date": "2026-05-20 10:07",
+                  "latLong": "41.38977, -122.43503",
                   "temperature": "16°C/61°F",
                   "elevation": "1097m/3599ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:07:28",
-                  "latLong": "41.38977, -122.43503"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1119,
-                  "envelope": " F",
+                  "genus": "Boloria",
+                  "species": "epithore",
+                  "date": "2026-05-20 10:43",
+                  "latLong": "41.38674, -122.43014",
                   "temperature": "18°C/64°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:43:27",
-                  "latLong": "41.38674, -122.43014"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1120,
-                  "envelope": " B",
+                  "genus": "Carterocephalus",
+                  "species": "skada",
+                  "date": "2026-05-20 10:51",
+                  "latLong": "41.38665, -122.42963",
                   "temperature": "18°C/64°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:51:28",
-                  "latLong": "41.38665, -122.42963"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1121,
-                  "envelope": "AZ",
+                  "genus": "Erynnis",
+                  "species": "icelus",
+                  "date": "2026-05-20 10:57",
+                  "latLong": "41.38649, -122.42992",
                   "temperature": "18°C/64°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:57:40",
-                  "latLong": "41.38649, -122.42992"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1122,
-                  "envelope": " K",
+                  "genus": "Callophrys",
+                  "species": "nelsoni",
+                  "date": "2026-05-20 10:58",
+                  "latLong": "41.38657, -122.42983",
                   "temperature": "18°C/64°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 10:58:58",
-                  "latLong": "41.38657, -122.42983"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1123,
-                  "envelope": " E",
+                  "genus": "Callophrys",
+                  "species": "nelsoni",
+                  "date": "2026-05-20 11:42",
+                  "latLong": "41.38556, -122.42984",
                   "temperature": "20°C/68°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 11:42:59",
-                  "latLong": "41.38556, -122.42984"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1124,
-                  "envelope": " N",
+                  "genus": "Callophrys",
+                  "species": "nelsoni",
+                  "date": "2026-05-20 12:58",
+                  "latLong": "41.38559, -122.42979",
                   "temperature": "22°C/71°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 12:58:04",
-                  "latLong": "41.38559, -122.42979"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1125,
-                  "envelope": " O",
+                  "genus": "Callophrys",
+                  "species": "nelsoni",
+                  "date": "2026-05-20 14:10",
+                  "latLong": "41.38565, -122.42987",
                   "temperature": "23°C/74°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 14:10:16",
-                  "latLong": "41.38565, -122.42987"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1126,
-                  "envelope": " P",
+                  "genus": "Icaricia",
+                  "species": "saepiolus",
+                  "date": "2026-05-20 14:12",
+                  "latLong": "41.38555, -122.42983",
                   "temperature": "23°C/74°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 14:12:38",
-                  "latLong": "41.38555, -122.42983"
+                  "sex": "m"
                 },
                 {
                   "id": 1127,
-                  "envelope": " D",
+                  "genus": "Callophrys",
+                  "species": "nelsoni",
+                  "date": "2026-05-20 14:33",
+                  "latLong": "41.38515, -122.42934",
                   "temperature": "24°C/76°F",
                   "elevation": "1123m/3684ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 14:33:52",
-                  "latLong": "41.38515, -122.42934"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1128,
-                  "envelope": "BA",
+                  "genus": "Tharsalea",
+                  "species": "helloides",
+                  "date": "2026-05-20 14:45",
+                  "latLong": "41.38563, -122.42924",
                   "temperature": "24°C/76°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 14:45:42",
-                  "latLong": "41.38563, -122.42924"
+                  "sex": "m"
                 },
                 {
                   "id": 1129,
-                  "envelope": " C",
+                  "genus": "Agriades",
+                  "species": "podarce",
+                  "date": "2026-05-20 15:06",
+                  "latLong": "41.38858, -122.42987",
                   "temperature": "24°C/76°F",
                   "elevation": "1089m/3573ft",
                   "collector": "Scott Vorthmann",
-                  "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 15:06:51",
-                  "latLong": "41.38858, -122.42987"
+                  "location": "US-CA, Siskiyou Co."
                 },
                 {
                   "id": 1130,
-                  "envelope": "AL",
+                  "genus": "Agriades",
+                  "species": "podarce",
+                  "date": "2026-05-20 15:10",
+                  "latLong": "41.38842, -122.43018",
                   "temperature": "24°C/76°F",
                   "elevation": "1089m/3573ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 15:10:08",
-                  "latLong": "41.38842, -122.43018"
+                  "sex": "m"
                 },
                 {
                   "id": 1131,
-                  "envelope": "AE",
+                  "genus": "Tharsalea",
+                  "species": "helloides",
+                  "date": "2026-05-20 17:36",
+                  "latLong": "41.38611, -122.42966",
                   "temperature": "24°C/76°F",
                   "elevation": "1106m/3629ft",
                   "collector": "Scott Vorthmann",
                   "location": "US-CA, Siskiyou Co.",
-                  "date": "2026-05-20 17:36:32",
-                  "latLong": "41.38611, -122.42966"
+                  "sex": "m"
                 }
               ]
             },
@@ -12164,59 +12171,55 @@
               "latLong": "",
               "collectingSession": [],
               "specimen": [
-            {
-              "id": 1132,
-              "genus": "Battus",
-              "species": "philenor hirsuta",
-              "date": "2026-05-21 12:14:41",
-              "latLong": "40.93733, -122.24661",
-              "temperature": "29°C/84°F",
-              "elevation": "331m/1086ft",
-              "collector": "Scott Vorthmann",
-              "location": "US-CA, Shasta Co.",
-              "envelope": " V",
-              "sex": "f"
-            },
-            {
-              "id": 1133,
-              "genus": "Papilio",
-              "species": "rutulus",
-              "date": "2026-05-21 12:19:00",
-              "latLong": "40.93689, -122.24698",
-              "temperature": "29°C/84°F",
-              "elevation": "331m/1086ft",
-              "collector": "Scott Vorthmann",
-              "location": "US-CA, Shasta Co.",
-              "envelope": " T"
-            },
-            {
-              "id": 1134,
-              "envelope": " H",
-              "temperature": "29°C/84°F",
-              "elevation": "331m/1086ft",
-              "collector": "Scott Vorthmann",
-              "location": "US-CA, Shasta Co.",
-              "date": "2026-05-21 12:29:17",
-              "latLong": "40.93565, -122.24685",
-              "notes": "Hairstreak "
-            },
-            {
-              "id": 1135,
-              "envelope": "AN",
-              "temperature": "30°C/85°F",
-              "elevation": "331m/1086ft",
-              "collector": "Scott Vorthmann",
-              "location": "US-CA, Shasta Co.",
-              "date": "2026-05-21 12:40:28",
-              "latLong": "40.93684, -122.24699",
-              "notes": "Hairstreak"
-            }
-
+                {
+                  "id": 1132,
+                  "genus": "Battus",
+                  "species": "philenor hirsuta",
+                  "date": "2026-05-21 12:14",
+                  "latLong": "40.93733, -122.24661",
+                  "temperature": "29°C/84°F",
+                  "elevation": "331m/1086ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Shasta Co.",
+                  "sex": "f"
+                },
+                {
+                  "id": 1133,
+                  "genus": "Papilio",
+                  "species": "rutulus",
+                  "date": "2026-05-21 12:19",
+                  "latLong": "40.93689, -122.24698",
+                  "temperature": "29°C/84°F",
+                  "elevation": "331m/1086ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Shasta Co."
+                },
+                {
+                  "id": 1134,
+                  "genus": "Satyrium",
+                  "species": "saepium",
+                  "date": "2026-05-21 12:29",
+                  "latLong": "40.93565, -122.24685",
+                  "temperature": "29°C/84°F",
+                  "elevation": "331m/1086ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Shasta Co."
+                },
+                {
+                  "id": 1135,
+                  "genus": "Satyrium",
+                  "species": "saepium",
+                  "date": "2026-05-21 12:40",
+                  "latLong": "40.93684, -122.24699",
+                  "temperature": "30°C/85°F",
+                  "elevation": "331m/1086ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Shasta Co."
+                }
               ]
             }
           ],
-          "specimen": [
-          ]
+          "specimen": []
         }
       ]
     }
