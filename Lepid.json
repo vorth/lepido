@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1135,
+  "lastNumber": 1137,
   "locations": {
     "location": [
       {
@@ -11756,6 +11756,28 @@
               "elevation": "99m/325ft",
               "collector": "Scott Vorthmann",
               "location": "US-CA, Santa Clara Co."
+            },
+            {
+              "id": 1136,
+              "genus": "Apodemia",
+              "species": "mormo",
+              "date": "2026-05-22 15:51",
+              "latLong": "37.15978, -121.88422",
+              "notes": "raised from egg of 893; failed to eclose",
+              "elevation": "711m/2333ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co."
+            },
+            {
+              "id": 1137,
+              "genus": "Apodemia",
+              "species": "mormo",
+              "date": "2026-05-26 12:00",
+              "latLong": "37.15978, -121.88422",
+              "notes": "raised from egg of 893; died before release 05/29",
+              "elevation": "711m/2333ft",
+              "collector": "Scott Vorthmann",
+              "sex": "f"
             }
           ]
         },
@@ -12197,7 +12219,7 @@
                 {
                   "id": 1134,
                   "genus": "Satyrium",
-                  "species": "saepium",
+                  "species": "auretorum",
                   "date": "2026-05-21 12:29",
                   "latLong": "40.93565, -122.24685",
                   "temperature": "29°C/84°F",
@@ -12208,7 +12230,7 @@
                 {
                   "id": 1135,
                   "genus": "Satyrium",
-                  "species": "saepium",
+                  "species": "auretorum",
                   "date": "2026-05-21 12:40",
                   "latLong": "40.93684, -122.24699",
                   "temperature": "30°C/85°F",
