@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1137,
+  "lastNumber": 1139,
   "locations": {
     "location": [
       {
@@ -12242,6 +12242,36 @@
             }
           ],
           "specimen": []
+        },
+        {
+          "name": "buckeyes",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": 1138,
+              "genus": "Junonia",
+              "species": "grisea",
+              "date": "2026-05-19 11:55",
+              "latLong": "36.81249, -121.72470",
+              "notes": "ex larva; eclosed 06-01 11:45",
+              "collector": "Nicole Dunne",
+              "elevation": "35m/115ft",
+              "location": "US-CA, Monterey Co."
+            },
+            {
+              "id": 1139,
+              "genus": "Junonia",
+              "species": "grisea",
+              "date": "2026-05-19 11:55",
+              "latLong": "36.81249, -121.72470",
+              "notes": "ex larva; eclosed 06-02",
+              "collector": "Nicole Dunne",
+              "elevation": "35m/115ft",
+              "location": "US-CA, Monterey Co."
+            }
+          ]
         }
       ]
     }
