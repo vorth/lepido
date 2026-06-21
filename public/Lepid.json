@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1139,
+  "lastNumber": 1145,
   "locations": {
     "location": [
       {
@@ -786,14 +786,14 @@
                   "id": "080",
                   "tag1": "080",
                   "sex": "m",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "c. comyntas"
                 },
                 {
                   "id": "081",
                   "tag1": "081",
                   "sex": "f",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "c. comyntas"
                 },
                 {
@@ -1545,14 +1545,14 @@
                   "id": "307",
                   "tag1": "307",
                   "sex": "f",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "comyntas"
                 },
                 {
                   "id": "308",
                   "tag1": "308",
                   "sex": "m",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "comyntas"
                 },
                 {
@@ -1852,14 +1852,14 @@
                   "id": "352",
                   "tag1": "352",
                   "sex": "m",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "comyntas"
                 },
                 {
                   "id": "353",
                   "tag1": "353",
                   "sex": "f",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "comyntas"
                 },
                 {
@@ -1953,7 +1953,7 @@
                   "id": "400",
                   "tag1": "400",
                   "sex": "f",
-                  "genus": "Everes",
+                  "genus": "Cupido",
                   "species": "comyntas"
                 }
               ]
@@ -9182,9 +9182,9 @@
                   "genus": "Apodemia",
                   "species": "mormo",
                   "sex": "f",
-                  "time": "11:56",
-                  "latLong": "37.21265, -121.85955",
-                  "notes": "saw several more in this area, as iNat predicted"
+                  "date": "2025-07-23 11:56",
+                  "latLong": "37.15975, -121.88415",
+                  "notes": "saw several more in this area, as iNat predicted; got 70+ eggs from this, on Eriogonum fasciculatum blossoms"
                 }
               ]
             },
@@ -11699,7 +11699,7 @@
             },
             {
               "id": 1095,
-              "genus": "Everes",
+              "genus": "Cupido",
               "species": "comyntas",
               "date": "2026-05-10 15:49:06",
               "latLong": "38.52722, -121.79768",
@@ -11713,7 +11713,7 @@
             },
             {
               "id": 1096,
-              "genus": "Everes",
+              "genus": "Cupido",
               "species": "comyntas",
               "date": "2026-05-10 15:49:06",
               "latLong": "38.52722, -121.79768",
@@ -11724,6 +11724,32 @@
               "location": "US-CA, Solano Co.",
               "envelope": "GV-2",
               "sex": "f"
+            },
+            {
+              "id": 1142,
+              "genus": "Cupido",
+              "species": "comyntas",
+              "envelope": "BB",
+              "temperature": "31°C/87°F",
+              "elevation": "19m/62ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Solano Co.",
+              "date": "2026-05-10 15:49:06",
+              "latLong": "38.52722, -121.79768",
+              "notes": "ex ovum 1096; pupated 6/9; eclosed 6/18"
+            },
+            {
+              "id": 1143,
+              "genus": "Cupido",
+              "species": "comyntas",
+              "envelope": "BH",
+              "temperature": "31°C/87°F",
+              "elevation": "19m/62ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Solano Co.",
+              "date": "2026-05-10 15:49:06",
+              "latLong": "38.52722, -121.79768",
+              "notes": "ex ovum 1096; pupated 6/11; eclosed 6/20"
             }
           ]
         },
@@ -11761,9 +11787,9 @@
               "id": 1136,
               "genus": "Apodemia",
               "species": "mormo",
-              "date": "2026-05-22 15:51",
+              "date": "2025-07-23 11:56",
               "latLong": "37.15978, -121.88422",
-              "notes": "raised from egg of 893; failed to eclose",
+              "notes": "ex ovum 893; pupated 2026-05-22; failed to eclose",
               "elevation": "711m/2333ft",
               "collector": "Scott Vorthmann",
               "location": "US-CA, Santa Clara Co."
@@ -11772,12 +11798,37 @@
               "id": 1137,
               "genus": "Apodemia",
               "species": "mormo",
-              "date": "2026-05-26 12:00",
+              "date": "2025-07-23 11:56",
               "latLong": "37.15978, -121.88422",
-              "notes": "raised from egg of 893; died before release 05/29",
+              "notes": "ex ovum 893; pupated 2026-05-26; died before release 2026-05-29",
               "elevation": "711m/2333ft",
               "collector": "Scott Vorthmann",
-              "sex": "f"
+              "sex": "f",
+              "location": "US-CA, Santa Clara Co."
+            },
+            {
+              "id": 1144,
+              "envelope": "AU",
+              "genus": "Apodemia",
+              "species": "mormo",
+              "sex": "f",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "date": "2025-07-23 11:56",
+              "latLong": "37.15978, -121.88422",
+              "notes": "ex ovum 893; pupated 2026-05-30; eclosed 2026-06-17"
+            },
+            {
+              "id": 1145,
+              "envelope": "AG",
+              "genus": "Apodemia",
+              "species": "mormo",
+              "sex": "f",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Santa Clara Co.",
+              "date": "2025-07-23 11:56",
+              "latLong": "37.15978, -121.88422",
+              "notes": "ex ovum 893; pupated 2026-06-02; eclosed 2026-06-19"
             }
           ]
         },
@@ -12272,6 +12323,44 @@
               "location": "US-CA, Monterey Co."
             }
           ]
+        },
+        {
+          "name": "Freeport",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "Lost-Flora-Fen",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1140,
+                  "genus": "Phyciodes",
+                  "species": "tharos",
+                  "date": "2026-06-18 14:47",
+                  "latLong": "42.48866, -89.15129",
+                  "temperature": "21/71",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Winnebago Co.",
+                  "envelope": "AM"
+                },
+                {
+                  "id": 1141,
+                  "genus": "Boloria",
+                  "species": "bellona",
+                  "date": "2026-06-18 14:48",
+                  "latLong": "42.48860, -89.15126",
+                  "temperature": "21/71",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Winnebago Co.",
+                  "envelope": " I"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         }
       ]
     }
