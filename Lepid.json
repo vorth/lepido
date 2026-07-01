@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1145,
+  "lastNumber": 1155,
   "locations": {
     "location": [
       {
@@ -12361,6 +12361,146 @@
             }
           ],
           "specimen": []
+        },
+        {
+          "name": "Powdermill",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "mothing",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1153,
+                  "genus": "Automeris",
+                  "species": "io",
+                  "date": "2026-06-26 18:52",
+                  "latLong": "40.16026, -79.27266",
+                  "temperature": "21/70",
+                  "elevation": "419m/1375ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-PA, Westmoreland Co.",
+                  "envelope": "AF",
+                  "sex": "m"
+                },
+                {
+                  "id": 1154,
+                  "genus": "Euparthenos",
+                  "species": "nubilis",
+                  "date": "2026-06-26 18:56",
+                  "latLong": "40.16009, -79.27263",
+                  "temperature": "21/70",
+                  "elevation": "419m/1375ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-PA, Westmoreland Co.",
+                  "envelope": " A"
+                },
+                {
+                  "id": 1155,
+                  "genus": "Automeris",
+                  "species": "io",
+                  "date": "2026-06-26 19:25",
+                  "latLong": "40.16012, -79.27256",
+                  "temperature": "21/70",
+                  "elevation": "419m/1375ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-PA, Westmoreland Co.",
+                  "envelope": "AS",
+                  "sex": "m"
+                }
+              ]
+            }
+          ],
+          "specimen": [
+            {
+              "id": 1146,
+              "genus": "Lethe",
+              "species": "anthedon",
+              "date": "2026-06-29 09:31",
+              "latLong": "40.16317, -79.26659",
+              "temperature": "27/81",
+              "elevation": "402m/1319ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": "BI"
+            },
+            {
+              "id": 1147,
+              "genus": "Lethe",
+              "species": "appalachia",
+              "date": "2026-06-29 10:14",
+              "latLong": "40.16278, -79.26624",
+              "temperature": "27/81",
+              "elevation": "402m/1319ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": "BJ"
+            },
+            {
+              "id": 1148,
+              "genus": "Lethe",
+              "species": "appalachia",
+              "date": "2026-06-29 10:17",
+              "latLong": "40.16260, -79.26626",
+              "temperature": "27/81",
+              "elevation": "402m/1319ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": "AV"
+            },
+            {
+              "id": 1149,
+              "genus": "Cercyonis",
+              "species": "pegala",
+              "date": "2026-06-29 10:48",
+              "latLong": "40.13446, -79.28472",
+              "temperature": "27/80",
+              "elevation": "564m/1850ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": " G"
+            },
+            {
+              "id": 1150,
+              "genus": "Speyeria",
+              "species": "cybele",
+              "date": "2026-06-29 11:36",
+              "latLong": "40.16452, -79.26519",
+              "temperature": "28/83",
+              "elevation": "402m/1319ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": "AP",
+              "sex": "f"
+            },
+            {
+              "id": 1151,
+              "genus": "Megisto",
+              "species": "cymela cymela",
+              "date": "2026-06-29 11:41",
+              "latLong": "40.16395, -79.26601",
+              "temperature": "28/83",
+              "elevation": "402m/1319ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": "AQ"
+            },
+            {
+              "id": 1152,
+              "genus": "Cercyonis",
+              "species": "pegala",
+              "date": "2026-06-29 12:20",
+              "latLong": "40.13469, -79.28548",
+              "temperature": "27/80",
+              "elevation": "569m/1867ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-PA, Westmoreland Co.",
+              "envelope": " D"
+            }
+          ]
         }
       ]
     }
