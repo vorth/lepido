@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1155,
+  "lastNumber": 1188,
   "locations": {
     "location": [
       {
@@ -12499,6 +12499,385 @@
               "collector": "Scott Vorthmann",
               "location": "US-PA, Westmoreland Co.",
               "envelope": " D"
+            }
+          ]
+        },
+        {
+          "name": "no-ca-aug",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "big-hill-rd",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1156,
+                  "envelope": " O",
+                  "temperature": "26/80",
+                  "elevation": "1138m/3734ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 09:56:09",
+                  "latLong": "41.08420, -123.59383"
+                },
+                {
+                  "id": 1157,
+                  "envelope": "AD",
+                  "temperature": "26/80",
+                  "elevation": "1138m/3734ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 10:13:02",
+                  "latLong": "41.08516, -123.59407"
+                },
+                {
+                  "id": 1158,
+                  "envelope": "AL",
+                  "temperature": "27/81",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 10:58:14",
+                  "latLong": "41.09242, -123.55464"
+                },
+                {
+                  "id": 1159,
+                  "envelope": "BA",
+                  "temperature": "27/80",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:06:29",
+                  "latLong": "41.09235, -123.55510"
+                },
+                {
+                  "id": 1160,
+                  "envelope": " Q",
+                  "temperature": "27/80",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:09:25",
+                  "latLong": "41.09213, -123.55517"
+                },
+                {
+                  "id": 1161,
+                  "envelope": " K",
+                  "temperature": "27/80",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:14:43",
+                  "latLong": "41.09199, -123.55509"
+                },
+                {
+                  "id": 1162,
+                  "envelope": "AE",
+                  "temperature": "27/81",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:25:59",
+                  "latLong": "41.09240, -123.55465"
+                },
+                {
+                  "id": 1163,
+                  "envelope": " C",
+                  "temperature": "29/84",
+                  "elevation": "1374m/4508ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:53:43",
+                  "latLong": "41.09706, -123.53547"
+                },
+                {
+                  "id": 1164,
+                  "envelope": " H",
+                  "temperature": "29/84",
+                  "elevation": "1374m/4508ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:53:55",
+                  "latLong": "41.09698, -123.53542"
+                },
+                {
+                  "id": 1165,
+                  "envelope": "AN",
+                  "temperature": "29/84",
+                  "elevation": "1374m/4508ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:57:49",
+                  "latLong": "41.09696, -123.53564"
+                },
+                {
+                  "id": 1166,
+                  "envelope": "AV",
+                  "temperature": "29/84",
+                  "elevation": "1374m/4508ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 11:59:30",
+                  "latLong": "41.09703, -123.53561"
+                },
+                {
+                  "id": 1167,
+                  "envelope": "BJ",
+                  "temperature": "29/84",
+                  "elevation": "1374m/4508ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 12:07:31",
+                  "latLong": "41.09687, -123.53555"
+                },
+                {
+                  "id": 1168,
+                  "envelope": "AZ",
+                  "temperature": "29/84",
+                  "elevation": "1393m/4570ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 12:17:12",
+                  "latLong": "41.09730, -123.53495"
+                },
+                {
+                  "id": 1169,
+                  "envelope": " F",
+                  "temperature": "30/85",
+                  "elevation": "1384m/4541ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 13:14:39",
+                  "latLong": "41.10100, -123.54058"
+                },
+                {
+                  "id": 1170,
+                  "envelope": "AC",
+                  "temperature": "30/86",
+                  "elevation": "1431m/4695ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 14:08:24",
+                  "latLong": "41.08815, -123.54200"
+                },
+                {
+                  "id": 1171,
+                  "envelope": " N",
+                  "temperature": "29/85",
+                  "elevation": "1454m/4770ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Humboldt Co.",
+                  "date": "2026-08-04 14:44:40",
+                  "latLong": "41.09227, -123.55484"
+                }
+              ]
+            },
+            {
+              "name": "scott-mtn-campground",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1172,
+                  "envelope": " D",
+                  "temperature": "30/85",
+                  "elevation": "1658m/5440ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 12:44:46",
+                  "latLong": "41.27659, -122.69923"
+                },
+                {
+                  "id": 1173,
+                  "envelope": " A",
+                  "temperature": "30/85",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:01:29",
+                  "latLong": "41.27777, -122.69889"
+                },
+                {
+                  "id": 1174,
+                  "envelope": " G",
+                  "temperature": "30/85",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:04:52",
+                  "latLong": "41.27773, -122.69882"
+                },
+                {
+                  "id": 1175,
+                  "envelope": "BI",
+                  "temperature": "30/85",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:09:02",
+                  "latLong": "41.27764, -122.69934"
+                },
+                {
+                  "id": 1176,
+                  "envelope": " M",
+                  "temperature": "30/85",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:12:29",
+                  "latLong": "41.27780, -122.69934"
+                },
+                {
+                  "id": 1177,
+                  "envelope": " E",
+                  "temperature": "30/85",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:12:42",
+                  "latLong": "41.27773, -122.69938"
+                },
+                {
+                  "id": 1178,
+                  "envelope": " L",
+                  "temperature": "30/87",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:32:44",
+                  "latLong": "41.27758, -122.69898"
+                },
+                {
+                  "id": 1179,
+                  "envelope": " J",
+                  "temperature": "30/87",
+                  "elevation": "1641m/5384ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-05 13:37:41",
+                  "latLong": "41.27763, -122.69898"
+                }
+              ]
+            },
+            {
+              "name": "deadfall-meadows-1",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1180,
+                  "envelope": "AW",
+                  "temperature": "28/82",
+                  "elevation": "1983m/6506ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-05 15:04:28",
+                  "latLong": "41.33470, -122.52035"
+                },
+                {
+                  "id": 1181,
+                  "envelope": "AY",
+                  "temperature": "28/82",
+                  "elevation": "1959m/6427ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-05 15:21:42",
+                  "latLong": "41.33445, -122.52207"
+                }
+              ]
+            },
+            {
+              "name": "parks-creek-trailhead",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1182,
+                  "envelope": "BH",
+                  "temperature": "23/74",
+                  "elevation": "2097m/6880ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-06 10:41:14",
+                  "latLong": "41.34425, -122.53923"
+                },
+                {
+                  "id": 1183,
+                  "envelope": "AU",
+                  "temperature": "23/74",
+                  "elevation": "2093m/6867ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Siskiyou Co.",
+                  "date": "2026-08-06 11:07:48",
+                  "latLong": "41.34347, -122.53736"
+                },
+                {
+                  "id": 1184,
+                  "envelope": " I",
+                  "temperature": "23/74",
+                  "elevation": "2081m/6827ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-06 11:12:05",
+                  "latLong": "41.34305, -122.53765"
+                }
+              ]
+            },
+            {
+              "name": "deadfall-meadows-2",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1185,
+                  "envelope": "BB",
+                  "temperature": "25/77",
+                  "elevation": "1959m/6427ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-06 11:33:50",
+                  "latLong": "41.33414, -122.52135"
+                },
+                {
+                  "id": 1186,
+                  "envelope": "AG",
+                  "temperature": "25/77",
+                  "elevation": "1959m/6427ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-06 11:39:49",
+                  "latLong": "41.33411, -122.52147"
+                },
+                {
+                  "id": 1187,
+                  "envelope": " H",
+                  "temperature": "25/77",
+                  "elevation": "1959m/6427ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Trinity Co.",
+                  "date": "2026-08-06 11:42:07",
+                  "latLong": "41.33403, -122.52163"
+                }
+              ]
+            }
+          ],
+          "specimen": [
+            {
+              "id": 1188,
+              "envelope": " N",
+              "temperature": "35/94",
+              "elevation": "1089m/3573ft",
+              "collector": "Scott Vorthmann",
+              "location": "US-CA, Siskiyou Co.",
+              "date": "2026-08-06 13:51:11",
+              "latLong": "41.38832, -122.43023"
             }
           ]
         }
