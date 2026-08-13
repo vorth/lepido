@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1188,
+  "lastNumber": 1190,
   "locations": {
     "location": [
       {
@@ -12960,6 +12960,39 @@
                   "location": "US-CA, Trinity Co.",
                   "envelope": " H",
                   "sex": "m"
+                }
+              ]
+            },
+            {
+              "name": "slapjack-spring",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1189,
+                  "genus": "Phyciodes",
+                  "species": "",
+                  "date": "2026-08-07 13:21",
+                  "latLong": "39.63320, -122.75486",
+                  "temperature": "31/88",
+                  "elevation": "1586m/5203ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Glenn Co.",
+                  "envelope": "AV"
+                },
+                {
+                  "id": 1190,
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "2026-08-07 13:53",
+                  "latLong": "39.63312, -122.75467",
+                  "notes": "nectaring on thistle",
+                  "temperature": "32/89",
+                  "elevation": "1586m/5203ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Glenn Co.",
+                  "envelope": " F"
                 }
               ]
             }
