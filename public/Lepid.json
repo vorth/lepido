@@ -699,10 +699,13 @@
                 },
                 {
                   "id": "068",
-                  "tag1": "068",
-                  "sex": "m",
                   "genus": "Speyeria",
-                  "species": "c. cybele"
+                  "species": "c. cybele",
+                  "date": "1973/74",
+                  "latLong": "42.32743, -89.69033",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "m"
                 },
                 {
                   "id": "069",
@@ -1472,11 +1475,15 @@
                   "species": "Interrogationis"
                 },
                 {
-                  "id": "297",
-                  "tag1": "297",
-                  "sex": "f",
+                  "id": 297,
                   "genus": "Speyeria",
-                  "species": "aphrodite alcestis"
+                  "species": "aphrodite alcestis",
+                  "date": "1977-08-17 13:35",
+                  "latLong": "42.33412, -89.69036",
+                  "notes": "on clover",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "f"
                 },
                 {
                   "id": "298",
@@ -1869,10 +1876,14 @@
                   "species": "cardui"
                 },
                 {
-                  "id": "386",
-                  "tag1": "386",
+                  "id": 386,
                   "genus": "Speyeria",
-                  "species": "edwardsii"
+                  "species": "edwardsii",
+                  "date": "1978-07-11 09:05",
+                  "latLong": "44.40449, -103.71892",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co.",
+                  "sex": "f"
                 },
                 {
                   "id": "387",
@@ -1883,9 +1894,13 @@
                 },
                 {
                   "id": "388",
-                  "tag1": "388",
                   "genus": "Speyeria",
-                  "species": "edwardsi"
+                  "species": "edwardsi",
+                  "date": "1978-07-11 09:09",
+                  "latLong": "44.40343, -103.71908",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co.",
+                  "sex": "m"
                 },
                 {
                   "id": "389",
@@ -1895,18 +1910,30 @@
                 },
                 {
                   "id": "390",
-                  "tag1": "390",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 11:27",
+                  "latLong": "44.26190, -103.69687",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co."
                 },
                 {
                   "id": "391",
-                  "tag1": "391",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 11:28",
+                  "latLong": "44.26190, -103.69687",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co."
                 },
                 {
                   "id": "392",
-                  "tag1": "392",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 11:35",
+                  "latLong": "44.26190, -103.69687",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co."
                 },
                 {
                   "id": "393",
@@ -1921,8 +1948,12 @@
                 },
                 {
                   "id": "395",
-                  "tag1": "395",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 11:39",
+                  "latLong": "44.26190, -103.69687",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co."
                 },
                 {
                   "id": "396",
@@ -1933,8 +1964,12 @@
                 },
                 {
                   "id": "397",
-                  "tag1": "397",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 11:40",
+                  "latLong": "44.26122, -103.69721",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Lawrence Co."
                 },
                 {
                   "id": "398",
@@ -1985,18 +2020,31 @@
                 },
                 {
                   "id": "405",
-                  "tag1": "405",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 13:57",
+                  "latLong": "43.73303, -103.70974",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "406",
-                  "tag1": "406",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 13:57",
+                  "latLong": "43.73303, -103.70974",
+                  "notes": "caught w/405",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "407",
-                  "tag1": "407",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-11 14:04",
+                  "latLong": "43.73303, -103.70974",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "408",
@@ -2009,15 +2057,21 @@
                 },
                 {
                   "id": "410",
-                  "tag1": "410",
                   "genus": "Speyeria",
-                  "species": "edwardsi"
+                  "species": "edwardsi",
+                  "date": "1978-07-12 09:07",
+                  "latLong": "43.85061, -103.55786",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "411",
-                  "tag1": "411",
                   "genus": "Speyeria",
-                  "species": "edwardsi"
+                  "species": "edwardsi",
+                  "date": "1978-07-12 09:09",
+                  "latLong": "43.85061, -103.55786",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "412",
@@ -2027,9 +2081,12 @@
                 },
                 {
                   "id": "413",
-                  "tag1": "413",
                   "genus": "Speyeria",
-                  "species": "edwardsi"
+                  "species": "edwardsi",
+                  "date": "1978-07-12 09:46",
+                  "latLong": "43.85061, -103.55786",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Custer Co."
                 },
                 {
                   "id": "414",
@@ -2038,8 +2095,12 @@
                 },
                 {
                   "id": "415",
-                  "tag1": "415",
-                  "genus": "Speyeria"
+                  "genus": "Speyeria",
+                  "species": "",
+                  "date": "1978-07-12 10:03",
+                  "latLong": "43.85820, -103.53185",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-SD, Pennington Co."
                 },
                 {
                   "id": "416",
@@ -2462,9 +2523,14 @@
               "genus": "Limenitis"
             },
             {
-              "id": "530",
-              "tag1": "530",
-              "genus": "Speyeria"
+              "id": 530,
+              "genus": "Speyeria",
+              "species": "",
+              "date": "1979-08-21 10:40",
+              "latLong": "39.15181, -105.14125",
+              "notes": "Pike NF",
+              "collector": "Scott Vorthmann",
+              "location": "US-CO, Douglas Co."
             },
             {
               "id": "531",
@@ -3002,33 +3068,40 @@
         },
         {
           "name": "emerald-mine-1975",
-          "place": "NC, Spruce Pine Emerald Mine",
-          "latLong": "35.85730, -82.10498",
-          "time": "1975-06-11",
           "specimen": [
             {
               "id": "133",
-              "tag1": "132",
-              "sex": "m",
               "genus": "Speyeria",
               "species": "c. cybele",
-              "notes": "128"
+              "date": "1975-06-11",
+              "latLong": "35.85730, -82.10498",
+              "collector": "Scott Vorthmann",
+              "location": "US-NC, Spruce Pine",
+              "sex": "m"
             },
             {
               "id": "134",
-              "tag1": "133",
-              "sex": "m",
               "genus": "Speyeria",
               "species": "c. cybele",
-              "notes": "129"
+              "date": "1975-06-11",
+              "latLong": "35.85730, -82.10498",
+              "collector": "Scott Vorthmann",
+              "location": "US-NC, Spruce Pine",
+              "sex": "m"
             },
             {
               "id": "135",
+              "place": "NC, Spruce Pine Emerald Mine",
+              "latLong": "35.85730, -82.10498",
+              "time": "1975-06-11",
               "genus": "Lycaena",
               "species": "phlaeas"
             },
             {
               "id": "136",
+              "place": "NC, Spruce Pine Emerald Mine",
+              "latLong": "35.85730, -82.10498",
+              "time": "1975-06-11",
               "genus": "Lycaena",
               "species": "phlaeas"
             },
@@ -3038,6 +3111,9 @@
               "sex": "f",
               "genus": "Poanes",
               "species": "hobomok (h.)",
+              "place": "NC, Spruce Pine Emerald Mine",
+              "latLong": "35.85730, -82.10498",
+              "time": "1975-06-11",
               "notes": "was tagged 136, tag amended"
             }
           ]
@@ -3305,12 +3381,14 @@
               "specimen": [
                 {
                   "id": "159",
-                  "id-1976W": "10",
-                  "id-green": "153",
-                  "sex": "m",
                   "genus": "Speyeria",
                   "species": "coronis dakotaensis",
-                  "notes": "edwardsii?"
+                  "date": "1976-08-08 12:30",
+                  "latLong": "44.58578, -104.70784",
+                  "notes": "edwardsii?",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-WY, Devil's Tower",
+                  "sex": "m"
                 },
                 {
                   "id": "160",
@@ -3608,16 +3686,20 @@
                   "sex": "f",
                   "genus": "Nymphalis",
                   "species": "antiopa paracreta",
+                  "date": "1977-06-02 16:30",
+                  "latLong": "42.32729, -89.69014",
                   "notes": "out of pupa P211"
                 },
                 {
                   "id": "185",
-                  "id-1977": "212",
-                  "id-green": "180",
-                  "sex": "m",
                   "genus": "Speyeria",
                   "species": "c. cybele",
-                  "notes": "saw 8 or 9, all male"
+                  "date": "1977-06-02 16:30",
+                  "latLong": "42.32729, -89.69014",
+                  "notes": "saw 8 or 9, all male",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "m"
                 },
                 {
                   "id": "186",
@@ -3626,6 +3708,8 @@
                   "sex": "m",
                   "genus": "Polygonia",
                   "species": "comma (dryas)",
+                  "date": "1977-06-02 16:30",
+                  "latLong": "42.32729, -89.69014",
                   "notes": "-- old tag says \"187\"",
                   "collector": "Layne Vorthmann"
                 }
@@ -3875,13 +3959,13 @@
                 },
                 {
                   "id": "208",
-                  "id-1977": "235",
-                  "id-green": "203",
-                  "sex": "f",
-                  "time": "1977-06-09 1540",
-                  "place": "privet hedge by garage",
                   "genus": "Speyeria",
-                  "species": "c. cybele"
+                  "species": "c. cybele",
+                  "date": "1977-06-09 15:40",
+                  "latLong": "42.32729, -89.69014",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "f"
                 },
                 {
                   "id": "209",
@@ -3906,8 +3990,8 @@
           "collectingSession": [
             {
               "name": "june-10",
-              "time": "1977-06-10 1920",
               "collectingSession": [],
+              "time": "1977-06-10 1920",
               "latLong": "42.76938, -89.97174",
               "place": "foot of hill rd to campground, Yellowstone Lake SP, WI",
               "specimen": [
@@ -3918,6 +4002,9 @@
                   "sex": "m",
                   "genus": "Euphydryas",
                   "species": "p. phaeton",
+                  "date": "1977-06-10 19:20",
+                  "latLong": "42.76938, -89.97174",
+                  "place": "foot of hill rd to campground, Yellowstone Lake SP, WI",
                   "notes": "stunned on the road"
                 }
               ]
@@ -3929,13 +4016,13 @@
               "specimen": [
                 {
                   "id": "211",
-                  "id-1977": "238",
-                  "id-green": "206",
-                  "sex": "m",
                   "genus": "Speyeria",
-                  "latLong": "42.77125, -89.96997",
-                  "place": "bushes near tentsite 10",
-                  "species": "aphrodite alcestis"
+                  "species": "aphrodite alcestis",
+                  "date": "1977-06-12 11:45",
+                  "latLong": "42.77099, -89.97009",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-WI, Yellowstone Lake",
+                  "sex": "m"
                 }
               ]
             }
@@ -5673,7 +5760,11 @@
                   "id": "607",
                   "genus": "Speyeria",
                   "species": "cybele",
-                  "notes": "wings found beneath Preying Mantis on Butterfly Bush"
+                  "date": "2003-08-18 19:00",
+                  "latLong": "35.91147, -79.12044",
+                  "notes": "wings found beneath Preying Mantis on Butterfly Bush",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-NC, Carrboro"
                 },
                 {
                   "id": "608",
@@ -7181,15 +7272,17 @@
             {
               "name": "09-18",
               "time": "09-18 09:30",
-              "specimen": {
-                "id": "747",
-                "tag1": "699",
-                "sex": "f",
-                "place": "on windshield of Tracker, in driveway, 1317 La Cresta",
-                "genus": "Polygonia",
-                "species": "interrogationis",
-                "notes": "fall form; seemed in hibernation for a few days, but stiffened after 4"
-              }
+              "specimen": [
+                {
+                  "id": "747",
+                  "tag1": "699",
+                  "sex": "f",
+                  "place": "on windshield of Tracker, in driveway, 1317 La Cresta",
+                  "genus": "Polygonia",
+                  "species": "interrogationis",
+                  "notes": "fall form; seemed in hibernation for a few days, but stiffened after 4"
+                }
+              ]
             }
           ]
         },
@@ -7203,24 +7296,28 @@
             {
               "name": "12-28",
               "time": "12-28 11:30",
-              "specimen": {
-                "id": "748",
-                "tag1": "700",
-                "place": "side of road, mile 230 on way to Chichen Itza",
-                "genus": "Doxocopa",
-                "species": "laure",
-                "notes": "dead on side of road, stopped in a \"retorno\" lane"
-              }
+              "specimen": [
+                {
+                  "id": "748",
+                  "tag1": "700",
+                  "place": "side of road, mile 230 on way to Chichen Itza",
+                  "genus": "Doxocopa",
+                  "species": "laure",
+                  "notes": "dead on side of road, stopped in a \"retorno\" lane"
+                }
+              ]
             },
             {
               "name": "12-29",
               "time": "12-29 10:00",
-              "specimen": {
-                "id": "749",
-                "place": "room 198, Oasis Playa Hotel",
-                "genus": "Calodesma",
-                "notes": "small dk. blue day moth with white forewing bands; dead on floor"
-              }
+              "specimen": [
+                {
+                  "id": "749",
+                  "place": "room 198, Oasis Playa Hotel",
+                  "genus": "Calodesma",
+                  "notes": "small dk. blue day moth with white forewing bands; dead on floor"
+                }
+              ]
             }
           ]
         },
@@ -7234,14 +7331,16 @@
             {
               "name": "06-30",
               "time": "06-30 17:30",
-              "specimen": {
-                "id": "750",
-                "sex": "f",
-                "place": "along wooded S border of last cornfield on 14 acres (furthest E)",
-                "genus": "Lethe",
-                "species": "portlandia anthedon",
-                "notes": "saw the same thing the day before, in the valley; saw this one while picking black raspberries with Lia and Derek "
-              }
+              "specimen": [
+                {
+                  "id": "750",
+                  "sex": "f",
+                  "place": "along wooded S border of last cornfield on 14 acres (furthest E)",
+                  "genus": "Lethe",
+                  "species": "portlandia anthedon",
+                  "notes": "saw the same thing the day before, in the valley; saw this one while picking black raspberries with Lia and Derek "
+                }
+              ]
             }
           ]
         },
@@ -7251,16 +7350,18 @@
           "location": {
             "ref": "CA.LickObservatory"
           },
-          "specimen": {
-            "id": "751",
-            "place": "very near the summit of Mt. Hamilton",
-            "genus": "Nymphalis",
-            "species": "californica",
-            "notes": [
-              "dead on the road; driving up with Mom & Dad",
-              "spread 2009-03-28"
-            ]
-          }
+          "specimen": [
+            {
+              "id": "751",
+              "place": "very near the summit of Mt. Hamilton",
+              "genus": "Nymphalis",
+              "species": "californica",
+              "notes": [
+                "dead on the road; driving up with Mom & Dad",
+                "spread 2009-03-28"
+              ]
+            }
+          ]
         },
         {
           "name": "sunnyvale-2009",
@@ -7275,13 +7376,15 @@
                 "ref": "CA.NelsonWay"
               },
               "time": "03-28? 17:00",
-              "specimen": {
-                "id": "752",
-                "place": "concrete pad in front of back fence",
-                "genus": "Vanessa",
-                "species": "annabella",
-                "notes": "alternatively basking and patrolling the back border of the lot; Today Derek and I stood in the front yard and caught several Vanessa cardui as they flew by.  They have been extremely numerous for the past few warm days, and during the heat of the day they fly to the northwest very fast.  As the afternoon wanes, they begin to defend patches of sunlit pines along the back boundary of the lots on Nelson Way.  It is possible that both V. cardui and V. annabella (and even V. virginiensis) are exhibiting the same behaviors, but I only know that I caught one or two V. cardui. "
-              }
+              "specimen": [
+                {
+                  "id": "752",
+                  "place": "concrete pad in front of back fence",
+                  "genus": "Vanessa",
+                  "species": "annabella",
+                  "notes": "alternatively basking and patrolling the back border of the lot; Today Derek and I stood in the front yard and caught several Vanessa cardui as they flew by.  They have been extremely numerous for the past few warm days, and during the heat of the day they fly to the northwest very fast.  As the afternoon wanes, they begin to defend patches of sunlit pines along the back boundary of the lots on Nelson Way.  It is possible that both V. cardui and V. annabella (and even V. virginiensis) are exhibiting the same behaviors, but I only know that I caught one or two V. cardui. "
+                }
+              ]
             },
             {
               "name": "withLia",
@@ -7289,13 +7392,15 @@
                 "ref": "CA.Archery"
               },
               "time": "04-27 15:00",
-              "specimen": {
-                "id": "753",
-                "place": "grassy hillside nr electrical tower",
-                "genus": "Coenonympha",
-                "species": "california eryngii",
-                "notes": "saw many of these flying through the grass, and alighting on it "
-              }
+              "specimen": [
+                {
+                  "id": "753",
+                  "place": "grassy hillside nr electrical tower",
+                  "genus": "Coenonympha",
+                  "species": "california eryngii",
+                  "notes": "saw many of these flying through the grass, and alighting on it "
+                }
+              ]
             },
             {
               "name": "silverspot",
@@ -7307,13 +7412,18 @@
                 "genus": "Papilio",
                 "species": "rutulus or multicaudata"
               },
-              "specimen": {
-                "id": "754",
-                "place": "backyard shrubs",
-                "genus": "Speyeria",
-                "species": "zerene",
-                "notes": "caught on the wing, while waiting for the Tiger "
-              }
+              "specimen": [
+                {
+                  "id": "754",
+                  "genus": "Speyeria",
+                  "species": "zerene",
+                  "date": "2009-06-06 14:29",
+                  "latLong": "37.35678,-122.09263",
+                  "location": "US-CA, Sunnyvale",
+                  "notes": "caught on the wing, while waiting for the Tiger ",
+                  "collector": "Scott Vorthmann"
+                }
+              ]
             },
             {
               "name": "silverspot2",
@@ -7322,12 +7432,18 @@
               },
               "place": " Foothill just S of Manor Way, Los Altos ",
               "time": "Tue, 9 Jun 2009 13:23:43 -0700",
-              "specimen": {
-                "id": "755",
-                "genus": "Speyeria",
-                "species": "zerene",
-                "notes": "dead in the bike lane, still soft"
-              }
+              "specimen": [
+                {
+                  "id": "755",
+                  "genus": "Speyeria",
+                  "species": "zerene",
+                  "date": "2009-06-09 13:23",
+                  "latLong": "37.35678,-122.09263",
+                  "notes": "dead in the bike lane, still soft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Los Altos"
+                }
+              ]
             },
             {
               "name": "josephGrant-Lia",
@@ -7336,12 +7452,14 @@
               },
               "place": " Joseph D Grant County Park, San Jose, CA 95135 ",
               "time": "Sat, 01 Aug 2009 14:38:30 -0700",
-              "specimen": {
-                "id": "756",
-                "genus": "Coenonympha",
-                "species": "c. california",
-                "notes": "saw a 2nd one immediately after capturing this one. flights of 5-10 seconds, resting on dried grasses in between "
-              }
+              "specimen": [
+                {
+                  "id": "756",
+                  "genus": "Coenonympha",
+                  "species": "c. california",
+                  "notes": "saw a 2nd one immediately after capturing this one. flights of 5-10 seconds, resting on dried grasses in between "
+                }
+              ]
             },
             {
               "name": "Taylor-home",
@@ -7349,13 +7467,15 @@
                 "ref": "home"
               },
               "time": "Thu, 12 Aug 2010 15:00 -0700",
-              "specimen": {
-                "id": "757",
-                "place": "dead on the road",
-                "genus": "Vanessa",
-                "species": "c. cardui",
-                "notes": "Taylor picked up the butterfly on the way back from her run "
-              }
+              "specimen": [
+                {
+                  "id": "757",
+                  "place": "dead on the road",
+                  "genus": "Vanessa",
+                  "species": "c. cardui",
+                  "notes": "Taylor picked up the butterfly on the way back from her run "
+                }
+              ]
             },
             {
               "name": "skippers",
@@ -7363,13 +7483,15 @@
                 "ref": "CA.NelsonWay"
               },
               "time": "Sat, 28 Aug 2010 15:00 -0700",
-              "specimen": {
-                "id": "758",
-                "place": "front yard, fence between our's and Brian's driveways",
-                "genus": "Hylephila",
-                "species": "phyleus",
-                "notes": "on the Lantana (?) border, visiting blossoms, occasionally resting in our grass "
-              }
+              "specimen": [
+                {
+                  "id": "758",
+                  "place": "front yard, fence between our's and Brian's driveways",
+                  "genus": "Hylephila",
+                  "species": "phyleus",
+                  "notes": "on the Lantana (?) border, visiting blossoms, occasionally resting in our grass "
+                }
+              ]
             },
             {
               "name": "Picchetti-April",
@@ -7378,35 +7500,41 @@
               },
               "place": " Picchetti Ranch Open Space Preserve, Cupertino, CA 95014 ",
               "time": "Sun, 17 Apr 2011 14:29:09 -0700",
-              "specimen": {
-                "id": "759",
-                "genus": "Anthocharis",
-                "species": "s. sara",
-                "notes": "had seen one 2 years earlier in the same trail "
-              }
+              "specimen": [
+                {
+                  "id": "759",
+                  "genus": "Anthocharis",
+                  "species": "s. sara",
+                  "notes": "had seen one 2 years earlier in the same trail "
+                }
+              ]
             }
           ],
-          "sighting": {
-            "place": [
-              "Whole Foods, Stevens Creek & Stelling, Cupertino",
-              "another intersection, Cupertino"
-            ],
-            "genus": "Speyeria",
-            "species": "zerene",
-            "notes": "presumed ID, two specimens seen on the wing while driving"
-          }
+          "sighting": [
+            {
+              "place": [
+                "Whole Foods, Stevens Creek & Stelling, Cupertino",
+                "another intersection, Cupertino"
+              ],
+              "genus": "Speyeria",
+              "species": "zerene",
+              "notes": "presumed ID, two specimens seen on the wing while driving"
+            }
+          ]
         },
         {
           "name": "saratoga-2012",
           "place": "Wardell house, hedge by basketball",
           "time": "Wed 09 may 2012",
-          "specimen": {
-            "id": "760",
-            "sex": "f",
-            "genus": "Celastrina",
-            "species": "ladon echo",
-            "notes": "seen blues on and off since early March "
-          }
+          "specimen": [
+            {
+              "id": "760",
+              "sex": "f",
+              "genus": "Celastrina",
+              "species": "ladon echo",
+              "notes": "seen blues on and off since early March "
+            }
+          ]
         },
         {
           "name": "home-2012",
@@ -7439,12 +7567,14 @@
           "location": {
             "latLong": "37.280626,-122.032249"
           },
-          "specimen": {
-            "id": "764",
-            "genus": "Adelpha",
-            "species": "californica",
-            "notes": "flew across street in front of the Honda Pilot, killed in the grill;  extracted minutes later at home, still alive but dying"
-          }
+          "specimen": [
+            {
+              "id": "764",
+              "genus": "Adelpha",
+              "species": "californica",
+              "notes": "flew across street in front of the Honda Pilot, killed in the grill;  extracted minutes later at home, still alive but dying"
+            }
+          ]
         },
         {
           "name": "yellowstone-2015",
@@ -7473,12 +7603,13 @@
             },
             {
               "id": "767",
-              "time": "2015-07-06-151644",
-              "location": {
-                "-longLat": "-110.5225468,44.9489683"
-              },
               "genus": "Speyeria",
-              "notes": "mudpuddling, saw two others "
+              "species": "",
+              "date": "2015-07-06 15:16",
+              "latLong": "44.94896,-110.52254",
+              "notes": "mudpuddling, saw two others ",
+              "collector": "Scott Vorthmann",
+              "location": "US-WY"
             },
             {
               "id": "768",
@@ -8864,8 +8995,10 @@
                   "id": 867,
                   "genus": "Speyeria",
                   "species": "",
-                  "time": "12:30",
-                  "latLong": "37.17296, -121.87148"
+                  "date": "2025-06-12 12:30",
+                  "latLong": "37.17296, -121.87148",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Sierra Azul OSP"
                 }
               ]
             },
@@ -8877,15 +9010,17 @@
                   "id": 868,
                   "genus": "Speyeria",
                   "species": "",
-                  "time": "2025-06-14T13:05",
+                  "date": "2025-06-14 13:05",
                   "latLong": "37.28402, -122.03305",
-                  "notes": "nectaring on Buddleia in our front yard; I tried to obtain hostplant (Violets) from a nursery, but they didn't have any, and I could not find any wild Violets at Sanborn Park"
+                  "notes": "nectaring on Buddleia in our front yard; I tried to obtain hostplant (Violets) from a nursery, but they didn't have any, and I could not find any wild Violets at Sanborn Park",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-CA, Saratoga"
                 },
                 {
                   "id": 869,
                   "genus": "Papilio",
                   "species": "rutulus",
-                  "time": "2025-06-15T11:15",
+                  "time": "2025-06-15 11:15",
                   "latLong": "37.28402, -122.03305",
                   "notes": "caught in flight"
                 }
@@ -12473,7 +12608,6 @@
               "elevation": "402m/1319ft",
               "collector": "Scott Vorthmann",
               "location": "US-PA, Westmoreland Co.",
-              "envelope": "AP",
               "sex": "f"
             },
             {
