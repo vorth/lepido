@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1222,
+  "lastNumber": 1228,
   "locations": {
     "location": [
       {
@@ -13543,6 +13543,84 @@
                   "location": "US-AZ, Cochise Co.",
                   "envelope": "GS",
                   "sex": "m"
+                }
+              ]
+            },
+            {
+              "name": "pena-blanca-proctor",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1223,
+                  "genus": "Calephelis",
+                  "species": "arizonensis",
+                  "date": "2026-09-12 09:16",
+                  "latLong": "31.38050, -111.09086",
+                  "temperature": "26/79",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "envelope": "GJ"
+                },
+                {
+                  "id": 1224,
+                  "genus": "Nathalis",
+                  "species": "iole",
+                  "date": "2026-09-12 09:31",
+                  "latLong": "31.38172, -111.09187",
+                  "temperature": "28/82",
+                  "elevation": "1216m/3990ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "envelope": "IO"
+                },
+                {
+                  "id": 1225,
+                  "genus": "Cissia",
+                  "species": "rubricata cheneyorum",
+                  "date": "2026-09-12 09:36",
+                  "latLong": "31.38187, -111.09210",
+                  "temperature": "28/82",
+                  "elevation": "1216m/3990ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "envelope": "IH"
+                },
+                {
+                  "id": 1226,
+                  "genus": "Asterocampa",
+                  "species": "celtis antonia",
+                  "date": "2026-09-12 11:34",
+                  "latLong": "31.74124, -110.88741",
+                  "temperature": "25/77",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "HB"
+                },
+                {
+                  "id": 1227,
+                  "genus": "Asterocampa",
+                  "species": "celtis antonia",
+                  "date": "2026-09-12 11:54",
+                  "latLong": "31.73972, -110.88670",
+                  "temperature": "25/77",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "II"
+                },
+                {
+                  "id": 1228,
+                  "genus": "Junonia",
+                  "species": "nigrosuffusa",
+                  "date": "2026-09-12 12:00",
+                  "latLong": "31.73978, -110.88680",
+                  "temperature": "25/77",
+                  "elevation": "1357m/4452ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "HK"
                 }
               ]
             }
