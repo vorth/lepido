@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1190,
+  "lastNumber": 1222,
   "locations": {
     "location": [
       {
@@ -13146,6 +13146,408 @@
               "sex": "m"
             }
           ]
+        },
+        {
+          "name": "se-az-sept",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [
+            {
+              "name": "sycamore-harshaw",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1191,
+                  "envelope": "IW",
+                  "temperature": "23/73",
+                  "elevation": "998m/3274ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 06:48:20",
+                  "latLong": "31.61463, -111.05629",
+                  "notes": "Pink Saturnid"
+                },
+                {
+                  "id": 1192,
+                  "envelope": "GM",
+                  "temperature": "23/73",
+                  "elevation": "998m/3274ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 06:48:53",
+                  "latLong": "31.61466, -111.05635",
+                  "notes": "Pink Saturnid"
+                },
+                {
+                  "id": 1193,
+                  "envelope": "IX",
+                  "temperature": "24/74",
+                  "elevation": "1180m/3871ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 08:29:45",
+                  "latLong": "31.39481, -111.08968",
+                  "notes": "Dogface"
+                },
+                {
+                  "id": 1194,
+                  "envelope": "GU",
+                  "temperature": "26/80",
+                  "elevation": "1180m/3871ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 08:41:42",
+                  "latLong": "31.39490, -111.08966",
+                  "notes": "Tailed orange sulphur "
+                },
+                {
+                  "id": 1195,
+                  "envelope": "JF",
+                  "temperature": "26/78",
+                  "elevation": "1252m/4108ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 09:09:23",
+                  "latLong": "31.39073, -111.10738",
+                  "notes": "Red satyr"
+                },
+                {
+                  "id": 1196,
+                  "envelope": "JG",
+                  "temperature": "26/78",
+                  "elevation": "1268m/4160ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 09:20:32",
+                  "latLong": "31.38979, -111.12381",
+                  "notes": "Tailed orange sulphur"
+                },
+                {
+                  "id": 1197,
+                  "envelope": "GE",
+                  "temperature": "29/84",
+                  "elevation": "1268m/4160ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 09:38:33",
+                  "latLong": "31.38959, -111.12370",
+                  "notes": "Gulf Frit "
+                },
+                {
+                  "id": 1198,
+                  "envelope": "GN",
+                  "temperature": "29/84",
+                  "elevation": "1268m/4160ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 09:40:11",
+                  "latLong": "31.38961, -111.12368",
+                  "notes": "Gulf Frit "
+                },
+                {
+                  "id": 1199,
+                  "envelope": "GW",
+                  "temperature": "29/84",
+                  "elevation": "1221m/4006ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 10:29:10",
+                  "latLong": "31.42821, -111.19170",
+                  "notes": "Red satyr"
+                },
+                {
+                  "id": 1200,
+                  "envelope": " V",
+                  "temperature": "30/87",
+                  "elevation": "1221m/4006ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 10:40:17",
+                  "latLong": "31.42771, -111.19326",
+                  "notes": "Giant swallowtail"
+                },
+                {
+                  "id": 1201,
+                  "envelope": "HF",
+                  "temperature": "30/86",
+                  "elevation": "1230m/4035ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 10:47:56",
+                  "latLong": "31.42780, -111.19419",
+                  "notes": "Dogface"
+                },
+                {
+                  "id": 1202,
+                  "envelope": "GV",
+                  "temperature": "30/87",
+                  "elevation": "1210m/3970ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 10:55:22",
+                  "latLong": "31.42589, -111.19376",
+                  "notes": "American painted Lady"
+                },
+                {
+                  "id": 1203,
+                  "envelope": "HJ",
+                  "temperature": "30/87",
+                  "elevation": "1210m/3970ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 11:01:09",
+                  "latLong": "31.42555, -111.19385",
+                  "notes": "Tailed orange sulphur"
+                },
+                {
+                  "id": 1204,
+                  "envelope": "HS",
+                  "temperature": "32/89",
+                  "elevation": "1210m/3970ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 11:34:08",
+                  "latLong": "31.42539, -111.19436",
+                  "notes": "Arizona metal Mark"
+                },
+                {
+                  "id": 1205,
+                  "envelope": "HD",
+                  "temperature": "32/89",
+                  "elevation": "1221m/4006ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 12:30:58",
+                  "latLong": "31.42823, -111.19227",
+                  "notes": "Arizona metal Mark"
+                },
+                {
+                  "id": 1206,
+                  "envelope": "IB",
+                  "temperature": "33/92",
+                  "elevation": "1268m/4160ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 13:31:21",
+                  "latLong": "31.39056, -111.12402",
+                  "notes": "Cloudless sulfur"
+                },
+                {
+                  "id": 1207,
+                  "envelope": "HE",
+                  "temperature": "33/92",
+                  "elevation": "1099m/3606ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 14:26:53",
+                  "latLong": "31.43368, -110.95677",
+                  "notes": "Bordered patch"
+                },
+                {
+                  "id": 1208,
+                  "envelope": "IK",
+                  "temperature": "32/89",
+                  "elevation": "1358m/4455ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 15:48:37",
+                  "latLong": "31.49943, -110.70302",
+                  "notes": "Dark buckeye"
+                },
+                {
+                  "id": 1209,
+                  "envelope": "HM",
+                  "temperature": "32/89",
+                  "elevation": "1358m/4455ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 15:59:25",
+                  "latLong": "31.49986, -110.70306",
+                  "notes": "W Pygmy blue"
+                },
+                {
+                  "id": 1210,
+                  "envelope": " T",
+                  "temperature": "33/91",
+                  "elevation": "1396m/4580ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "date": "2026-09-10 16:43:13",
+                  "latLong": "31.48845, -110.68582",
+                  "notes": "Giant swallowtail"
+                }
+              ]
+            },
+            {
+              "name": "garden-canyon",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1211,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 10:37:44",
+                  "latLong": "31.49095, -110.32548",
+                  "notes": "Arizona Purple",
+                  "temperature": "26/79",
+                  "elevation": "1539m/5049ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IT"
+                },
+                {
+                  "id": 1212,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:22:51",
+                  "latLong": "31.46731, -110.35940",
+                  "notes": "Cloudless Sulphur",
+                  "temperature": "25/77",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HN"
+                },
+                {
+                  "id": 1213,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:37:56",
+                  "latLong": "31.46544, -110.36087",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1785m/5856ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HV"
+                },
+                {
+                  "id": 1214,
+                  "genus": "Papilio",
+                  "species": "multicaudatus",
+                  "date": "2026-09-11 11:46:49",
+                  "latLong": "31.46439, -110.36161",
+                  "notes": "Two-tailed Swallowtail",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": " R"
+                },
+                {
+                  "id": 1215,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:51:32",
+                  "latLong": "31.46384, -110.36180",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HW"
+                },
+                {
+                  "id": 1216,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:55:55",
+                  "latLong": "31.46353, -110.36215",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IE"
+                },
+                {
+                  "id": 1217,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:59:00",
+                  "latLong": "31.46355, -110.36213",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "JC"
+                },
+                {
+                  "id": 1218,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:02:04",
+                  "latLong": "31.46319, -110.36233",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IF"
+                },
+                {
+                  "id": 1219,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:11:16",
+                  "latLong": "31.46321, -110.36234",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "JL"
+                },
+                {
+                  "id": 1220,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:14:38",
+                  "latLong": "31.46363, -110.36190",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "GA"
+                },
+                {
+                  "id": 1221,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:30:00",
+                  "latLong": "31.46717, -110.35856",
+                  "notes": "Flori's Celastrina",
+                  "temperature": "26/78",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IN",
+                  "sex": "m"
+                },
+                {
+                  "id": 1222,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:57:55",
+                  "latLong": "31.47190, -110.35685",
+                  "notes": "Dogface",
+                  "temperature": "26/78",
+                  "elevation": "1673m/5489ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "GS",
+                  "sex": "m"
+                }
+              ]
+            }
+          ],
+          "specimen": []
         }
       ]
     }
