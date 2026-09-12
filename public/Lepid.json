@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1210,
+  "lastNumber": 1222,
   "locations": {
     "location": [
       {
@@ -13377,6 +13377,172 @@
                   "date": "2026-09-10 16:43:13",
                   "latLong": "31.48845, -110.68582",
                   "notes": "Giant swallowtail"
+                }
+              ]
+            },
+            {
+              "name": "garden-canyon",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1211,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 10:37:44",
+                  "latLong": "31.49095, -110.32548",
+                  "notes": "Arizona Purple",
+                  "temperature": "26/79",
+                  "elevation": "1539m/5049ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IT"
+                },
+                {
+                  "id": 1212,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:22:51",
+                  "latLong": "31.46731, -110.35940",
+                  "notes": "Cloudless Sulphur",
+                  "temperature": "25/77",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HN"
+                },
+                {
+                  "id": 1213,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:37:56",
+                  "latLong": "31.46544, -110.36087",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1785m/5856ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HV"
+                },
+                {
+                  "id": 1214,
+                  "genus": "Papilio",
+                  "species": "multicaudatus",
+                  "date": "2026-09-11 11:46:49",
+                  "latLong": "31.46439, -110.36161",
+                  "notes": "Two-tailed Swallowtail",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": " R"
+                },
+                {
+                  "id": 1215,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:51:32",
+                  "latLong": "31.46384, -110.36180",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "HW"
+                },
+                {
+                  "id": 1216,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:55:55",
+                  "latLong": "31.46353, -110.36215",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IE"
+                },
+                {
+                  "id": 1217,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 11:59:00",
+                  "latLong": "31.46355, -110.36213",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "JC"
+                },
+                {
+                  "id": 1218,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:02:04",
+                  "latLong": "31.46319, -110.36233",
+                  "notes": "Red-bordered Satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IF"
+                },
+                {
+                  "id": 1219,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:11:16",
+                  "latLong": "31.46321, -110.36234",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "JL"
+                },
+                {
+                  "id": 1220,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:14:38",
+                  "latLong": "31.46363, -110.36190",
+                  "notes": "Nabokov's satyr",
+                  "temperature": "26/79",
+                  "elevation": "1780m/5840ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "GA"
+                },
+                {
+                  "id": 1221,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:30:00",
+                  "latLong": "31.46717, -110.35856",
+                  "notes": "Flori's Celastrina",
+                  "temperature": "26/78",
+                  "elevation": "1725m/5659ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "IN",
+                  "sex": "m"
+                },
+                {
+                  "id": 1222,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-11 12:57:55",
+                  "latLong": "31.47190, -110.35685",
+                  "notes": "Dogface",
+                  "temperature": "26/78",
+                  "elevation": "1673m/5489ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Cochise Co.",
+                  "envelope": "GS",
+                  "sex": "m"
                 }
               ]
             }
