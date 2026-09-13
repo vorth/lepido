@@ -1,5 +1,5 @@
 {
-  "lastNumber": 1228,
+  "lastNumber": 1246,
   "locations": {
     "location": [
       {
@@ -13631,6 +13631,236 @@
                   "collector": "Scott Vorthmann",
                   "location": "US-AZ, Pima Co.",
                   "envelope": "HK"
+                }
+              ]
+            },
+            {
+              "name": "box-and-madera",
+              "time": "",
+              "latLong": "",
+              "collectingSession": [],
+              "specimen": [
+                {
+                  "id": 1229,
+                  "genus": "Ministrymon",
+                  "species": "leda",
+                  "date": "2026-09-13 08:20",
+                  "latLong": "31.82186, -110.92320",
+                  "temperature": "23/74",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "IQ"
+                },
+                {
+                  "id": 1230,
+                  "genus": "Apodemia",
+                  "species": "palmerii",
+                  "date": "2026-09-13 08:25",
+                  "latLong": "31.82180, -110.92342",
+                  "temperature": "23/74",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "IR"
+                },
+                {
+                  "id": 1231,
+                  "genus": "Strymon",
+                  "species": "melinus",
+                  "date": "2026-09-13 08:29",
+                  "latLong": "31.82163, -110.92301",
+                  "notes": "hairstreak",
+                  "temperature": "23/74",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "IZ"
+                },
+                {
+                  "id": 1232,
+                  "genus": "Apodemia",
+                  "species": "palmerii",
+                  "date": "2026-09-13 08:34",
+                  "latLong": "31.82161, -110.92312",
+                  "temperature": "25/77",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "HT"
+                },
+                {
+                  "id": 1233,
+                  "genus": "Asterocampa",
+                  "species": "leilia",
+                  "date": "2026-09-13 08:36",
+                  "latLong": "31.82176, -110.92326",
+                  "temperature": "25/77",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "JA",
+                  "sex": "m"
+                },
+                {
+                  "id": 1234,
+                  "genus": "Apodemia",
+                  "species": "palmerii",
+                  "date": "2026-09-13 08:37",
+                  "latLong": "31.82174, -110.92326",
+                  "temperature": "25/77",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "JI"
+                },
+                {
+                  "id": 1235,
+                  "genus": "Apodemia",
+                  "species": "palmerii",
+                  "date": "2026-09-13 08:44",
+                  "latLong": "31.82180, -110.92333",
+                  "temperature": "25/77",
+                  "elevation": "995m/3264ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "JJ"
+                },
+                {
+                  "id": 1236,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-13 09:08",
+                  "latLong": "31.80466, -110.90869",
+                  "notes": "blue",
+                  "temperature": "25/78",
+                  "elevation": "1043m/3422ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "GH"
+                },
+                {
+                  "id": 1237,
+                  "genus": "Asterocampa",
+                  "species": "leilia",
+                  "date": "2026-09-13 09:48",
+                  "latLong": "31.79975, -110.79327",
+                  "temperature": "27/81",
+                  "elevation": "1380m/4528ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "GQ",
+                  "sex": "m"
+                },
+                {
+                  "id": 1238,
+                  "genus": "Brephidium",
+                  "species": "exilis",
+                  "date": "2026-09-13 09:56",
+                  "latLong": "31.79967, -110.79295",
+                  "temperature": "27/81",
+                  "elevation": "1380m/4528ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "IC"
+                },
+                {
+                  "id": 1239,
+                  "genus": "Texola",
+                  "species": "elada perse",
+                  "date": "2026-09-13 10:24",
+                  "latLong": "31.79945, -110.79776",
+                  "temperature": "28/82",
+                  "elevation": "1334m/4377ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "HI"
+                },
+                {
+                  "id": 1240,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-13 10:30",
+                  "latLong": "31.79922, -110.79761",
+                  "notes": "ragged black witch",
+                  "temperature": "28/83",
+                  "elevation": "1334m/4377ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "AI"
+                },
+                {
+                  "id": 1241,
+                  "genus": "",
+                  "species": "",
+                  "date": "2026-09-13 10:46",
+                  "latLong": "31.79894, -110.79683",
+                  "notes": "ragged Black Witch moth",
+                  "temperature": "28/83",
+                  "elevation": "1334m/4377ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "AH"
+                },
+                {
+                  "id": 1242,
+                  "genus": "Calephelis",
+                  "species": "nemesis",
+                  "date": "2026-09-13 10:51",
+                  "latLong": "31.79885, -110.79651",
+                  "temperature": "29/84",
+                  "elevation": "1334m/4377ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "GZ"
+                },
+                {
+                  "id": 1243,
+                  "genus": "Anthanassa",
+                  "species": "texana texana",
+                  "date": "2026-09-13 10:57",
+                  "latLong": "31.79893, -110.79673",
+                  "temperature": "28/83",
+                  "elevation": "1334m/4377ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "IS"
+                },
+                {
+                  "id": 1244,
+                  "genus": "Gryocheilus",
+                  "species": "patrobus",
+                  "date": "2026-09-13 13:38",
+                  "latLong": "31.70737, -110.87591",
+                  "temperature": "28/82",
+                  "elevation": "1755m/5758ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "envelope": "HR"
+                },
+                {
+                  "id": 1245,
+                  "genus": "Cyllopsis",
+                  "species": "pyracmon henshawi",
+                  "date": "2026-09-13 13:58",
+                  "latLong": "31.70998, -110.87546",
+                  "temperature": "28/83",
+                  "elevation": "1714m/5623ft",
+                  "collector": "Florelia Braschi",
+                  "location": "US-AZ, Santa Cruz Co.",
+                  "envelope": "JB"
+                },
+                {
+                  "id": 1246,
+                  "genus": "Apodemia",
+                  "species": "palmerii",
+                  "date": "2026-09-13 14:36",
+                  "latLong": "31.79924, -110.90037",
+                  "temperature": "34/93",
+                  "elevation": "1062m/3484ft",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-AZ, Pima Co.",
+                  "envelope": "JK"
                 }
               ]
             }
