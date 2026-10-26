@@ -1169,180 +1169,9 @@
           "name": "254-300",
           "collectingSession": [
             {
-              "name": "254-270",
-              "collectingSession": [],
-              "specimen": [
-                {
-                  "id": "254",
-                  "tag1": "254",
-                  "genus": "Pyrgus",
-                  "species": "c. communis"
-                },
-                {
-                  "id": "255",
-                  "tag1": "255",
-                  "sex": "m",
-                  "genus": "Pontia",
-                  "species": "p. protodice"
-                },
-                {
-                  "id": "256",
-                  "tag1": "256",
-                  "sex": "f",
-                  "genus": "Colias",
-                  "species": "philodice-eurytheme",
-                  "notes": "-- alfalfa"
-                },
-                {
-                  "id": "257",
-                  "tag1": "257",
-                  "sex": "f",
-                  "genus": "Colias",
-                  "species": "philodice-eurytheme",
-                  "notes": "-- alfalfa"
-                },
-                {
-                  "id": "258",
-                  "tag1": "258",
-                  "sex": "f",
-                  "genus": "Colias",
-                  "species": "philodice-eurytheme",
-                  "notes": "-- sulfur"
-                },
-                {
-                  "id": "259",
-                  "tag1": "259",
-                  "sex": "m",
-                  "genus": "Colias",
-                  "species": "eurytheme (amphidusa)",
-                  "notes": "-- alfalfa"
-                },
-                {
-                  "id": "260",
-                  "tag1": "260",
-                  "sex": "f",
-                  "genus": "Vanessa (Cynthia)",
-                  "species": "cardui"
-                },
-                {
-                  "id": "261",
-                  "tag1": "261",
-                  "sex": "m",
-                  "genus": "Cercyonis"
-                },
-                {
-                  "id": "262",
-                  "tag1": "u14",
-                  "-num2": "289",
-                  "-num3": "n09",
-                  "sex": "m",
-                  "genus": "Satyrium",
-                  "species": "acadica montanensis",
-                  "time": "7/20/77  17:09",
-                  "place": "ND; on Roger's lane on sunflower",
-                  "notes": "-- ~375, unmounted"
-                },
-                {
-                  "id": "263",
-                  "tag1": "263",
-                  "sex": "m",
-                  "genus": "Plebejus",
-                  "place": "ND"
-                },
-                {
-                  "id": "264",
-                  "tag1": "264",
-                  "sex": "f",
-                  "genus": "Plebejus",
-                  "place": "ND"
-                },
-                {
-                  "id": "265",
-                  "tag1": "265",
-                  "sex": "m",
-                  "genus": "Plebejus",
-                  "place": "ND"
-                },
-                {
-                  "id": "266",
-                  "tag1": "266",
-                  "sex": "m",
-                  "genus": "Plebejus",
-                  "place": "ND"
-                },
-                {
-                  "id": "267",
-                  "tag1": "267",
-                  "sex": "f",
-                  "genus": "Plebejus",
-                  "place": "ND"
-                },
-                {
-                  "id": "268",
-                  "tag1": "268",
-                  "genus": "Hyloicus",
-                  "species": "c. chersis"
-                },
-                {
-                  "id": "269",
-                  "tag1": "269",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "luciana"
-                },
-                {
-                  "id": "270",
-                  "tag1": "270",
-                  "genus": "Euptoieta",
-                  "species": "claudia",
-                  "notes": "-- variegated fritillary"
-                }
-              ]
-            },
-            {
               "name": "271-300",
               "collectingSession": [],
               "specimen": [
-                {
-                  "id": "271",
-                  "tag1": "271",
-                  "sex": "f",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "272",
-                  "tag1": "272",
-                  "sex": "f",
-                  "genus": "Pontia",
-                  "species": "p. protodice"
-                },
-                {
-                  "id": "273",
-                  "tag1": "273",
-                  "sex": "m",
-                  "genus": "Pontia",
-                  "species": "p. protodice"
-                },
-                {
-                  "id": "274",
-                  "tag1": "274",
-                  "sex": "f",
-                  "genus": "Pontia",
-                  "species": "p. protodice"
-                },
-                {
-                  "id": "275",
-                  "tag1": "275",
-                  "sex": "m",
-                  "genus": "Cercyonis"
-                },
-                {
-                  "id": "276",
-                  "tag1": "276",
-                  "genus": "Vanessa (V.)",
-                  "species": "atalanta rubria"
-                },
                 {
                   "id": "277",
                   "tag1": "277",
@@ -3001,7 +2830,7 @@
       "specimen": []
     },
     {
-      "name": "pre-2024",
+      "name": "pre-2000",
       "collectingSession": [
         {
           "name": "ozarks-1974",
@@ -4589,6 +4418,215 @@
           "specimen": []
         },
         {
+          "name": "north-dakota-1977",
+          "time": "",
+          "latLong": "",
+          "collectingSession": [],
+          "specimen": [
+            {
+              "id": "254",
+              "genus": "Pyrgus",
+              "species": "c. communis",
+              "date": "1977-07-19 11:35",
+              "latLong": "46.68271, -99.98252"
+            },
+            {
+              "id": "255",
+              "sex": "m",
+              "genus": "Pontia",
+              "species": "p. protodice",
+              "date": "1977-07-19 11:44",
+              "latLong": "46.68271, -99.98252"
+            },
+            {
+              "id": "256",
+              "sex": "f",
+              "genus": "Colias",
+              "species": "philodice-eurytheme",
+              "date": "1977-07-19 11:48",
+              "latLong": "46.68271, -99.98252",
+              "notes": "-- alfalfa"
+            },
+            {
+              "id": "257",
+              "sex": "f",
+              "genus": "Colias",
+              "species": "philodice-eurytheme",
+              "date": "1977-07-19 13:40",
+              "latLong": "46.70915, -99.97262",
+              "notes": "-- alfalfa"
+            },
+            {
+              "id": "258",
+              "sex": "f",
+              "genus": "Colias",
+              "species": "philodice-eurytheme",
+              "date": "1977-07-19 13:55",
+              "latLong": "46.70915, -99.97262",
+              "notes": "-- sulfur"
+            },
+            {
+              "id": "259",
+              "sex": "m",
+              "genus": "Colias",
+              "species": "eurytheme (amphidusa)",
+              "date": "1977-07-19 14:05",
+              "latLong": "46.70915, -99.97262",
+              "notes": "-- alfalfa"
+            },
+            {
+              "id": "260",
+              "sex": "f",
+              "date": "1977-07-20 16:40",
+              "latLong": "46.68364, -99.98269",
+              "genus": "Vanessa (Cynthia)",
+              "species": "cardui"
+            },
+            {
+              "id": "261",
+              "genus": "Cercyonis",
+              "species": "pegala ino",
+              "date": "1977-07-20 16:40",
+              "latLong": "46.68364, -99.98269",
+              "sex": "m"
+            },
+            {
+              "id": "262",
+              "tag1": "u14",
+              "date": "1977-07-20 17:09",
+              "latLong": "46.68334, -99.98265",
+              "sex": "m",
+              "genus": "Satyrium",
+              "species": "acadica montanensis",
+              "place": "ND; on Roger's lane on sunflower",
+              "notes": "-- ~375, unmounted"
+            },
+            {
+              "id": "263",
+              "tag1": "263",
+              "sex": "m",
+              "genus": "Plebejus",
+              "date": "1977-07-20 17:35",
+              "latLong": "46.71578, -99.97371",
+              "species": "m. melissa"
+            },
+            {
+              "id": "264",
+              "tag1": "264",
+              "sex": "f",
+              "genus": "Plebejus",
+              "date": "1977-07-20 17:40",
+              "latLong": "46.71578, -99.97371",
+              "species": "m. melissa"
+            },
+            {
+              "id": "265",
+              "tag1": "265",
+              "sex": "m",
+              "genus": "Plebejus",
+              "date": "1977-07-20 17:50",
+              "latLong": "46.71578, -99.97371",
+              "species": "m. melissa"
+            },
+            {
+              "id": "266",
+              "tag1": "266",
+              "sex": "m",
+              "genus": "Plebejus",
+              "date": "1977-07-20 17:58",
+              "latLong": "46.71578, -99.97371",
+              "species": "m. melissa"
+            },
+            {
+              "id": "267",
+              "tag1": "267",
+              "sex": "f",
+              "genus": "Plebejus",
+              "date": "1977-07-20 18:02",
+              "latLong": "46.71578, -99.97371",
+              "species": "m. melissa"
+            },
+            {
+              "id": "268",
+              "date": "1977-07-27 09:00",
+              "latLong": "46.85587, -99.91695",
+              "genus": "Hyloicus",
+              "species": "c. chersis",
+              "collector": "Harry Sherman (electrician)",
+              "notes": "in an alley in Steele"
+            },
+            {
+              "id": "269",
+              "date": "1977-08-01 11:30",
+              "latLong": "46.68271, -99.98252",
+              "sex": "f",
+              "genus": "Catocala",
+              "species": "luciana",
+              "notes": "found at Eldie's dining room window"
+            },
+            {
+              "id": "270",
+              "date": "1977-08-01 13:00",
+              "latLong": "46.69483, -99.87252",
+              "genus": "Euptoieta",
+              "species": "claudia",
+              "collector": "Myrna Lang",
+              "notes": "in her front yard"
+            },
+                {
+                  "id": "271",
+              "date": "1977-08-02 12:50",
+              "latLong": "46.68564, -99.97781",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "272",
+              "date": "1977-08-02 12:55",
+              "latLong": "46.68288, -99.98360",
+                  "sex": "f",
+                  "genus": "Pontia",
+                  "species": "p. protodice",
+                  "notes": "in copula with 273"
+                },
+                {
+                  "id": "273",
+              "date": "1977-08-02 12:55",
+              "latLong": "46.68288, -99.98360",
+                  "sex": "m",
+                  "genus": "Pontia",
+                  "species": "p. protodice",
+                  "notes": "in copula with 272"
+                },
+                {
+                  "id": "274",
+              "date": "1977-08-02 13:00",
+              "latLong": "46.68288, -99.98360",
+                  "sex": "f",
+                  "genus": "Pontia",
+                  "species": "p. protodice"
+                },
+                {
+                    "id": "275",
+                "date": "1977-08-02 14:00",
+                "latLong": "46.69165, -99.96373",
+                  "sex": "m",
+                  "genus": "Cercyonis",
+                  "species": "pegala ino",
+                  "notes": "on alfalfa"
+                },
+                {
+                  "id": "276",
+              "date": "1977-08-02 14:10",
+              "latLong": "46.69165, -99.96373",
+                  "genus": "Vanessa (V.)",
+                  "species": "atalanta rubria",
+                  "notes": "on alfalfa"
+                }
+          ]
+        },
+        {
           "name": "north-dakota-1978",
           "time": "1978",
           "location": {
@@ -5146,6 +5184,7 @@
           "name": "sawmill",
           "time": "1980",
           "place": "Fremont township, Clark county, WI; section 30; old farmstead on N edge of section; Emily Winstead land",
+          "latLong": "44.62546, -90.41841",
           "notes": "SV 2002-12-08: I believe Dad and I camped here overnight while picking up the sawmill engine boiler",
           "specimen": [
             {
@@ -5153,7 +5192,8 @@
               "sex": "m",
               "genus": "Calasymbolus",
               "species": "cerisyi",
-              "time": "05-30 2205",
+              "latLong": "44.62546, -90.41841",
+              "time": "1980-05-30 2205",
               "place": "at light in sawmill shed (tin roof building)"
             },
             {
@@ -5161,34 +5201,39 @@
               "sex": "m",
               "genus": "Papilio",
               "species": "g. glaucus",
-              "time": "05-31 1135",
-              "place": "at mudpuddles in driveway"
+              "time": "1980-05-31 1135",
+              "place": "at mudpuddles in driveway",
+              "latLong": "44.62546, -90.41841"
             },
             {
               "id": "551",
               "sex": "f",
               "genus": "Papilio",
               "species": "polyxenes asterius",
-              "time": "05-31 1255",
-              "place": "laying eggs (?) just to E of sawmill shed"
+              "time": "1980-05-31 1255",
+              "place": "laying eggs (?) just to E of sawmill shed",
+              "latLong": "44.62546, -90.41841"
             },
             {
               "id": "552",
               "genus": "Isia",
               "species": "isabella",
-              "time": "06-01 0820",
-              "place": "attracted to light left on previous night"
+              "time": "1980-06-01 0820",
+              "place": "attracted to light left on previous night",
+              "latLong": "44.62546, -90.41841"
             },
             {
               "id": "553",
               "genus": "Citheronia",
-              "time": "06-01 0825",
+              "time": "1980-06-01 0825",
+              "latLong": "44.62546, -90.41841",
               "place": "attracted to light left on previous night"
             },
             {
               "id": "554",
-              "time": "06-01 0830",
+              "time": "1980-06-01 0830",
               "place": "attracted to light left on previous night",
+              "latLong": "44.62546, -90.41841",
               "notes": "Geometrid"
             }
           ]
@@ -5562,7 +5607,13 @@
               ]
             }
           ]
-        },
+        }
+      ],
+      "specimen": []
+    },
+    {
+      "name": "2000-2023",
+      "collectingSession": [
         {
           "name": "VZ-dec-2002",
           "time": "2002-12",
