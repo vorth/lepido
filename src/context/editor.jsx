@@ -159,7 +159,7 @@ export function EditorProvider(props) {
 
   const contextValue = {
     lastOpenedSession, setLastOpenedSession,
-    newSessionParent, saveNewSession, openSessionDialog,
+    newSessionParent, saveNewSession,
     newSpecimenParent, saveNewSpecimen, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
     openSessionDialog, openSpecimenDialog,
     editingSpecimen, openEditSpecimenDialog, saveEditedSpecimen,

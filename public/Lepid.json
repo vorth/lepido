@@ -1166,386 +1166,12 @@
           "specimen": []
         },
         {
-          "name": "254-300",
-          "collectingSession": [
-            {
-              "name": "271-300",
-              "collectingSession": [],
-              "specimen": [
-                {
-                  "id": "277",
-                  "tag1": "277",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "ultronia lucinda"
-                },
-                {
-                  "id": "278",
-                  "tag1": "278",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "unijuga"
-                },
-                {
-                  "id": "279",
-                  "tag1": "279",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "innubens (i.)"
-                },
-                {
-                  "id": "280",
-                  "tag1": "280",
-                  "sex": "m",
-                  "genus": "Danaus",
-                  "species": "plexippus"
-                },
-                {
-                  "id": "281",
-                  "tag1": "281",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "cara"
-                },
-                {
-                  "id": "282",
-                  "tag1": "282",
-                  "sex": "m",
-                  "genus": "Asterocampa",
-                  "species": "celtis"
-                },
-                {
-                  "id": "283",
-                  "tag1": "283",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "innubens (i.)"
-                },
-                {
-                  "id": "284",
-                  "tag1": "284",
-                  "notes": "-- noctuid w/ copper hindwings"
-                },
-                {
-                  "id": "285",
-                  "tag1": "285",
-                  "notes": "-- noctuid w/ copper hindwings"
-                },
-                {
-                  "id": "286",
-                  "tag1": "286",
-                  "notes": "-- tiny beige, red & black moth"
-                },
-                {
-                  "id": "287",
-                  "tag1": "287",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "innubens (scintillans)"
-                },
-                {
-                  "id": "288",
-                  "tag1": "288",
-                  "genus": "Catocala",
-                  "notes": "--pink"
-                },
-                {
-                  "id": "289",
-                  "tag1": "289",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "cara"
-                },
-                {
-                  "id": "290",
-                  "tag1": "290",
-                  "sex": "m",
-                  "genus": "Limenitis",
-                  "species": "a. astyanax"
-                },
-                {
-                  "id": "291",
-                  "tag1": "291",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "innubens (scintillans)"
-                },
-                {
-                  "id": "292",
-                  "tag1": "292",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "innubens (ninda)"
-                },
-                {
-                  "id": "293",
-                  "tag1": "293",
-                  "sex": "f",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "294",
-                  "tag1": "294",
-                  "sex": "f",
-                  "genus": "Nymphalis",
-                  "species": "m. milberti"
-                },
-                {
-                  "id": "295",
-                  "tag1": "295",
-                  "notes": "-- sm. beige, striped geometrid"
-                },
-                {
-                  "id": "296",
-                  "tag1": "296",
-                  "sex": "m",
-                  "genus": "Polygonia",
-                  "species": "Interrogationis"
-                },
-                {
-                  "id": 297,
-                  "genus": "Speyeria",
-                  "species": "aphrodite alcestis",
-                  "date": "1977-08-17 13:35",
-                  "latLong": "42.33412, -89.69036",
-                  "notes": "on clover",
-                  "collector": "Scott Vorthmann",
-                  "location": "US-IL, Stephenson Co.",
-                  "sex": "f"
-                },
-                {
-                  "id": "298",
-                  "tag1": "298",
-                  "sex": "f",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "299",
-                  "tag1": "299",
-                  "sex": "f",
-                  "genus": "Pieris",
-                  "species": "rapae (rapae)"
-                },
-                {
-                  "id": "300",
-                  "tag1": "300"
-                }
-              ]
-            }
-          ],
-          "specimen": []
-        },
-        {
           "name": "301-500",
           "collectingSession": [
             {
               "name": "301-350",
               "collectingSession": [],
               "specimen": [
-                {
-                  "id": "301",
-                  "tag1": "301",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "parta"
-                },
-                {
-                  "id": "302",
-                  "tag1": "302"
-                },
-                {
-                  "id": "303",
-                  "tag1": "303"
-                },
-                {
-                  "id": "304",
-                  "tag1": "304"
-                },
-                {
-                  "id": "305",
-                  "tag1": "305",
-                  "sex": "f",
-                  "genus": "Catocala",
-                  "species": "innubens (ninda)"
-                },
-                {
-                  "id": "306",
-                  "tag1": "306",
-                  "sex": "f",
-                  "genus": "Polygonia",
-                  "species": "Interrogationis"
-                },
-                {
-                  "id": "307",
-                  "tag1": "307",
-                  "sex": "f",
-                  "genus": "Cupido",
-                  "species": "comyntas"
-                },
-                {
-                  "id": "308",
-                  "tag1": "308",
-                  "sex": "m",
-                  "genus": "Cupido",
-                  "species": "comyntas"
-                },
-                {
-                  "id": "309",
-                  "tag1": "309",
-                  "sex": "x e. (ariadne) m",
-                  "genus": "Colias",
-                  "species": "philodice (anthyale)"
-                },
-                {
-                  "id": "310",
-                  "tag1": "310",
-                  "sex": "m",
-                  "genus": "Colias",
-                  "species": "eurytheme (amphidusa)"
-                },
-                {
-                  "id": "311",
-                  "tag1": "311",
-                  "sex": "x e. (ariadne) m",
-                  "genus": "Colias",
-                  "species": "philodice (anthyale)"
-                },
-                {
-                  "id": "312",
-                  "tag1": "312",
-                  "sex": "x e. (ariadne) m",
-                  "genus": "Colias",
-                  "species": "philodice (anthyale)"
-                },
-                {
-                  "id": "313",
-                  "tag1": "313",
-                  "sex": "m",
-                  "genus": "Colias",
-                  "species": "p. philodice (p.)"
-                },
-                {
-                  "id": "314",
-                  "tag1": "314",
-                  "sex": "m",
-                  "genus": "Colias",
-                  "species": "eurytheme (amphidusa)"
-                },
-                {
-                  "id": "315",
-                  "tag1": "315",
-                  "sex": "x e. (ariadne) m",
-                  "genus": "Colias",
-                  "species": "philodice (anthyale)"
-                },
-                {
-                  "id": "316",
-                  "tag1": "316",
-                  "sex": "m",
-                  "genus": "Celastrina",
-                  "species": "argiolus pseudargiolus (p.)"
-                },
-                {
-                  "id": "317",
-                  "tag1": "317",
-                  "genus": "Nymphalis",
-                  "species": "antiopa paracreta"
-                },
-                {
-                  "id": "318",
-                  "tag1": "318",
-                  "sex": "f",
-                  "genus": "Polygonia",
-                  "species": "canus"
-                },
-                {
-                  "id": "319",
-                  "tag1": "319",
-                  "sex": "f",
-                  "genus": "Colias",
-                  "species": "philodice-eurytheme"
-                },
-                {
-                  "id": "320",
-                  "tag1": "320",
-                  "genus": "Chlosyne",
-                  "species": "gorgone carlota"
-                },
-                {
-                  "id": "321",
-                  "tag1": "321",
-                  "genus": "Polygonia",
-                  "species": "comma (harrisii)"
-                },
-                {
-                  "id": "322",
-                  "tag1": "322",
-                  "genus": "Polygonia",
-                  "species": "interrogationis"
-                },
-                {
-                  "id": "323",
-                  "tag1": "323",
-                  "genus": "Polygonia",
-                  "species": "canus"
-                },
-                {
-                  "id": "324",
-                  "tag1": "324",
-                  "sex": "m",
-                  "genus": "Catocala",
-                  "species": "parta"
-                },
-                {
-                  "id": "325",
-                  "tag1": "325",
-                  "genus": "Polygonia",
-                  "species": "comma (harrisii)"
-                },
-                {
-                  "id": "326",
-                  "tag1": "326",
-                  "sex": "m",
-                  "genus": "Nymphalis",
-                  "species": "m. milberti (nigri)"
-                },
-                {
-                  "id": "327",
-                  "tag1": "327",
-                  "sex": "f",
-                  "genus": "Nymphalis",
-                  "species": "m. milberti (nigri)"
-                },
-                {
-                  "id": "328",
-                  "tag1": "328",
-                  "genus": "Polygonia",
-                  "species": "canus"
-                },
-                {
-                  "id": "329",
-                  "tag1": "329"
-                },
-                {
-                  "id": "330",
-                  "tag1": "330",
-                  "sex": "f",
-                  "genus": "Polygonia",
-                  "species": "comma (harrisii)"
-                },
-                {
-                  "id": "331",
-                  "tag1": "331",
-                  "sex": "f",
-                  "genus": "Polygonia",
-                  "species": "canus"
-                },
-                {
-                  "id": "332",
-                  "tag1": "332"
-                },
                 {
                   "id": "333",
                   "tag1": "333",
@@ -4625,6 +4251,452 @@
                   "notes": "on alfalfa"
                 }
           ]
+        },
+        {
+          "name": "home-1977-d",
+          "time": "1977",
+          "location": {
+            "ref": "home"
+          },
+          "collectingSession": [],
+              "specimen": [
+                {
+                  "id": "277",
+              "date": "1977-08-03 21:00",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light in new shop; caught 5 minutes after returning from Columbus",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "ultronia lucinda"
+                },
+                {
+                  "id": "278",
+              "date": "1977-08-05 20:45",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light in new shop",
+              "collector": "Everett Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "unijuga"
+                },
+                {
+                  "id": "279",
+              "date": "1977-08-05 20:45",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light in new shop",
+              "collector": "Everett Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (i.)"
+                },
+                {
+                  "id": "280",
+              "date": "1977-08-06 11:15",
+              "latLong": "42.32776, -89.69024",
+              "notes": "on hazelnut by nat. gas tank",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Danaus",
+                  "species": "plexippus"
+                },
+                {
+                  "id": "281",
+              "date": "1977-08-06 13:10",
+              "latLong": "42.32776, -89.69024",
+              "notes": "on wallboard in corner between studs on E. garage wall in new shop",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "cara"
+                },
+                {
+                  "id": "282",
+              "date": "1977-08-06 13:20",
+              "latLong": "42.32776, -89.69024",
+              "notes": "under plastic in skylight of new shop",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Asterocampa",
+                  "species": "celtis"
+                },
+                {
+                  "id": "283",
+              "date": "1977-08-07 07:25",
+              "latLong": "42.32776, -89.69024",
+              "notes": "under eaves at E. end of new shop",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (i.)"
+                },
+                {
+                  "id": "284",
+              "date": "1977-08-07 21:20",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light upstairs in new shop; noctuid w/ copper hindwings",
+              "collector": "Scott Vorthmann",
+              "genus": "Pyrophila",
+              "species": "pyramidoides"
+                },
+                {
+                  "id": "285",
+              "date": "1977-08-07 21:45",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light upstairs in new shop; noctuid w/ copper hindwings",
+              "collector": "Scott Vorthmann",
+              "genus": "Pyrophila",
+              "species": "pyramidoides"
+                },
+                {
+                  "id": "286",
+              "date": "1977-08-07 21:50",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light upstairs in new shop; tiny beige, red & black moth",
+              "collector": "Scott Vorthmann",
+              "genus": "Holomelina"
+                },
+                {
+                  "id": "287",
+              "date": "1977-08-07 21:50",
+              "latLong": "42.32776, -89.69024",
+              "notes": "at light upstairs in new shop",
+              "collector": "Scott Vorthmann",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (scintillans)"
+                },
+                {
+                  "id": "288",
+              "date": "1977-08-08 21:10",
+              "latLong": "42.32788, -89.68981",
+              "notes": "at light in horse barn",
+              "collector": "Scott Vorthmann",
+                  "genus": "Catocala",
+                  "species": "amatrix"
+                },
+                {
+                  "id": "289",
+              "date": "1977-08-08 21:15",
+              "latLong": "42.32788, -89.68981",
+              "notes": "at light in horse barn",
+              "collector": "Scott Vorthmann",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "cara"
+                },
+                {
+                  "id": "290",
+              "date": "1977-07-25",
+              "latLong": "42.32788, -89.68981",
+              "notes": "late July",
+              "collector": "Everett Vorthmann",
+                  "sex": "m",
+                  "genus": "Limenitis",
+                  "species": "a. astyanax"
+                },
+                {
+                  "id": "291",
+              "date": "1977-08-10 13:45",
+              "latLong": "42.32776, -89.69024",
+              "notes": "on wallboard in corner between studs on E. garage wall in new shop",
+              "collector": "Scott Vorthmann",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "innubens (scintillans)"
+                },
+                {
+                  "id": "292",
+              "date": "1977-08-11 12:20",
+              "latLong": "42.32776, -89.69024",
+              "notes": "on wallboard above window at W. end of new shop upstairs",
+              "collector": "Scott Vorthmann",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (ninda)"
+                },
+                {
+                  "id": "293",
+              "date": "1977-08-14 12:50",
+              "latLong": "42.32776, -89.69024",
+              "collector": "Scott Vorthmann",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "294",
+              "date": "1977-08-14 15:07",
+              "latLong": "42.32776, -89.69024",
+              "collector": "Scott Vorthmann",
+              "notes": "on house by living room AC",
+                  "sex": "f",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti"
+                },
+                {
+                  "id": "295",
+              "date": "1977-08-15 09:00",
+              "latLong": "42.32776, -89.69024",
+              "collector": "Scott Vorthmann",
+              "notes": "inside at laundry window",
+                  "genus": "Erastria",
+                  "species": "amaturaria"
+                },
+                {
+                  "id": "296",
+              "date": "1977-08-15 14:00",
+              "latLong": "42.32776, -89.69024",
+              "collector": "Scott Vorthmann",
+              "notes": "at incinerator; caught on laundry",
+                  "sex": "m",
+                  "genus": "Polygonia",
+                  "species": "interrogationis (fabricii)"
+                },
+                {
+                  "id": "297",
+                  "genus": "Speyeria",
+                  "species": "aphrodite alcestis",
+                  "date": "1977-08-17 13:35",
+                  "latLong": "42.33412, -89.69036",
+                  "notes": "on clover; in Scheider's first field past Weber's hill",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "f"
+                },
+                {
+                  "id": "298",
+                  "date": "1977-08-20 12:20",
+                  "latLong": "42.32776, -89.69024",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "299",
+                  "date": "1977-08-20 12:20",
+                  "latLong": "42.32776, -89.69024",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "sex": "f",
+                  "genus": "Pieris",
+                  "species": "rapae (rapae)"
+                },
+                {
+                  "id": "300",
+                  "date": "1977-08-20 12:20",
+                  "latLong": "42.32776, -89.69024",
+                  "notes": "at sap from elm branch cuts E of new shop",
+                  "collector": "Scott Vorthmann",
+                  "location": "US-IL, Stephenson Co.",
+                  "genus": "Homoptera",
+                  "species": "lunata"
+                },
+                {
+                  "id": "301",
+                  "tag1": "301",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "parta"
+                },
+                {
+                  "id": "302",
+                  "tag1": "302"
+                },
+                {
+                  "id": "303",
+                  "tag1": "303"
+                },
+                {
+                  "id": "304",
+                  "tag1": "304"
+                },
+                {
+                  "id": "305",
+                  "tag1": "305",
+                  "sex": "f",
+                  "genus": "Catocala",
+                  "species": "innubens (ninda)"
+                },
+                {
+                  "id": "306",
+                  "tag1": "306",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "Interrogationis"
+                },
+                {
+                  "id": "307",
+                  "tag1": "307",
+                  "sex": "f",
+                  "genus": "Cupido",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "308",
+                  "tag1": "308",
+                  "sex": "m",
+                  "genus": "Cupido",
+                  "species": "comyntas"
+                },
+                {
+                  "id": "309",
+                  "tag1": "309",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "310",
+                  "tag1": "310",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "311",
+                  "tag1": "311",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "312",
+                  "tag1": "312",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "313",
+                  "tag1": "313",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "p. philodice (p.)"
+                },
+                {
+                  "id": "314",
+                  "tag1": "314",
+                  "sex": "m",
+                  "genus": "Colias",
+                  "species": "eurytheme (amphidusa)"
+                },
+                {
+                  "id": "315",
+                  "tag1": "315",
+                  "sex": "x e. (ariadne) m",
+                  "genus": "Colias",
+                  "species": "philodice (anthyale)"
+                },
+                {
+                  "id": "316",
+                  "tag1": "316",
+                  "sex": "m",
+                  "genus": "Celastrina",
+                  "species": "argiolus pseudargiolus (p.)"
+                },
+                {
+                  "id": "317",
+                  "tag1": "317",
+                  "genus": "Nymphalis",
+                  "species": "antiopa paracreta"
+                },
+                {
+                  "id": "318",
+                  "tag1": "318",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "319",
+                  "tag1": "319",
+                  "sex": "f",
+                  "genus": "Colias",
+                  "species": "philodice-eurytheme"
+                },
+                {
+                  "id": "320",
+                  "tag1": "320",
+                  "genus": "Chlosyne",
+                  "species": "gorgone carlota"
+                },
+                {
+                  "id": "321",
+                  "tag1": "321",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "322",
+                  "tag1": "322",
+                  "genus": "Polygonia",
+                  "species": "interrogationis"
+                },
+                {
+                  "id": "323",
+                  "tag1": "323",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "324",
+                  "tag1": "324",
+                  "sex": "m",
+                  "genus": "Catocala",
+                  "species": "parta"
+                },
+                {
+                  "id": "325",
+                  "tag1": "325",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "326",
+                  "tag1": "326",
+                  "sex": "m",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti (nigri)"
+                },
+                {
+                  "id": "327",
+                  "tag1": "327",
+                  "sex": "f",
+                  "genus": "Nymphalis",
+                  "species": "m. milberti (nigri)"
+                },
+                {
+                  "id": "328",
+                  "tag1": "328",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "329",
+                  "tag1": "329"
+                },
+                {
+                  "id": "330",
+                  "tag1": "330",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "comma (harrisii)"
+                },
+                {
+                  "id": "331",
+                  "tag1": "331",
+                  "sex": "f",
+                  "genus": "Polygonia",
+                  "species": "canus"
+                },
+                {
+                  "id": "332",
+                  "tag1": "332"
+                }
+              ]
         },
         {
           "name": "north-dakota-1978",
