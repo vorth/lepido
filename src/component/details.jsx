@@ -18,7 +18,7 @@ export const SpecimenDetails = props =>
   const { lastOpenedSession, moveSpecimen, openEditSpecimenDialog } = useEditor();
   const { selectedSpecimen } = useSelection();
   const { mode } = useMode();
-  const handleMove = () => moveSpecimen( specimen() );
+  const handleMove = () => moveSpecimen( specimen().id );
   const handleEdit = () => openEditSpecimenDialog( selectedSpecimen().specimen );
 
   const specimen = () => selectedSpecimen()?.specimen;

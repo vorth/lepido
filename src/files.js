@@ -134,5 +134,5 @@ export const saveFileAs = async ( suggestedName, blob ) =>
     URL.revokeObjectURL(blobURL);
     a.remove();
   }, 1000);
-  return { success: false }; // we really can't tell, but we know we don't want to set the name in this case
+  return { success: true }; // we really can't tell, so assume the download was kept; no handle, so the name won't be reused
 };

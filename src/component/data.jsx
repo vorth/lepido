@@ -1,6 +1,8 @@
-import { createContext, createSignal, useContext } from "solid-js";
+import { batch, createContext, createSignal, useContext } from "solid-js";
+import { createStore, produce, reconcile, unwrap } from "solid-js/store";
 
 import { saveTextFile, saveTextFileAs } from '../files.js';
+import { normalizeSession } from '../model.js';
 
 const touchDevice = 'ontouchstart' in window; // not needed yet, but useful for future reference
 
@@ -19,27 +21,26 @@ let fileHandle = null;
 
 export const DataProvider = (props) =>
 {
-  const [ data, setData ] = createSignal( {} );
-  const [ localData, setLocalData ] = createSignal( {} );
+  const [ data, setData ] = createStore( {} );
+  const [ localLastNumber, setLocalLastNumber ] = createSignal();
   const [ localDirty, setLocalDirty ] = createSignal( false );
-  const [ sourceData, setSourceData ] = createSignal( {} );
+  const [ sourceLastNumber, setSourceLastNumber ] = createSignal();
   const [ sourceDirty, setSourceDirty ] = createSignal( false );
 
-  const loadResource = async () =>
+  // reconcile() rather than setData( json ), since a root-level set only merges shallowly
+  const replaceData = json => setData( reconcile( normalizeSession( json ) ) );
+
+  const loadFromResource = async () =>
   {
     return fetch( './Lepid.json', { cache: 'no-store' }  )
       .then( response => response.text() )
       .then( text => {
-        setSourceData( JSON.parse( text ) );
-      } );
-  }
-
-  const loadFromResource = async () =>
-  {
-    return loadResource()
-      .then( () => {
-        setData( sourceData() );
-        setSourceDirty( false );
+        const json = JSON.parse( text );
+        batch( () => {
+          setSourceLastNumber( json.lastNumber );
+          replaceData( json );
+          setSourceDirty( false );
+        } );
         // setLastOpenedSession( [ 'COLLECTION' ] );
       } );
   }
@@ -48,66 +49,76 @@ export const DataProvider = (props) =>
   {
     const stored = localStorage .getItem( 'lepido' );
     if ( !! stored ) {
-      setLocalData( JSON.parse( stored ) );
-      return true;
+      const json = JSON.parse( stored );
+      setLocalLastNumber( json.lastNumber );
+      return json;
     }
     else
-      return false;
+      return null;
   }
 
   const loadFromStorage = () =>
   {
-    if ( loadStorage() ) {
-      setData( localData() );
-      setLocalDirty( false );
+    const json = loadStorage();
+    if ( !! json ) {
+      batch( () => {
+        replaceData( json );
+        setLocalDirty( false );
+      } );
       // setLastOpenedSession( [ 'COLLECTION' ] );
       return true;
     }
     return false;
   }
 
-  const updateData = () =>
-  {
-    const text = JSON.stringify( data(), null, 2 );
-    setData( JSON.parse( text ) );
-    setLocalDirty( true );
-    setSourceDirty( true );
-  }
+  const serialize = () => JSON.stringify( unwrap( data ), null, 2 );
 
   const saveDataLocally = () =>
   {
-    updateData();
-    setLocalData( data() );
-    const text = JSON.stringify( data(), null, 2 );
-    localStorage .setItem( 'lepido', text );
-    setLocalDirty( false );
+    localStorage .setItem( 'lepido', serialize() );
+    batch( () => {
+      setLocalLastNumber( data.lastNumber );
+      setLocalDirty( false );
+    } );
   }
 
-  const backUpFile = () =>
+  // Every change to the collection goes through here.  The recipe receives a mutable
+  //  draft of the root; locate nodes within it (by id or with findSession) rather than
+  //  mutating store objects obtained elsewhere, which are read-only.
+  const modifyData = recipe =>
   {
-    const text = JSON.stringify( data(), null, 2 );
-    if ( !!fileHandle )
-      saveTextFile( fileHandle, text, 'application/json' );
-    else {
-      let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
-      if ( result.success ) {
-        fileHandle = result.fileHandle;
-      }
-    }
-    setSourceDirty( false );
+    batch( () => {
+      setData( produce( recipe ) );
+      setLocalDirty( true );
+      setSourceDirty( true );
+    } );
+    saveDataLocally();
   }
 
-  const reloadFromSource = () =>
+  const backUpFile = async () =>
+  {
+    const text = serialize();
+    const result = !!fileHandle
+      ? await saveTextFile( fileHandle, text, 'application/json' )
+      : await saveTextFileAs( 'Lepid.json', text, 'application/json' );
+    if ( result.success ) {
+      fileHandle = result.handle || fileHandle;
+      setSourceDirty( false );
+    }
+  }
+
+  const reloadFromSource = async () =>
   {
     saveDataLocally();
-    backUpFile();
-    loadFromResource();
+    await backUpFile();
+    return loadFromResource();
   }
 
   const contextAPI = {
-    data, localData, localDirty, sourceData, sourceDirty, loadStorage,
+    data, modifyData,
+    localLastNumber, localDirty, sourceLastNumber, sourceDirty, loadStorage,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
-    reloadFromSource, updateData,
+    reloadFromSource,
   };
 
   return (

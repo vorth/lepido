@@ -1,44 +1,7 @@
 
-import { createContext, createSignal, useContext } from "solid-js";
+import { createContext, createMemo, createSignal, useContext } from "solid-js";
 import { useData } from "../component/data";
-
-const findSpecimen = ( session, specimenID ) =>
-{
-  if ( !session || !specimenID ) {
-    return {};
-  }
-  if ( Array.isArray( session.specimen ) ) {
-    const specimen = session.specimen.find( s => s.id == specimenID ); // intentional loose equality
-    if ( !! specimen ) {
-      return { specimen, container: session };
-    }
-  }
-  if ( Array.isArray( session.collectingSession ) ) {
-    for (const subSession of session.collectingSession ) {
-      const found = findSpecimen( subSession, specimenID );
-      if ( !! found.specimen ) {
-        return found;
-      }
-    }
-  }
-  return {};
-}
-
-const collectAllSpecimens = ( session, result = [] ) =>
-{
-  if ( !session ) return result;
-  if ( Array.isArray( session.specimen ) ) {
-    result.push( ...session.specimen );
-  } else if ( session.specimen ) {
-    result.push( session.specimen );
-  }
-  if ( Array.isArray( session.collectingSession ) ) {
-    for ( const sub of session.collectingSession ) {
-      collectAllSpecimens( sub, result );
-    }
-  }
-  return result;
-}
+import { collectAllSpecimens, findSpecimen } from "../model";
 
 const SelectionContext = createContext();
 
@@ -55,9 +18,12 @@ export const SelectionProvider = (props) =>
 {
   const [selectedId, setSelectedId] = createSignal(null);
   const [labelSelection, setLabelSelection] = createSignal( new Set() );
-  const { data } = useData();;
+  const { data } = useData();
 
-  const selectedSpecimen = () => findSpecimen( data(), selectedId() );
+  // Only notify dependents when the selection resolves to a different specimen or container,
+  //  not on every unrelated edit to the tree.
+  const selectedSpecimen = createMemo( () => findSpecimen( data, selectedId() ), undefined,
+    { equals: ( a, b ) => a.specimen === b.specimen && a.container === b.container } );
 
   const toggleLabelSelection = (id, state) =>
   {
@@ -78,13 +44,13 @@ export const SelectionProvider = (props) =>
 
   const clearLabelSelection = () => setLabelSelection( new Set() );
 
-  const labelSpecimens = () =>
+  const labelSpecimens = createMemo( () =>
   {
     const ids = labelSelection();
     if ( ids.size === 0 ) return [];
-    const all = collectAllSpecimens( data() );
+    const all = collectAllSpecimens( data );
     return all.filter( s => ids.has( s.id ) );
-  }
+  } );
 
   return (
     <SelectionContext.Provider value={{

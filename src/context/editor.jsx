@@ -1,6 +1,8 @@
 import { createContext, createSignal, useContext } from "solid-js";
 import { useData } from "../component/data";
 import { useSelection } from "./selection";
+import { findSession, findSpecimen } from "../model";
+import { SPECIMEN_DIALOG_FIELDS } from "../dialogs";
 
 const EditorContext = createContext();
 
@@ -13,9 +15,24 @@ export const useEditor = () =>
   return context;
 }
 
+const specimenFromPhoto = ( id, photo, envelope ) =>
+{
+  const { latitude, longitude, dateTimeOriginal, notes, temperature, elevation, collector, location, } = photo;
+  const specimen = {
+    id,
+    envelope, temperature, elevation, collector, location,
+    date: dateTimeOriginal,
+    latLong: `${Number(latitude).toFixed(5)}, ${Number(longitude).toFixed(5)}`
+  };
+  if ( notes ) {
+    specimen.notes = notes;
+  }
+  return specimen;
+}
+
 export function EditorProvider(props) {
   const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
-  const { data, updateData, saveDataLocally } = useData();
+  const { data, modifyData } = useData();
   const { setSelectedId } = useSelection();
 
   const [ newSessionParent, setNewSessionParent ] = createSignal( null );
@@ -28,13 +45,15 @@ export function EditorProvider(props) {
     const parent = newSessionParent();
     setNewSessionParent( null );
     if ( !!newSession ) {
-      if ( ! parent.collectingSession ) {
-        parent.collectingSession = [];
-      }
-      parent.collectingSession .push( newSession );
+      modifyData( root => {
+        const session = findSession( root, parent );
+        if ( ! session ) return;
+        if ( ! session.collectingSession ) {
+          session.collectingSession = [];
+        }
+        session.collectingSession .push( newSession );
+      } );
     }
-    updateData();
-    saveDataLocally();
   }
 
   const [ newSpecimenParent, setNewSpecimenParent ] = createSignal( null );
@@ -50,81 +69,74 @@ export function EditorProvider(props) {
   }
   const saveEditedSpecimen = updated =>
   {
-    const specimen = editingSpecimen();
+    const id = editingSpecimen() ?.id;
     setEditingSpecimen( null );
-    if ( !!updated && !!specimen ) {
-      Object.keys( specimen ).forEach( k => { if ( k !== 'id' ) delete specimen[k]; } );
-      Object.assign( specimen, updated );
-      updateData();
-      saveDataLocally();
+    if ( !!updated && !!id ) {
+      modifyData( root => {
+        const { specimen } = findSpecimen( root, id );
+        if ( ! specimen ) return;
+        // Fields the dialog doesn't show are left alone
+        SPECIMEN_DIALOG_FIELDS.forEach( k => { if ( ! ( k in updated ) ) delete specimen[k]; } );
+        Object.assign( specimen, updated );
+      } );
     }
   }
-  const saveNewSpecimen = ( newSpecimen, parent ) =>
+
+  // Appends specimens to a session, advancing lastNumber and selecting the last one added
+  const addSpecimens = ( parent, specimens ) =>
   {
-    if ( !!newSpecimen ) {
-      if ( ! parent.specimen ) {
-        parent.specimen = [];
+    if ( specimens.length === 0 ) return;
+    const lastId = specimens[ specimens.length - 1 ].id;
+    modifyData( root => {
+      const session = findSession( root, parent );
+      if ( ! session ) return;
+      if ( ! session.specimen ) {
+        session.specimen = [];
       }
-      parent.specimen .push( newSpecimen );
-      data() .lastNumber = newSpecimen.id;
-      setSelectedId( newSpecimen.id );
-    }
+      session.specimen .push( ...specimens );
+      root.lastNumber = lastId;
+    } );
+    setSelectedId( lastId );
   }
   const saveNewSpecimenFromDialog = newSpecimen =>
   {
     const parent = newSpecimenParent();
     setNewSpecimenParent( null );
-    saveNewSpecimen( newSpecimen, parent );
-    updateData();
-    saveDataLocally();
+    if ( !!newSpecimen ) {
+      addSpecimens( parent, [ newSpecimen ] );
+    }
   }
 
-  const getCollectingSession = ( path ) =>
+  const getCollectingSession = ( path, root = data ) =>
   {
-    let session = data();
+    let session = root;
     for (const name of path.slice(1) ) {
-      session = session.collectingSession.find( s => s.name === name );
+      session = session ?.collectingSession ?.find( s => s.name === name );
     }
     return session;
   }
 
-  const moveSpecimen = ( { container, specimen } ) =>
+  const moveSpecimen = id =>
   {
-    console.log( `moving specimen ${specimen.id} to session "${lastOpenedSession().join('/')}"` );
-    if ( Array.isArray( container ) ) {
-      const index = container .findIndex( e => e.id === specimen.id );
-      if ( index > -1 ) { // only splice array when item is found
-        container.splice( index, 1 ); // 2nd parameter means remove one item only
+    const path = lastOpenedSession();
+    console.log( `moving specimen ${id} to session "${path.join('/')}"` );
+    modifyData( root => {
+      const { specimen, container } = findSpecimen( root, id );
+      const dest = getCollectingSession( path, root );
+      if ( !specimen || !dest || dest === container ) return;
+      container.specimen .splice( container.specimen .indexOf( specimen ), 1 );
+      if ( ! dest.specimen ) {
+        dest.specimen = [];
       }
-      const dest = getCollectingSession( lastOpenedSession() ) .specimen;
-      dest .push( specimen );
-      updateData();
-      saveDataLocally();
-    } else {      
-      console.log( 'NOT AN ARRAY' );
-    }
+      dest.specimen .push( specimen );
+    } );
   }
 
   const getNextId = () =>
   {
-    const lastId = Number( data() .lastNumber );
+    const lastId = Number( data .lastNumber );
     return lastId + 1;
   }
-
-  const importSpecimen = ( collection, photo, envelope ) => {
-    const { latitude, longitude, dateTimeOriginal, notes, temperature, elevation, collector, location, } = photo;
-    const id = getNextId();
-    const specimen = {
-      id,
-      envelope, temperature, elevation, collector, location,
-      date: dateTimeOriginal,
-      latLong: `${Number(latitude).toFixed(5)}, ${Number(longitude).toFixed(5)}`
-    };
-    if ( notes ) {
-      specimen.notes = notes;
-    }
-    saveNewSpecimen( specimen, collection );
-  };
 
   const importSpecimens = async (parent) => {
     try {
@@ -135,6 +147,8 @@ export function EditorProvider(props) {
         throw new Error('Invalid photos file format - expected array');
       }
 
+      const specimens = [];
+      let id = getNextId();
       for (const photo of photos) {
         const { latitude, longitude, dateTimeOriginal, qrCode, multiplicity, } = photo;
         if (!latitude || !longitude || !dateTimeOriginal || !qrCode) {
@@ -143,14 +157,13 @@ export function EditorProvider(props) {
         }
         if ( multiplicity && multiplicity > 1 ) {
           for ( let i = 1; i <= multiplicity; i++ ) {
-            importSpecimen( parent, photo, `${qrCode}-${i}` );
+            specimens .push( specimenFromPhoto( id++, photo, `${qrCode}-${i}` ) );
           }
         } else {
-          importSpecimen( parent, photo, qrCode );
+          specimens .push( specimenFromPhoto( id++, photo, qrCode ) );
         }
       }
-      updateData();
-      saveDataLocally();
+      addSpecimens( parent, specimens );
 
     } catch (err) {
       alert(`Error importing specimens: ${err.message}`);
@@ -159,9 +172,8 @@ export function EditorProvider(props) {
 
   const contextValue = {
     lastOpenedSession, setLastOpenedSession,
-    newSessionParent, saveNewSession,
-    newSpecimenParent, saveNewSpecimen, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
-    openSessionDialog, openSpecimenDialog,
+    newSessionParent, saveNewSession, openSessionDialog,
+    newSpecimenParent, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
     editingSpecimen, openEditSpecimenDialog, saveEditedSpecimen,
     getCollectingSession, moveSpecimen,
     importSpecimens,

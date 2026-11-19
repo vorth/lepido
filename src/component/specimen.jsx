@@ -5,7 +5,6 @@ import { LABELING, useMode } from "../context/mode.jsx";
 
 export const Specimen = props =>
 {
-  const { id = '', genus = '', species = '' } = props.specimen; // an actual reference to the parsed data
   const { selectedId, setSelectedId, labelSelection, toggleLabelSelection } = useSelection();
   const { mode } = useMode();
   const isSelected = () => selectedId() === props.specimen.id;
@@ -47,7 +46,7 @@ export const Specimen = props =>
   return (
     <li ref={elt} id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler}
       classList={ { selected: isSelected(), 'label-selected': isLabelSelected() } } >
-      {`${id} ${genus} ${species}`}
+      {`${props.specimen.id ?? ''} ${props.specimen.genus ?? ''} ${props.specimen.species ?? ''}`}
     </li>
   );
 }

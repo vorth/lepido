@@ -117,13 +117,9 @@ export const CollectingSession = props =>
       <div class="session-collapsible" classList={{'session-expanded': !specimensCollapsed()}}>
         <div class="session-collapsible-inner">
           <ul class='sessionList'>
-            <Show when={ Array.isArray( props.session.specimen ) } fallback={
-              props.session.specimen && <Specimen specimen={props.session.specimen} container={props.session} />
-            }>
-              <For each={props.session.specimen}>{ (specimen) =>
-                <Specimen specimen={specimen} container={props.session}/>
-              }</For>
-            </Show>
+            <For each={props.session.specimen}>{ (specimen) =>
+              <Specimen specimen={specimen} container={props.session}/>
+            }</For>
             <For each={props.session.collectingSession}>{ session =>
               <li>
                 <CollectingSession session={ session } path={path()} />

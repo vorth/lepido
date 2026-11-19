@@ -92,7 +92,12 @@ export const NewSession = ( props ) =>
       </DialogActions>
     </Dialog>
   )
-} 
+}
+
+// Every specimen field SpecimenDialog edits; on save, any of these missing from the result were cleared.
+//  'time' is included because the dialog reads it as a fallback for 'date' and saves it as 'date'.
+export const SPECIMEN_DIALOG_FIELDS = [ 'genus', 'species', 'date', 'time', 'latLong', 'notes',
+  'temperature', 'elevation', 'collector', 'location', 'envelope', 'sex' ];
 
 export const SpecimenDialog = ( props ) =>
 {

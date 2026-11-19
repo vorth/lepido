@@ -20,10 +20,10 @@ const AppUI = () =>
 {
   const { mode, setMode } = useMode();
   const { setSelectedId } = useSelection();
-  const { data, localData, sourceData, loadStorage,
+  const { data, localLastNumber, sourceLastNumber, loadStorage,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile } = useData();
   const {
-    newSessionParent, saveNewSession, newSpecimenParent, saveNewSpecimen, getNextId,
+    newSessionParent, saveNewSession, newSpecimenParent, getNextId,
     saveNewSpecimenFromDialog,
     editingSpecimen, saveEditedSpecimen,
     lastOpenedSession } = useEditor();
@@ -65,9 +65,9 @@ const AppUI = () =>
           </div>
           <div class="status">
             <div>Session: {sessionName()}</div>
-            <div>Last ID: {data().lastNumber}</div>
-            <div>Last ID (local): {localData().lastNumber}</div>
-            <div>Last ID (source): {sourceData().lastNumber}</div>
+            <div>Last ID: {data.lastNumber}</div>
+            <div>Last ID (local): {localLastNumber()}</div>
+            <div>Last ID (source): {sourceLastNumber()}</div>
           </div>
         </Show>
         <button class="top-bar-toggle" onClick={toggleTopBar}>
@@ -77,7 +77,7 @@ const AppUI = () =>
       <div id="container">
         <div id="collection" class={mode() === LABELING ? 'labels-layout' : ''}>
           <div id="picker">
-            <CollectingSession session={ data() } path={[]} />
+            <CollectingSession session={ data } path={[]} />
           </div>
           <Show when={mode() === LABELING} fallback={
             <div id="detail">
