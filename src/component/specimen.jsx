@@ -5,8 +5,7 @@ import { LABELING, useMode } from "../context/mode.jsx";
 
 export const Specimen = props =>
 {
-  const { id = '', genus = '', species = '' } = props.specimen; // an actual reference to the parsed data
-  const { selectedId, setSelectedId, labelSelection, toggleLabelSelection } = useSelection();
+  const { selectedId, selectSpecimen, labelSelection, toggleLabelSelection } = useSelection();
   const { mode } = useMode();
   const isSelected = () => selectedId() === props.specimen.id;
   const isLabelSelected = () => labelSelection().has( props.specimen.id );
@@ -16,14 +15,14 @@ export const Specimen = props =>
     if ( mode() === LABELING ) {
       toggleLabelSelection( props.specimen.id );
     } else {
-      setSelectedId( props.specimen.id );
+      selectSpecimen( props.specimen.id );
     }
   }
   let elt;
   const scrollToSelf = () => elt.scrollIntoView( { behavior: 'smooth', block: 'nearest' } );
 
-  createEffect( () => {
-    if ( !! elt && isSelected() ) {
+  createEffect( isSelected, selected => {
+    if ( !! elt && selected ) {
       const collapsible = elt.closest( '.session-collapsible' );
       if ( !collapsible ) {
         scrollToSelf();
@@ -45,9 +44,9 @@ export const Specimen = props =>
   });
 
   return (
-    <li ref={elt} id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler}
-      classList={ { selected: isSelected(), 'label-selected': isLabelSelected() } } >
-      {`${id} ${genus} ${species}`}
+    <li ref={elt} id={`id-${props.specimen.id}`} onClick={clickHandler}
+      class={ [ 'specimen', { selected: isSelected(), 'label-selected': isLabelSelected() } ] } >
+      {`${props.specimen.id ?? ''} ${props.specimen.genus ?? ''} ${props.specimen.species ?? ''}`}
     </li>
   );
 }

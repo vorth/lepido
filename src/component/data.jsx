@@ -1,45 +1,42 @@
-import { createContext, createSignal, useContext } from "solid-js";
+import { createContext, createSignal, createStore, flush, reconcile, snapshot, useContext } from "solid-js";
 
 import { saveTextFile, saveTextFileAs } from '../files.js';
+import { normalizeCollection } from '../model.js';
 
 const touchDevice = 'ontouchstart' in window; // not needed yet, but useful for future reference
 
 export const DataContext = createContext();
 
-export const useData = () =>
-{
-  const context = useContext( DataContext );
-  if (!context) {
-    throw new Error("useData must be used within a DataProvider");
-  }
-  return context;
-}
+// useContext throws ContextNotFoundError when there's no DataProvider
+export const useData = () => useContext( DataContext );
 
 let fileHandle = null;
 
 export const DataProvider = (props) =>
 {
-  const [ data, setData ] = createSignal( {} );
-  const [ localData, setLocalData ] = createSignal( {} );
+  const [ data, setData ] = createStore( {} );
+  const [ localLastNumber, setLocalLastNumber ] = createSignal();
   const [ localDirty, setLocalDirty ] = createSignal( false );
-  const [ sourceData, setSourceData ] = createSignal( {} );
+  const [ sourceLastNumber, setSourceLastNumber ] = createSignal();
   const [ sourceDirty, setSourceDirty ] = createSignal( false );
 
-  const loadResource = async () =>
+  // Writes apply on the next microtask; the flush() makes the new data readable as soon as
+  //  this returns, so callers can look things up in it (e.g. select a specimen) right away.
+  const replaceData = json =>
   {
-    return fetch( './Lepid.json', { cache: 'no-store' }  )
-      .then( response => response.text() )
-      .then( text => {
-        setSourceData( JSON.parse( text ) );
-      } );
+    setData( reconcile( normalizeCollection( json ), 'id' ) );
+    flush();
   }
 
   const loadFromResource = async () =>
   {
-    return loadResource()
-      .then( () => {
-        setData( sourceData() );
+    return fetch( './Lepid.json', { cache: 'no-store' }  )
+      .then( response => response.text() )
+      .then( text => {
+        const json = JSON.parse( text );
+        setSourceLastNumber( json.lastNumber );
         setSourceDirty( false );
+        replaceData( json );
         // setLastOpenedSession( [ 'COLLECTION' ] );
       } );
   }
@@ -48,71 +45,77 @@ export const DataProvider = (props) =>
   {
     const stored = localStorage .getItem( 'lepido' );
     if ( !! stored ) {
-      setLocalData( JSON.parse( stored ) );
-      return true;
+      const json = JSON.parse( stored );
+      setLocalLastNumber( json.lastNumber );
+      return json;
     }
     else
-      return false;
+      return null;
   }
 
   const loadFromStorage = () =>
   {
-    if ( loadStorage() ) {
-      setData( localData() );
+    const json = loadStorage();
+    if ( !! json ) {
       setLocalDirty( false );
+      replaceData( json );
       // setLastOpenedSession( [ 'COLLECTION' ] );
       return true;
     }
     return false;
   }
 
-  const updateData = () =>
-  {
-    const text = JSON.stringify( data(), null, 2 );
-    setData( JSON.parse( text ) );
-    setLocalDirty( true );
-    setSourceDirty( true );
-  }
+  const serialize = () => JSON.stringify( snapshot( data ), null, 2 );
 
   const saveDataLocally = () =>
   {
-    updateData();
-    setLocalData( data() );
-    const text = JSON.stringify( data(), null, 2 );
-    localStorage .setItem( 'lepido', text );
+    localStorage .setItem( 'lepido', serialize() );
+    setLocalLastNumber( data.lastNumber );
     setLocalDirty( false );
   }
 
-  const backUpFile = () =>
+  // Every change to the collection goes through here.  The recipe receives a mutable
+  //  draft of the root; locate nodes within it by id rather than mutating store objects
+  //  obtained elsewhere, which are read-only.  As in replaceData, flush() applies the
+  //  change at once, so it is saved (and visible to the caller) immediately.
+  const modifyData = recipe =>
   {
-    const text = JSON.stringify( data(), null, 2 );
-    if ( !!fileHandle )
-      saveTextFile( fileHandle, text, 'application/json' );
-    else {
-      let result = saveTextFileAs( 'Lepid.json', text, 'application/json' );
-      if ( result.success ) {
-        fileHandle = result.fileHandle;
-      }
-    }
-    setSourceDirty( false );
+    setData( recipe );
+    setLocalDirty( true );
+    setSourceDirty( true );
+    flush();
+    saveDataLocally();
   }
 
-  const reloadFromSource = () =>
+  const backUpFile = async () =>
+  {
+    const text = serialize();
+    const result = !!fileHandle
+      ? await saveTextFile( fileHandle, text, 'application/json' )
+      : await saveTextFileAs( 'Lepid.json', text, 'application/json' );
+    if ( result.success ) {
+      fileHandle = result.handle || fileHandle;
+      setSourceDirty( false );
+    }
+  }
+
+  const reloadFromSource = async () =>
   {
     saveDataLocally();
-    backUpFile();
-    loadFromResource();
+    await backUpFile();
+    return loadFromResource();
   }
 
   const contextAPI = {
-    data, localData, localDirty, sourceData, sourceDirty, loadStorage,
+    data, modifyData,
+    localLastNumber, localDirty, sourceLastNumber, sourceDirty, loadStorage,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
-    reloadFromSource, updateData,
+    reloadFromSource,
   };
 
   return (
-    <DataContext.Provider value={ contextAPI }>
+    <DataContext value={ contextAPI }>
       {props.children}
-    </DataContext.Provider>
+    </DataContext>
   )
 }

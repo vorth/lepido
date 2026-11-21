@@ -15,17 +15,17 @@ export const Field = props =>
 
 export const SpecimenDetails = props =>
 {
-  const { lastOpenedSession, moveSpecimen, openEditSpecimenDialog } = useEditor();
-  const { selectedSpecimen } = useSelection();
+  const { moveSpecimen, openEditSpecimenDialog } = useEditor();
+  const { selectedSpecimen, lastOpenedSession, lastOpenedSessionName } = useSelection();
   const { mode } = useMode();
-  const handleMove = () => moveSpecimen( specimen() );
+  const handleMove = () => moveSpecimen( specimen().id );
   const handleEdit = () => openEditSpecimenDialog( selectedSpecimen().specimen );
 
   const specimen = () => selectedSpecimen()?.specimen;
   const entries = () => specimen() ? Object.entries( specimen() ) : [];
 
   return (
-    <div class="detail-collapsible" classList={{'detail-expanded': !!specimen()}}>
+    <div class={[ 'detail-collapsible', { 'detail-expanded': !!specimen() } ]}>
       <div class="detail-collapsible-inner">
         <div id="selectedSpecimen" >
           <For each={ entries() } >{ ( [key, value] ) =>
@@ -36,7 +36,7 @@ export const SpecimenDetails = props =>
           <button class='edit-button' onClick={handleEdit}>Edit</button>
         </Show>
         <Show when={ mode() === CURATING && specimen() && lastOpenedSession() }>
-          <button class='move-button' onClick={handleMove}>Move to {lastOpenedSession().join('/')}</button>
+          <button class='move-button' onClick={handleMove}>Move to {lastOpenedSessionName()}</button>
         </Show>
       </div>
     </div>

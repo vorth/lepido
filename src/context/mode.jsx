@@ -13,9 +13,9 @@ const ModeProvider = (props) =>
   const [ mode, setMode ] = createSignal( VIEWING );
 
   return (
-    <ModeContext.Provider value={{ mode, setMode }}>
+    <ModeContext value={{ mode, setMode }}>
       {props.children}
-    </ModeContext.Provider>
+    </ModeContext>
   );
 }
 

@@ -1,63 +1,57 @@
 
-import { createContext, createSignal, useContext } from "solid-js";
+import { createContext, createMemo, createSignal, createStore, useContext } from "solid-js";
 import { useData } from "../component/data";
-
-const findSpecimen = ( session, specimenID ) =>
-{
-  if ( !session || !specimenID ) {
-    return {};
-  }
-  if ( Array.isArray( session.specimen ) ) {
-    const specimen = session.specimen.find( s => s.id == specimenID ); // intentional loose equality
-    if ( !! specimen ) {
-      return { specimen, container: session };
-    }
-  }
-  if ( Array.isArray( session.collectingSession ) ) {
-    for (const subSession of session.collectingSession ) {
-      const found = findSpecimen( subSession, specimenID );
-      if ( !! found.specimen ) {
-        return found;
-      }
-    }
-  }
-  return {};
-}
-
-const collectAllSpecimens = ( session, result = [] ) =>
-{
-  if ( !session ) return result;
-  if ( Array.isArray( session.specimen ) ) {
-    result.push( ...session.specimen );
-  } else if ( session.specimen ) {
-    result.push( session.specimen );
-  }
-  if ( Array.isArray( session.collectingSession ) ) {
-    for ( const sub of session.collectingSession ) {
-      collectAllSpecimens( sub, result );
-    }
-  }
-  return result;
-}
+import { collectAllSpecimens, findSessionPath, findSpecimen, sessionLabel } from "../model";
 
 const SelectionContext = createContext();
 
-export const useSelection = () =>
-{
-  const context = useContext( SelectionContext );
-  if (!context) {
-    throw new Error("useSelection must be used within a SelectionProvider");
-  }
-  return context;
-}
+// useContext throws ContextNotFoundError when there's no SelectionProvider
+export const useSelection = () => useContext( SelectionContext );
 
 export const SelectionProvider = (props) =>
 {
   const [selectedId, setSelectedId] = createSignal(null);
   const [labelSelection, setLabelSelection] = createSignal( new Set() );
-  const { data } = useData();;
+  const [ lastOpenedSession, setLastOpenedSession ] = createSignal( null ); // a session id
+  const [ expanded, setExpanded ] = createStore( {} ); // session id -> true while its contents are shown
+  const { data } = useData();
 
-  const selectedSpecimen = () => findSpecimen( data(), selectedId() );
+  // Only notify dependents when the selection resolves to a different specimen or container,
+  //  not on every unrelated edit to the tree.
+  const selectedSpecimen = createMemo( () => findSpecimen( data, selectedId() ),
+    { equals: ( a, b ) => a.specimen === b.specimen && a.container === b.container } );
+
+  const sessionName = sessionID => ( findSessionPath( data, sessionID ) || [] ) .map( sessionLabel ) .join( '/' );
+  const lastOpenedSessionName = createMemo( () => sessionName( lastOpenedSession() ) );
+
+  const isExpanded = sessionID => !!expanded[ sessionID ];
+
+  // Expands every session from the root down to the given one, so its contents are visible
+  const revealSession = sessionID =>
+  {
+    const path = findSessionPath( data, sessionID ) || [];
+    setExpanded( e => { path.forEach( session => { e[ session.id ] = true; } ); } );
+  }
+
+  // Selects a specimen (or clears the selection, given null) and reveals the session holding it
+  const selectSpecimen = specimenID =>
+  {
+    setSelectedId( specimenID );
+    const { container } = findSpecimen( data, specimenID );
+    if ( !! container ) {
+      revealSession( container.id );
+    }
+  }
+
+  const toggleSession = sessionID =>
+  {
+    const opening = ! isExpanded( sessionID );
+    setExpanded( e => { e[ sessionID ] = opening; } );
+    if ( opening ) {
+      setLastOpenedSession( sessionID );
+    }
+    setSelectedId( null );
+  }
 
   const toggleLabelSelection = (id, state) =>
   {
@@ -78,21 +72,22 @@ export const SelectionProvider = (props) =>
 
   const clearLabelSelection = () => setLabelSelection( new Set() );
 
-  const labelSpecimens = () =>
+  const labelSpecimens = createMemo( () =>
   {
     const ids = labelSelection();
     if ( ids.size === 0 ) return [];
-    const all = collectAllSpecimens( data() );
+    const all = collectAllSpecimens( data );
     return all.filter( s => ids.has( s.id ) );
-  }
+  } );
 
   return (
-    <SelectionContext.Provider value={{
-      selectedId, setSelectedId, selectedSpecimen,
+    <SelectionContext value={{
+      selectedId, selectSpecimen, selectedSpecimen,
+      lastOpenedSession, lastOpenedSessionName, isExpanded, toggleSession, revealSession,
       collectAllSpecimens,
       labelSelection, toggleLabelSelection, clearLabelSelection, labelSpecimens
     }}>
       {props.children}
-    </SelectionContext.Provider>
+    </SelectionContext>
   );
 }
