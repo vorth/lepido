@@ -65,6 +65,7 @@ a:hover {
 }
 
 #container {
+  grid-row: 3; /* the 1fr row, even when the mode buttons and top bar are hidden */
   position: relative;
   height: 100%;
 }
@@ -257,6 +258,14 @@ a:hover {
 
 .status {
   margin: 8px;
+}
+
+.navbar {
+  padding: 0.6em 1em;
+  text-align: center;
+  font-size: 1.25em;
+  font-weight: 500;
+  background-color: #1a1a1a;
 }
 
 .top-bar {
