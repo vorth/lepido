@@ -1,6 +1,6 @@
 # Signal vs Store for Main Data Collection
 
-**Status:** The collection now lives in a Solid store (`createStore`). This note explains why we changed it, how the store is set up, and what to watch for when changing it.
+**Status:** The collection now lives in a Solid store (`createStore`), and the app runs on Solid 2.0. This note explains why we changed it, how the store is set up, and what to watch for when changing it. The Solid 2.0 section at the end covers what changed in the upgrade from 1.9.
 
 ## What the signal approach did
 
@@ -27,9 +27,9 @@ Speed was not the main problem. The real problems were:
 
 ### Rules
 
-**All writes go through `modifyData(recipe)`.** It runs `setData(produce(recipe))` and marks the data as changed (both dirty flags), inside one `batch`. Then it saves to localStorage once.
+**All writes go through `modifyData(recipe)`.** It runs `setData(recipe)`, marks the data as changed (both dirty flags), calls `flush()` to apply the change immediately, and then saves to localStorage once.
 
-**Find the target inside the recipe, using the draft.** Store objects obtained outside the setter are read-only. Writing to one does nothing except print a warning in dev mode. This also applies inside `produce`: only the draft passed to the recipe, and objects reached through it, can be changed. So actions take ids (specimen ids or session ids) and find the real target inside the recipe:
+**Find the target inside the recipe, using the draft.** Store objects obtained outside the setter are read-only. Writing to one does nothing except print a warning in dev mode. This also applies inside the setter: only the draft passed to the recipe, and objects reached through it, can be changed. So actions take ids (specimen ids or session ids) and find the real target inside the recipe:
 
 ```js
 const editSpecimen = (id, updated) => modifyData(root => {
@@ -41,7 +41,7 @@ const editSpecimen = (id, updated) => modifyData(root => {
 
 If a reload has removed the target in the meantime, the lookup returns nothing and the action does nothing. Before the store, the change would have gone to a stale object.
 
-**Load with `reconcile`.** `setData(obj)` at the root does a shallow merge, so keys missing from the new data would stay. `replaceData(json)` runs `setData(reconcile(normalizeCollection(json)))`.
+**Load with `reconcile`.** `setData(obj)` at the root does a shallow merge, so keys missing from the new data would stay. `replaceData(json)` runs `setData(reconcile(normalizeCollection(json), 'id'))` and then `flush()`. Matching array items by `id` means an unchanged specimen or session keeps its store object across a reload.
 
 **Normalize when loading.** `normalizeCollection` does two things:
 - Some records converted from the old XML have a single `specimen` object instead of an array. It turns these into arrays, so the rest of the code can assume `session.specimen` is an array or missing.
@@ -51,11 +51,11 @@ If a reload has removed the target in the meantime, the lookup returns nothing a
 
 **Keep only the numbers from the saved copies.** For the localStorage and source copies, only `lastNumber` is kept (`localLastNumber()` and `sourceLastNumber()`). The app never holds a second reference to the data tree, so nothing can change a saved copy by accident.
 
-**Saving:** `JSON.stringify(unwrap(data))`.
+**Saving:** `JSON.stringify(snapshot(data))`.
 
 ### Reading the store in components
 
-- **Read store fields in the JSX or in an effect, not once at setup.** Components now stay alive between edits, so a value read once at setup will go out of date.
+- **Read store fields in the JSX or in an effect, not once at setup.** Components now stay alive between edits, so a value read once at setup will go out of date. Solid 2.0 also warns in dev mode about reads at the top level of a component. Where a one-time read is intended, as in `SpecimenForm`, wrap it in `untrack`.
 - **Comparing by identity works.** Solid returns the same store object for the same underlying object, so comparisons like `selectedSpecimen().container === props.session` are valid.
 - **`selectedSpecimen` only notifies when the result changes.** It uses an `equals` check, so it only notifies when the selection resolves to a different specimen or session. Readers of the specimen's fields still update when those fields change, because they track the fields themselves.
 - **`Object.entries(store)` notices added and removed keys**, so the details panel updates when a field is added to or removed from a specimen.
@@ -74,7 +74,7 @@ This replaces the module-level `Map` and the two effects in `session.jsx` that s
 ## Dialogs
 
 The dialogs use the native `<dialog>` element (`Modal` in `dialogs.jsx`), not SUID. SUID has no Solid 2.0 support, so it was removed, and the JS bundle went from 148 kB to 36 kB.
-- `NewSession` and `SpecimenDialog` render their form only while `show` is true. `Modal` calls `showModal()` when it mounts.
+- `NewSession` and `SpecimenDialog` render their form only while `show` is true. `Modal` calls `showModal()` in `onSettled`, once it's in the document.
 - Each form is created when the dialog opens, so it sets its fields from `props` once, when it's created. This replaces the effect that wrote 12 signals whenever the dialog opened.
 - Escape and clicks on the backdrop cancel.
 
@@ -103,3 +103,30 @@ The dialogs use the native `<dialog>` element (`Modal` in `dialogs.jsx`), not SU
 ## Alternative considered: `createMutable`
 
 `createMutable` would have let the old direct-edit code (`parent.specimen.push(...)`, `Object.assign(specimen, …)`) stay almost unchanged, and it still updates only what changed. We rejected it because any code holding a reference could write anywhere. With `createStore`, all writes go through `modifyData`.
+
+## Solid 2.0
+
+The app moved from Solid 1.9 to 2.0.3. The packages changed:
+- `@solidjs/web` added; `render` is now imported from it.
+- `vite-plugin-solid` replaced by `@solidjs/vite-plugin` 3.
+- Vite 5 → 8.
+
+The JS bundle grew from 36 kB to 82 kB (31 kB gzipped), mostly Solid 2.0's runtime.
+
+### What changed in the code
+
+- **Imports:** store functions (`createStore`, `reconcile`, `snapshot`) come from `solid-js`; `solid-js/store` and `solid-js/web` are gone.
+- **Setters take drafts.** The setter only takes a function that edits a draft, so `produce` is gone (it's effectively built in), and so are path setters like `setExpanded(id, false)` and object merges. Write `setExpanded(e => { e[id] = false; })` instead.
+- **`unwrap` → `snapshot`.**
+- **`batch` is gone.** Writes are batched automatically and applied on the next microtask.
+- **Writes are deferred.** Reading a signal or store right after writing it returns the old value until `flush()` runs. `modifyData` and `replaceData` call `flush()` so callers can read the new data immediately; for example, `addSpecimens` selects the specimen it just added. If you add another write that something reads right away, flush it the same way.
+- **`createMemo(fn, options)`:** the second argument is now the options (`{ equals }`); there is no initial-value argument.
+- **`createEffect(compute, apply)`:** effects always take two functions. The first tracks the values the effect depends on; the second does the work. `Specimen`'s scroll-into-view is `createEffect(isSelected, selected => …)`. Writing signals inside effects or memos warns in dev mode, which is why expansion is done by actions (see above).
+- **`onMount` → `onSettled`.**
+- **Contexts are their own providers:** `<DataContext value={…}>`, not `<DataContext.Provider>`. `useContext` throws `ContextNotFoundError` when a context with no default has no provider, so the `use…` hooks no longer check for that themselves. `ModeContext` has a default value, so it never throws.
+- **`classList` → `class`** with an array and an object: `class={['specimen', { selected: isSelected() }]}`.
+
+### What didn't need to change
+
+`onClick` (already camelCase), `ref={elt}`, `<For>` (by default the child still receives the item itself; an undefined `each` renders nothing), `<Show>` with plain children, and reading `props.x` in JSX.
+

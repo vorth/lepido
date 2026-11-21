@@ -1,6 +1,6 @@
 
 // Pure helpers for walking the collection tree.  They work on plain objects,
-//  store proxies, and produce() drafts alike.
+//  store proxies, and store-setter drafts alike.
 
 export const sessionLabel = session => session.name || 'COLLECTION';
 

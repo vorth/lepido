@@ -86,7 +86,7 @@ export const CollectingSession = props =>
   return (
     <div class="session" onClick={ toggleCollapsed }>
       <span class="session-name">{name()}</span>
-      <div class="session-collapsible" classList={{'session-expanded': expanded()}}>
+      <div class={[ 'session-collapsible', { 'session-expanded': expanded() } ]}>
         <div class="session-collapsible-inner">
           <ul class='sessionList'>
             <For each={props.session.specimen}>{ (specimen) =>

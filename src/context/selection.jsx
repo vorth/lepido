@@ -1,19 +1,12 @@
 
-import { batch, createContext, createMemo, createSignal, useContext } from "solid-js";
-import { createStore } from "solid-js/store";
+import { createContext, createMemo, createSignal, createStore, useContext } from "solid-js";
 import { useData } from "../component/data";
 import { collectAllSpecimens, findSessionPath, findSpecimen, sessionLabel } from "../model";
 
 const SelectionContext = createContext();
 
-export const useSelection = () =>
-{
-  const context = useContext( SelectionContext );
-  if (!context) {
-    throw new Error("useSelection must be used within a SelectionProvider");
-  }
-  return context;
-}
+// useContext throws ContextNotFoundError when there's no SelectionProvider
+export const useSelection = () => useContext( SelectionContext );
 
 export const SelectionProvider = (props) =>
 {
@@ -25,7 +18,7 @@ export const SelectionProvider = (props) =>
 
   // Only notify dependents when the selection resolves to a different specimen or container,
   //  not on every unrelated edit to the tree.
-  const selectedSpecimen = createMemo( () => findSpecimen( data, selectedId() ), undefined,
+  const selectedSpecimen = createMemo( () => findSpecimen( data, selectedId() ),
     { equals: ( a, b ) => a.specimen === b.specimen && a.container === b.container } );
 
   const sessionName = sessionID => ( findSessionPath( data, sessionID ) || [] ) .map( sessionLabel ) .join( '/' );
@@ -37,32 +30,27 @@ export const SelectionProvider = (props) =>
   const revealSession = sessionID =>
   {
     const path = findSessionPath( data, sessionID ) || [];
-    setExpanded( Object.fromEntries( path.map( session => [ session.id, true ] ) ) );
+    setExpanded( e => { path.forEach( session => { e[ session.id ] = true; } ); } );
   }
 
   // Selects a specimen (or clears the selection, given null) and reveals the session holding it
   const selectSpecimen = specimenID =>
   {
-    batch( () => {
-      setSelectedId( specimenID );
-      const { container } = findSpecimen( data, specimenID );
-      if ( !! container ) {
-        revealSession( container.id );
-      }
-    } );
+    setSelectedId( specimenID );
+    const { container } = findSpecimen( data, specimenID );
+    if ( !! container ) {
+      revealSession( container.id );
+    }
   }
 
   const toggleSession = sessionID =>
   {
-    batch( () => {
-      if ( isExpanded( sessionID ) ) {
-        setExpanded( sessionID, false );
-      } else {
-        setExpanded( sessionID, true );
-        setLastOpenedSession( sessionID );
-      }
-      setSelectedId( null );
-    } );
+    const opening = ! isExpanded( sessionID );
+    setExpanded( e => { e[ sessionID ] = opening; } );
+    if ( opening ) {
+      setLastOpenedSession( sessionID );
+    }
+    setSelectedId( null );
   }
 
   const toggleLabelSelection = (id, state) =>
@@ -93,13 +81,13 @@ export const SelectionProvider = (props) =>
   } );
 
   return (
-    <SelectionContext.Provider value={{
+    <SelectionContext value={{
       selectedId, selectSpecimen, selectedSpecimen,
       lastOpenedSession, lastOpenedSessionName, isExpanded, toggleSession, revealSession,
       collectAllSpecimens,
       labelSelection, toggleLabelSelection, clearLabelSelection, labelSpecimens
     }}>
       {props.children}
-    </SelectionContext.Provider>
+    </SelectionContext>
   );
 }

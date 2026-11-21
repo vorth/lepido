@@ -6,14 +6,8 @@ import { SPECIMEN_DIALOG_FIELDS } from "../dialogs";
 
 const EditorContext = createContext();
 
-export const useEditor = () =>
-{
-  const context = useContext(EditorContext);
-  if (!context) {
-    throw new Error("useEditor must be used within an EditorProvider");
-  }
-  return context;
-}
+// useContext throws ContextNotFoundError when there's no EditorProvider
+export const useEditor = () => useContext( EditorContext );
 
 const specimenFromPhoto = ( id, photo, envelope ) =>
 {
@@ -171,8 +165,8 @@ export function EditorProvider(props) {
   };
 
   return (
-    <EditorContext.Provider value={contextValue}>
+    <EditorContext value={contextValue}>
       {props.children}
-    </EditorContext.Provider>
+    </EditorContext>
   );
 };

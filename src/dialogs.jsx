@@ -1,5 +1,5 @@
 
-import { createSignal, onMount, Show } from 'solid-js';
+import { createSignal, onSettled, Show, untrack } from 'solid-js';
 
 const geoLocate = ( success, error ) =>
 {
@@ -34,7 +34,7 @@ export const createSession = ( success, failure ) =>
 const Modal = props =>
 {
   let dialog;
-  onMount( () => dialog.showModal() );
+  onSettled( () => dialog.showModal() );
 
   const handleCancel = e =>
   {
@@ -91,7 +91,7 @@ const NewSessionForm = ( props ) =>
   const [ date, setDate ] = createSignal( '' );
   const [ latLong, setLatLong ] = createSignal( '' );
 
-  // onMount( () => {
+  // onSettled( () => {
   //   setDate( new Date() .toISOString() );
   //   geoLocate(
   //     position => {
@@ -136,23 +136,25 @@ export const SpecimenDialog = ( props ) =>
   );
 }
 
-// Created afresh each time the dialog opens, so the fields are initialized once, right here
+// Created afresh each time the dialog opens, so the fields are initialized once, right here.
+//  The untrack() marks these one-time reads of props and the store as deliberate.
 const SpecimenForm = ( props ) =>
 {
-  const s = props.specimen;
+  const s = untrack( () => props.specimen );
   const editing = !!s;
-  const [ id ] = createSignal( editing ? s.id || '' : props.nextId() );
-  const [ genus, setGenus ] = createSignal( s ?.genus || '' );
-  const [ species, setSpecies ] = createSignal( s ?.species || '' );
-  const [ time, setTime ] = createSignal( editing ? s.time || s.date || '' : new Date() .toISOString() );
-  const [ latLong, setLatLong ] = createSignal( s ?.latLong || '' );
-  const [ notes, setNotes ] = createSignal( s ?.notes || '' );
-  const [ temperature, setTemperature ] = createSignal( s ?.temperature || '' );
-  const [ elevation, setElevation ] = createSignal( s ?.elevation || '' );
-  const [ collector, setCollector ] = createSignal( s ?.collector || '' );
-  const [ location, setLocation ] = createSignal( s ?.location || '' );
-  const [ envelope, setEnvelope ] = createSignal( s ?.envelope || '' );
-  const [ sex, setSex ] = createSignal( s ?.sex || '' );
+  const initial = field => untrack( () => s ?.[ field ] || '' );
+  const [ id ] = createSignal( untrack( () => editing ? s.id || '' : props.nextId() ) );
+  const [ genus, setGenus ] = createSignal( initial( 'genus' ) );
+  const [ species, setSpecies ] = createSignal( initial( 'species' ) );
+  const [ time, setTime ] = createSignal( editing ? initial( 'time' ) || initial( 'date' ) : new Date() .toISOString() );
+  const [ latLong, setLatLong ] = createSignal( initial( 'latLong' ) );
+  const [ notes, setNotes ] = createSignal( initial( 'notes' ) );
+  const [ temperature, setTemperature ] = createSignal( initial( 'temperature' ) );
+  const [ elevation, setElevation ] = createSignal( initial( 'elevation' ) );
+  const [ collector, setCollector ] = createSignal( initial( 'collector' ) );
+  const [ location, setLocation ] = createSignal( initial( 'location' ) );
+  const [ envelope, setEnvelope ] = createSignal( initial( 'envelope' ) );
+  const [ sex, setSex ] = createSignal( initial( 'sex' ) );
 
   if ( ! editing ) {
     geoLocate(

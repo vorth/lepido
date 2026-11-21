@@ -1,5 +1,4 @@
-import { batch, createContext, createSignal, useContext } from "solid-js";
-import { createStore, produce, reconcile, unwrap } from "solid-js/store";
+import { createContext, createSignal, createStore, flush, reconcile, snapshot, useContext } from "solid-js";
 
 import { saveTextFile, saveTextFileAs } from '../files.js';
 import { normalizeCollection } from '../model.js';
@@ -8,14 +7,8 @@ const touchDevice = 'ontouchstart' in window; // not needed yet, but useful for 
 
 export const DataContext = createContext();
 
-export const useData = () =>
-{
-  const context = useContext( DataContext );
-  if (!context) {
-    throw new Error("useData must be used within a DataProvider");
-  }
-  return context;
-}
+// useContext throws ContextNotFoundError when there's no DataProvider
+export const useData = () => useContext( DataContext );
 
 let fileHandle = null;
 
@@ -27,8 +20,13 @@ export const DataProvider = (props) =>
   const [ sourceLastNumber, setSourceLastNumber ] = createSignal();
   const [ sourceDirty, setSourceDirty ] = createSignal( false );
 
-  // reconcile() rather than setData( json ), since a root-level set only merges shallowly
-  const replaceData = json => setData( reconcile( normalizeCollection( json ) ) );
+  // Writes apply on the next microtask; the flush() makes the new data readable as soon as
+  //  this returns, so callers can look things up in it (e.g. select a specimen) right away.
+  const replaceData = json =>
+  {
+    setData( reconcile( normalizeCollection( json ), 'id' ) );
+    flush();
+  }
 
   const loadFromResource = async () =>
   {
@@ -36,11 +34,9 @@ export const DataProvider = (props) =>
       .then( response => response.text() )
       .then( text => {
         const json = JSON.parse( text );
-        batch( () => {
-          setSourceLastNumber( json.lastNumber );
-          replaceData( json );
-          setSourceDirty( false );
-        } );
+        setSourceLastNumber( json.lastNumber );
+        setSourceDirty( false );
+        replaceData( json );
         // setLastOpenedSession( [ 'COLLECTION' ] );
       } );
   }
@@ -61,37 +57,33 @@ export const DataProvider = (props) =>
   {
     const json = loadStorage();
     if ( !! json ) {
-      batch( () => {
-        replaceData( json );
-        setLocalDirty( false );
-      } );
+      setLocalDirty( false );
+      replaceData( json );
       // setLastOpenedSession( [ 'COLLECTION' ] );
       return true;
     }
     return false;
   }
 
-  const serialize = () => JSON.stringify( unwrap( data ), null, 2 );
+  const serialize = () => JSON.stringify( snapshot( data ), null, 2 );
 
   const saveDataLocally = () =>
   {
     localStorage .setItem( 'lepido', serialize() );
-    batch( () => {
-      setLocalLastNumber( data.lastNumber );
-      setLocalDirty( false );
-    } );
+    setLocalLastNumber( data.lastNumber );
+    setLocalDirty( false );
   }
 
   // Every change to the collection goes through here.  The recipe receives a mutable
-  //  draft of the root; locate nodes within it (by id or with findSession) rather than
-  //  mutating store objects obtained elsewhere, which are read-only.
+  //  draft of the root; locate nodes within it by id rather than mutating store objects
+  //  obtained elsewhere, which are read-only.  As in replaceData, flush() applies the
+  //  change at once, so it is saved (and visible to the caller) immediately.
   const modifyData = recipe =>
   {
-    batch( () => {
-      setData( produce( recipe ) );
-      setLocalDirty( true );
-      setSourceDirty( true );
-    } );
+    setData( recipe );
+    setLocalDirty( true );
+    setSourceDirty( true );
+    flush();
     saveDataLocally();
   }
 
@@ -122,8 +114,8 @@ export const DataProvider = (props) =>
   };
 
   return (
-    <DataContext.Provider value={ contextAPI }>
+    <DataContext value={ contextAPI }>
       {props.children}
-    </DataContext.Provider>
+    </DataContext>
   )
 }

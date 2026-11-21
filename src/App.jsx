@@ -1,5 +1,5 @@
 
-import { createSignal, onMount, Show } from 'solid-js'
+import { createSignal, onSettled, Show } from 'solid-js'
 
 import './App.css';
 import './labels.css';
@@ -29,7 +29,7 @@ const AppUI = () =>
   const [topBarOpen, setTopBarOpen] = createSignal(false);
   const toggleTopBar = () => setTopBarOpen(prev => !prev);
 
-  onMount( () => {
+  onSettled( () => {
     loadStorage();
     if ( mode() === VIEWING ) {
       loadFromResource() .then( () => {

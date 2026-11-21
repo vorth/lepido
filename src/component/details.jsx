@@ -25,7 +25,7 @@ export const SpecimenDetails = props =>
   const entries = () => specimen() ? Object.entries( specimen() ) : [];
 
   return (
-    <div class="detail-collapsible" classList={{'detail-expanded': !!specimen()}}>
+    <div class={[ 'detail-collapsible', { 'detail-expanded': !!specimen() } ]}>
       <div class="detail-collapsible-inner">
         <div id="selectedSpecimen" >
           <For each={ entries() } >{ ( [key, value] ) =>

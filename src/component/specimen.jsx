@@ -21,8 +21,8 @@ export const Specimen = props =>
   let elt;
   const scrollToSelf = () => elt.scrollIntoView( { behavior: 'smooth', block: 'nearest' } );
 
-  createEffect( () => {
-    if ( !! elt && isSelected() ) {
+  createEffect( isSelected, selected => {
+    if ( !! elt && selected ) {
       const collapsible = elt.closest( '.session-collapsible' );
       if ( !collapsible ) {
         scrollToSelf();
@@ -44,8 +44,8 @@ export const Specimen = props =>
   });
 
   return (
-    <li ref={elt} id={`id-${props.specimen.id}`} class='specimen' onClick={clickHandler}
-      classList={ { selected: isSelected(), 'label-selected': isLabelSelected() } } >
+    <li ref={elt} id={`id-${props.specimen.id}`} onClick={clickHandler}
+      class={ [ 'specimen', { selected: isSelected(), 'label-selected': isLabelSelected() } ] } >
       {`${props.specimen.id ?? ''} ${props.specimen.genus ?? ''} ${props.specimen.species ?? ''}`}
     </li>
   );
