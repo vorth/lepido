@@ -22,14 +22,16 @@ export const SpecimenDetails = props =>
   const handleEdit = () => openEditSpecimenDialog( selectedSpecimen().specimen );
 
   const specimen = () => selectedSpecimen()?.specimen;
-  const entries = () => specimen() ? Object.entries( specimen() ) : [];
+  // Field names, not [key, value] pairs: strings keep their identity across re-runs, so <For>
+  //  reuses each row, and each row reads its own value from the store.
+  const fieldNames = () => specimen() ? Object.keys( specimen() ) : [];
 
   return (
     <div class={[ 'detail-collapsible', { 'detail-expanded': !!specimen() } ]}>
       <div class="detail-collapsible-inner">
         <div id="selectedSpecimen" >
-          <For each={ entries() } >{ ( [key, value] ) =>
-            <Field key={key} value={value} />
+          <For each={ fieldNames() } >{ key =>
+            <Field key={key} value={specimen()?.[key]} />
           }</For>
         </div>
         <Show when={ mode() === CURATING && specimen() }>

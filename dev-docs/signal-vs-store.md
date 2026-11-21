@@ -59,6 +59,12 @@ If a reload has removed the target in the meantime, the lookup returns nothing a
 - **Comparing by identity works.** Solid returns the same store object for the same underlying object, so comparisons like `selectedSpecimen().container === props.session` are valid.
 - **`selectedSpecimen` only notifies when the result changes.** It uses an `equals` check, so it only notifies when the selection resolves to a different specimen or session. Readers of the specimen's fields still update when those fields change, because they track the fields themselves.
 - **`Object.entries(store)` notices added and removed keys**, so the details panel updates when a field is added to or removed from a specimen.
+- **Rows read per-id maps, not shared signals.** Don't make every `Specimen` row compare against one signal (`selectedId() === id`): changing it re-runs all ~2,600 readers, and Solid 2.0's dev build warns with `HUGE_FAN_OUT`. The selection context keeps two maps keyed by id. Rows call `isSelected(id)` and `isLabelSelected(id)`, so only the rows whose answer flipped update.
+  - **The selected specimen** is a `createProjection` built from the `selectedId` signal, since only one specimen is ever selected.
+  - **Label selection** is a plain store, `labels` (`{ [id]: true }`), changed directly by `toggleLabelSelection`, `setLabelsSelected` and `clearLabelSelection`. `labelCount()` gives the number of keys.
+  - Keys are strings, so `'508'` from the URL matches either form of the id. Specimens with no `id` (three released 2025 individuals) all share the key `undefined`, so they're selected for labels together, and the count is lower than the number of labels shown.
+  - Use the same pattern for any new per-row state.
+- **Memos that walk the whole tree track `revision`, not the tree.** `selectedSpecimen`, `labelSpecimens` and `lastOpenedSessionName` walk the tree, and a tracked walk subscribes to every node it reads (3,956 for `labelSpecimens`, which triggered `HUGE_FAN_IN`). The data layer bumps a `revision` signal in `modifyData` and `replaceData`. The `fromTree(deps, walk)` helper in `selection.jsx` tracks `revision` and `deps`, and runs the walk inside `untrack`. Anything that changes the collection must go through `modifyData` or `replaceData`, or these memos won't notice.
 
 ## UI state: selection and expansion
 
@@ -97,6 +103,7 @@ The dialogs use the native `<dialog>` element (`Modal` in `dialogs.jsx`), not SU
   - A field in that list that is missing from the dialog's result was cleared by the user, so it is deleted. All other fields are kept.
   - `time` is in the list because the dialog shows it as `date` and saves it as `date`.
   - When you add a field to the dialog, add it to the list too.
+  - The form itself renders from lists in `dialogs.jsx`: `SPECIMEN_INPUTS` (the inputs, in display order) and `ALWAYS_SAVED` (fields saved even when empty; the rest are saved only when filled in). The values live in one store, `fields`. To add a field, add its name to `SPECIMEN_INPUTS` and to `SPECIMEN_DIALOG_FIELDS`. Its position in `SPECIMEN_DIALOG_FIELDS` sets where it's saved in the specimen record.
 
 - **Duplicate session names:** Move used to find its destination by the path of session names, so if two sibling sessions shared a name it went to the first one. Sessions now have ids, and Move uses them.
 
@@ -120,6 +127,7 @@ The JS bundle grew from 36 kB to 82 kB (31 kB gzipped), mostly Solid 2.0's runti
 - **`unwrap` → `snapshot`.**
 - **`batch` is gone.** Writes are batched automatically and applied on the next microtask.
 - **Writes are deferred.** Reading a signal or store right after writing it returns the old value until `flush()` runs. `modifyData` and `replaceData` call `flush()` so callers can read the new data immediately; for example, `addSpecimens` selects the specimen it just added. If you add another write that something reads right away, flush it the same way.
+- **Several updates to one signal in the same event need the setter's function form.** Copying from a read (`const next = new Set(sig()); …; setSig(next)`) keeps only the last update, because every read returns the value from before the first write. That caused a bug: when label selection was a `Set` in a signal, "toggle labels" showed one label instead of the whole session's. Write `setSig(current => …)`, which receives the pending value. Store setters don't have this problem: several draft writes in one event build on each other. That's one reason label selection is now a store.
 - **`createMemo(fn, options)`:** the second argument is now the options (`{ equals }`); there is no initial-value argument.
 - **`createEffect(compute, apply)`:** effects always take two functions. The first tracks the values the effect depends on; the second does the work. `Specimen`'s scroll-into-view is `createEffect(isSelected, selected => …)`. Writing signals inside effects or memos warns in dev mode, which is why expansion is done by actions (see above).
 - **`onMount` → `onSettled`.**

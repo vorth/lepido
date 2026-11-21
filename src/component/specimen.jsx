@@ -5,10 +5,10 @@ import { LABELING, useMode } from "../context/mode.jsx";
 
 export const Specimen = props =>
 {
-  const { selectedId, selectSpecimen, labelSelection, toggleLabelSelection } = useSelection();
+  const { selectSpecimen, toggleLabelSelection, isSelected: isSelectedId, isLabelSelected: isLabelSelectedId } = useSelection();
   const { mode } = useMode();
-  const isSelected = () => selectedId() === props.specimen.id;
-  const isLabelSelected = () => labelSelection().has( props.specimen.id );
+  const isSelected = () => isSelectedId( props.specimen.id );
+  const isLabelSelected = () => isLabelSelectedId( props.specimen.id );
   const clickHandler = e =>
   {
     e .stopPropagation();

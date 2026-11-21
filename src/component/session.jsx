@@ -9,18 +9,14 @@ import { useEditor } from '../context/editor.jsx';
 
 const ToggleLabels = props =>
 {
-  const { labelSelection, toggleLabelSelection, collectAllSpecimens } = useSelection();
+  const { isLabelSelected, setLabelsSelected, collectAllSpecimens } = useSelection();
   const handleClick = e =>
   {
     e .stopPropagation();
     // recursively toggle all specimens in this session.  If any specimen is not selected, select all.  If all are selected, deselect all.
     const specimens = props.session ? collectAllSpecimens( props.session ) : [];
-    const allSelected = specimens.every( s => labelSelection().has( s.id ) );
-    if ( allSelected ) {
-      specimens.forEach( s => toggleLabelSelection( s.id, false ) );
-    } else {
-      specimens.forEach( s => toggleLabelSelection( s.id, true ) );
-    }
+    const allSelected = specimens.every( s => isLabelSelected( s.id ) );
+    setLabelsSelected( specimens.map( s => s.id ), ! allSelected );
   }
 
   return (

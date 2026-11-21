@@ -86,3 +86,54 @@ export const collectAllSpecimens = ( session, result = [] ) =>
   }
   return result;
 }
+
+const locationChildren = location =>
+  Array.isArray( location ?.location ) ? location.location : location ?.location ? [ location.location ] : [];
+
+const findLocationByName = ( locations, name ) =>
+{
+  for ( const location of locationChildren( locations ) ) {
+    if ( location.name === name ) {
+      return location;
+    }
+    const found = findLocationByName( location, name );
+    if ( !! found ) {
+      return found;
+    }
+  }
+  return null;
+}
+
+// Resolves a ref into the `locations` table, such as "home", "home.hedge" or "chokoloskee".
+//  The first name may be anywhere in the table; any further names are its descendants.
+const resolveLocationRef = ( locations, ref ) =>
+{
+  const [ first, ...rest ] = ref .split( '.' );
+  let resolved = findLocationByName( locations, first );
+  for ( const name of rest ) {
+    resolved = resolved && locationChildren( resolved ) .find( l => l.name === name );
+  }
+  return resolved || null;
+}
+
+// A place may be a plain string, or { '#text', latLong } left over from the old XML
+const placeText = place => typeof place === 'object' ? place ?.[ '#text' ] : place;
+
+// The text describing where a specimen was found, for labels and display.  A specimen's
+//  location is a string, or an object with a `ref` into the `locations` table and/or a
+//  `place` of its own.  Coordinates are left out; they're in the specimen's `latLong`.
+export const locationText = ( location, locations ) =>
+{
+  if ( ! location || typeof location !== 'object' ) {
+    return location || '';
+  }
+  const parts = [];
+  if ( location.ref ) {
+    const resolved = resolveLocationRef( locations, location.ref );
+    parts .push( resolved ? placeText( resolved.place ) : location.ref );
+  }
+  if ( location.place ) {
+    parts .push( placeText( location.place ) );
+  }
+  return parts .filter( Boolean ) .join( '; ' );
+}

@@ -1,51 +1,24 @@
-import { For, Show } from 'solid-js';
+import { For, Show, untrack } from 'solid-js';
 
 import { useSelection } from '../context/selection.jsx';
 import { useData } from './data.jsx';
-
-const resolveLocationRef = ( locations, ref ) =>
-{
-  if ( !locations || !ref ) return null;
-  const parts = ref.split('/');
-  let locs = Array.isArray( locations.location ) ? locations.location
-    : locations.location ? [ locations.location ] : [];
-  let resolved = null;
-  for ( const part of parts ) {
-    resolved = locs.find( l => l.name === part );
-    if ( !resolved ) return null;
-    locs = Array.isArray( resolved.location ) ? resolved.location
-      : resolved.location ? [ resolved.location ] : [];
-  }
-  return resolved;
-}
-
-const formatLocation = ( location, locations ) =>
-{
-  if ( !location ) return '';
-  if ( location.ref ) {
-    const resolved = resolveLocationRef( locations, location.ref );
-    if ( resolved ) {
-      const place = typeof resolved.place === 'object' ? resolved.place['#text'] : resolved.place;
-      const latLong = typeof resolved.place === 'object'
-        ? resolved.place.latLong
-        : resolved.latLong;
-      return [ place, latLong ].filter(Boolean).join('; ');
-    }
-    return location.ref;
-  }
-  if ( location.place ) {
-    const place = typeof location.place === 'object' ? location.place['#text'] : location.place;
-    return [ place, location.latLong ].filter(Boolean).join('; ');
-  }
-  return location.latLong || '';
-}
+import { locationText } from '../model.js';
 
 const SpecimenLabel = props =>
 {
+  const { data } = useData();
+  // Tracks the specimen's own location, but not the lookup in the shared locations table,
+  //  which every label would otherwise subscribe to.
+  const location = () =>
+  {
+    const own = props.specimen.location;
+    return untrack( () => locationText( own, data.locations ) );
+  }
+
   return (
     <div class="single-label">
       <div class="label-locality">
-        <span>{props.specimen.location}</span>
+        <span>{location()}</span>
         <span>{props.specimen.latLong}</span>
         <span>{props.specimen.date}</span>
         <span>
@@ -93,7 +66,7 @@ const exportCSV = ( specimens ) =>
 
 export const LabelsPanel = () =>
 {
-  const { labelSpecimens, clearLabelSelection, labelSelection } = useSelection();
+  const { labelSpecimens, clearLabelSelection, labelCount } = useSelection();
 
   const handlePrint = () => window.print();
   const handleExportCSV = () => exportCSV( labelSpecimens() );
@@ -101,9 +74,9 @@ export const LabelsPanel = () =>
   return (
     <div id="labels-panel">
       <div class="labels-toolbar no-print">
-        <span>{labelSelection().size} specimen{labelSelection().size !== 1 ? 's' : ''} selected</span>
-        <button class="other-button" onClick={handlePrint} disabled={labelSelection().size === 0}>Print Labels</button>
-        <button class="other-button" onClick={handleExportCSV} disabled={labelSelection().size === 0}>Export CSV</button>
+        <span>{labelCount()} specimen{labelCount() !== 1 ? 's' : ''} selected</span>
+        <button class="other-button" onClick={handlePrint} disabled={labelCount() === 0}>Print Labels</button>
+        <button class="other-button" onClick={handleExportCSV} disabled={labelCount() === 0}>Export CSV</button>
         <button class="other-button" onClick={clearLabelSelection}>Clear Selection</button>
       </div>
       <div class="label-output" id="label-output">

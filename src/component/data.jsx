@@ -19,12 +19,16 @@ export const DataProvider = (props) =>
   const [ localDirty, setLocalDirty ] = createSignal( false );
   const [ sourceLastNumber, setSourceLastNumber ] = createSignal();
   const [ sourceDirty, setSourceDirty ] = createSignal( false );
+  // Bumped on every change to the collection, for derivations that walk the whole tree:
+  //  tracking this one signal is far cheaper than tracking the thousands of nodes they read.
+  const [ revision, setRevision ] = createSignal( 0 );
 
   // Writes apply on the next microtask; the flush() makes the new data readable as soon as
   //  this returns, so callers can look things up in it (e.g. select a specimen) right away.
   const replaceData = json =>
   {
     setData( reconcile( normalizeCollection( json ), 'id' ) );
+    setRevision( r => r + 1 );
     flush();
   }
 
@@ -81,6 +85,7 @@ export const DataProvider = (props) =>
   const modifyData = recipe =>
   {
     setData( recipe );
+    setRevision( r => r + 1 );
     setLocalDirty( true );
     setSourceDirty( true );
     flush();
@@ -107,7 +112,7 @@ export const DataProvider = (props) =>
   }
 
   const contextAPI = {
-    data, modifyData,
+    data, modifyData, revision,
     localLastNumber, localDirty, sourceLastNumber, sourceDirty, loadStorage,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
     reloadFromSource,

@@ -1,5 +1,5 @@
 
-import { createContext, createMemo, createSignal, createStore, useContext } from "solid-js";
+import { createContext, createMemo, createProjection, createSignal, createStore, untrack, useContext } from "solid-js";
 import { useData } from "../component/data";
 import { collectAllSpecimens, findSessionPath, findSpecimen, sessionLabel } from "../model";
 
@@ -11,18 +11,41 @@ export const useSelection = () => useContext( SelectionContext );
 export const SelectionProvider = (props) =>
 {
   const [selectedId, setSelectedId] = createSignal(null);
-  const [labelSelection, setLabelSelection] = createSignal( new Set() );
+  const [ labels, setLabels ] = createStore( {} ); // specimen id -> true while its label is selected
   const [ lastOpenedSession, setLastOpenedSession ] = createSignal( null ); // a session id
   const [ expanded, setExpanded ] = createStore( {} ); // session id -> true while its contents are shown
-  const { data } = useData();
+  const { data, revision } = useData();
+
+  // Derives a value from a walk of the whole tree.  It tracks only `deps` and the data's
+  //  revision; the walk itself is untracked, since it can read thousands of nodes.
+  const fromTree = ( deps, walk ) => () =>
+  {
+    revision();
+    const args = deps();
+    return untrack( () => walk( args ) );
+  }
 
   // Only notify dependents when the selection resolves to a different specimen or container,
   //  not on every unrelated edit to the tree.
-  const selectedSpecimen = createMemo( () => findSpecimen( data, selectedId() ),
+  const selectedSpecimen = createMemo( fromTree( selectedId, id => findSpecimen( data, id ) ),
     { equals: ( a, b ) => a.specimen === b.specimen && a.container === b.container } );
 
+  // Per-id maps for the specimen rows: `selected` here, and the `labels` store.  Each row reads
+  //  only its own key, so a change updates just the rows whose answer flipped, not all ~1300.
+  //  Keys are strings, so numeric and string forms of an id match.
+  const selected = createProjection( draft => {
+    const id = selectedId();
+    for ( const key of Object.keys( draft ) ) {
+      if ( key !== String( id ) ) delete draft[ key ];
+    }
+    if ( id != null ) draft[ id ] = true;
+  }, {} );
+  const isSelected = specimenID => !!selected[ specimenID ];
+  const isLabelSelected = specimenID => !!labels[ specimenID ];
+  const labelCount = createMemo( () => Object.keys( labels ) .length );
+
   const sessionName = sessionID => ( findSessionPath( data, sessionID ) || [] ) .map( sessionLabel ) .join( '/' );
-  const lastOpenedSessionName = createMemo( () => sessionName( lastOpenedSession() ) );
+  const lastOpenedSessionName = createMemo( fromTree( lastOpenedSession, sessionName ) );
 
   const isExpanded = sessionID => !!expanded[ sessionID ];
 
@@ -53,39 +76,29 @@ export const SelectionProvider = (props) =>
     setSelectedId( null );
   }
 
-  const toggleLabelSelection = (id, state) =>
+  // Store writes build on each other within an event, so these can't lose updates
+  const toggleLabelSelection = id =>
   {
-    const current = new Set( labelSelection() );
-    if ( state === undefined ) {
-      if ( current.has(id) ) {
-        current.delete(id);
-      } else {
-        current.add(id);
-      }
-    } else if ( state ) {
-      current.add(id);
-    } else {
-      current.delete(id);
-    }
-    setLabelSelection( current );
+    setLabels( d => { if ( d[ id ] ) delete d[ id ]; else d[ id ] = true; } );
   }
 
-  const clearLabelSelection = () => setLabelSelection( new Set() );
-
-  const labelSpecimens = createMemo( () =>
+  const setLabelsSelected = ( ids, state ) =>
   {
-    const ids = labelSelection();
-    if ( ids.size === 0 ) return [];
-    const all = collectAllSpecimens( data );
-    return all.filter( s => ids.has( s.id ) );
-  } );
+    setLabels( d => { ids.forEach( id => { if ( state ) d[ id ] = true; else delete d[ id ]; } ); } );
+  }
+
+  const clearLabelSelection = () => setLabels( d => { Object.keys( d ).forEach( id => { delete d[ id ]; } ); } );
+
+  // Object.keys() tracks which ids are labeled, so any addition or removal re-runs this
+  const labelSpecimens = createMemo( fromTree( () => Object.keys( labels ), ids =>
+    ids.length === 0 ? [] : collectAllSpecimens( data ) .filter( s => labels[ s.id ] ) ) );
 
   return (
     <SelectionContext value={{
-      selectedId, selectSpecimen, selectedSpecimen,
+      selectedId, selectSpecimen, selectedSpecimen, isSelected, isLabelSelected,
       lastOpenedSession, lastOpenedSessionName, isExpanded, toggleSession, revealSession,
       collectAllSpecimens,
-      labelSelection, toggleLabelSelection, clearLabelSelection, labelSpecimens
+      labelCount, toggleLabelSelection, setLabelsSelected, clearLabelSelection, labelSpecimens
     }}>
       {props.children}
     </SelectionContext>

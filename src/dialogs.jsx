@@ -1,5 +1,5 @@
 
-import { createSignal, onSettled, Show, untrack } from 'solid-js';
+import { createSignal, createStore, For, onSettled, Show, untrack } from 'solid-js';
 
 const geoLocate = ( success, error ) =>
 {
@@ -122,10 +122,18 @@ const NewSessionForm = ( props ) =>
   )
 }
 
-// Every specimen field SpecimenDialog edits; on save, any of these missing from the result were cleared.
-//  'time' is included because the dialog reads it as a fallback for 'date' and saves it as 'date'.
+// Every specimen field SpecimenDialog edits, in the order they're saved; on save, any of these
+//  missing from the result were cleared.  'time' is included because the dialog reads it as a
+//  fallback for 'date' and saves it as 'date'.
 export const SPECIMEN_DIALOG_FIELDS = [ 'genus', 'species', 'date', 'time', 'latLong', 'notes',
   'temperature', 'elevation', 'collector', 'location', 'envelope', 'sex' ];
+
+// The dialog's inputs, in display order.  latLong comes from geolocation, so it's read-only.
+const SPECIMEN_INPUTS = [ 'envelope', 'genus', 'species', 'sex', 'date', 'collector', 'notes',
+  'latLong', 'location', 'temperature', 'elevation' ];
+
+// Saved even when empty; the other inputs are saved only when filled in
+const ALWAYS_SAVED = new Set( [ 'genus', 'species', 'date', 'latLong' ] );
 
 export const SpecimenDialog = ( props ) =>
 {
@@ -142,26 +150,20 @@ const SpecimenForm = ( props ) =>
 {
   const s = untrack( () => props.specimen );
   const editing = !!s;
-  const initial = field => untrack( () => s ?.[ field ] || '' );
-  const [ id ] = createSignal( untrack( () => editing ? s.id || '' : props.nextId() ) );
-  const [ genus, setGenus ] = createSignal( initial( 'genus' ) );
-  const [ species, setSpecies ] = createSignal( initial( 'species' ) );
-  const [ time, setTime ] = createSignal( editing ? initial( 'time' ) || initial( 'date' ) : new Date() .toISOString() );
-  const [ latLong, setLatLong ] = createSignal( initial( 'latLong' ) );
-  const [ notes, setNotes ] = createSignal( initial( 'notes' ) );
-  const [ temperature, setTemperature ] = createSignal( initial( 'temperature' ) );
-  const [ elevation, setElevation ] = createSignal( initial( 'elevation' ) );
-  const [ collector, setCollector ] = createSignal( initial( 'collector' ) );
-  const [ location, setLocation ] = createSignal( initial( 'location' ) );
-  const [ envelope, setEnvelope ] = createSignal( initial( 'envelope' ) );
-  const [ sex, setSex ] = createSignal( initial( 'sex' ) );
+  const id = untrack( () => editing ? s.id || '' : props.nextId() );
+  const [ fields, setFields ] = createStore( untrack( () => {
+    const initial = Object.fromEntries( SPECIMEN_INPUTS.map( name => [ name, s ?.[ name ] || '' ] ) );
+    initial.date = editing ? s.time || s.date || '' : new Date() .toISOString();
+    return initial;
+  } ) );
+  const setField = ( name, value ) => setFields( f => { f[ name ] = value; } );
 
   if ( ! editing ) {
     geoLocate(
       position => {
         const lat = position.coords.latitude.toFixed(5);
         const lng = position.coords.longitude.toFixed(5);
-        setLatLong( `${lat}, ${lng}` );
+        setField( 'latLong', `${lat}, ${lng}` );
         console.log(`new specimen geolocation: ${lat}, ${lng}`);
       },
       error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
@@ -174,31 +176,22 @@ const SpecimenForm = ( props ) =>
   }
   const handleSave = () =>
   {
-    const result = { id: id(), genus: genus(), species: species(), date: time(), latLong: latLong() };
-    if ( notes() ) result.notes = notes();
-    if ( temperature() ) result.temperature = temperature();
-    if ( elevation() ) result.elevation = elevation();
-    if ( collector() ) result.collector = collector();
-    if ( location() ) result.location = location();
-    if ( envelope() ) result.envelope = envelope();
-    if ( sex() ) result.sex = sex();
+    const result = { id };
+    SPECIMEN_DIALOG_FIELDS.forEach( name => {
+      if ( name in fields && ( ALWAYS_SAVED.has( name ) || fields[ name ] ) ) {
+        result[ name ] = fields[ name ];
+      }
+    } );
     props.close( result );
   }
 
   return (
     <Modal title={ `${editing ? 'Edit' : 'New'} Specimen` } titleId="specimen-dialog-title" onSave={handleSave} onClose={handleCancel}>
-      <TextField id="specimen-id" label="ID" value={ id() } disabled={true} />
-      <TextField id="specimen-envelope" label="envelope" value={ envelope() } onChange={ setEnvelope } />
-      <TextField id="specimen-genus" label="genus" value={ genus() } onChange={ setGenus } />
-      <TextField id="specimen-species" label="species" value={ species() } onChange={ setSpecies } />
-      <TextField id="specimen-sex" label="sex" value={ sex() } onChange={ setSex } />
-      <TextField id="specimen-time" label="date" value={ time() } onChange={ setTime } />
-      <TextField id="specimen-collector" label="collector" value={ collector() } onChange={ setCollector } />
-      <TextField id="specimen-notes" label="notes" value={ notes() } onChange={ setNotes } />
-      <TextField id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
-      <TextField id="specimen-location" label="location" value={ location() } onChange={ setLocation } />
-      <TextField id="specimen-temperature" label="temperature" value={ temperature() } onChange={ setTemperature } />
-      <TextField id="specimen-elevation" label="elevation" value={ elevation() } onChange={ setElevation } />
+      <TextField id="specimen-id" label="ID" value={ id } disabled={true} />
+      <For each={ SPECIMEN_INPUTS }>{ name =>
+        <TextField id={ `specimen-${name}` } label={ name } value={ fields[ name ] }
+          disabled={ name === 'latLong' } onChange={ value => setField( name, value ) } />
+      }</For>
     </Modal>
   )
 }
