@@ -20,7 +20,7 @@ const AppUI = () =>
 {
   const { mode, setMode, canCurate } = useMode();
   const { selectSpecimen, lastOpenedSessionName } = useSelection();
-  const { data, localLastNumber, sourceLastNumber, loadStorage,
+  const { data, localLastNumber, sourceLastNumber, loadInitial,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile } = useData();
   const {
     newSessionParent, saveNewSession, newSpecimenParent, getNextId,
@@ -30,14 +30,11 @@ const AppUI = () =>
   const toggleTopBar = () => setTopBarOpen(prev => !prev);
 
   onSettled( () => {
-    loadStorage();
-    if ( mode() === VIEWING ) {
-      loadFromResource() .then( () => {
-        if ( !! specimenID ) {
-          selectSpecimen( specimenID );
-        }
-      } );
-    }
+    loadInitial( canCurate ) .then( () => {
+      if ( !! specimenID ) {
+        selectSpecimen( specimenID );
+      }
+    } );
   } );
 
   const doSetMode = newMode => () =>

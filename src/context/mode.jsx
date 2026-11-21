@@ -25,7 +25,7 @@ const ModeContext = createContext( { mode: () => VIEWING, canCurate: false } );
 const ModeProvider = (props) =>
 {
   const canCurate = isCurator();
-  const [ mode, setModeSignal ] = createSignal( VIEWING );
+  const [ mode, setModeSignal ] = createSignal( canCurate ? CURATING : VIEWING );
   const setMode = newMode => canCurate && setModeSignal( newMode );
 
   return (

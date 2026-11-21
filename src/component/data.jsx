@@ -32,17 +32,20 @@ export const DataProvider = (props) =>
     flush();
   }
 
+  const fetchSource = async () =>
+  {
+    const response = await fetch( './Lepid.json', { cache: 'no-store' } );
+    const json = JSON.parse( await response.text() );
+    setSourceLastNumber( json.lastNumber );
+    return json;
+  }
+
   const loadFromResource = async () =>
   {
-    return fetch( './Lepid.json', { cache: 'no-store' }  )
-      .then( response => response.text() )
-      .then( text => {
-        const json = JSON.parse( text );
-        setSourceLastNumber( json.lastNumber );
-        setSourceDirty( false );
-        replaceData( json );
-        // setLastOpenedSession( [ 'COLLECTION' ] );
-      } );
+    const json = await fetchSource();
+    setSourceDirty( false );
+    replaceData( json );
+    // setLastOpenedSession( [ 'COLLECTION' ] );
   }
 
   const loadStorage = () =>
@@ -67,6 +70,23 @@ export const DataProvider = (props) =>
       return true;
     }
     return false;
+  }
+
+  // At startup, curators resume from the autosaved local copy, so edits not yet backed up
+  //  survive a reload.  The source wins only when it has moved past the local copy
+  //  (e.g. specimens added elsewhere and published).
+  const loadInitial = async preferLocal =>
+  {
+    const source = await fetchSource();
+    const local = preferLocal && loadStorage();
+    if ( !! local && !( source.lastNumber > local.lastNumber ) ) {
+      setLocalDirty( false );
+      replaceData( local );
+    }
+    else {
+      setSourceDirty( false );
+      replaceData( source );
+    }
   }
 
   const serialize = () => JSON.stringify( snapshot( data ), null, 2 );
@@ -114,7 +134,7 @@ export const DataProvider = (props) =>
   const contextAPI = {
     data, modifyData, revision,
     localLastNumber, localDirty, sourceLastNumber, sourceDirty, loadStorage,
-    loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
+    loadInitial, loadFromResource, loadFromStorage, saveDataLocally, backUpFile,
     reloadFromSource,
   };
 

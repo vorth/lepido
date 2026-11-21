@@ -5,15 +5,67 @@ import { collectAllSpecimens, findSessionPath, findSpecimen, sessionLabel } from
 
 const SelectionContext = createContext();
 
+// Expanded sessions, label selection and the selected specimen persist across reloads, each
+//  under its own localStorage key.  Storage can be unavailable (e.g. private browsing), so
+//  failures just mean the state isn't remembered.
+const EXPANDED_KEY = 'lepido-expanded';
+const LABELS_KEY = 'lepido-labels';
+const SELECTED_KEY = 'lepido-selected';
+
+const loadSelectedId = () =>
+{
+  try {
+    return localStorage .getItem( SELECTED_KEY );
+  } catch ( e ) {
+    return null;
+  }
+}
+
+const saveSelectedId = id =>
+{
+  try {
+    if ( id == null )
+      localStorage .removeItem( SELECTED_KEY );
+    else
+      localStorage .setItem( SELECTED_KEY, id );
+  } catch ( e ) {}
+}
+
+const loadIdSet = key =>
+{
+  try {
+    const ids = JSON.parse( localStorage .getItem( key ) ) || [];
+    return Object.fromEntries( ids.map( id => [ id, true ] ) );
+  } catch ( e ) {
+    return {};
+  }
+}
+
+// Wraps a store setter so each write also saves the ids whose value is true.  The save runs
+//  inside the recipe, on the draft, since the store itself isn't updated until the next flush.
+const persistIdSet = ( setter, key ) => recipe => setter( draft => {
+  recipe( draft );
+  try {
+    localStorage .setItem( key, JSON.stringify( Object.keys( draft ) .filter( id => draft[ id ] ) ) );
+  } catch ( e ) {}
+} );
+
 // useContext throws ContextNotFoundError when there's no SelectionProvider
 export const useSelection = () => useContext( SelectionContext );
 
 export const SelectionProvider = (props) =>
 {
-  const [selectedId, setSelectedId] = createSignal(null);
-  const [ labels, setLabels ] = createStore( {} ); // specimen id -> true while its label is selected
+  const [ selectedId, setSelectedIdSignal ] = createSignal( loadSelectedId() ); // a specimen id
+  const setSelectedId = id =>
+  {
+    setSelectedIdSignal( id );
+    saveSelectedId( id );
+  }
+  const [ labels, setLabelsStore ] = createStore( loadIdSet( LABELS_KEY ) ); // specimen id -> true while its label is selected
+  const setLabels = persistIdSet( setLabelsStore, LABELS_KEY );
   const [ lastOpenedSession, setLastOpenedSession ] = createSignal( null ); // a session id
-  const [ expanded, setExpanded ] = createStore( {} ); // session id -> true while its contents are shown
+  const [ expanded, setExpandedStore ] = createStore( loadIdSet( EXPANDED_KEY ) ); // session id -> true while its contents are shown
+  const setExpanded = persistIdSet( setExpandedStore, EXPANDED_KEY );
   const { data, revision } = useData();
 
   // Derives a value from a walk of the whole tree.  It tracks only `deps` and the data's
