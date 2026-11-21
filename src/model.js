@@ -1,19 +1,39 @@
 
-import { unwrap } from "solid-js/store";
-
 // Pure helpers for walking the collection tree.  They work on plain objects,
 //  store proxies, and produce() drafts alike.
 
-// Records converted from the old XML can hold a lone specimen object rather than an array.
-export const normalizeSession = session =>
+export const sessionLabel = session => session.name || 'COLLECTION';
+
+// Session ids look like "s42".  They are assigned the first time a collection is loaded
+//  and persist with the data from then on; existing ids are never changed.
+const SESSION_ID = /^s(\d+)$/;
+
+const maxSessionNumber = session =>
 {
-  if ( session.specimen && ! Array.isArray( session.specimen ) ) {
-    session.specimen = [ session.specimen ];
+  const own = Number( SESSION_ID.exec( session.id ?? '' ) ?.[1] ?? 0 );
+  return ( session.collectingSession || [] )
+    .reduce( ( max, sub ) => Math.max( max, maxSessionNumber( sub ) ), own );
+}
+
+export const newSessionId = root => `s${ maxSessionNumber( root ) + 1 }`;
+
+// Prepares a freshly parsed collection: records converted from the old XML can hold a
+//  lone specimen object rather than an array, and sessions may not have ids yet.
+export const normalizeCollection = root =>
+{
+  let next = maxSessionNumber( root ) + 1;
+  const normalize = session =>
+  {
+    if ( ! session.id ) {
+      session.id = `s${ next++ }`;
+    }
+    if ( session.specimen && ! Array.isArray( session.specimen ) ) {
+      session.specimen = [ session.specimen ];
+    }
+    ( session.collectingSession || [] ) .forEach( normalize );
   }
-  if ( Array.isArray( session.collectingSession ) ) {
-    session.collectingSession .forEach( normalizeSession );
-  }
-  return session;
+  normalize( root );
+  return root;
 }
 
 export const findSpecimen = ( session, specimenID ) =>
@@ -34,24 +54,26 @@ export const findSpecimen = ( session, specimenID ) =>
   return {};
 }
 
-// Locates the node in `session`'s tree that wraps the same raw object as `target`,
-//  e.g. to find the produce() draft corresponding to a store proxy held by a component.
-export const findSession = ( session, target ) =>
+// Returns the sessions from `session` down to the one with the given id, or null
+export const findSessionPath = ( session, sessionID, path = [] ) =>
 {
-  if ( !session || !target ) {
+  if ( !session || !sessionID ) {
     return null;
   }
-  if ( unwrap( session ) === unwrap( target ) ) {
-    return session;
+  const here = [ ...path, session ];
+  if ( session.id === sessionID ) {
+    return here;
   }
   for ( const subSession of session.collectingSession || [] ) {
-    const found = findSession( subSession, target );
+    const found = findSessionPath( subSession, sessionID, here );
     if ( !! found ) {
       return found;
     }
   }
   return null;
 }
+
+export const findSession = ( session, sessionID ) => findSessionPath( session, sessionID ) ?.at( -1 ) ?? null;
 
 export const collectAllSpecimens = ( session, result = [] ) =>
 {

@@ -3,15 +3,14 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "packageManager": "pnpm@12.3.4",
   "scripts": {
     "dev": "vite --host",
     "build": "vite build --base=/lepido/",
     "preview": "vite preview"
   },
   "dependencies": {
-    "solid-js": "^1.8.7",
-    "@suid/icons-material": "^0.5.3",
-    "@suid/material": "^0.12.2"
+    "solid-js": "^1.8.7"
   },
   "devDependencies": {
     "vite": "^5.0.8",

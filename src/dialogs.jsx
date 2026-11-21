@@ -1,12 +1,5 @@
 
-import { createSignal, createEffect } from 'solid-js';
-
-import Dialog from '@suid/material/Dialog';
-import DialogActions from '@suid/material/DialogActions';
-import DialogContent from '@suid/material/DialogContent';
-import DialogTitle from '@suid/material/DialogTitle';
-import Button from '@suid/material/Button';
-import TextField from '@suid/material/TextField';
+import { createSignal, onMount, Show } from 'solid-js';
 
 const geoLocate = ( success, error ) =>
 {
@@ -36,33 +29,79 @@ export const createSession = ( success, failure ) =>
   )
 }
 
+// A modal built on the native <dialog> element.  It opens when mounted, so render it only
+//  while it should be shown; Escape and clicks on the backdrop call props.onClose.
+const Modal = props =>
+{
+  let dialog;
+  onMount( () => dialog.showModal() );
+
+  const handleCancel = e =>
+  {
+    e .preventDefault(); // let the owner decide whether to close
+    props.onClose();
+  }
+  const handleClick = e =>
+  {
+    if ( e.target === dialog ) { // only the backdrop; the content covers the rest of the dialog
+      props.onClose();
+    }
+  }
+
+  return (
+    <dialog ref={dialog} class="modal" aria-labelledby={props.titleId} onCancel={handleCancel} onClick={handleClick}>
+      <div class="modal-content">
+        <h2 id={props.titleId} class="modal-title">{props.title}</h2>
+        <div class="modal-fields">
+          {props.children}
+        </div>
+        <div class="modal-actions">
+          <button class="modal-button" onClick={props.onSave}>Save</button>
+          <button class="modal-button" onClick={props.onClose}>Cancel</button>
+        </div>
+      </div>
+    </dialog>
+  );
+}
+
+const TextField = props =>
+{
+  return (
+    <label class="dialog-field">
+      <span>{props.label}</span>
+      <input id={props.id} value={props.value} disabled={props.disabled}
+        onInput={ e => props.onChange( e.currentTarget.value ) } />
+    </label>
+  );
+}
+
 export const NewSession = ( props ) =>
+{
+  return (
+    <Show when={props.show}>
+      <NewSessionForm close={props.close} />
+    </Show>
+  );
+}
+
+// Created afresh each time the dialog opens
+const NewSessionForm = ( props ) =>
 {
   const [ name, setName ] = createSignal( '' );
   const [ date, setDate ] = createSignal( '' );
   const [ latLong, setLatLong ] = createSignal( '' );
-  const changeName = (e,value) =>
-  {
-    setName( value );
-  }
-  const changeDate = (e,value) =>
-  {
-    setDate( value );
-  }
 
-  // createEffect( () => {
-  //   if ( props.show ) {
-  //     setDate( new Date() .toISOString() );
-  //     geoLocate(
-  //       position => {
-  //         const lat = position.coords.latitude.toFixed(5);
-  //         const lng = position.coords.longitude.toFixed(5);
-  //         setLatLong(`${lat}, ${lng}`);
-  //         console.log(`new session geolocation: ${lat}, ${lng}`);          
-  //       },
-  //       error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
-  //     )
-  //   }
+  // onMount( () => {
+  //   setDate( new Date() .toISOString() );
+  //   geoLocate(
+  //     position => {
+  //       const lat = position.coords.latitude.toFixed(5);
+  //       const lng = position.coords.longitude.toFixed(5);
+  //       setLatLong(`${lat}, ${lng}`);
+  //       console.log(`new session geolocation: ${lat}, ${lng}`);
+  //     },
+  //     error => alert( 'Geolocation failed: ' + JSON.stringify( error ) )
+  //   )
   // });
 
   const handleCancel = () =>
@@ -75,22 +114,11 @@ export const NewSession = ( props ) =>
   }
 
   return (
-    <Dialog open={props.show} onClose={handleCancel} aria-labelledby="session-dialog-title" >
-      <DialogTitle id="session-dialog-title">New Session</DialogTitle>
-      <DialogContent>
-        {/* <TextField class="dialog-input" style="margin: 6px;" id="session-date" label="date" value={ date() } onChange={ changeDate } />
-        <TextField class="dialog-input" style="margin: 6px;" id="session-loc"  label="latLong" value={ latLong() } disabled={true} /> */}
-        <TextField class="dialog-input" style="margin: 6px;" id="session-name" label="name" value={ name() } onChange={ changeName } />
-      </DialogContent>
-      <DialogActions>
-        <Button onClick={handleSave} color="secondary">
-          Save
-        </Button>
-        <Button onClick={handleCancel} color="primary">
-          Cancel
-        </Button>
-      </DialogActions>
-    </Dialog>
+    <Modal title="New Session" titleId="session-dialog-title" onSave={handleSave} onClose={handleCancel}>
+      {/* <TextField id="session-date" label="date" value={ date() } onChange={ setDate } />
+      <TextField id="session-loc"  label="latLong" value={ latLong() } disabled={true} /> */}
+      <TextField id="session-name" label="name" value={ name() } onChange={ setName } />
+    </Modal>
   )
 }
 
@@ -101,70 +129,42 @@ export const SPECIMEN_DIALOG_FIELDS = [ 'genus', 'species', 'date', 'time', 'lat
 
 export const SpecimenDialog = ( props ) =>
 {
-  const editing = () => !!props.specimen;
-  const [ id, setId ] = createSignal( '' );
-  const [ genus, setGenus ] = createSignal( '' );
-  const [ species, setSpecies ] = createSignal( '' );
-  const [ time, setTime ] = createSignal( '' );
-  const [ latLong, setLatLong ] = createSignal( '' );
-  const [ notes, setNotes ] = createSignal( '' );
-  const [ temperature, setTemperature ] = createSignal( '' );
-  const [ elevation, setElevation ] = createSignal( '' );
-  const [ collector, setCollector ] = createSignal( '' );
-  const [ location, setLocation ] = createSignal( '' );
-  const [ envelope, setEnvelope ] = createSignal( '' );
-  const [ sex, setSex ] = createSignal( '' );
-  const changeGenus = (e,value) => setGenus( value );
-  const changeSpecies = (e,value) => setSpecies( value );
-  const changeTime = (e,value) => setTime( value );
-  const changeNotes = (e,value) => setNotes( value );
-  const changeTemperature = (e,value) => setTemperature( value );
-  const changeElevation = (e,value) => setElevation( value );
-  const changeCollector = (e,value) => setCollector( value );
-  const changeLocation = (e,value) => setLocation( value );
-  const changeEnvelope = (e,value) => setEnvelope( value );
-  const changeSex = (e,value) => setSex( value );
+  return (
+    <Show when={props.show}>
+      <SpecimenForm specimen={props.specimen} nextId={props.nextId} close={props.close} />
+    </Show>
+  );
+}
 
-  createEffect( () => {
-    if ( props.show ) {
-      if ( editing() ) {
-        const s = props.specimen;
-        setId( s.id || '' );
-        setGenus( s.genus || '' );
-        setSpecies( s.species || '' );
-        setTime( s.time || s.date || '' );
-        setLatLong( s.latLong || '' );
-        setNotes( s.notes || '' );
-        setTemperature( s.temperature || '' );
-        setElevation( s.elevation || '' );
-        setCollector( s.collector || '' );
-        setLocation( s.location || '' );
-        setEnvelope( s.envelope || '' );
-        setSex( s.sex || '' );
-      } else {
-        setId( props.nextId() );
-        setGenus( '' );
-        setSpecies( '' );
-        setTime( new Date() .toISOString() );
-        setNotes( '' );
-        setTemperature( '' );
-        setElevation( '' );
-        setCollector( '' );
-        setLocation( '' );
-        setEnvelope( '' );
-        setSex( '' );
-        geoLocate(
-          position => {
-            const lat = position.coords.latitude.toFixed(5);
-            const lng = position.coords.longitude.toFixed(5);
-            setLatLong( `${lat}, ${lng}` );
-            console.log(`new specimen geolocation: ${lat}, ${lng}`);
-          },
-          error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
-        )
-      }
-    }
-  });
+// Created afresh each time the dialog opens, so the fields are initialized once, right here
+const SpecimenForm = ( props ) =>
+{
+  const s = props.specimen;
+  const editing = !!s;
+  const [ id ] = createSignal( editing ? s.id || '' : props.nextId() );
+  const [ genus, setGenus ] = createSignal( s ?.genus || '' );
+  const [ species, setSpecies ] = createSignal( s ?.species || '' );
+  const [ time, setTime ] = createSignal( editing ? s.time || s.date || '' : new Date() .toISOString() );
+  const [ latLong, setLatLong ] = createSignal( s ?.latLong || '' );
+  const [ notes, setNotes ] = createSignal( s ?.notes || '' );
+  const [ temperature, setTemperature ] = createSignal( s ?.temperature || '' );
+  const [ elevation, setElevation ] = createSignal( s ?.elevation || '' );
+  const [ collector, setCollector ] = createSignal( s ?.collector || '' );
+  const [ location, setLocation ] = createSignal( s ?.location || '' );
+  const [ envelope, setEnvelope ] = createSignal( s ?.envelope || '' );
+  const [ sex, setSex ] = createSignal( s ?.sex || '' );
+
+  if ( ! editing ) {
+    geoLocate(
+      position => {
+        const lat = position.coords.latitude.toFixed(5);
+        const lng = position.coords.longitude.toFixed(5);
+        setLatLong( `${lat}, ${lng}` );
+        console.log(`new specimen geolocation: ${lat}, ${lng}`);
+      },
+      error => alert( 'Geolocation failed, probably not HTTPS ' + JSON.stringify( error ) )
+    )
+  }
 
   const handleCancel = () =>
   {
@@ -184,31 +184,20 @@ export const SpecimenDialog = ( props ) =>
   }
 
   return (
-    <Dialog open={props.show} onClose={handleCancel} aria-labelledby="specimen-dialog-title" >
-      <DialogTitle id="specimen-dialog-title">{editing() ? 'Edit' : 'New'} Specimen</DialogTitle>
-      <DialogContent>
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-id" label="ID" value={ id() } disabled={true} />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-envelope" label="envelope" value={ envelope() } onChange={ changeEnvelope } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-genus" label="genus" value={ genus() } onChange={ changeGenus } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-species" label="species" value={ species() } onChange={ changeSpecies } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-sex" label="sex" value={ sex() } onChange={ changeSex } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-time" label="date" value={ time() } onChange={ changeTime } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-collector" label="collector" value={ collector() } onChange={ changeCollector } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-notes" label="notes" value={ notes() } onChange={ changeNotes } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-location" label="location" value={ location() } onChange={ changeLocation } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-temperature" label="temperature" value={ temperature() } onChange={ changeTemperature } />
-        <TextField class="dialog-input" style="margin: 6px;" id="specimen-elevation" label="elevation" value={ elevation() } onChange={ changeElevation } />
-      </DialogContent>
-      <DialogActions>
-        <Button onClick={handleSave} color="secondary">
-          Save
-        </Button>
-        <Button onClick={handleCancel} color="primary">
-          Cancel
-        </Button>
-      </DialogActions>
-    </Dialog>
+    <Modal title={ `${editing ? 'Edit' : 'New'} Specimen` } titleId="specimen-dialog-title" onSave={handleSave} onClose={handleCancel}>
+      <TextField id="specimen-id" label="ID" value={ id() } disabled={true} />
+      <TextField id="specimen-envelope" label="envelope" value={ envelope() } onChange={ setEnvelope } />
+      <TextField id="specimen-genus" label="genus" value={ genus() } onChange={ setGenus } />
+      <TextField id="specimen-species" label="species" value={ species() } onChange={ setSpecies } />
+      <TextField id="specimen-sex" label="sex" value={ sex() } onChange={ setSex } />
+      <TextField id="specimen-time" label="date" value={ time() } onChange={ setTime } />
+      <TextField id="specimen-collector" label="collector" value={ collector() } onChange={ setCollector } />
+      <TextField id="specimen-notes" label="notes" value={ notes() } onChange={ setNotes } />
+      <TextField id="specimen-loc"  label="latLong" value={ latLong() } disabled={true} />
+      <TextField id="specimen-location" label="location" value={ location() } onChange={ setLocation } />
+      <TextField id="specimen-temperature" label="temperature" value={ temperature() } onChange={ setTemperature } />
+      <TextField id="specimen-elevation" label="elevation" value={ elevation() } onChange={ setElevation } />
+    </Modal>
   )
 }
 

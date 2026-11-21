@@ -1,7 +1,7 @@
 import { createContext, createSignal, useContext } from "solid-js";
 import { useData } from "../component/data";
 import { useSelection } from "./selection";
-import { findSession, findSpecimen } from "../model";
+import { findSession, findSpecimen, newSessionId } from "../model";
 import { SPECIMEN_DIALOG_FIELDS } from "../dialogs";
 
 const EditorContext = createContext();
@@ -31,35 +31,35 @@ const specimenFromPhoto = ( id, photo, envelope ) =>
 }
 
 export function EditorProvider(props) {
-  const [ lastOpenedSession, setLastOpenedSession ] = createSignal();
   const { data, modifyData } = useData();
-  const { setSelectedId } = useSelection();
+  const { lastOpenedSession, selectSpecimen } = useSelection();
 
+  // The dialog-parent signals hold session ids
   const [ newSessionParent, setNewSessionParent ] = createSignal( null );
-  const openSessionDialog = parent =>
+  const openSessionDialog = parentID =>
   {
-    setNewSessionParent( parent );
+    setNewSessionParent( parentID );
   }
   const saveNewSession = newSession =>
   {
-    const parent = newSessionParent();
+    const parentID = newSessionParent();
     setNewSessionParent( null );
     if ( !!newSession ) {
       modifyData( root => {
-        const session = findSession( root, parent );
+        const session = findSession( root, parentID );
         if ( ! session ) return;
         if ( ! session.collectingSession ) {
           session.collectingSession = [];
         }
-        session.collectingSession .push( newSession );
+        session.collectingSession .push( { ...newSession, id: newSessionId( root ) } );
       } );
     }
   }
 
   const [ newSpecimenParent, setNewSpecimenParent ] = createSignal( null );
-  const openSpecimenDialog = parent =>
+  const openSpecimenDialog = parentID =>
   {
-    setNewSpecimenParent( parent );
+    setNewSpecimenParent( parentID );
   }
 
   const [ editingSpecimen, setEditingSpecimen ] = createSignal( null );
@@ -83,12 +83,12 @@ export function EditorProvider(props) {
   }
 
   // Appends specimens to a session, advancing lastNumber and selecting the last one added
-  const addSpecimens = ( parent, specimens ) =>
+  const addSpecimens = ( parentID, specimens ) =>
   {
     if ( specimens.length === 0 ) return;
     const lastId = specimens[ specimens.length - 1 ].id;
     modifyData( root => {
-      const session = findSession( root, parent );
+      const session = findSession( root, parentID );
       if ( ! session ) return;
       if ( ! session.specimen ) {
         session.specimen = [];
@@ -96,33 +96,24 @@ export function EditorProvider(props) {
       session.specimen .push( ...specimens );
       root.lastNumber = lastId;
     } );
-    setSelectedId( lastId );
+    selectSpecimen( lastId );
   }
   const saveNewSpecimenFromDialog = newSpecimen =>
   {
-    const parent = newSpecimenParent();
+    const parentID = newSpecimenParent();
     setNewSpecimenParent( null );
     if ( !!newSpecimen ) {
-      addSpecimens( parent, [ newSpecimen ] );
+      addSpecimens( parentID, [ newSpecimen ] );
     }
-  }
-
-  const getCollectingSession = ( path, root = data ) =>
-  {
-    let session = root;
-    for (const name of path.slice(1) ) {
-      session = session ?.collectingSession ?.find( s => s.name === name );
-    }
-    return session;
   }
 
   const moveSpecimen = id =>
   {
-    const path = lastOpenedSession();
-    console.log( `moving specimen ${id} to session "${path.join('/')}"` );
+    const destID = lastOpenedSession();
+    console.log( `moving specimen ${id} to session ${destID}` );
     modifyData( root => {
       const { specimen, container } = findSpecimen( root, id );
-      const dest = getCollectingSession( path, root );
+      const dest = findSession( root, destID );
       if ( !specimen || !dest || dest === container ) return;
       container.specimen .splice( container.specimen .indexOf( specimen ), 1 );
       if ( ! dest.specimen ) {
@@ -130,6 +121,7 @@ export function EditorProvider(props) {
       }
       dest.specimen .push( specimen );
     } );
+    selectSpecimen( id ); // reveals the destination, in case it was collapsed since being opened
   }
 
   const getNextId = () =>
@@ -138,7 +130,7 @@ export function EditorProvider(props) {
     return lastId + 1;
   }
 
-  const importSpecimens = async (parent) => {
+  const importSpecimens = async (parentID) => {
     try {
       const text = await navigator.clipboard.readText();
       const photos = JSON.parse(text);
@@ -163,7 +155,7 @@ export function EditorProvider(props) {
           specimens .push( specimenFromPhoto( id++, photo, qrCode ) );
         }
       }
-      addSpecimens( parent, specimens );
+      addSpecimens( parentID, specimens );
 
     } catch (err) {
       alert(`Error importing specimens: ${err.message}`);
@@ -171,11 +163,10 @@ export function EditorProvider(props) {
   };
 
   const contextValue = {
-    lastOpenedSession, setLastOpenedSession,
     newSessionParent, saveNewSession, openSessionDialog,
     newSpecimenParent, openSpecimenDialog, getNextId, saveNewSpecimenFromDialog,
     editingSpecimen, openEditSpecimenDialog, saveEditedSpecimen,
-    getCollectingSession, moveSpecimen,
+    moveSpecimen,
     importSpecimens,
   };
 

@@ -2,7 +2,7 @@ import { batch, createContext, createSignal, useContext } from "solid-js";
 import { createStore, produce, reconcile, unwrap } from "solid-js/store";
 
 import { saveTextFile, saveTextFileAs } from '../files.js';
-import { normalizeSession } from '../model.js';
+import { normalizeCollection } from '../model.js';
 
 const touchDevice = 'ontouchstart' in window; // not needed yet, but useful for future reference
 
@@ -28,7 +28,7 @@ export const DataProvider = (props) =>
   const [ sourceDirty, setSourceDirty ] = createSignal( false );
 
   // reconcile() rather than setData( json ), since a root-level set only merges shallowly
-  const replaceData = json => setData( reconcile( normalizeSession( json ) ) );
+  const replaceData = json => setData( reconcile( normalizeCollection( json ) ) );
 
   const loadFromResource = async () =>
   {

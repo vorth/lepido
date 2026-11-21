@@ -15,15 +15,25 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v7
+
+      # installs the pnpm version named by "packageManager" in package.json
+      - uses: pnpm/action-setup@v6
+
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 22
+          cache: pnpm
 
       - name: install
-        run: npm install
+        run: pnpm install --frozen-lockfile
 
       - name: build
-        run: npm run build
+        run: pnpm run build
 
+      # pull requests only build; manual runs from a branch other than main don't deploy either
       - name: deploy pages
+        if: github.event_name != 'pull_request' && github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4.5.0
         with:
           branch: gh-pages

@@ -15,8 +15,8 @@ export const Field = props =>
 
 export const SpecimenDetails = props =>
 {
-  const { lastOpenedSession, moveSpecimen, openEditSpecimenDialog } = useEditor();
-  const { selectedSpecimen } = useSelection();
+  const { moveSpecimen, openEditSpecimenDialog } = useEditor();
+  const { selectedSpecimen, lastOpenedSession, lastOpenedSessionName } = useSelection();
   const { mode } = useMode();
   const handleMove = () => moveSpecimen( specimen().id );
   const handleEdit = () => openEditSpecimenDialog( selectedSpecimen().specimen );
@@ -36,7 +36,7 @@ export const SpecimenDetails = props =>
           <button class='edit-button' onClick={handleEdit}>Edit</button>
         </Show>
         <Show when={ mode() === CURATING && specimen() && lastOpenedSession() }>
-          <button class='move-button' onClick={handleMove}>Move to {lastOpenedSession().join('/')}</button>
+          <button class='move-button' onClick={handleMove}>Move to {lastOpenedSessionName()}</button>
         </Show>
       </div>
     </div>

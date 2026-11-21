@@ -5,7 +5,7 @@ import { LABELING, useMode } from "../context/mode.jsx";
 
 export const Specimen = props =>
 {
-  const { selectedId, setSelectedId, labelSelection, toggleLabelSelection } = useSelection();
+  const { selectedId, selectSpecimen, labelSelection, toggleLabelSelection } = useSelection();
   const { mode } = useMode();
   const isSelected = () => selectedId() === props.specimen.id;
   const isLabelSelected = () => labelSelection().has( props.specimen.id );
@@ -15,7 +15,7 @@ export const Specimen = props =>
     if ( mode() === LABELING ) {
       toggleLabelSelection( props.specimen.id );
     } else {
-      setSelectedId( props.specimen.id );
+      selectSpecimen( props.specimen.id );
     }
   }
   let elt;

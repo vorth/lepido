@@ -19,16 +19,13 @@ const specimenID = queryParams.get( 'id' );
 const AppUI = () =>
 {
   const { mode, setMode } = useMode();
-  const { setSelectedId } = useSelection();
+  const { selectSpecimen, lastOpenedSessionName } = useSelection();
   const { data, localLastNumber, sourceLastNumber, loadStorage,
     loadFromResource, loadFromStorage, saveDataLocally, backUpFile } = useData();
   const {
     newSessionParent, saveNewSession, newSpecimenParent, getNextId,
     saveNewSpecimenFromDialog,
-    editingSpecimen, saveEditedSpecimen,
-    lastOpenedSession } = useEditor();
-
-  const sessionName = () => (lastOpenedSession && lastOpenedSession()?.join('/')) || '';
+    editingSpecimen, saveEditedSpecimen } = useEditor();
   const [topBarOpen, setTopBarOpen] = createSignal(false);
   const toggleTopBar = () => setTopBarOpen(prev => !prev);
 
@@ -37,7 +34,7 @@ const AppUI = () =>
     if ( mode() === VIEWING ) {
       loadFromResource() .then( () => {
         if ( !! specimenID ) {
-          setSelectedId( specimenID );
+          selectSpecimen( specimenID );
         }
       } );
     }
@@ -57,14 +54,14 @@ const AppUI = () =>
       <div class={`top-bar ${topBarOpen() ? 'top-bar-open' : 'top-bar-collapsed'}`}>
         <Show when={topBarOpen()}>
           <div class="load-save-buttons buttons">
-            {/* <button class="other-button" onClick={()=>openSpecimenDialog( getCollectingSession( lastOpenedSession() ) )}>New Specimen</button> */}
+            {/* <button class="other-button" onClick={()=>openSpecimenDialog( lastOpenedSession() )}>New Specimen</button> */}
             <button class="other-button" onClick={loadFromResource}>Load From Source</button>
             <button class="other-button" onClick={loadFromStorage} >Load From Local</button>
             <button class="other-button" onClick={saveDataLocally} >Save To Local</button>
             <button class="other-button" onClick={backUpFile}>Back Up</button>
           </div>
           <div class="status">
-            <div>Session: {sessionName()}</div>
+            <div>Session: {lastOpenedSessionName()}</div>
             <div>Last ID: {data.lastNumber}</div>
             <div>Last ID (local): {localLastNumber()}</div>
             <div>Last ID (source): {sourceLastNumber()}</div>
@@ -77,7 +74,7 @@ const AppUI = () =>
       <div id="container">
         <div id="collection" class={mode() === LABELING ? 'labels-layout' : ''}>
           <div id="picker">
-            <CollectingSession session={ data } path={[]} />
+            <CollectingSession session={ data } />
           </div>
           <Show when={mode() === LABELING} fallback={
             <div id="detail">
