@@ -86,6 +86,34 @@ a:hover {
   border-radius: 10px;
 }
 
+.specimen-fields {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: start;
+}
+
+.specimen-fields th,
+.specimen-fields td {
+  padding: 4px 12px;
+  vertical-align: top;
+  text-align: start;
+}
+
+.specimen-fields th {
+  font-weight: 600;
+  white-space: nowrap;
+  width: 1%; /* shrink to the longest field name */
+  color: var(--session-color);
+}
+
+.specimen-fields td {
+  overflow-wrap: anywhere;
+}
+
+.specimen-fields tr + tr {
+  border-top: 1px solid rgb(0 0 0 / 0.12);
+}
+
 #picker {
   overflow: auto;
   height: 100%;
